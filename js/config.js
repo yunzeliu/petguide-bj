@@ -21,11 +21,10 @@ window.PETGUIDE_CONFIG = {
     wechat: '',     // 微信号或公众号
   },
 
-  // ============ Gemini Proxy（推荐路径） ============
-  // 部署 cf-worker/gemini-proxy.js 后把 worker URL 填这里
-  // 推荐方案：key 藏在 Cloudflare Worker 后端，不会被爬走
+  // ============ Gemini Proxy ============
+  // 部署到 Cloudflare Worker，key 藏在服务端
   geminiProxy: {
-    url: '',   // 例如 "https://gemini-proxy.your-subdomain.workers.dev"
+    url: 'https://petguide-gemini.liuyzchina.workers.dev',
   },
 
   // ============ 不要在这里硬编码 Gemini key —— 静态站会被任何人拿走 ============

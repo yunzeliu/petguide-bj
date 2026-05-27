@@ -661,7 +661,7 @@ function renderPersonalize() {
         <label class="form-label">备注</label>
         <textarea class="form-textarea" id="f-notes" placeholder="比如：怕热 / 不喜欢人多 / 想看花..."></textarea>
       </div>
-      <button class="btn btn-primary" id="gen-btn">${apiKey ? '生成路书' : '请先在上面填 API key'}</button>
+      <button class="btn btn-primary" id="gen-btn">${needKey ? '功能升级中' : '生成路书'}</button>
     </div>
 
     <div id="gen-result"></div>
