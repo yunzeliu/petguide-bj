@@ -26,19 +26,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Google CSE xhs discovery (if keys set)
-        env:
-          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
-          GOOGLE_CSE_CX:  ${{ secrets.GOOGLE_CSE_CX }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -n "$GOOGLE_CSE_KEY" ] && [ -n "$GOOGLE_CSE_CX" ]; then
-            python scripts/cse_discovery.py || echo "cse step failed, continuing"
-          else
-            echo "GOOGLE_CSE_KEY/CX not set, skipping xhs discovery"
-          fi
-
-      - name: Run daily update (freshness + filter)
+      - name: Run daily update (discovery + freshness + filter)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |

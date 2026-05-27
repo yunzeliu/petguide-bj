@@ -18,14 +18,6 @@
 **必需**
 - `GEMINI_API_KEY` = 你的 Gemini key (`AIza...`)
 
-**可选（启用小红书 Google CSE 发现）**
-- `GOOGLE_CSE_KEY` = Google API key（启用 Custom Search API）
-- `GOOGLE_CSE_CX`  = Programmable Search Engine ID
-  - 创建 search engine：https://programmablesearchengine.google.com/
-  - 拿 API key：https://console.cloud.google.com/apis/credentials
-  - 免费 100 次/天（我们每天用 3 次）
-  - 两个都留空 = 跳过小红书发现，只跑常规 freshness
-
 完成。下次 18:00 UTC（北京 02:00）自动开始跑。
 
 ## 立即测试 / 手动触发
