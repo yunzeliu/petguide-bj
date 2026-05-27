@@ -332,9 +332,22 @@ function freshnessPillHtml(p) {
   return `<span style="display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;background:${conf.bg};color:${conf.color};margin-top:4px;">${conf.label}${mention}</span>`;
 }
 
+function dedupeSourcesByHost(sources) {
+  const seen = new Set();
+  const out = [];
+  for (const s of (sources || [])) {
+    let host = '';
+    try { host = new URL(s.url).host; } catch (e) {}
+    if (!host || seen.has(host)) continue;
+    seen.add(host);
+    out.push(s);
+  }
+  return out;
+}
+
 function poiCardHtml(p) {
   const icon = POI_ICON[p.category] || '📍';
-  const sources = (p.sources || []).slice(0, 3).map(s =>
+  const sources = dedupeSourcesByHost(p.sources).slice(0, 3).map(s =>
     `<a class="poi-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '原文')}</a>`
   ).join('');
   return `
@@ -633,7 +646,7 @@ function renderPoiDetail(id) {
     ${(p.sources && p.sources.length) ? `
       <div class="section-title">数据来源</div>
       <div class="md-body">
-        ${p.sources.map(s => `
+        ${dedupeSourcesByHost(p.sources).map(s => `
           <p>
             <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
               ${escapeHtml(s.name || '原文')} ↗

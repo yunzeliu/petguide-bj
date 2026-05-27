@@ -322,6 +322,98 @@ def is_stale(p):
         return True
     return (TODAY - d).days >= RECHECK_DAYS
 
+# ---------- 2.5 Resolve vertex grounding URLs to real article URLs ----------
+from urllib.parse import urlparse
+
+SOURCE_DOMAINS = {
+    "小红书":         ["xiaohongshu.com", "xhslink.com"],
+    "大众点评":       ["dianping.com"],
+    "澎湃":           ["thepaper.cn"],
+    "北京旅游网":     ["visitbeijing.com.cn"],
+    "北京本地宝":     ["bj.bendibao.com", "bendibao.com"],
+    "什么值得买":     ["smzdm.com"],
+    "马蜂窝":         ["mafengwo.cn"],
+    "知乎":           ["zhihu.com"],
+    "微博":           ["weibo.com"],
+    "36氪":           ["36kr.com"],
+    "Time Out":       ["timeoutbeijing.com", "timeout.com"],
+    "美团":           ["meituan.com"],
+    "携程":           ["ctrip.com", "trip.com"],
+    "微信":           ["mp.weixin.qq.com"],
+    "公众号":         ["mp.weixin.qq.com"],
+    "新京报":         ["bjnews.com.cn"],
+    "凤凰网":         ["ifeng.com"],
+    "搜狐":           ["sohu.com"],
+    "网易":           ["163.com"],
+}
+BLOCKLIST_HOSTS = {
+    "word.baidu.com", "wenku.baidu.com", "baike.baidu.com",
+    "www.google.com", "www.bing.com",
+    "vertexaisearch.cloud.google.com",
+}
+
+def _resolve_one(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+    for method in ("HEAD", "GET"):
+        req.method = method
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                final = resp.geturl()
+                host = urlparse(final).netloc.lower()
+                return final, host
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 405) and method == "HEAD":
+                continue
+            return None, None
+        except Exception:
+            return None, None
+    return None, None
+
+def _host_matches(host, name):
+    if not host or host in BLOCKLIST_HOSTS:
+        return False
+    expected = []
+    for k, ds in SOURCE_DOMAINS.items():
+        if k.lower() in (name or "").lower():
+            expected.extend(ds)
+    if not expected:
+        return True
+    return any(d in host for d in expected)
+
+def clean_sources_for_poi(p):
+    out, seen = [], set()
+    for s in p.get("sources", []):
+        url = s.get("url") or ""
+        name = s.get("name") or ""
+        if not url:
+            continue
+        if "vertexaisearch" in url:
+            final, host = _resolve_one(url)
+            if not final or not _host_matches(host, name):
+                continue
+            url = final
+        host = urlparse(url).netloc.lower()
+        if not host or host in seen:
+            continue
+        seen.add(host)
+        out.append({"url": url, "name": name})
+    p["sources"] = out
+
+def clean_all_new_sources(pois, only_new_pids=None):
+    """Resolve+dedupe sources for POIs (default: all). Slow ~0.5-2s per URL."""
+    target = only_new_pids if only_new_pids is not None else list(pois.keys())
+    n = 0
+    for pid in target:
+        if pid not in pois:
+            continue
+        before = len(pois[pid].get("sources", []))
+        clean_sources_for_poi(pois[pid])
+        after = len(pois[pid].get("sources", []))
+        if before != after:
+            n += 1
+    print(f"[sources] cleaned {n} POIs' sources")
+
+
 # ---------- 3. Geocoding (skip if already has lat/lng) ----------
 UA = "PetGuideBJDaily/1.0"
 DISTRICT_CENTROID = {
@@ -492,16 +584,27 @@ def main():
     print(f"[start] pois={len(pois)}, routes={len(routes)}")
 
     # 1. Discovery
+    new_pids = []
     new_slug = discover_today()
     if new_slug:
         js_p = os.path.join(ROUTES_DIR, f"{new_slug}.json")
         if os.path.isfile(js_p):
             with open(js_p, encoding="utf-8") as f:
                 rd = json.load(f)
+            # remember which POIs are net-new so we can resolve their URLs
+            existing = set(pois.keys())
             merge_route_into_pois(new_slug, rd, pois)
+            new_pids = [pid for pid in pois.keys() if pid not in existing]
             add_route_to_routes_json(new_slug, rd, routes)
             dedupe_sources(pois)
-            print(f"[discovery] merged {new_slug} into pool")
+            print(f"[discovery] merged {new_slug} into pool (+{len(new_pids)} new POIs)")
+
+    # 1.5 Resolve vertex URLs in new POIs (and any POI still holding vertex links)
+    needs_resolve = [pid for pid, p in pois.items()
+                     if any("vertexaisearch" in (s.get("url") or "") for s in (p.get("sources") or []))]
+    if needs_resolve:
+        print(f"[sources] resolving vertex links in {len(needs_resolve)} POIs")
+        clean_all_new_sources(pois, only_new_pids=needs_resolve)
 
     # 2. Find stale POIs needing re-verification
     stale = [(pid, p) for pid, p in pois.items() if is_stale(p)]
