@@ -106,12 +106,17 @@
     "name": "北京日报"
    },
    {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrvCnto0SXbeVrGhF6zdSe_FRlS-G0qwwlrk_NgiN14VkGSswbSx5COEmlxO5UL8C9sRsR-3pPBYcg4V14Ii7-29REpHYJnPwIRxlrT3Gy2ZK5Xk9oEatbVkUcLxsEd9Gydz8oZ2sPPTBSfx8yoDZnnhc1XFkyJUAwbcU=",
+    "name": "北京日报"
+   },
+   {
     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeF5Lf86mFCsqifiNKbwfxXgpXpmPnRg5dOtkReqvPKPmlAt9vzbEOZRsop_Mgbvv21exlUcjWy2x6nRrUTBWSfCKMTJBhFq4iXIGFcmKrRIzadnY-gzB_onerSxpvdQdY5vdLDbuMWEqcZcSXnpAZR2riv-PXQSQSUw==",
     "name": "北京日报"
    }
   ],
   "route_slugs": [
    "afterwork-walk",
+   "cafe-amenities",
    "work-and-pet"
   ],
   "lat": 39.906,
@@ -272,6 +277,14 @@
     "name": "新浪"
    },
    {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0vfsehkXYMtRHQ9GlyauSaNsNAmc2thH4XUDb1_f5uNsMb8UNxVFFi8MDUqQr6SK_KFgA9JOFtPVfiGGscun7bJ5iirMZ8kPlfvu0pw-JkBx9IidyJ7JTnsCQs2A5NvCBAepx8jVhYVy84ux-Qf6IWeMJXmRfAK9jfxr9SHnsXIaWB28=",
+    "name": "北京旅游网"
+   },
+   {
+    "url": "https://k.sina.com.cn/article_1816538603_6c47a06b020014wz9.html?from=food",
+    "name": "新浪"
+   },
+   {
     "url": "https://www.sohu.com/a/590938459_121124439",
     "name": "寻味-yeeyi"
    },
@@ -282,6 +295,8 @@
   ],
   "route_slugs": [
    "afterwork-walk",
+   "cafe-amenities",
+   "cafe-chaoyang",
    "cat-cafe",
    "winter-indoor"
   ],
@@ -499,6 +514,10 @@
     "name": "小红书"
    },
    {
+    "url": "https://www.douyin.com/search/%E5%8C%97%E4%BA%AC%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD%E5%95%86%E5%9C%BA",
+    "name": "抖音"
+   },
+   {
     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTU8hKqnh0UKX_KzQBlJRsVNC2pEmOHMTcz76rlDTKTJ9NU9k8RFpik4ZnAs395w3eDUFU_ShSZiWxNJqWveWxMscFUbD624Zzl02sQIEVSo4gar2ICqnsPoRI8rzY5dOQJp2JjGvjyojOAKM2T6y11wo8kVaKGbgtHbIxxGVbFuGMT9pkrgBpPR0IcBJ4oMNGz9aXOSnNkM6KSjfZ6L5hgKKN5Hv_QADWRg==",
     "name": "抖音"
    },
@@ -509,14 +528,11 @@
    {
     "url": "https://www.sohu.com/a/518663200_121124401",
     "name": "新浪"
-   },
-   {
-    "url": "https://www.douyin.com/search/%E5%8C%97%E4%BA%AC%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD%E5%95%86%E5%9C%BA",
-    "name": "抖音"
    }
   ],
   "route_slugs": [
    "autumn-foliage",
+   "cafe-chain",
    "cat-mall",
    "picnic",
    "puppy",
@@ -585,6 +601,1150 @@
   ],
   "lat": 39.948918,
   "lng": 116.470073,
+  "geo_source": "nominatim"
+ },
+ "p_10c16487d0": {
+  "id": "p_10c16487d0",
+  "name": "没有狗不行 (Paw-friendly Cafe & Pet Fresh Foods)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "朝外大街新城国际",
+  "why_friendly": "提供宠物鲜食菜单、干净饮水站和柔软的休息软垫，店员经过宠物行为培训。",
+  "tips": "天气炎热时，建议提前确认可否进入空调室内区。",
+  "price_hint": "人均 80~120",
+  "sources": [
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEONF0lWhSCDl7KJw-CegHf6ylQX0B3t3Wa09tclaNPRfJaXGHff0t5badWNO6wnbBN6wBOsKIaTuPloyLP0dB6NSPEe-b1ApIgVyWY729Zol3HUtv8rvNtA7xv-IKW3bWuF911E_eoe9w8qtNxbvlevA==",
+    "name": "the Beijinger"
+   },
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUmhqjYErsB8iitOYAQfpoKHYk5wj_1d5mBwuyhucvFCqEptVaTgNHnkkOH84x8EPHln0L9mBP8_Uq1U84UcyElAN3RbnVisn5j2MBw5h39qBcXZlA2BInBYubgSp3SNHd9SjrRhHYZRAPwHH0WkpP",
+    "name": "Pet-Friendly Cafes in Beijing Guide"
+   }
+  ],
+  "route_slugs": [
+   "cafe-amenities",
+   "work-and-pet"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_50df251677": {
+  "id": "p_50df251677",
+  "name": "郡王府·喜岸咖啡",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "朝阳公园附近",
+  "why_friendly": "拥有花园式庭院，免费为宠物提供零食和新鲜饮用水。",
+  "tips": "紧邻朝阳公园，喝完咖啡可带狗狗去公园散步（需遵守公园规定）。",
+  "price_hint": "人均 70~100",
+  "sources": [
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEONF0lWhSCDl7KJw-CegHf6ylQX0B3t3Wa09tclaNPRfJaXGHff0t5badWNO6wnbBN6wBOsKIaTuPloyLP0dB6NSPEe-b1ApIgVyWY729Zol3HUtv8rvNtA7xv-IKW3bWuF911E_eoe9w8qtNxbvlevA==",
+    "name": "the Beijinger"
+   }
+  ],
+  "route_slugs": [
+   "cafe-amenities"
+  ],
+  "lat": 39.934827,
+  "lng": 116.480414,
+  "geo_source": "nominatim"
+ },
+ "p_d90e7cd8a1": {
+  "id": "p_d90e7cd8a1",
+  "name": "意库 (Element Fresh)",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "三里屯太古里南区",
+  "why_friendly": "为室外餐区的携宠顾客提供宠物水盆和专属小零食。",
+  "tips": "仅限室外区域，建议提前电话预约并告知会携带宠物。",
+  "price_hint": "人均 150~250",
+  "sources": [
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfrOdXggkQ4xJh9HshMZFhPt1PaKx4gq1UlYlYEIecDk9PRk510kCihLvsNegUViSHo1ZoR_WxFVTpNwLAGMo-wdhH6M9eLqVw-8RACIO-TyhYcXF8045Xcy3vCTBp-sfq7_kZlVIv1uFD6IjaIMFn",
+    "name": "中国新闻网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-amenities"
+  ],
+  "lat": 39.946932,
+  "lng": 116.468456,
+  "geo_source": "nominatim"
+ },
+ "p_49d2c90475": {
+  "id": "p_49d2c90475",
+  "name": "苟市酒馆 (Gou Shi)",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "建国门附近（有分店）",
+  "why_friendly": "狗狗主题的餐吧，曾举办宠物活动并免费提供狗狗零食和特制“甜筒”。",
+  "tips": "需全程使用牵引绳，周末较为热闹，注意狗狗情绪。",
+  "price_hint": "人均 100~180",
+  "sources": [
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFkhpPZNBvXgIPyGA6OJ3H7baZr73HkUnp0J7tmDi2ssLod33R6lk60Nt_-uauA5FyNn9eMKk1VN2P15K3bgY4ZL5JwS5a3eaTmvjdbOtjpZ-JRgO7uke40cSV8s8-uKCT7P_GFDHTRjCbrJIK",
+    "name": "饮品界"
+   }
+  ],
+  "route_slugs": [
+   "cafe-amenities"
+  ],
+  "lat": 39.971011,
+  "lng": 116.168701,
+  "geo_source": "nominatim"
+ },
+ "p_f4738ab0ea": {
+  "id": "p_f4738ab0ea",
+  "name": "星巴克宠物友好门店（凤凰汇店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "三元桥/凤凰汇购物中心",
+  "why_friendly": "设有专门的宠物户外休息区，提供牵引绳挂钩和饮水碗，可免费领取宠物专属的“爪布奇诺”。",
+  "tips": "宠物仅限在户外指定区域活动，不可进入室内，需全程牵绳。",
+  "price_hint": "人均 40~60",
+  "sources": [
+   {
+    "url": "https://k.sina.cn/article_5876527110_15e444b0600100l2z6.html",
+    "name": "新浪新闻"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chain"
+  ],
+  "lat": 39.960526,
+  "lng": 116.449507,
+  "geo_source": "nominatim"
+ },
+ "p_dbf0788f08": {
+  "id": "p_dbf0788f08",
+  "name": "星巴克臻选（亮马河店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "亮马河/官舍",
+  "why_friendly": "户外区有独立遮阳棚和绿植围挡，提供宠物饮水碗，环境适合拍照。",
+  "tips": "工作日上午人较少，体验更佳；周末高峰期可能需要等位。",
+  "price_hint": "人均 45~70",
+  "sources": [
+   {
+    "url": "https://www.smzdm.com/p/92061214/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chain"
+  ],
+  "lat": 39.944564,
+  "lng": 116.457449,
+  "geo_source": "nominatim"
+ },
+ "p_9a8bfb16bc": {
+  "id": "p_9a8bfb16bc",
+  "name": "Manner Coffee（部分有外摆区门店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "各大商圈，以外摆区为准",
+  "why_friendly": "部分有户外座位的门店，在不影响他人的情况下通常默许宠物停留。",
+  "tips": "非官方统一政策，建议到店前先与店员沟通确认，友好程度视具体门店而定。",
+  "price_hint": "人均 20~35",
+  "sources": [
+   {
+    "url": "https://www.douyin.com/search/manner%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD%E5%BA%97",
+    "name": "抖音"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chain"
+  ],
+  "lat": 40.054014,
+  "lng": 116.608464,
+  "geo_source": "nominatim"
+ },
+ "p_ba4a3004a1": {
+  "id": "p_ba4a3004a1",
+  "name": "THE BOX 朝外年轻力中心",
+  "category": "mall",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "朝外大街",
+  "why_friendly": "整个商场推行宠物友好政策，有明确的宠物公约和指引，内有多家咖啡店可选。",
+  "tips": "有体型限制，室内区域要求宠物不落地（需使用推车/背包）。",
+  "price_hint": "免费进入",
+  "sources": [
+   {
+    "url": "https://www.huxiu.com/article/2051662.html",
+    "name": "虎嗅网"
+   },
+   {
+    "url": "https://www.huxiu.com/article/2052142.html",
+    "name": "虎嗅网"
+   },
+   {
+    "url": "https://www.sohu.com/a/718715872_121123733",
+    "name": "搜狐"
+   },
+   {
+    "url": "https://www.huxiu.com/article/2065812.html",
+    "name": "虎嗅网"
+   },
+   {
+    "url": "https://www.huxiu.com/article/2043640.html",
+    "name": "虎嗅网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chain",
+   "cat-pet-park",
+   "cherry-blossom",
+   "multi-dog",
+   "picnic"
+  ],
+  "lat": 39.942833,
+  "lng": 116.450037,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-01",
+   "note": "仍正常营业，获评宠物友好品牌，配套设施完善。",
+   "sources": [
+    {
+     "name": "北京市朝阳区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1d1C69DB6BQkA9Ncha40CGwv5nRVreRlYG1c15Hug9osY5wU_3_z7UeG6EMqaDuwmZCKqci4zpw5J3C6xIPa75vc3RQCX9mBMi579eihUB0UCw6x2z6jKGPwsTyeR4bTVRd85tRdEF_DypnATxpIRH_5fYJ9NqcJeg0Z8iP90pt7eSn8A"
+    },
+    {
+     "name": "新浪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELKZ_wB3wyXoLuR7HxT4U7DcT_v1hMa-MubTNiCBwFG7urqm40YwfLEmi1BgCzKxMsdYlX1_pz9EWdwtOW3BpfcdlVnZwQsQ-rXjUlgvsES_9Po2ntF_ck0QTdr2qcXln0vorXyagfajru3q0us3oB"
+    },
+    {
+     "name": "光明网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrr7y4S76Pk4-w0s4lEg42_kAv8_m5tQE5XapNUnXy1dDi60wrRSlr9QaKhfOA7cuCXT9KW2zMiOJuFiXQIqzAy42e5U_UrTUfTkHTN9Hrmq1mDoEh6Zf8KaLvxV8YSg_349ki9DFWAMopUN7JF2e0"
+    }
+   ],
+   "checked_at": "2026-05-27"
+  }
+ },
+ "p_5e4c112e3d": {
+  "id": "p_5e4c112e3d",
+  "name": "Hz! puppy cafe (郎园Park店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "石景山",
+  "address_hint": "郎园Park园区内",
+  "why_friendly": "专为宠物设计，拥有大型封闭户外草坪供狗狗玩耍，提供人宠共享菜单。",
+  "tips": "周末狗狗较多，适合社交型犬。建议提前确认是否需要预约。",
+  "price_hint": "人均 60~90",
+  "sources": [
+   {
+    "url": "https://www.beijing.gov.cn/shenghuo/qwnews/202505/t20250512_3735147.html",
+    "name": "北京日报"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chain"
+  ],
+  "lat": 39.906,
+  "lng": 116.222,
+  "geo_source": "district-centroid"
+ },
+ "p_86c7465aa0": {
+  "id": "p_86c7465aa0",
+  "name": "The Rug",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "三里屯机电研究院内 / 朝阳公园南门附近",
+  "why_friendly": "提供户外座位区和专门的宠物菜单，是京城知名的宠物友好Brunch餐厅。",
+  "tips": "周末建议提前预定，宠物会被安排在指定区域，需全程牵绳。",
+  "price_hint": "人均 200~300",
+  "sources": [
+   {
+    "url": "https://news.sina.com.cn/s/2022-01-22/doc-ikyakwny9698555.shtml",
+    "name": "新浪新闻"
+   },
+   {
+    "url": "https://www.sohu.com/a/590924169_121124398",
+    "name": "搜狐"
+   },
+   {
+    "url": "https://k.sina.com.cn/article_7517785157_1c01a6b45020014gdb.html",
+    "name": "新浪"
+   },
+   {
+    "url": "https://k.sina.com.cn/article_7517973329_1c01dc651020013h2h.html",
+    "name": "新浪"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chaoyang",
+   "cafe-night",
+   "cat-hike",
+   "puppy"
+  ],
+  "lat": 39.930491,
+  "lng": 116.450791,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-04",
+   "note": "餐厅近6个月内正常营业，但宠物友好政策未找到明确更新信息。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUc33IJ-wrDv88IvRFjFM2JPDJWRXW7lq14_2ktKi-AAmVmvx-GcrJthaP89XlcBLqER3m4tmEfwlPdxZASpGU6EFdMnxxHxn3dnpZoGpsDuvn0c4Y5WWJUQ-MxGPQ4DtBLlIAIjL4nX6-vmu2bz7pS9mxGBYXakDnF1CB5yunzRv"
+    },
+    {
+     "name": "铲屎官的快乐，爱惨了北京这几家宠物友好餐厅",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeoCRWj-W9Vy28dP44ZRheODTnK1-slfuoBbEEaa9LDpVdG6M7M0lOHwnQ8zF5f_G6aqIuXimWxk7iuXshGNMERVdCI0PEZkS0KEPnBWZIF5IBhUJn9j_TWt74h9ZVj_b0t6OSd_yCTsHf-W-SJwJpU_JQGV9LH_Svyq2JkuwPLLGa2A=="
+    }
+   ],
+   "checked_at": "2026-05-27"
+  }
+ },
+ "p_5be92503cc": {
+  "id": "p_5be92503cc",
+  "name": "il gatto coffee 意咖多咖啡",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "秀水东街1号，近CBD/日坛公园",
+  "why_friendly": "明确欢迎各类宠物进入室内，环境安静，适合人宠共享静谧时光。",
+  "tips": "请自觉为宠物佩戴牵引绳和准备尿垫，以维持店内良好环境。",
+  "price_hint": "人均 50~80",
+  "sources": [
+   {
+    "url": "https://news.qq.com/a/20221007A026SQ00.html",
+    "name": "腾讯新闻"
+   },
+   {
+    "url": "https://www.sohu.com/a/590938459_121124439",
+    "name": "寻味-yeeyi"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chaoyang",
+   "cat-cafe"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_1a39b60dd5": {
+  "id": "p_1a39b60dd5",
+  "name": "超级小狗计划 (Super Puppy Plan)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "朝外大街 THE BOX 年轻力中心",
+  "why_friendly": "名字即态度，设有宠物友好露台，并提供宠物洗澡、购物等一站式服务。",
+  "tips": "周末人多，建议错峰前往，以便更好地体验服务和设施。",
+  "price_hint": "人均 60~100",
+  "sources": [
+   {
+    "url": "https://www.beijing.com.cn/a/20240520/10002000000202405200922008.shtml",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chaoyang"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_7441df856f": {
+  "id": "p_7441df856f",
+  "name": "鏽 SHOW (Rust Cafe)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "798艺术区/751D·PARK",
+  "why_friendly": "设有专门的宠物户外围栏活动区，主人可以安心喝咖啡。",
+  "tips": "逛798艺术区的绝佳歇脚点，可以先让狗狗在园区内活动再进店休息。",
+  "price_hint": "人均 80~120",
+  "sources": [
+   {
+    "url": "https://cn.trip.com/moments/detail/beijing-1-155020164/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chaoyang"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_dc735371c8": {
+  "id": "p_dc735371c8",
+  "name": "MARSMART 火星宠物超市 & 早晚咖啡",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "百子湾路16号百子园",
+  "why_friendly": "可以带宠物一起逛的宠物超市，并连接着同样宠物友好的咖啡馆。",
+  "tips": "一站式解决宠物购物和主人休闲的需求，超市内有许多适合拍照的场景。",
+  "price_hint": "人均 40~70",
+  "sources": [
+   {
+    "url": "https://www.beijing.com.cn/a/20230830/10002000000202308300920002.shtml",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-chaoyang"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_c514fe345c": {
+  "id": "p_c514fe345c",
+  "name": "顶CAFE (Ding CAFE)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "通州区希尔顿欢朋酒店顶层",
+  "why_friendly": "拥有400平米超大防滑木地板露台，视野开阔，适合狗狗奔跑。",
+  "tips": "露台无遮挡，夏季注意防晒。周末人多建议早到。",
+  "price_hint": "人均 80~120",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07n0p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 40.006983,
+  "lng": 116.320601,
+  "geo_source": "nominatim"
+ },
+ "p_1d208b2e67": {
+  "id": "p_1d208b2e67",
+  "name": "Wendy Wang CAFE",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "宋庄艺术区",
+  "why_friendly": "带有一个安静的封闭式小院，适合喜欢安静的狗狗。",
+  "tips": "院子地面是石头，对小型犬脚掌可能不友好。提供简餐。",
+  "price_hint": "人均 90~150",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07n0p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 39.930862,
+  "lng": 116.405859,
+  "geo_source": "nominatim"
+ },
+ "p_c451038ee1": {
+  "id": "p_c451038ee1",
+  "name": "树井咖啡 (Shu Jing Coffee)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "宋庄艺术区",
+  "why_friendly": "拥有100平米带树荫的天井封闭小院，水泥地面防滑。",
+  "tips": "咖啡品质高。周末宋庄停车位紧张，建议早去。",
+  "price_hint": "人均 70~100",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07n0p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 39.909,
+  "lng": 116.657,
+  "geo_source": "district-centroid"
+ },
+ "p_db15353e52": {
+  "id": "p_db15353e52",
+  "name": "Pinotage 餐厅",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "顺义",
+  "address_hint": "顺黄路甲一号大院内",
+  "why_friendly": "南非特色餐厅，拥有可供宠物自由奔跑的宽阔大草坪。",
+  "tips": "虽是餐厅但也提供下午茶。建议提前预定，看管好狗狗。",
+  "price_hint": "人均 200~300",
+  "sources": [
+   {
+    "url": "https://www.cityhui.com/catering/pinotage_12916/",
+    "name": "城市惠"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 39.866276,
+  "lng": 116.065832,
+  "geo_source": "nominatim"
+ },
+ "p_4e1152f4f8": {
+  "id": "p_4e1152f4f8",
+  "name": "雅匠素食咖啡馆（新国展店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "顺义",
+  "address_hint": "安华街会展誉景商铺",
+  "why_friendly": "素食生活方式店铺，文化氛围对宠物包容度高，通常设有户外区域。",
+  "tips": "建议提前致电确认宠物是否可进室内。主打素食餐点。",
+  "price_hint": "人均 60~90",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/682226210_121124374",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 40.068904,
+  "lng": 116.549292,
+  "geo_source": "nominatim"
+ },
+ "p_c2435a3e52": {
+  "id": "p_c2435a3e52",
+  "name": "A·PARK a park",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "顺义",
+  "address_hint": "中粮·祥云小镇内",
+  "why_friendly": "位于宠物友好商圈，店铺室内外均对宠物开放，店员热情。",
+  "tips": "祥云小镇适合安排全天行程，周末人多请务必使用牵引绳。",
+  "price_hint": "人均 80~130",
+  "sources": [
+   {
+    "url": "https://m.dianping.com/shopshare/k7vnsmG5T5bJq5h1?msource=Appshare2021&utm_source=shop_share",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "cafe-east"
+  ],
+  "lat": 40.005025,
+  "lng": 116.294797,
+  "geo_source": "nominatim"
+ },
+ "p_b8c6aceaf3": {
+  "id": "p_b8c6aceaf3",
+  "name": "BRBR 叙利亚 Cafe (五道口店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "五道口 / 东升园附近",
+  "why_friendly": "充满异域风情的咖啡馆，允许宠物进入，是五道口区域难得的人宠共享空间。",
+  "tips": "店内空间不大，建议携带中大型犬前提前与店家沟通确认。务必使用牵引绳。",
+  "price_hint": "人均 50~80 元",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=BRBR%E5%8F%99%E5%88%A9%E4%BA%9ACafe(%E4%BA%94%E9%81%93%E5%8F%A3%E5%BA%97)",
+    "name": "Google Search"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 39.959,
+  "lng": 116.298,
+  "geo_source": "district-centroid"
+ },
+ "p_ccc7e0b9b3": {
+  "id": "p_ccc7e0b9b3",
+  "name": "霸王茶姬 (中关村ART PARK大融城店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "中关村 / ART PARK大融城",
+  "why_friendly": "北京首家宠物友好店，设有户外宠物休息区，商场整体也对宠物友好。",
+  "tips": "宠物主要活动范围在户外，进入商场内部需遵守具体规定，周末人多需注意看管。",
+  "price_hint": "人均 20~40 元",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/792620743_121123893",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 39.979567,
+  "lng": 116.307644,
+  "geo_source": "nominatim"
+ },
+ "p_05a12338d2": {
+  "id": "p_05a12338d2",
+  "name": "雕刻时光咖啡馆 (华清嘉园店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "五道口 / 华清嘉园",
+  "why_friendly": "北京老牌文艺咖啡馆，氛围包容，据网友分享允许宠物进入，是享受安静阅读时光的好去处。",
+  "tips": "位于居民楼内，宠物政策可能变动，强烈建议去之前电话核实确认。",
+  "price_hint": "人均 50~70 元",
+  "sources": [
+   {
+    "url": "https://m.bookask.com/book/1594950.html",
+    "name": "书问"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 39.990519,
+  "lng": 116.192638,
+  "geo_source": "nominatim"
+ },
+ "p_0920bd0d0c": {
+  "id": "p_0920bd0d0c",
+  "name": "Cat & Book Coffee",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "中关村 / 理想国际大厦",
+  "why_friendly": "以猫咪陪伴和阅读为主题，提倡人与动物和谐共处，可能对安静的小型犬开放。",
+  "tips": "主打猫咪，对犬类的友好政策不确定，必须提前电话沟通。不适合容易兴奋或害怕猫的狗狗。",
+  "price_hint": "待核实",
+  "sources": [
+   {
+    "url": "https://www.jianshu.com/p/f228d77d130a",
+    "name": "简书"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 40.005616,
+  "lng": 116.315973,
+  "geo_source": "nominatim"
+ },
+ "p_e979fbb479": {
+  "id": "p_e979fbb479",
+  "name": "Wagas (上地万象汇店)",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "上地 / 华润万象汇",
+  "why_friendly": "设有宽敞的户外座位区，是与宠物共享健康简餐和阳光的理想选择。",
+  "tips": "宠物仅限在户外区域活动，进入商场需遵守规定，建议使用宠物推车或提包。",
+  "price_hint": "人均 80~120 元",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/562137021_121123893",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 39.976827,
+  "lng": 116.308446,
+  "geo_source": "nominatim"
+ },
+ "p_c6be63f156": {
+  "id": "p_c6be63f156",
+  "name": "Berry Beans (前门店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "西城",
+  "address_hint": "前门 / 朱家胡同（作为参考）",
+  "why_friendly": "北京知名的宠物友好精品咖啡馆，拥有舒适的胡同院落，提供高品质咖啡体验。",
+  "tips": "此店不在海淀区，作为高质量宠物友好咖啡馆的参考和补充选择。",
+  "price_hint": "人均 60~90 元",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/740266159_121123893",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-haidian"
+  ],
+  "lat": 39.913,
+  "lng": 116.366,
+  "geo_source": "district-centroid"
+ },
+ "p_ca386d43c3": {
+  "id": "p_ca386d43c3",
+  "name": "ONSITEEE·鸭马路",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "南十里居星火西路16号",
+  "why_friendly": "空间宽敞并设有独立后院，晚间会切换为对宠物同样友好的酒吧模式。",
+  "tips": "晚六点后灯光音乐会变化，注意安抚胆小狗狗。",
+  "price_hint": "人均 80~120",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/769741913_121124398",
+    "name": "搜狐"
+   },
+   {
+    "url": "https://www.google.com/search?q=time+in+CN",
+    "name": "Google Search"
+   },
+   {
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIVyjj_h-elgFEVgYkqORQfvf7Uo4oP9F2VjtZVuMLfuJv7uuGi0ltCOmJrt4LpQd0ii4r7oHKradhpc314ROg8OX-Zg6FHeKcezWVONcNmkib9kE7TM11kCynmjMgqM8IX34-crlq1ntO0itW",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-night",
+   "cafe-quiet",
+   "rainy-day"
+  ],
+  "lat": 39.950617,
+  "lng": 116.493629,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-03",
+   "note": "ONSITEEE·鸭马路仍正常营业且宠物友好，空间宽敞，有后院。",
+   "sources": [
+    {
+     "name": "北京吃喝玩乐",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkt3u2zy1SkBtxo5CWLY2dBEhjb5isPoncoEFmOpp6oc-xaioUrSUmy1REroZzXzhoP1Xxg0Ab3rkK1Ydzxo7APo0D5ATIO6Y7TRpkJTaMPNIhacBJxBUTeHmY8UFQNcK4Rlg1gF8x7GQX6y4Tg=="
+    }
+   ],
+   "checked_at": "2026-05-27"
+  }
+ },
+ "p_4a769b5a21": {
+  "id": "p_4a769b5a21",
+  "name": "苟市 Dogether",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "建国门外大街",
+  "why_friendly": "店名与菜单均为狗狗主题，设有宽敞露天位，是人气很高的宠物友好社交酒馆。",
+  "tips": "周末人气旺，建议提前预定户外座位。",
+  "price_hint": "人均 100~180",
+  "sources": [
+   {
+    "url": "https://www.visitbeijing.com.cn/article/4EJlgOufAOD",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-night"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_423ccfd174": {
+  "id": "p_423ccfd174",
+  "name": "Seven Bar",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "东城",
+  "address_hint": "北锣鼓巷甲70号",
+  "why_friendly": "店名和Logo源于店主的牛头梗爱犬，对宠物非常欢迎，是胡同里的深夜据点。",
+  "tips": "营业至深夜，胡同空间有限，请务必使用牵引绳。",
+  "price_hint": "人均 90~150",
+  "sources": [
+   {
+    "url": "https://www.visitbeijing.com.cn/article/47QseycTZyC",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-night"
+  ],
+  "lat": 39.940962,
+  "lng": 116.396811,
+  "geo_source": "nominatim"
+ },
+ "p_51088c6bf1": {
+  "id": "p_51088c6bf1",
+  "name": "Modernista",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "东城",
+  "address_hint": "宝钞胡同44号",
+  "why_friendly": "拥有一个对宠物开放的复古庭院，可以和狗狗一起欣赏现场音乐。",
+  "tips": "常有现场演出，声音较大，不适合对声音敏感的狗狗。",
+  "price_hint": "人均 100~200",
+  "sources": [
+   {
+    "url": "https://www.timeoutbeijing.com/features/202987-Beijings-dog-friendly-venues-the-full-list.html",
+    "name": "Time Out Beijing"
+   }
+  ],
+  "route_slugs": [
+   "cafe-night"
+  ],
+  "lat": 39.943107,
+  "lng": 116.393462,
+  "geo_source": "nominatim"
+ },
+ "p_c24b0e3b23": {
+  "id": "p_c24b0e3b23",
+  "name": "Slow Boat 悠航鲜啤",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "三里屯/北新桥等",
+  "why_friendly": "知名的精酿啤酒品牌，多家分店的户外区域均对宠物开放。",
+  "tips": "建议选择有较大户外露台的分店，周末人多可能需要等位。",
+  "price_hint": "人均 120~200",
+  "sources": [
+   {
+    "url": "https://www.timeoutbeijing.com/features/202987-Beijings-dog-friendly-venues-the-full-list.html",
+    "name": "Time Out Beijing"
+   }
+  ],
+  "route_slugs": [
+   "cafe-night"
+  ],
+  "lat": 39.943941,
+  "lng": 116.466456,
+  "geo_source": "nominatim"
+ },
+ "p_865abbf502": {
+  "id": "p_865abbf502",
+  "name": "树井咖啡",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "宋庄艺术区",
+  "why_friendly": "拥有一个设计感十足的封闭式天井小院，供宠物安全活动。",
+  "tips": "周末人流量较大，建议早点到店。路边停车位紧张。",
+  "price_hint": "人均 70~100",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=site:xiaohongshu.com%20%22Hz!%20puppy%20cafe%22%20%E5%AE%89%E9%9D%99",
+    "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a9d07n0p/",
+    "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/aek97g0n/",
+    "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a9d7009k/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-quiet",
+   "cafe-terrace",
+   "cat-cafe",
+   "senior-dog"
+  ],
+  "lat": 39.906918,
+  "lng": 116.651692,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于北京通州区树井咖啡的明确信息。",
+   "sources": [],
+   "checked_at": "2026-05-27"
+  }
+ },
+ "p_3b6186de1d": {
+  "id": "p_3b6186de1d",
+  "name": "Berry Beans (友谊商店店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "建国门外大街友谊商店园区内",
+  "why_friendly": "位于宠物友好的开放式园区内，有大片草坪和户外座位。",
+  "tips": "环境开阔，即使人多也容易找到安静角落，适合天气好时在户外阅读。",
+  "price_hint": "人均 45~80",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=Berry%20Beans%20%E5%8F%8B%E8%B0%8A%E5%95%86%E5%BA%97%E5%BA%97%20%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD%20%E8%AF%84%E4%BB%B7",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "cafe-quiet"
+  ],
+  "lat": 39.921,
+  "lng": 116.486,
+  "geo_source": "district-centroid"
+ },
+ "p_78bd76352c": {
+  "id": "p_78bd76352c",
+  "name": "A% ARABICA (国子监街店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "东城",
+  "address_hint": "国子监街",
+  "why_friendly": "位于安静的胡同内，开放式店面允许携带宠物在门口区域小坐。",
+  "tips": "适合小型犬，店内空间有限，更适合短暂歇脚和阅读。",
+  "price_hint": "人均 50~90",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=%E5%8C%97%E4%BA%AC%20a%25%20cafe%20%E5%9C%B0%E5%9D%80",
+    "name": "Google Search"
+   }
+  ],
+  "route_slugs": [
+   "cafe-quiet"
+  ],
+  "lat": 39.925431,
+  "lng": 116.407413,
+  "geo_source": "nominatim"
+ },
+ "p_12e6d1f37a": {
+  "id": "p_12e6d1f37a",
+  "name": "At Cafe",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "798艺术区",
+  "why_friendly": "门口设有宠物围栏，空间高挑开阔，欢迎宠物进入。",
+  "tips": "氛围安静，被很多访客评价为适合待一整天的地方，工作日前往体验更佳。",
+  "price_hint": "人均 60~100",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=At%20Cafe%20-%20the%20Beijinger",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "cafe-quiet"
+  ],
+  "lat": 39.982738,
+  "lng": 116.490325,
+  "geo_source": "nominatim"
+ },
+ "p_ecd28cffb8": {
+  "id": "p_ecd28cffb8",
+  "name": "福叁咖啡 (美术馆店)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "东城",
+  "address_hint": "美术馆东街22号",
+  "why_friendly": "空间宽敞，氛围安静，部分社区咖啡馆对安静的小型犬较为包容（待核实）。",
+  "tips": "二楼环境尤其适合阅读和自习，建议提前电话确认最新宠物政策。",
+  "price_hint": "人均 60~90",
+  "sources": [
+   {
+    "url": "https://lostplate.com/beijings-best-cafes-coffee-shops/",
+    "name": "Lost Plate Food Tours"
+   }
+  ],
+  "route_slugs": [
+   "cafe-quiet"
+  ],
+  "lat": 39.895931,
+  "lng": 116.400572,
+  "geo_source": "nominatim"
+ },
+ "p_9779da1a9f": {
+  "id": "p_9779da1a9f",
+  "name": "The Rug（朝阳公园店）",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "工体北路4号机电研究院内",
+  "why_friendly": "拥有宽敞户外座位区，并提供专门的宠物菜单。",
+  "tips": "周末人多建议提前预定，户外区域需使用牵引绳。",
+  "price_hint": "人均 150~250",
+  "sources": [
+   {
+    "url": "https://k.sina.com.cn/article_1907936717_71b5b34d02001a18x.html",
+    "name": "新浪"
+   },
+   {
+    "url": "https://www.sohu.com/a/599547522_121124374",
+    "name": "搜狐"
+   },
+   {
+    "url": "https://new.qq.com/rain/a/20221007A05Q5F00",
+    "name": "腾讯新闻"
+   },
+   {
+    "url": "https://k.sina.com.cn/article_7517932133_1c01d31650010134a5.html",
+    "name": "新浪"
+   }
+  ],
+  "route_slugs": [
+   "cafe-terrace",
+   "cat-restaurant",
+   "district-chaoyang",
+   "winter-indoor"
+  ],
+  "lat": 39.930491,
+  "lng": 116.450791,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-04",
+   "note": "仍正常营业，提供宠物菜单。最近评价至2026年4月。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFM2enTR29ipId5c0PZwxO9N4PoG4b1Ys4IZ65bAKnU_DlcYj954ekon8QsY_fYZ3IqEK1zxekH_l4vV16QYMXDGjHBU3sEJlAEKOXNhxs_ZGd41NBfkaOIGxy3LmTNnvnZQfmFIjag-FA3XbMu1WxOvbd55LbefHvIw9mCGV6CtD"
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-poytxu_Qt8tE45zHHmVbxaUJ50c-FHuQ_If_SWwv1sAMZ1mw_GIbDRgUijlH7HnODwGxahfZ-LP5du9m_ExPtKCBNH8o26bvXXNDyk30FJia9HwzobBNsihiiwg_VERB9k8oO5SoLOan_K3XbMu1WxOvbd55LbefHvIw9mCGV6CtD"
+    },
+    {
+     "name": "北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGTVYKP-xJJBKjuit9jmluiQF8LVXtTPKputi1vhKfx6td0-e2p1v_tIb56LmPgwdQoGO7L7DwTZUvthNqj86JQm1Eg8cSESsjTo3rpuO92dgB7a8ZhyTamms1nMDylOyPCueQwVG3Jh5Iu1KuGR_URqU1lbFAvJsdz21rXtDq0aFmiw="
+    }
+   ],
+   "checked_at": "2026-05-27"
+  }
+ },
+ "p_87cd443c64": {
+  "id": "p_87cd443c64",
+  "name": "顶CAFE",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "希尔顿欢朋酒店顶层",
+  "why_friendly": "拥有400平米超大室外露台，空间开阔，地面防滑，适合狗狗奔跑。",
+  "tips": "夏季露台无遮挡，注意防晒。仅提供甜品，不提供正餐。",
+  "price_hint": "人均 80~120",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07n0p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "cafe-terrace"
+  ],
+  "lat": 39.906918,
+  "lng": 116.651692,
+  "geo_source": "nominatim"
+ },
+ "p_457b41640a": {
+  "id": "p_457b41640a",
+  "name": "BERRY BEANS（檀谷店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "门头沟",
+  "address_hint": "京潭中路7号院1号楼",
+  "why_friendly": "开在山谷中，拥有自然风格的庭院，明确主张宠物友好。",
+  "tips": "位置较远，建议自驾。山里早晚温差大，注意保暖。",
+  "price_hint": "人均 70~110",
+  "sources": [
+   {
+    "url": "https://www.visitbeijing.com.cn/article/48529.html",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "cafe-terrace"
+  ],
+  "lat": 39.94,
+  "lng": 116.106,
+  "geo_source": "district-centroid"
+ },
+ "p_ad359d479f": {
+  "id": "p_ad359d479f",
+  "name": "Cafe Zarah",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "东城",
+  "address_hint": "鼓楼东大街46号",
+  "why_friendly": "由四合院改造而成，宽敞的院落为狗狗提供了充足的活动空间。",
+  "tips": "胡同内停车不便，注意保持安静，避免影响周边居民。",
+  "price_hint": "人均 80~130",
+  "sources": [
+   {
+    "url": "https://k.sina.com.cn/article_1907936717_71b5b34d02001a18x.html",
+    "name": "新浪"
+   }
+  ],
+  "route_slugs": [
+   "cafe-terrace"
+  ],
+  "lat": 39.939404,
+  "lng": 116.400093,
+  "geo_source": "nominatim"
+ },
+ "p_50838fd392": {
+  "id": "p_50838fd392",
+  "name": "鸭马路咖啡店 (AOTU SPACE)",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "安定路附近",
+  "why_friendly": "拥有一个大小适中的后院，空间宽敞，是狗狗社交的好地方。",
+  "tips": "晚间部分区域会转为酒吧，请看管好自己的宠物。",
+  "price_hint": "人均 60~100",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/508210137_121124401",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "cafe-terrace"
+  ],
+  "lat": 40.00266,
+  "lng": 116.380024,
   "geo_source": "nominatim"
  },
  "p_7315b8f5bc": {
@@ -915,66 +2075,6 @@
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCN2cfK9cuIMDmIBycMllquslgvQIsysBDoCBxcd9TcQeu_u3wLF1MC8-9V7raCYY0OrqdAXs7aTJ9QGrNl2kR1RvTlytfctCdeQkfQAQgkS9eVqaHPYYZKluVOL1F0Y5XTD3Q_z44mfg5jHIPaQ=="
     }
    ],
-   "checked_at": "2026-05-27"
-  }
- },
- "p_5be92503cc": {
-  "id": "p_5be92503cc",
-  "name": "il gatto coffee 意咖多咖啡",
-  "category": "cafe",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "秀水东街1号，近使馆区",
-  "why_friendly": "位于安静的使馆区，环境优雅，明确欢迎各类宠物。",
-  "tips": "建议携带宠物包或推车，自备尿垫，保持安静，文明携宠。",
-  "price_hint": "人均 70~100",
-  "sources": [
-   {
-    "url": "https://www.sohu.com/a/590938459_121124439",
-    "name": "寻味-yeeyi"
-   }
-  ],
-  "route_slugs": [
-   "cat-cafe"
-  ],
-  "lat": 39.921,
-  "lng": 116.486,
-  "geo_source": "district-centroid"
- },
- "p_865abbf502": {
-  "id": "p_865abbf502",
-  "name": "树井咖啡",
-  "category": "cafe",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "通州",
-  "address_hint": "宋庄商圈",
-  "why_friendly": "拥有一个100平米的天井封闭小院，设计感强，且地面防滑。",
-  "tips": "周末宋庄人多车多，建议上午11点前到店，路边停车位紧张。",
-  "price_hint": "人均 50~80",
-  "sources": [
-   {
-    "url": "https://post.smzdm.com/p/aek97g0n/",
-    "name": "什么值得买"
-   },
-   {
-    "url": "https://post.smzdm.com/p/a9d7009k/",
-    "name": "什么值得买"
-   }
-  ],
-  "route_slugs": [
-   "cat-cafe",
-   "senior-dog"
-  ],
-  "lat": 39.906918,
-  "lng": 116.651692,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "",
-   "note": "近6个月内未找到关于北京通州区树井咖啡的明确信息。",
-   "sources": [],
    "checked_at": "2026-05-27"
   }
  },
@@ -1495,51 +2595,6 @@
     {
      "name": "白水寺森林公园介绍 - 北京本地宝",
      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHewoAoOJSyDRWoA6FeORlzIi4eJD6JvWuwkfNz8x2DhT26sot_szEUA77AYBWYn7MhkloW2wLZ85_1_Vqr4G7oEG7OrN_HyLLfIQU_z9ljXIgBwsuwPFG5G2YQjKYwsxKT2uNLvKD-gsd95oxquu11WQjqT-fp4LMqABE-aEM="
-    }
-   ],
-   "checked_at": "2026-05-27"
-  }
- },
- "p_86c7465aa0": {
-  "id": "p_86c7465aa0",
-  "name": "THE RUG",
-  "category": "restaurant",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "工体北路4号机电研究院内",
-  "why_friendly": "知名的brunch餐厅，设有宠物友好的室外座位，并提供宠物专属菜单。",
-  "tips": "周末建议提前预定，管束好宠物，避免打扰其他客人。",
-  "price_hint": "人均 200",
-  "sources": [
-   {
-    "url": "https://k.sina.com.cn/article_7517785157_1c01a6b45020014gdb.html",
-    "name": "新浪"
-   },
-   {
-    "url": "https://k.sina.com.cn/article_7517973329_1c01dc651020013h2h.html",
-    "name": "新浪"
-   }
-  ],
-  "route_slugs": [
-   "cat-hike",
-   "puppy"
-  ],
-  "lat": 39.930491,
-  "lng": 116.450791,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "2026-04",
-   "note": "餐厅近6个月内正常营业，但宠物友好政策未找到明确更新信息。",
-   "sources": [
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUc33IJ-wrDv88IvRFjFM2JPDJWRXW7lq14_2ktKi-AAmVmvx-GcrJthaP89XlcBLqER3m4tmEfwlPdxZASpGU6EFdMnxxHxn3dnpZoGpsDuvn0c4Y5WWJUQ-MxGPQ4DtBLlIAIjL4nX6-vmu2bz7pS9mxGBYXakDnF1CB5yunzRv"
-    },
-    {
-     "name": "铲屎官的快乐，爱惨了北京这几家宠物友好餐厅",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeoCRWj-W9Vy28dP44ZRheODTnK1-slfuoBbEEaa9LDpVdG6M7M0lOHwnQ8zF5f_G6aqIuXimWxk7iuXshGNMERVdCI0PEZkS0KEPnBWZIF5IBhUJn9j_TWt74h9ZVj_b0t6OSd_yCTsHf-W-SJwJpU_JQGV9LH_Svyq2JkuwPLLGa2A=="
     }
    ],
    "checked_at": "2026-05-27"
@@ -2375,119 +3430,6 @@
   "lat": 39.72118,
   "lng": 116.49073,
   "geo_source": "nominatim"
- },
- "p_ba4a3004a1": {
-  "id": "p_ba4a3004a1",
-  "name": "THE BOX 朝外年轻力中心",
-  "category": "mall",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "朝外大街12号",
-  "why_friendly": "潮流宠物友好商场，有清晰的宠物公约和友好的配套设施（如饮水点）。",
-  "tips": "有体型限制，室内公共区域需遵守“宠物不落地”原则（推车/抱/提笼）。",
-  "price_hint": "免费进入",
-  "sources": [
-   {
-    "url": "https://www.huxiu.com/article/2052142.html",
-    "name": "虎嗅网"
-   },
-   {
-    "url": "https://www.sohu.com/a/718715872_121123733",
-    "name": "搜狐"
-   },
-   {
-    "url": "https://www.huxiu.com/article/2065812.html",
-    "name": "虎嗅网"
-   },
-   {
-    "url": "https://www.huxiu.com/article/2043640.html",
-    "name": "虎嗅网"
-   }
-  ],
-  "route_slugs": [
-   "cat-pet-park",
-   "cherry-blossom",
-   "multi-dog",
-   "picnic"
-  ],
-  "lat": 39.942833,
-  "lng": 116.450037,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-01",
-   "note": "仍正常营业，获评宠物友好品牌，配套设施完善。",
-   "sources": [
-    {
-     "name": "北京市朝阳区人民政府",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1d1C69DB6BQkA9Ncha40CGwv5nRVreRlYG1c15Hug9osY5wU_3_z7UeG6EMqaDuwmZCKqci4zpw5J3C6xIPa75vc3RQCX9mBMi579eihUB0UCw6x2z6jKGPwsTyeR4bTVRd85tRdEF_DypnATxpIRH_5fYJ9NqcJeg0Z8iP90pt7eSn8A"
-    },
-    {
-     "name": "新浪",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELKZ_wB3wyXoLuR7HxT4U7DcT_v1hMa-MubTNiCBwFG7urqm40YwfLEmi1BgCzKxMsdYlX1_pz9EWdwtOW3BpfcdlVnZwQsQ-rXjUlgvsES_9Po2ntF_ck0QTdr2qcXln0vorXyagfajru3q0us3oB"
-    },
-    {
-     "name": "光明网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrr7y4S76Pk4-w0s4lEg42_kAv8_m5tQE5XapNUnXy1dDi60wrRSlr9QaKhfOA7cuCXT9KW2zMiOJuFiXQIqzAy42e5U_UrTUfTkHTN9Hrmq1mDoEh6Zf8KaLvxV8YSg_349ki9DFWAMopUN7JF2e0"
-    }
-   ],
-   "checked_at": "2026-05-27"
-  }
- },
- "p_9779da1a9f": {
-  "id": "p_9779da1a9f",
-  "name": "The Rug（朝阳公园店）",
-  "category": "restaurant",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "朝阳公园南路丽水嘉园内",
-  "why_friendly": "提供专门的宠物菜单（Pets Menu），设有室内外用餐区。",
-  "tips": "建议提前预约，需使用牵引绳。是北京知名的早午餐（Brunch）餐厅。",
-  "price_hint": "人均 200~250",
-  "sources": [
-   {
-    "url": "https://www.sohu.com/a/599547522_121124374",
-    "name": "搜狐"
-   },
-   {
-    "url": "https://new.qq.com/rain/a/20221007A05Q5F00",
-    "name": "腾讯新闻"
-   },
-   {
-    "url": "https://k.sina.com.cn/article_7517932133_1c01d31650010134a5.html",
-    "name": "新浪"
-   }
-  ],
-  "route_slugs": [
-   "cat-restaurant",
-   "district-chaoyang",
-   "winter-indoor"
-  ],
-  "lat": 39.930491,
-  "lng": 116.450791,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-04",
-   "note": "仍正常营业，提供宠物菜单。最近评价至2026年4月。",
-   "sources": [
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFM2enTR29ipId5c0PZwxO9N4PoG4b1Ys4IZ65bAKnU_DlcYj954ekon8QsY_fYZ3IqEK1zxekH_l4vV16QYMXDGjHBU3sEJlAEKOXNhxs_ZGd41NBfkaOIGxy3LmTNnvnZQfmFIjag-FA3XbMu1WxOvbd55LbefHvIw9mCGV6CtD"
-    },
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-poytxu_Qt8tE45zHHmVbxaUJ50c-FHuQ_If_SWwv1sAMZ1mw_GIbDRgUijlH7HnODwGxahfZ-LP5du9m_ExPtKCBNH8o26bvXXNDyk30FJia9HwzobBNsihiiwg_VERB9k8oO5SoLOan_K3XbMu1WxOvbd55LbefHvIw9mCGV6CtD"
-    },
-    {
-     "name": "北京本地宝",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGTVYKP-xJJBKjuit9jmluiQF8LVXtTPKputi1vhKfx6td0-e2p1v_tIb56LmPgwdQoGO7L7DwTZUvthNqj86JQm1Eg8cSESsjTo3rpuO92dgB7a8ZhyTamms1nMDylOyPCueQwVG3Jh5Iu1KuGR_URqU1lbFAvJsdz21rXtDq0aFmiw="
-    }
-   ],
-   "checked_at": "2026-05-27"
-  }
  },
  "p_ba06af96fb": {
   "id": "p_ba06af96fb",
@@ -5934,42 +6876,6 @@
    "checked_at": "2026-05-27"
   }
  },
- "p_ca386d43c3": {
-  "id": "p_ca386d43c3",
-  "name": "ONSITEEE·鸭马路",
-  "category": "cafe",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "南十里居星火西路16号",
-  "why_friendly": "空间宽敞，有懒人沙发和后院，工业风水泥地面便于清洁，是狗狗社交的好去处。",
-  "tips": "距离地铁站较远，建议自驾或打车前往。高峰时段人多，需看管好宠物。",
-  "price_hint": "人均 82",
-  "sources": [
-   {
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIVyjj_h-elgFEVgYkqORQfvf7Uo4oP9F2VjtZVuMLfuJv7uuGi0ltCOmJrt4LpQd0ii4r7oHKradhpc314ROg8OX-Zg6FHeKcezWVONcNmkib9kE7TM11kCynmjMgqM8IX34-crlq1ntO0itW",
-    "name": "搜狐"
-   }
-  ],
-  "route_slugs": [
-   "rainy-day"
-  ],
-  "lat": 39.950617,
-  "lng": 116.493629,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-03",
-   "note": "ONSITEEE·鸭马路仍正常营业且宠物友好，空间宽敞，有后院。",
-   "sources": [
-    {
-     "name": "北京吃喝玩乐",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkt3u2zy1SkBtxo5CWLY2dBEhjb5isPoncoEFmOpp6oc-xaioUrSUmy1REroZzXzhoP1Xxg0Ab3rkK1Ydzxo7APo0D5ATIO6Y7TRpkJTaMPNIhacBJxBUTeHmY8UFQNcK4Rlg1gF8x7GQX6y4Tg=="
-    }
-   ],
-   "checked_at": "2026-05-27"
-  }
- },
  "p_371a0e50c0": {
   "id": "p_371a0e50c0",
   "name": "法海寺森林公园",
@@ -6727,30 +7633,6 @@
   "lat": 39.928745,
   "lng": 116.411392,
   "geo_source": "nominatim"
- },
- "p_10c16487d0": {
-  "id": "p_10c16487d0",
-  "name": "没有狗不行 (Paw-friendly Cafe & Pet Fresh Foods)",
-  "category": "cafe",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "朝外大街新城国际",
-  "why_friendly": "提供专业的宠物鲜食菜单和宠物专属设施，员工友善专业。",
-  "tips": "可根据狗狗肠胃情况，尝试其特色的宠物鲜食。",
-  "price_hint": "人均 60~100元",
-  "sources": [
-   {
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUmhqjYErsB8iitOYAQfpoKHYk5wj_1d5mBwuyhucvFCqEptVaTgNHnkkOH84x8EPHln0L9mBP8_Uq1U84UcyElAN3RbnVisn5j2MBw5h39qBcXZlA2BInBYubgSp3SNHd9SjrRhHYZRAPwHH0WkpP",
-    "name": "Pet-Friendly Cafes in Beijing Guide"
-   }
-  ],
-  "route_slugs": [
-   "work-and-pet"
-  ],
-  "lat": 39.921,
-  "lng": 116.486,
-  "geo_source": "district-centroid"
  },
  "p_c0ee41c6a1": {
   "id": "p_c0ee41c6a1",
