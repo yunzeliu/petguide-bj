@@ -868,15 +868,41 @@ function renderPersonalize() {
     $('#gen-result').innerHTML = `<div class="loading-screen"><div class="spinner"></div>正在为你梳理路线…</div>`;
     try {
       const { markdown, usedPois } = await callGemini(form, key, proxyUrl);
-      $('#gen-result').innerHTML = `
-        <div class="section-title">为你生成</div>
-        <article class="md-body">${marked.parse(markdown, { breaks: false, gfm: true })}</article>
-        ${usedPois.length ? `
-          <div class="section-title">用到的地点</div>
-          <div class="poi-list">${usedPois.map(poiCardHtml).join('')}</div>
-        ` : ''}
-        <div class="muted center-text small" style="margin-top: 20px;">仅供参考 · 请向商家电话确认细节</div>
-      `;
+      const plans = parsePlans(markdown);
+
+      if (plans.length < 2) {
+        // 不到两个方案：fallback 单方案渲染
+        $('#gen-result').innerHTML = `
+          <div class="section-title">为你生成</div>
+          <article class="md-body">${marked.parse(markdown, { breaks: false, gfm: true })}</article>
+          ${usedPois.length ? `<div class="section-title">用到的地点</div><div class="poi-list">${usedPois.map(poiCardHtml).join('')}</div>` : ''}
+          <div class="muted center-text small" style="margin-top: 20px;">仅供参考 · 请向商家电话确认细节</div>
+        `;
+      } else {
+        // 多方案：tab 切换
+        $('#gen-result').innerHTML = `
+          <div class="section-title">为你生成 · ${plans.length} 个方案 (点击切换)</div>
+          <div class="plan-tabs" id="plan-tabs">
+            ${plans.map((p, i) => `<div class="plan-tab ${i === 0 ? 'active' : ''}" data-i="${i}">${escapeHtml(p.letter)} · ${escapeHtml(p.title)}</div>`).join('')}
+          </div>
+          <article class="md-body" id="plan-body">${marked.parse(plans[0].body, { breaks: false, gfm: true })}</article>
+          ${usedPois.length ? `
+            <div class="section-title">所有方案涉及的地点</div>
+            <div class="poi-list">${usedPois.map(poiCardHtml).join('')}</div>
+          ` : ''}
+          <div class="muted center-text small" style="margin-top: 20px;">仅供参考 · 请向商家电话确认细节</div>
+        `;
+        const bodyEls = plans.map(p => marked.parse(p.body, { breaks: false, gfm: true }));
+        $$('#plan-tabs .plan-tab').forEach(t => {
+          t.addEventListener('click', () => {
+            $$('#plan-tabs .plan-tab').forEach(x => x.classList.remove('active'));
+            t.classList.add('active');
+            const i = parseInt(t.dataset.i, 10) || 0;
+            $('#plan-body').innerHTML = bodyEls[i];
+            $$('#plan-body a').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+          });
+        });
+      }
       $$('#gen-result .md-body a').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
     } catch (e) {
       console.error(e);
@@ -885,6 +911,29 @@ function renderPersonalize() {
     $('#gen-btn').disabled = false;
     $('#gen-btn').textContent = '生成路书';
   });
+}
+
+// ===== parse plans from Gemini output =====
+function parsePlans(md) {
+  // 按 "## 方案 X" 切片。允许格式 "## 方案 A · 标题" / "## 方案 A 标题"
+  const lines = md.split(/\r?\n/);
+  const plans = [];
+  let current = null;
+  for (const line of lines) {
+    const m = line.match(/^##\s*方案\s*([A-Za-z0-9])[\s·.：:、]+(.+?)\s*$/);
+    if (m) {
+      if (current) plans.push(current);
+      current = { letter: m[1].toUpperCase(), title: m[2].trim().replace(/^[·•:：\s]+/, ''), body: '' };
+      continue;
+    }
+    if (current) {
+      // 跳过文末的 "---" 分隔符行
+      if (line.trim() === '---') continue;
+      current.body += line + '\n';
+    }
+  }
+  if (current) plans.push(current);
+  return plans;
 }
 
 // ===== call gemini =====
@@ -983,26 +1032,41 @@ ${JSON.stringify(pickedPool, null, 2)}
 
 # 输出格式（严格）
 
-## 路线亮点
-（≤30 字，一句话说清差异化，可以提一下"${isWeekend ? '避开周末人潮' : '工作日空场'}"或"${seasonName}专属"等）
+**给 2~3 个不同方案让用户选**，每个方案聚焦不同角度（例如：A=城区轻松、B=京郊野趣、C=文艺漫步；或 A=低强度遛弯、B=社交撒欢、C=室内享受）。方案之间地点和风格**必须明显不同**。
 
-## 时间线
+## 方案 A · 短标题（≤8 字，画面感）
+（路线亮点：≤30 字一句话差异化）
+
+### 时间线
 - **HH:MM-HH:MM · 地点名** \`(POI:id)\` — 亮点（≤15 字）
 - 🚗 通勤 X 分钟
 - **HH:MM-HH:MM · 地点名** \`(POI:id)\` — 亮点
-- 🚗 通勤 X 分钟
-- （每个 POI 一行；不同 POI 之间穿插一行通勤；同 POI 不要重复也不要写通勤）
+- （重复每个节点；同 POI 不要重复也不要写通勤）
 
-## 一句话提醒
-（≤40 字，合并体型 / 天气 / 交通最关键的 1 条）
+### 提醒
+（≤40 字一句话）
+
+---
+
+## 方案 B · 短标题
+
+（同样结构）
+
+---
+
+## 方案 C · 短标题（可选，如果候选库够丰富就给）
+
+（同样结构）
 
 # 写作要求
-- 整篇 ≤350 字
+- 每个方案 ≤250 字
+- 方案之间地点不重叠（不同 POI），style 不一样
 - "亮点"不写通用形容（如"草坪宽敞""环境优美"）
 - 所有地点必须带 \`(POI:id)\`，id 严格使用候选库里的
 - 不写"作为编辑"等开场
-- 候选不够就少写节点；宁缺毋滥
-- 不要写候选库以外的地点`;
+- 候选不够就给 2 个方案；宁缺毋滥
+- 不要写候选库以外的地点
+- 用 \`---\` 分隔每个方案`;
 
   const body = {
     contents: [{ parts: [{ text: prompt }] }],

@@ -567,6 +567,36 @@ button { font-family: inherit; cursor: pointer; }
   -webkit-tap-highlight-color: rgba(255, 122, 61, 0.1);
 }
 
+/* ============ Plan tabs (personalize multi-plan) ============ */
+.plan-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 2px 14px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.plan-tabs::-webkit-scrollbar { display: none; }
+.plan-tab {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1.5px solid var(--border);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+  user-select: none;
+}
+.plan-tab:hover { border-color: var(--primary); }
+.plan-tab.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
 /* ============ Recommendation sections ============ */
 .rec-section {
   margin: 20px 0 12px;
