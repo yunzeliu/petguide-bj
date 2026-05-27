@@ -596,7 +596,7 @@ function renderPersonalize() {
   $('#app').innerHTML = `
     <section class="hero" style="background: linear-gradient(135deg, #E1F0FF 0%, #B8DCFF 100%); color: #1a3a5e;">
       <h1>告诉我你的需求 ✨</h1>
-      <p>基于站内 132 个地点，几秒生成专属路书</p>
+      <p>基于站内 ${Object.keys(STATE.pois).length} 个地点，几秒生成专属路书</p>
     </section>
 
     ${needKey ? `
