@@ -70,11 +70,13 @@ def gemini_call(model, prompt, tools_search=True, retries=2, max_tokens=8192, te
                 time.sleep(10 * (i + 1))
                 continue
             raise RuntimeError(f"HTTP {e.code}: {e.read()[:200]}")
-        except urllib.error.URLError as e:
+        except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as e:
+            # Network timeouts (socket.timeout aliased to TimeoutError), broken
+            # connections, partial responses — retry then give up
             if i < retries:
-                time.sleep(5)
+                time.sleep(5 * (i + 1))
                 continue
-            raise
+            raise RuntimeError(f"network error after retries: {type(e).__name__}: {e}")
     return None
 
 def extract_text(resp):
@@ -596,15 +598,18 @@ def main():
 
     print(f"[start] pois={len(pois)}, routes={len(routes)}")
 
-    # 1. Discovery
+    # 1. Discovery (don't kill the whole run if discovery alone fails)
     new_pids = []
-    new_slug = discover_today()
+    new_slug = None
+    try:
+        new_slug = discover_today()
+    except Exception as e:
+        print(f"[discovery] failed: {type(e).__name__}: {e}", flush=True)
     if new_slug:
         js_p = os.path.join(ROUTES_DIR, f"{new_slug}.json")
         if os.path.isfile(js_p):
             with open(js_p, encoding="utf-8") as f:
                 rd = json.load(f)
-            # remember which POIs are net-new so we can resolve their URLs
             existing = set(pois.keys())
             merge_route_into_pois(new_slug, rd, pois)
             new_pids = [pid for pid in pois.keys() if pid not in existing]
