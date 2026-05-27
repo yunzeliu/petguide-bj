@@ -13,11 +13,16 @@
 
 ## 一次性配置（30 秒）
 
-1. 浏览器打开 https://github.com/yunzeliu/petguide-bj/settings/secrets/actions
-2. 点 **New repository secret**
-3. Name: `GEMINI_API_KEY`
-4. Secret: 粘贴你的 Gemini key（`AIza...`）
-5. Add secret
+打开 https://github.com/yunzeliu/petguide-bj/settings/secrets/actions ，新建两个 secrets：
+
+**必需**
+- `GEMINI_API_KEY` = 你的 Gemini key (`AIza...`)
+
+**可选（启用小红书 Brave 发现）**
+- `BRAVE_API_KEY` = 你的 Brave Search API key
+  - 申请：https://api.search.brave.com/app/keys
+  - 免费 2000 次/月，无需信用卡
+  - 留空 = 跳过小红书发现，只跑常规 freshness
 
 完成。下次 18:00 UTC（北京 02:00）自动开始跑。
 
