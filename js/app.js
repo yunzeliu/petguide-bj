@@ -212,7 +212,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     const el = document.createElement('div');
     el.className = 'toast';
     el.style.bottom = '70px';
-    el.innerHTML = '把汪行加到主屏？ <span id="do-install" style="text-decoration:underline;cursor:pointer;margin-left:8px;">安装</span>';
+    el.innerHTML = '把北京宠物路书加到主屏？ <span id="do-install" style="text-decoration:underline;cursor:pointer;margin-left:8px;">安装</span>';
     document.body.appendChild(el);
     el.querySelector('#do-install').addEventListener('click', async () => {
       el.remove();
@@ -291,6 +291,8 @@ function renderHome() {
   const city = currentCity();
 
   let list = cityRoutes();
+  // 默认只展示已通过近期核验的路书（verified === true）
+  list = list.filter(r => r.verified !== false);
   if (cat) list = list.filter(r => r.category === cat);
   if (dim) list = list.filter(r => r.dim === dim);
 
@@ -398,7 +400,7 @@ async function renderRouteDetail(slug) {
     $('#app').innerHTML = `<div class="empty-state"><div class="emoji">🐾</div><div class="text">路书不存在</div></div>`;
     return;
   }
-  document.title = `${r.title} · 汪行`;
+  document.title = `${r.title} · 北京宠物路书`;
 
   const pois = (r.poi_ids || []).map(id => STATE.pois[id]).filter(Boolean);
   const isFav = favs.has(slug);
@@ -425,6 +427,7 @@ async function renderRouteDetail(slug) {
     </section>
 
     <div class="section-title">推荐地点 · ${pois.length}</div>
+    <div class="muted small" style="margin: -8px 4px 12px;">所有展示的地点均经近期网络证据核验仍宠物友好。文章正文中可能提到更多商家，但仅展示已确认的卡片。</div>
     <div class="poi-list">
       ${pois.map(poiCardHtml).join('')}
     </div>
@@ -471,7 +474,7 @@ function renderPoiDetail(id) {
     $('#app').innerHTML = `<div class="empty-state"><div class="emoji">🐾</div><div class="text">地点不存在</div></div>`;
     return;
   }
-  document.title = `${p.name} · 汪行`;
+  document.title = `${p.name} · 北京宠物路书`;
 
   const icon = POI_ICON[p.category] || '📍';
   const relRoutes = (p.route_slugs || []).map(s => STATE.routesById[s]).filter(Boolean);
@@ -493,7 +496,7 @@ function renderPoiDetail(id) {
             ${p.freshness.latest_mention ? `· 最新提到 ${escapeHtml(p.freshness.latest_mention)}` : ''}
           </div>
           ${p.freshness.note ? `<div style="font-size:13px;margin-top:4px;color:#374151;">${escapeHtml(p.freshness.note)}</div>` : ''}
-          ${p.freshness.checked_at ? `<div style="font-size:11px;color:#9CA3AF;margin-top:4px;">汪行核查于 ${escapeHtml(p.freshness.checked_at)}</div>` : ''}
+          ${p.freshness.checked_at ? `<div style="font-size:11px;color:#9CA3AF;margin-top:4px;">北京宠物路书核查于 ${escapeHtml(p.freshness.checked_at)}</div>` : ''}
         </div>
       ` : ''}
       ${p.why_friendly ? `<p>${escapeHtml(p.why_friendly)}</p>` : ''}
@@ -527,7 +530,7 @@ function renderPoiDetail(id) {
 function renderSearch() {
   const params = parseHash().params;
   const q = params.q || '';
-  document.title = '搜索 · 汪行';
+  document.title = '搜索 · 北京宠物路书';
 
   $('#app').innerHTML = `
     <div class="search-bar">
@@ -585,7 +588,7 @@ function renderSearch() {
 
 // ===== personalize (Gemini) =====
 function renderPersonalize() {
-  document.title = '定制路书 · 汪行';
+  document.title = '定制路书 · 北京宠物路书';
 
   const proxyUrl = (window.PETGUIDE_CONFIG && window.PETGUIDE_CONFIG.geminiProxy && window.PETGUIDE_CONFIG.geminiProxy.url) || '';
   const fallbackKey = (window.PETGUIDE_CONFIG && window.PETGUIDE_CONFIG.gemini && window.PETGUIDE_CONFIG.gemini.fallbackKey) || '';
@@ -811,7 +814,7 @@ ${JSON.stringify(pickedPool, null, 2)}
 
 // ===== favorites page =====
 function renderFavs() {
-  document.title = '我的收藏 · 汪行';
+  document.title = '我的收藏 · 北京宠物路书';
   const ids = favs.get();
   const list = ids.map(id => STATE.routesById[id]).filter(Boolean);
   $('#app').innerHTML = `
@@ -838,7 +841,7 @@ let _mapInstance = null;
 let _mapLayers = {};   // category -> Leaflet LayerGroup
 
 function renderMap() {
-  document.title = '地图 · 汪行';
+  document.title = '地图 · 北京宠物路书';
 
   const city = currentCity();
   const cityPoiMap = cityPois();
@@ -1018,11 +1021,11 @@ function renderMap() {
 
 // ===== about =====
 function renderAbout() {
-  document.title = '关于 · 汪行';
+  document.title = '关于 · 北京宠物路书';
   $('#app').innerHTML = `
-    <h2 style="margin-top:8px;">关于汪行 🐾</h2>
+    <h2 style="margin-top:8px;">关于北京宠物路书 🐾</h2>
     <div class="md-body">
-      <p>汪行是一个面向养狗人的周末出行助手。我们围绕"宠物友好"这件事，由编辑团队走访 + 翻阅小红书 / 马蜂窝 / 大众点评 / 知乎 / 本地媒体，把城区与近郊的公园、咖啡馆、餐厅、民宿与营地一条一条整理出来，每条信息都附上参考链接方便你二次核实。</p>
+      <p>北京宠物路书是一个面向养狗人的周末出行助手。我们围绕"宠物友好"这件事，由编辑团队走访 + 翻阅小红书 / 马蜂窝 / 大众点评 / 知乎 / 本地媒体，把城区与近郊的公园、咖啡馆、餐厅、民宿与营地一条一条整理出来，每条信息都附上参考链接方便你二次核实。</p>
 
       <h3>主题维度</h3>
       <p>所有路书按 <strong>季节场景 / 区域 / 犬种与家庭 / 品类清单</strong> 四个维度组织，便于按需查找：周末想看银杏？想找大型犬可去的公园？想避开人多的地方？翻一下就有。</p>
