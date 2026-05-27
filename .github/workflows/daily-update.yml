@@ -26,15 +26,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Brave xhs discovery (if BRAVE_API_KEY set)
+      - name: Google CSE xhs discovery (if keys set)
         env:
-          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX:  ${{ secrets.GOOGLE_CSE_CX }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          if [ -n "$BRAVE_API_KEY" ]; then
-            python scripts/brave_discovery.py || echo "brave step failed, continuing"
+          if [ -n "$GOOGLE_CSE_KEY" ] && [ -n "$GOOGLE_CSE_CX" ]; then
+            python scripts/cse_discovery.py || echo "cse step failed, continuing"
           else
-            echo "BRAVE_API_KEY not set, skipping xhs discovery"
+            echo "GOOGLE_CSE_KEY/CX not set, skipping xhs discovery"
           fi
 
       - name: Run daily update (freshness + filter)
