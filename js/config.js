@@ -21,12 +21,18 @@ window.PETGUIDE_CONFIG = {
     wechat: '',     // 微信号或公众号
   },
 
-  // ============ Gemini Proxy（可选，让访客无需自带 key） ============
+  // ============ Gemini Proxy（推荐路径） ============
   // 部署 cf-worker/gemini-proxy.js 后把 worker URL 填这里
-  // 留空 = 访客需自带 Gemini key
+  // 推荐方案：key 藏在 Cloudflare Worker 后端，不会被爬走
   geminiProxy: {
     url: '',   // 例如 "https://gemini-proxy.your-subdomain.workers.dev"
   },
+
+  // ============ 不要在这里硬编码 Gemini key —— 静态站会被任何人拿走 ============
+  // 安全方案二选一：
+  //   1) 部署上面的 geminiProxy（key 藏在 Cloudflare Worker）
+  //   2) "请求 → 批处理"模式（见 docs/BATCH_MODE.md）
+  gemini: { fallbackKey: '' },
 
   // ============ 备案号（中国大陆部署到自己服务器时需要） ============
   // GitHub Pages 不需要 ICP 备案

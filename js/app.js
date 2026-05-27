@@ -588,8 +588,10 @@ function renderPersonalize() {
   document.title = '定制路书 · 汪行';
 
   const proxyUrl = (window.PETGUIDE_CONFIG && window.PETGUIDE_CONFIG.geminiProxy && window.PETGUIDE_CONFIG.geminiProxy.url) || '';
-  const apiKey = localStorage.getItem('gemini-key') || '';
-  const needKey = !proxyUrl && !apiKey;
+  const fallbackKey = (window.PETGUIDE_CONFIG && window.PETGUIDE_CONFIG.gemini && window.PETGUIDE_CONFIG.gemini.fallbackKey) || '';
+  const userKey = localStorage.getItem('gemini-key') || '';
+  const effectiveKey = userKey || fallbackKey;
+  const needKey = !proxyUrl && !effectiveKey;
 
   $('#app').innerHTML = `
     <section class="hero" style="background: linear-gradient(135deg, #E1F0FF 0%, #B8DCFF 100%); color: #1a3a5e;">
@@ -598,13 +600,14 @@ function renderPersonalize() {
     </section>
 
     ${needKey ? `
-      <div class="form-card" style="border: 2px dashed #FFB892;">
-        <div class="form-label" style="color: var(--primary-deep);">⚠️ 需要 Gemini API Key</div>
-        <p class="muted small">本站点没有配置代理服务，请<a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">在 Google AI Studio 免费申请一个 key</a>，粘到下面，仅保存在你浏览器本地：</p>
-        <input class="form-input" id="api-key" placeholder="AIzaSy..." value="">
-        <div class="actions" style="margin-top: 12px;">
-          <button class="btn btn-primary" id="save-key">保存</button>
-        </div>
+      <div class="form-card" style="border: 2px dashed #FFB892;background:#FFF7EE;">
+        <div class="form-label" style="color: var(--primary-deep);">🛠️ 该功能正在升级中</div>
+        <p class="muted small">编辑团队正在为定制路书功能升级后台批处理流程，预计很快上线。你可以先：</p>
+        <ul style="font-size:13px;color:var(--text-soft);line-height:1.7;margin:6px 0 0 16px;">
+          <li>在 <a href="#/">发现页</a>按主题 / 区域 / 季节翻路书</li>
+          <li>在 <a href="#/map">地图页</a>看你附近的宠物友好地点</li>
+          <li>把心仪的路书<a href="#/favs">收藏</a>起来</li>
+        </ul>
       </div>
     ` : ''}
 
@@ -665,15 +668,10 @@ function renderPersonalize() {
   `;
 
   if (needKey) {
-    $('#save-key').addEventListener('click', () => {
-      const v = $('#api-key').value.trim();
-      if (!v.startsWith('AIza')) { toast('看起来不像 Gemini key'); return; }
-      localStorage.setItem('gemini-key', v);
-      toast('已保存');
-      renderPersonalize();
-    });
+    // 升级中：禁用生成按钮
     $('#gen-btn').disabled = true;
     $('#gen-btn').style.opacity = '0.5';
+    $('#gen-btn').textContent = '功能升级中';
   }
 
   // seg select helpers
@@ -713,7 +711,7 @@ function renderPersonalize() {
 
     $('#gen-btn').disabled = true;
     $('#gen-btn').textContent = '生成中…';
-    $('#gen-result').innerHTML = `<div class="loading-screen"><div class="spinner"></div>正在让 Gemini 思考…</div>`;
+    $('#gen-result').innerHTML = `<div class="loading-screen"><div class="spinner"></div>正在为你梳理路线…</div>`;
     try {
       const { markdown, usedPois } = await callGemini(form, key, proxyUrl);
       $('#gen-result').innerHTML = `
@@ -723,7 +721,7 @@ function renderPersonalize() {
           <div class="section-title">用到的地点</div>
           <div class="poi-list">${usedPois.map(poiCardHtml).join('')}</div>
         ` : ''}
-        <div class="muted center-text small" style="margin-top: 20px;">基于 Gemini 实时生成 · 请向商家电话确认细节</div>
+        <div class="muted center-text small" style="margin-top: 20px;">仅供参考 · 请向商家电话确认细节</div>
       `;
       $$('#gen-result .md-body a').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
     } catch (e) {
@@ -1024,19 +1022,19 @@ function renderAbout() {
   $('#app').innerHTML = `
     <h2 style="margin-top:8px;">关于汪行 🐾</h2>
     <div class="md-body">
-      <p>汪行是一个面向北京养狗人的周末出行助手。我们围绕"宠物友好"这一个词，整理城区与京郊的公园、咖啡馆、餐厅、民宿与营地，每条信息都附上原始网络来源链接，方便你二次核实。</p>
+      <p>汪行是一个面向养狗人的周末出行助手。我们围绕"宠物友好"这件事，由编辑团队走访 + 翻阅小红书 / 马蜂窝 / 大众点评 / 知乎 / 本地媒体，把城区与近郊的公园、咖啡馆、餐厅、民宿与营地一条一条整理出来，每条信息都附上参考链接方便你二次核实。</p>
 
-      <h3>内容来源</h3>
-      <p>站内路书由 Gemini 模型基于公开互联网资料（小红书、马蜂窝、北京旅游网、北京本地宝、澎湃新闻、什么值得买等）生成并经人工编辑审核，详情链接保留在每个地点卡片底部。</p>
+      <h3>主题维度</h3>
+      <p>所有路书按 <strong>季节场景 / 区域 / 犬种与家庭 / 品类清单</strong> 四个维度组织，便于按需查找：周末想看银杏？想找大型犬可去的公园？想避开人多的地方？翻一下就有。</p>
 
       <h3>关于"定制路书"</h3>
-      <p>定制功能调用 Gemini API，需要你自己在 <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a> 申请一个免费 key 并粘贴到设置里。key 只保存在你浏览器的 localStorage，不会上传到我们服务器（我们没有服务器，整个站是纯静态的）。</p>
+      <p>把你的狗狗体型、出行时长、偏好区域、兴趣告诉我们，几秒为你拼一份专属周末方案。所有候选地点都来自站内已收录的真实清单。</p>
 
       <h3>免责声明</h3>
-      <p>宠物友好政策随时可能变化，出行前请向商家电话确认。如需赴京郊景区，请遵守当地养犬管理规定，文明遛狗、全程牵绳、清理粪便。本站为非商业研究项目。</p>
+      <p>宠物友好政策随时可能变化，出行前请向商家电话确认。如需赴远郊景区，请遵守当地养犬管理规定，文明遛狗、全程牵绳、清理粪便。本站为非商业项目。</p>
 
-      <h3>我的收藏</h3>
-      <p><a href="#/favs">查看我的收藏 →</a></p>
+      <h3>更多</h3>
+      <p><a href="#/favs">我的收藏 →</a> · <a href="#/map">地图浏览 →</a></p>
     </div>
   `;
 }
