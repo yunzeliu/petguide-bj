@@ -103,6 +103,75 @@ async function loadMd(slug) {
   return text;
 }
 
+// ===== recommendation helpers =====
+function parseYM(s) {
+  // "2026-05" -> [2026, 5]; fallback to [0, 0]
+  if (!s) return [0, 0];
+  const m = String(s).match(/^(\d{4})-(\d{1,2})/);
+  if (!m) return [0, 0];
+  return [parseInt(m[1], 10), parseInt(m[2], 10)];
+}
+function ymScore(s) {
+  // higher = more recent
+  const [y, m] = parseYM(s);
+  return y * 12 + m;
+}
+function currentSeason() {
+  // Beijing month → season
+  const m = new Date().getMonth() + 1;
+  if (m >= 3 && m <= 5)  return { key: 'spring', cn: '春' };
+  if (m >= 6 && m <= 8)  return { key: 'summer', cn: '夏' };
+  if (m >= 9 && m <= 11) return { key: 'autumn', cn: '秋' };
+  return { key: 'winter', cn: '冬' };
+}
+function getHotPois(n) {
+  if (n == null) n = 12;
+  return Object.values(STATE.pois)
+    .filter(function(p) { return p.freshness && p.freshness.status === 'open' && p.freshness.latest_mention; })
+    .map(function(p) {
+      return {
+        p: p,
+        score: ymScore(p.freshness.latest_mention) * 10 + ((p.sources && p.sources.length) || 0) + ((p.route_slugs && p.route_slugs.length) || 0),
+      };
+    })
+    .sort(function(a, b) { return b.score - a.score; })
+    .slice(0, n)
+    .map(function(x) { return x.p; });
+}
+function getRecentlyOpened(n) {
+  if (n == null) n = 12;
+  const newRouteIds = new Set(
+    cityRoutes()
+      .filter(function(r) { return r.id.indexOf('new-') === 0 || r.id === 'xhs-trending-2025'; })
+      .map(function(r) { return r.id; })
+  );
+  return Object.values(STATE.pois)
+    .filter(function(p) { return (p.route_slugs || []).some(function(s) { return newRouteIds.has(s); }); })
+    .sort(function(a, b) {
+      const am = (a.freshness && a.freshness.latest_mention) || '';
+      const bm = (b.freshness && b.freshness.latest_mention) || '';
+      return ymScore(bm) - ymScore(am);
+    })
+    .slice(0, n);
+}
+function getSeasonalRoutes(n = 6) {
+  const seasonCn = currentSeason().cn;
+  return cityRoutes()
+    .filter(r => r.verified !== false)
+    .filter(r => (r.best_seasons || []).includes(seasonCn) || (r.tags || []).some(t => t.includes(seasonCn)))
+    .slice(0, n);
+}
+function isRecentlyMentioned(p, monthsAgo) {
+  if (monthsAgo == null) monthsAgo = 3;
+  if (!p.freshness || !p.freshness.latest_mention) return false;
+  const ym = parseYM(p.freshness.latest_mention);
+  if (!ym[0]) return false;
+  const target = new Date(ym[0], ym[1] - 1, 1);
+  const cutoff = new Date();
+  cutoff.setMonth(cutoff.getMonth() - monthsAgo);
+  return target >= cutoff;
+}
+
 // ===== favorites (localStorage) =====
 const favs = {
   get() { try { return JSON.parse(localStorage.getItem('favs') || '[]'); } catch { return []; } },
@@ -283,6 +352,61 @@ function poiCardHtml(p) {
   `;
 }
 
+// ===== home recommendation sections =====
+function poiMiniCardHtml(p) {
+  const icon = POI_ICON[p.category] || '📍';
+  const recent = isRecentlyMentioned(p, 3);
+  const mention = (p.freshness && p.freshness.latest_mention) || '';
+  return `
+    <a class="mini-card" href="#/poi/${p.id}">
+      <div class="mini-icon">${icon}</div>
+      <div class="mini-name">${escapeHtml(p.name)}</div>
+      <div class="mini-meta">${escapeHtml(p.district || '')} · ${escapeHtml(POI_CAT_LABEL[p.category] || '')}</div>
+      ${mention ? `<div class="mini-mention">${recent ? '🔥 ' : ''}${escapeHtml(mention)} 提到</div>` : ''}
+    </a>
+  `;
+}
+function routeMiniCardHtml(r) {
+  const c = coverFor(r);
+  return `
+    <a class="mini-card mini-route" href="#/route/${r.id}" style="background: linear-gradient(135deg, ${c.from}, ${c.to});">
+      <div class="mini-emoji">${c.emoji}</div>
+      <div class="mini-route-title">${escapeHtml(r.title)}</div>
+    </a>
+  `;
+}
+
+function recommendationsHtml() {
+  const hot = getHotPois(10);
+  const newOpened = getRecentlyOpened(10);
+  const seasonal = getSeasonalRoutes(6);
+  const season = currentSeason();
+  const seasonEmoji = { spring: '🌸', summer: '🌊', autumn: '🍁', winter: '❄️' }[season.key];
+
+  return `
+    ${hot.length ? `
+      <div class="rec-section">
+        <div class="rec-head"><span>🔥</span> <strong>最近热议</strong> <span class="muted small">网友提到最多的地点</span></div>
+        <div class="hscroll">${hot.map(poiMiniCardHtml).join('')}</div>
+      </div>
+    ` : ''}
+
+    ${seasonal.length ? `
+      <div class="rec-section">
+        <div class="rec-head"><span>${seasonEmoji}</span> <strong>本月适合（${season.cn}季）</strong> <span class="muted small">应季路书</span></div>
+        <div class="hscroll">${seasonal.map(routeMiniCardHtml).join('')}</div>
+      </div>
+    ` : ''}
+
+    ${newOpened.length ? `
+      <div class="rec-section">
+        <div class="rec-head"><span>🆕</span> <strong>近期新开</strong> <span class="muted small">2025 年新涌现 / 升级</span></div>
+        <div class="hscroll">${newOpened.map(poiMiniCardHtml).join('')}</div>
+      </div>
+    ` : ''}
+  `;
+}
+
 // ===== home (feed) =====
 function renderHome() {
   const filter = JSON.parse(sessionStorage.getItem('home-filter') || '{}');
@@ -353,6 +477,8 @@ function renderHome() {
         ${activeCities.map(c => `<div class="chip ${c.key === city ? 'active' : ''}" data-city="${c.key}">${c.name} · ${c.count}</div>`).join('')}
       </div>
     ` : ''}
+
+    ${!cat && !dim ? recommendationsHtml() : ''}
 
     <div class="section-title">按主题</div>
     <div class="filter-row" id="cat-row">
