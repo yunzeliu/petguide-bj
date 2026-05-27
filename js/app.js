@@ -886,29 +886,52 @@ async function callGemini(form, apiKey, proxyUrl) {
     address: p.address_hint, why: p.why_friendly, tips: p.tips, price: p.price_hint,
   }));
 
-  const prompt = `你是一位北京宠物友好出行规划师。基于候选 POI 库为用户搭配个性化路书。
+  const sizeLabel = { small: '小型', medium: '中型', large: '大型' }[form.size] || form.size;
+  const whenScaffold = {
+    halfday:  '3-4 个节点，覆盖约 4 小时（一个上午或一个下午）',
+    fullday:  '5-6 个节点，覆盖约 8 小时（上午到晚餐）',
+    two_day:  '两天每天 4 个节点，给出 Day 1 + Day 2 结构',
+  }[form.when] || '4 个节点，覆盖一个半日';
 
-# 用户信息
-- 狗狗: ${form.name || '未命名'}（体型 ${form.size}）
-- 时长: ${form.when}
-- 偏好出发区域: ${form.district}
-- 交通: ${form.transport}
-- 兴趣: ${form.interests.join(' / ')}
-- 备注: ${form.notes || '无'}
+  const prompt = `你是北京养狗人的周末路书规划师。基于下面候选地点库，给一份极简、可执行的路书（不是散文）。
 
-# 候选 POI 库（${pickedPool.length} 个，只从中选用）
+# 用户
+- 狗狗：${form.name || '未命名'}（${sizeLabel}型犬）
+- 行程：${whenScaffold}
+- 区域偏好：${form.district}
+- 交通：${form.transport}
+- 兴趣：${form.interests.join(' / ')}
+- 备注：${form.notes || '无'}
+
+# 候选地点库（${pickedPool.length} 个，只能从这里选；不要发明）
 ${JSON.stringify(pickedPool, null, 2)}
 
-# 要求
-1. 输出温暖的中文路书（700~1200 字 markdown），含上午/午餐/下午/晚餐节点
-2. 每个被用到的 POI 在地点名后紧跟 \`(POI:p_xxxxxx)\` 标注其 id
-3. 末尾给 3 条今日提醒（考虑体型/天气/犬种限制）
-4. 不要发明候选库外的地点
-只输出 markdown。`;
+# 输出格式（严格遵守）
+
+## 一句话方案
+（≤30 字，画面感强）
+
+## 时间线
+- **HH:MM · 地点名** \`(POI:id)\`
+  - 干啥：一句话（≤20 字）
+  - 花费：一句话（可选）
+- （重复每个节点）
+
+## 装备 & 提示
+- 针对${sizeLabel}型犬体型的 1 条（≤25 字）
+- 针对季节 / 天气的 1 条（≤25 字）
+- 针对${form.transport === 'taxi' ? '携宠网约车' : form.transport === 'walk' ? '步行' : '自驾'}的 1 条（≤25 字）
+
+# 硬约束
+- 全文 ≤450 字
+- 所有地点必须带 \`(POI:id)\`，id 严格使用候选库里的
+- 不要"作为编辑"、"我为您..."等开场；直接给方案
+- 不要写候选库以外的地点；候选不够就少写一两个节点，宁缺毋滥
+- 不要解释规则、不要复述用户输入`;
 
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.5, maxOutputTokens: 4096 },
+    generationConfig: { temperature: 0.4, maxOutputTokens: 2048 },
   };
   let url;
   if (proxyUrl) {
@@ -929,8 +952,16 @@ ${JSON.stringify(pickedPool, null, 2)}
     throw new Error(`Gemini HTTP ${res.status}: ${t.slice(0, 200)}`);
   }
   const data = await res.json();
-  const parts = (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) || [];
-  const text = parts.map(p => p.text || '').join('');
+  const cand = (data.candidates && data.candidates[0]) || {};
+  const finishReason = cand.finishReason || '';
+  const parts = (cand.content && cand.content.parts) || [];
+  let text = parts.map(p => p.text || '').join('');
+  // If hit MAX_TOKENS we may have a dangling sentence — trim to last complete bullet/paragraph
+  if (finishReason === 'MAX_TOKENS') {
+    // Trim to last full markdown bullet or newline that ends with sentence punctuation
+    const lastNL = Math.max(text.lastIndexOf('\n- '), text.lastIndexOf('\n\n'));
+    if (lastNL > 200) text = text.slice(0, lastNL).trim() + '\n\n*（输出被长度限制截断）*';
+  }
   // extract POI ids used
   const ids = [...new Set((text.match(/POI:p_[a-z0-9]+/g) || []).map(m => m.replace('POI:', '')))];
   const usedPois = ids.map(id => STATE.pois[id]).filter(Boolean);
