@@ -1,0 +1,57 @@
+name: Daily Content Refresh
+
+on:
+  schedule:
+    # 18:00 UTC = 02:00 Beijing 次日
+    - cron: '0 18 * * *'
+  workflow_dispatch:   # 允许手动触发（用于测试）
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run daily update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/daily_update.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.email "daily-bot@petguide.local"
+          git config user.name "PetGuide Daily Bot"
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "no changes — nothing to commit"
+            exit 0
+          fi
+
+          # extract stats for commit message
+          STATS=$(python3 -c "
+          import json, datetime
+          pois = json.load(open('data/pois.json'))
+          routes = json.load(open('data/routes.json'))
+          n_r = sum(1 for r in routes if r.get('verified'))
+          n_p = len(pois)
+          today = datetime.date.today().strftime('%Y-%m-%d')
+          print(f'daily {today}: {n_r} verified routes / {n_p} verified POIs')
+          ")
+          git commit -m "$STATS"
+          git push
