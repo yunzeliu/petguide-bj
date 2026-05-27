@@ -103,6 +103,18 @@ async function loadMd(slug) {
   return text;
 }
 
+// ===== geo helpers =====
+function haversineKm(a, b) {
+  if (!a || !b || typeof a.lat !== 'number' || typeof b.lat !== 'number') return 0;
+  const R = 6371;
+  const dLat = (b.lat - a.lat) * Math.PI / 180;
+  const dLng = (b.lng - a.lng) * Math.PI / 180;
+  const la1 = a.lat * Math.PI / 180;
+  const la2 = b.lat * Math.PI / 180;
+  const h = Math.sin(dLat/2)**2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
 // ===== recommendation helpers =====
 function parseYM(s) {
   // "2026-05" -> [2026, 5]; fallback to [0, 0]
@@ -892,11 +904,34 @@ async function callGemini(form, apiKey, proxyUrl) {
   if (wantCats.size) pool = pool.filter(p => wantCats.has(p.category));
   if (form.district && form.district !== '不限') pool = pool.filter(p => p.district === form.district);
   if (form.size === 'large') pool = pool.filter(p => p.category !== 'mall');
-  pool = pool.slice(0, 30);
+  // 必须有坐标，否则无法算通勤
+  pool = pool.filter(p => typeof p.lat === 'number' && typeof p.lng === 'number');
+
+  // 通勤估算：自驾/打车 25km/h + 15分钟缓冲；步行 4km/h
+  const speedKmH = form.transport === 'walk' ? 4 : 25;
+  const bufferMin = form.transport === 'walk' ? 0 : 15;
+  // 步行偏好下，限制候选 POI 在 3km 圈内（避免选远的）
+  // 这里取 pool 的中位 POI 作为锚，挑离它最近的 N 个
+  if (form.transport === 'walk' && pool.length > 8) {
+    const anchor = pool[Math.floor(pool.length / 2)];
+    pool.sort((a, b) => haversineKm(anchor, a) - haversineKm(anchor, b));
+    pool = pool.slice(0, 12);
+  } else {
+    pool = pool.slice(0, 30);
+  }
+
+  // 每种 POI 的默认停留分钟数
+  const STAY_MIN = {
+    park: 90, water: 75, hike: 150, camp: 180,
+    cafe: 60, restaurant: 80, bakery: 45,
+    mall: 90, petpark: 100, hotel: 0, vet: 30,
+  };
 
   const pickedPool = pool.map(p => ({
     id: p.id, name: p.name, category: p.category, district: p.district,
     address: p.address_hint, why: p.why_friendly, tips: p.tips, price: p.price_hint,
+    lat: p.lat, lng: p.lng,
+    stay_min: STAY_MIN[p.category] || 60,
   }));
 
   const sizeLabel = { small: '小型', medium: '中型', large: '大型' }[form.size] || form.size;
@@ -906,43 +941,46 @@ async function callGemini(form, apiKey, proxyUrl) {
     two_day:  '两天每天 4 个节点，给出 Day 1 + Day 2 结构',
   }[form.when] || '4 个节点，覆盖一个半日';
 
-  const prompt = `你是北京养狗人的周末路书规划师。基于下面候选地点库，给一份**轻量化、亮点优先**的路书。读者扫一眼就 get 这条路线的特色。
+  const prompt = `你是北京养狗人的周末路书规划师。基于下面候选地点库，给一份**轻量化、亮点优先 + 时间合理**的路书。
 
 # 用户
 - 狗狗：${form.name || '未命名'}（${sizeLabel}型犬）
 - 行程：${whenScaffold}
 - 区域偏好：${form.district}
-- 交通：${form.transport}
+- 交通：${form.transport}（${form.transport === 'walk' ? '步行 4km/h' : form.transport === 'taxi' ? '携宠网约车 ~25km/h + 等车 15 分钟' : '自驾 ~25km/h 城区 + 停车 15 分钟'}）
 - 兴趣：${form.interests.join(' / ')}
 - 备注：${form.notes || '无'}
 
-# 候选地点库（${pickedPool.length} 个，只能从这里选；不要发明）
+# 候选地点库（${pickedPool.length} 个，已含 lat/lng 和默认停留分钟，**只能从这里选**）
 ${JSON.stringify(pickedPool, null, 2)}
 
-# 写作要求（核心）
-- **亮点优先**：每个地点必须给"和别处不一样"的一句话特色。不写"草坪宽敞"、"环境优美"这类通用形容
-- **轻量**：能用 10 字别用 20 字，整篇 ≤300 字
-- **特色**：开头要点出这条路线的差异化（如"低强度遛弯 + 江浙菜下午茶"而不是"愉快的周末"）
+# 关键约束 —— 时间预算
+1. **先估算通勤**：根据两点 lat/lng 算粗略直线距离 × 1.4 = 实际车程公里数 ÷ 速度 = 通勤分钟。**两点超过 30 分钟通勤的不要放在一起**。
+2. **优先地理相邻**：选地点时**严格挑同一片区域**（同区或邻区），不要东西跨城。
+3. **停留时间用候选库里的 stay_min 字段**，不要乱改。
+4. **每段时间都要算上通勤**：上一个地点结束 → 通勤 → 下一个地点开始时间要对得上。
 
 # 输出格式（严格）
 
 ## 路线亮点
-（≤30 字，一句话说清这条路线最与众不同的事）
+（≤30 字，一句话说清差异化）
 
 ## 时间线
-- **HH:MM · 地点名** \`(POI:id)\` — 亮点（≤20 字，必须具体）
-- **HH:MM · 地点名** \`(POI:id)\` — 亮点
-- （重复每个节点；每个就这一行，不要再展开子项）
+- **HH:MM-HH:MM · 地点名** \`(POI:id)\` — 亮点（≤15 字）
+- 🚗 通勤 X 分钟
+- **HH:MM-HH:MM · 地点名** \`(POI:id)\` — 亮点
+- 🚗 通勤 X 分钟
+- （每个 POI 一行，地点行之间穿插一行通勤估算）
 
 ## 一句话提醒
-（≤40 字，合并体型 / 天气 / 交通最关键的 1 条，不要列 3 条）
+（≤40 字，合并体型 / 天气 / 交通最关键的 1 条）
 
-# 硬约束
-- 全文 ≤300 字
+# 写作要求
+- 整篇 ≤350 字
+- "亮点"不写通用形容（如"草坪宽敞""环境优美"）
 - 所有地点必须带 \`(POI:id)\`，id 严格使用候选库里的
-- 不写"作为编辑"、"我为您..."等开场
+- 不写"作为编辑"等开场
 - 候选不够就少写节点；宁缺毋滥
-- 不要复述用户输入、不要解释规则
 - 不要写候选库以外的地点`;
 
   const body = {
