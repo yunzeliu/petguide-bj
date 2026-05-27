@@ -71,6 +71,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade",
+    "grass_area"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "市区内免费开放的宠物友好公园，需牵绳，并提供疫苗证明和养犬登记证。"
   }
  },
  "p_4277a0be4e": {
@@ -109,6 +143,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "社交型狗狗",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大户外封闭草坪，狗狗可安全自由奔跑和社交，店内提供宠物零食和水碗。"
   }
  },
  "p_2a6a3379fd": {
@@ -162,6 +232,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供专门的宠物餐点和零食，可为宠物举办生日派对，并提供短期寄养服务。"
   }
  },
  "p_33b8fea028": {
@@ -235,6 +340,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "店家非常喜爱宠物，会主动为狗狗提供火腿肠等零食。"
   }
  },
  "p_ab24d7da90": {
@@ -275,6 +409,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "公园面积大，足够宠物撒欢奔跑，尤其适合秋季与宠物在银杏林中拍照留念。"
   }
  },
  "p_cb2a7161dd": {
@@ -333,6 +497,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "地广人稀，有大片草坪和茂密树林，狗狗可以尽情撒欢奔跑。"
   }
  },
  "p_283c236d1c": {
@@ -390,6 +588,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_dessert",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "园内有宠物洗美咖啡店，提供爪布奇诺、无浓缩美式和休息站，并会不定期举行宠物派对、生日会、领养日等活动"
   }
  },
  "p_10c16487d0": {
@@ -427,6 +664,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "怕热"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物鲜食菜单和干净饮水站，店员经过宠物行为培训，天气热时可进入空调室内区。"
   }
  },
  "p_f4738ab0ea": {
@@ -471,6 +740,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "设有专门的宠物户外休息区，提供牵引绳挂钩和饮水碗，可免费领取宠物专属的“爪布奇诺”或宠物版“美式咖啡”。"
   }
  },
  "p_dbf0788f08": {
@@ -507,6 +809,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "tree_shade",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "户外区有独立遮阳棚和绿植围挡，提供宠物饮水碗和免费爪布奇诺，环境适合拍照。"
   }
  },
  "p_ba4a3004a1": {
@@ -567,6 +907,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "商场内有火星宠物超市，顶楼露台有宠物友好咖啡厅，提供宠物洗澡服务和宠物服装挑选。"
   }
  },
  "p_5e4c112e3d": {
@@ -611,6 +986,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "社交型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大室外封闭草坪，狗狗可以尽情撒欢跑酷，提供人宠共享下午茶。"
   }
  },
  "p_86c7465aa0": {
@@ -663,6 +1075,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "提供专门的宠物菜单，有牛肉、鸭肉、鸡肉等鲜食和饼干，周末建议提前预定，宠物会被安排在指定户外区域，需全程牵绳。"
   }
  },
  "p_5be92503cc": {
@@ -720,6 +1161,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "环境安静，适合人宠共享静谧时光，有户外座位可享受树影摇曳下的咖啡时光。"
   }
  },
  "p_1a39b60dd5": {
@@ -756,6 +1226,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物洗美、咖啡、原创周边，还有狗狗蛋糕和小狗拉花咖啡"
   }
  },
  "p_7441df856f": {
@@ -804,6 +1314,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "设有全封闭的室外草坪，提供尿不湿、水盆和宠物小零食"
   }
  },
  "p_c514fe345c": {
@@ -840,6 +1386,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕热"
+   ],
+   "pet_hook": "拥有400平米超大防滑木地板露台，适合狗狗尽情奔跑"
   }
  },
  "p_1d208b2e67": {
@@ -876,6 +1453,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "怕生狗"
+   ],
+   "not_for": [
+    "小型犬"
+   ],
+   "pet_hook": "带有一个安静的封闭式小院，院子地面是石头，对小型犬脚掌可能不友好。"
   }
  },
  "p_c451038ee1": {
@@ -920,6 +1528,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space",
+    "tree_shade",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有100平米带树荫的封闭小院，水泥地面防滑，适合狗狗自由奔跑玩耍，提供饮水碗。"
   }
  },
  "p_db15353e52": {
@@ -956,6 +1598,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有宽大的草坪，可携宠物入场"
   }
  },
  "p_ccc7e0b9b3": {
@@ -1000,6 +1673,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费提供宠物奶油",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "北京首家宠物友好店，设有户外宠物休息区，提供免费宠物奶油和饮用水，商场整体对宠物友好。"
   }
  },
  "p_0920bd0d0c": {
@@ -1036,6 +1741,30 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "以猫咪陪伴和阅读为主题，店内收养了12只性格温顺的流浪猫，全部完成绝育与疫苗接种。"
   }
  },
  "p_c6be63f156": {
@@ -1080,6 +1809,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有舒适的胡同院落和露天座位，适合宠物在户外区域活动，店员对宠物友好。"
   }
  },
  "p_ca386d43c3": {
@@ -1131,6 +1891,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "outdoor_seating",
+    "grass_area"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "空间宽敞，设有独立后院大草坪，提供宠物饮用水，部分社牛狗狗会主动与客人互动。"
   }
  },
  "p_865abbf502": {
@@ -1183,6 +1981,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有一个设计感十足的封闭式天井小院，供宠物安全活动，适合大型犬和高能量犬奔跑玩耍。"
   }
  },
  "p_78bd76352c": {
@@ -1223,6 +2055,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "开放式店面，适合小型犬在门口区域短暂歇脚"
   }
  },
  "p_9779da1a9f": {
@@ -1279,6 +2141,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供专门宠物菜单，户外座位区宽敞，适合狗狗一同用餐。"
   }
  },
  "p_87cd443c64": {
@@ -1315,6 +2209,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕热"
+   ],
+   "pet_hook": "400平米超大防滑露台，适合狗狗尽情奔跑"
   }
  },
  "p_457b41640a": {
@@ -1363,6 +2288,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": [
+     "比特斗牛㹴",
+     "阿根廷杜告狗",
+     "日本土佐犬",
+     "巴西非拉狗"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有自然风格的庭院和草坪，适合狗狗奔跑玩耍，店员会提供水碗。"
   }
  },
  "p_ad359d479f": {
@@ -1415,6 +2377,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "宽敞的四合院院落为狗狗提供了充足的活动空间，并提供饮用水，但不能上座椅。"
   }
  },
  "p_50838fd392": {
@@ -1455,6 +2453,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有大小适中的后院，是狗狗社交的好地方，部分社牛型狗狗会主动向其他客人示好，寻求抚摸和关注。"
   }
  },
  "p_7315b8f5bc": {
@@ -1508,6 +2538,88 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "比特斗牛梗犬",
+     "阿根廷杜高犬",
+     "巴西菲勒犬",
+     "土佐犬",
+     "中亚牧羊犬",
+     "川东犬",
+     "苏俄牧羊犬",
+     "牛头梗犬",
+     "马士提夫犬",
+     "卡斯罗犬",
+     "大丹犬",
+     "高加索犬",
+     "纽波利顿犬",
+     "斯塔福梗犬",
+     "阿富汗猎犬",
+     "波音达犬",
+     "威玛猎犬",
+     "雪达犬",
+     "寻血猎犬",
+     "巴仙吉犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "凯丽蓝梗犬",
+     "牛头獒犬",
+     "法国波尔多獒犬",
+     "美国斗牛犬",
+     "罗威纳犬",
+     "荷兰牧羊犬",
+     "比利时牧羊犬",
+     "安纳托利亚牧羊犬",
+     "捷克狼犬",
+     "昆明犬",
+     "法国狼犬",
+     "爱尔兰猎狼犬",
+     "圣伯纳犬",
+     "拳师犬",
+     "韩国杜莎犬",
+     "西藏獒犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有大小狗分区和独立泳池，提供自助洗护区，定期举办宠物社交活动。"
   }
  },
  "p_bb31a47b63": {
@@ -1555,6 +2667,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "设有1500平米独立宠物区，提供宠物美容、寄养服务，适合宠物尽情撒欢。"
   }
  },
  "p_8bf254f544": {
@@ -1616,6 +2764,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "拥有高尔夫球场级优质草坪，宠物可尽情奔跑撒欢，还有萌宠乐园可互动。"
   }
  },
  "p_f7e08cdae3": {
@@ -1666,6 +2849,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "设有“有爱萌萌宠物园”专属空间，部分徒步路线适合带狗同行。"
   }
  },
  "p_450e884b29": {
@@ -1729,6 +2944,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大室外封闭草坪，狗狗可以尽情撒欢跑酷，室内外兼备，适合拍照。"
   }
  },
  "p_03a4d1d9ba": {
@@ -1769,6 +3020,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "怕热"
+   ],
+   "not_for": [],
+   "pet_hook": "提供专门的宠物鲜食菜单，真正实现人宠共享美食，下午时段庭院凉爽，提供宠物水碗和休息垫。"
   }
  },
  "p_1142c32455": {
@@ -1813,6 +3096,33 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "挂号费50元至300元不等，全身体检500多元，拔牙1500多元，内窥镜手术取胃内异物3000多元，根管治疗2000多元，住院费和用药费大多在千元以上",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供24小时急诊和ICU服务，异宠专科诊疗经验丰富，拥有先进设备和高学历医生团队"
   }
  },
  "p_8109bdbffc": {
@@ -1865,6 +3175,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "not_for": [],
+   "pet_hook": "奥运村店是猫科及老年病研究中心，提供专业的猫科和老年宠物诊疗服务。"
   }
  },
  "p_55467d6902": {
@@ -1905,6 +3244,33 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供24小时应急响应机制，配备核磁、CT等高端设备，能处理复杂急症，适合望京及周边地区宠物主。"
   }
  },
  "p_3e3744b5de": {
@@ -1969,6 +3335,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "water_bowl",
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费健康检查和咨询",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供幼犬幼猫疫苗套餐和全年不限次免费体检，并为接种狂犬疫苗的宠物免费发放北京市动物健康免疫证。"
   }
  },
  "p_52800beab5": {
@@ -2013,6 +3409,34 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "pet_bathroom"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "病情复杂、危重病例"
+   ],
+   "not_for": [],
+   "pet_hook": "作为宠物医院，可带宠物进入，擅长处理复杂及危重病例"
   }
  },
  "p_4eebcde5b4": {
@@ -2057,6 +3481,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供24小时急诊服务，设有住院部和犬猫专科，对老年病、心肺肝肾疾病有特色诊疗。"
   }
  },
  "p_fa17ecc9d8": {
@@ -2109,6 +3564,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "grooming_onsite",
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "美容室透明，可全程观看宠物洗护过程，提供专业健康护理服务。"
   }
  },
  "p_3faa554492": {
@@ -2173,6 +3662,47 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "寄养普通间60元/天，监控房80元/天，别墅间150元/天。训练费超过3000元免寄养费，不足3000元需另收寄养费。自带犬粮，如需中心提供优质天然粮或个性化食物需另算费用。美容服务（洗澡、美容）根据犬型收费40-400元不等。",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "幼犬",
+    "胆小敏感"
+   ],
+   "pet_hook": "占地10亩，拥有4000㎡草坪遛弯区和专属泳池，提供24小时监控独立寄养房间和专业训犬服务。"
   }
  },
  "p_eb9f82ae18": {
@@ -2225,6 +3755,47 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_sitter",
+    "pet_photo",
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "寄养基础服务148元/天起，陪玩、带宠物放风、五官清洁、陪伴用餐、喂药等需加钱升级服务",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "喜欢社交的狗狗",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗",
+    "有攻击性的宠物",
+    "性格内向的宠物"
+   ],
+   "pet_hook": "提供宽敞的宠物乐园和宠物幼儿园，非笼养社交环境，有动物行为学背景的宠陪师全程看护并协助调整行为。"
   }
  },
  "p_1ffe152ee0": {
@@ -2261,6 +3832,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬",
+    "怕生狗"
+   ],
+   "not_for": [],
+   "pet_hook": "专注于猫咪洗护，环境安静，美容师更懂猫咪习性，能有效减少应激。"
   }
  },
  "p_8ce6638029": {
@@ -2301,6 +3902,49 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "swimming_pool",
+    "large_open_space",
+    "fenced_area",
+    "grass_area"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter",
+    "pet_menu",
+    "water_bowl",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "分龄分区的泳池和超大草坪，提供宠物自助餐和专业美容服务，管家会主动加微信收集宠物信息并提前发门卡，房间内有狗窝、零食和除味神器，还有走廊宠物厕所。"
   }
  },
  "p_2ee1affc76": {
@@ -2360,6 +4004,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "烈性犬"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "设有宠物专属打卡点和免费摆渡车，打造了萌宠社交场，可领取限定版证书。"
   }
  },
  "p_8b4a2d9661": {
@@ -2412,6 +4095,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade",
+    "grass_area"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕热"
+   ],
+   "pet_hook": "免费入园，有大片草坪和水杉林，适合狗狗奔跑玩耍。"
   }
  },
  "p_d90de25f4d": {
@@ -2470,6 +4187,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "提供宠物专属菜单和水碗，是宠物社交的热门地点，店内宠物多。"
   }
  },
  "p_7b2368898f": {
@@ -2519,6 +4274,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "每房每晚 500 元（含清洁费和服务费）",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供宠物跑步机和专属餐食，每间房最多可带两只10公斤以下小型犬入住。"
   }
  },
  "p_47a141504d": {
@@ -2572,6 +4358,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "每晚150元，另加150元一次性清洁费，入住时需支付1500元押金",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供专属宠物窝、食盆、磨牙玩具、尿垫和拾便袋"
   }
  },
  "p_7090ce161e": {
@@ -2621,6 +4440,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": false,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "shower"
+   ],
+   "fees": {
+    "pet_extra_fee": "免宠物清洁费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "狗狗可完全放飞自我，无需牵绳，有狗狗专属餐和依云水，提供狗狗上床梯子、狗狗床、洁足泡沫、宠物湿巾、牙刷牙膏、吹水机。"
   }
  },
  "p_4689b0db62": {
@@ -2661,6 +4517,48 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "RMB150",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "提供超大封闭式草坪和独立小院，狗狗可以撒腿狂欢，老板收养的狗狗会与客人狗狗玩耍，早餐会给狗狗送鸡蛋，退房送小礼品。"
   }
  },
  "p_e27fadecb4": {
@@ -2705,6 +4603,34 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "会收取额外费用",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "小院干净整洁，宠物友好，可在山野间与爱犬徒步，体验独特风光。"
   }
  },
  "p_1d14eb571a": {
@@ -2757,6 +4683,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "户外区域广阔，允许所有体型准养犬落地行走，部分户外餐厅可携犬用餐。"
   }
  },
  "p_03c20cef02": {
@@ -2811,6 +4772,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_bathroom",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费提供宠物纸尿裤",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬",
+    "怕生狗"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物推车租赁、饮水点和免费宠物纸尿裤，内有大型宠物超市，部分咖啡店有露台可供宠物洗澡和参加派对。"
   }
  },
  "p_513aaaacb0": {
@@ -2883,6 +4881,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 45,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "pet_bathroom",
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "设有宠物电梯、饮水站、泊狗位和宠物厕所，部分店铺提供宠物寄存和宠物摄影服务，但需遵守“宠物不落地”原则。"
   }
  },
  "p_f8d833e3e5": {
@@ -2924,6 +4960,84 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "西藏獒犬",
+     "比特斗牛梗犬",
+     "阿根廷杜高犬",
+     "巴西菲勒犬",
+     "土佐犬",
+     "中亚牧羊犬",
+     "川东犬",
+     "苏俄牧羊犬",
+     "牛头梗犬",
+     "马士提夫犬",
+     "卡斯罗犬",
+     "大丹犬",
+     "高加索犬",
+     "纽波利顿犬",
+     "斯塔福梗犬",
+     "阿富汗猎犬",
+     "波音达犬",
+     "威玛猎犬",
+     "雪达犬",
+     "寻血猎犬",
+     "巴仙吉犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "凯丽蓝梗犬",
+     "牛头獒犬",
+     "法国波尔多獒犬",
+     "美国斗牛犬",
+     "罗威纳犬",
+     "荷兰牧羊犬",
+     "比利时牧羊犬",
+     "安纳托利亚牧羊犬",
+     "捷克狼犬",
+     "昆明犬",
+     "法国狼犬",
+     "爱尔兰猎狼犬",
+     "圣伯纳犬",
+     "拳师犬",
+     "韩国杜莎犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_photo",
+    "grooming_onsite",
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "8000平米超大户外乐园，5000平米草坪和140平米宠物专属泳池，提供宠物摄影、洗护、寄养服务，是毛孩子的社交撒欢天地。"
   }
  },
  "p_36be62d712": {
@@ -2972,6 +5086,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "HZ! Puppy Café有超大室外封闭草坪，狗狗可以尽情撒欢跑酷，店内提供宠物零食和宠物友好饮品。"
   }
  },
  "p_23d050f97f": {
@@ -3039,6 +5192,79 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "藏獒",
+     "纽波利顿",
+     "巴西菲勒",
+     "波尔多",
+     "杜高",
+     "英国斗牛獒犬",
+     "英国獒犬",
+     "中亚牧羊犬",
+     "高加索犬",
+     "西班牙加纳利犬",
+     "日本土佐犬",
+     "标准牛头梗",
+     "卡斯罗犬",
+     "韩国杜莎犬",
+     "美国斗牛梗",
+     "斯坦福斗牛梗",
+     "爱尔兰猎狼犬",
+     "比特犬",
+     "罗德西亚背脊犬",
+     "苏俄牧羊犬",
+     "比利时牧羊犬",
+     "澳大利亚牧羊犬",
+     "纽芬兰犬",
+     "可蒙犬",
+     "罗威纳犬",
+     "圣伯纳犬",
+     "法国狼犬",
+     "昆明狼犬",
+     "德国牧羊犬",
+     "英国斗牛犬",
+     "英国老式斗牛犬",
+     "美国斗牛犬",
+     "牛头梗",
+     "德国杜宾犬"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade",
+    "pet_bathroom"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "怕热"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "户外街区可落地行走，有宠物饮水装置和拾便器，经常举办宠物主题活动，可偶遇“镇宠”柴犬祥仔和云宝。"
   }
  },
  "p_ba06af96fb": {
@@ -3084,6 +5310,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供宠物水碗和免费小块鸡胸肉零食，周末建议提前2天预约"
   }
  },
  "p_cfe50ce855": {
@@ -3128,6 +5388,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "店内有常驻狗狗，提供宠物菜单和水碗，适合喜欢热闹社交的狗狗。"
   }
  },
  "p_737aa4c78d": {
@@ -3164,6 +5458,79 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "藏獒",
+     "纽波利顿",
+     "巴西菲勒",
+     "波尔多",
+     "杜高",
+     "英国斗牛獒犬",
+     "英国獒犬",
+     "中亚牧羊犬",
+     "高加索犬",
+     "西班牙加纳利犬",
+     "日本土佐犬",
+     "标准牛头梗",
+     "卡斯罗犬",
+     "韩国杜莎犬",
+     "美国斗牛梗",
+     "斯坦福斗牛梗",
+     "爱尔兰猎狼犬",
+     "比特犬",
+     "罗德西亚背脊犬",
+     "苏俄牧羊犬",
+     "比利时牧羊犬",
+     "澳大利亚牧羊犬",
+     "纽芬兰犬",
+     "可蒙犬",
+     "罗威纳犬",
+     "圣伯纳犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "猎鹿犬",
+     "威玛猎犬",
+     "波音达猎犬",
+     "捷克狼犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "收费制乐园，建议提前通过官方渠道购票",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "占地8000平米的专业宠物乐园，设有宠物泳池、5000平米草坪和洗护区，近期新增宠物摄影服务。"
   }
  },
  "p_ebd856227e": {
@@ -3220,6 +5587,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "烈性犬",
+     "异宠"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "拥有2万平米草坪，宠物可尽情奔跑，需签署承诺书并全程牵绳。"
   }
  },
  "p_a24b2c4e6a": {
@@ -3269,6 +5673,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "河岸步道宽敞，适合狗狗长时间散步和奔跑，周边有宠物友好餐厅和咖啡馆可供选择。"
   }
  },
  "p_1e942e5c79": {
@@ -3327,6 +5760,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "广阔绿地和湖泊，适合狗狗尽情奔跑和玩耍"
   }
  },
  "p_61ecde0807": {
@@ -3371,6 +5834,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade",
+    "grass_area",
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "开放式滨水绿道，适合牵绳遛狗散步，周边有宠物友好设施。"
   }
  },
  "p_323de2ff56": {
@@ -3419,6 +5915,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "pet_bathroom",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "设有专门的宠物厕所和超大草坪，适合狗狗尽情奔跑玩耍。"
   }
  },
  "p_eef8ff80c6": {
@@ -3455,6 +5983,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供超大室外封闭草坪供狗狗撒欢，店内有宠物餐单和水碗，是狗狗的快乐老家。"
   }
  },
  "p_a82c194f68": {
@@ -3495,6 +6059,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有大片草坪可供狗狗尽情奔跑玩耍"
   }
  },
  "p_6d2e75b533": {
@@ -3559,6 +6152,33 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "规划中的宠物友好商业体，将联合宠物超市举办宠物社交活动，设有户外口袋公园和屋顶露台。"
   }
  },
  "p_96ef1d1cae": {
@@ -3595,6 +6215,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费提供宠物尿布",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "性格温顺的狗狗"
+   ],
+   "not_for": [
+    "高能量犬",
+    "怕生狗"
+   ],
+   "pet_hook": "提供免费宠物尿布和水碗，店员会主动与狗狗互动，狗狗社交氛围好。"
   }
  },
  "p_42f557d7c8": {
@@ -3652,6 +6307,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物推车，店内有宠物专属奶茶和免费零食，并连接宠物友好咖啡馆"
   }
  },
  "p_11d079abfd": {
@@ -3688,6 +6382,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_photo",
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物推车租赁、免费宠物纸尿裤和饮水点，火星宠物超市可试穿宠物服装并体验互动全息投影。"
   }
  },
  "p_6c714b37d8": {
@@ -3724,6 +6453,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "中型犬",
+    "大型犬",
+    "小型犬"
+   ],
+   "not_for": [
+    "怕热"
+   ],
+   "pet_hook": "坡峰岭水峪村免费路线明确允许宠物进入，环境清幽，适合狗狗徒步，可尽情撒欢。"
   }
  },
  "p_21110fb903": {
@@ -3764,6 +6527,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "广阔草坪和花海，适合狗狗尽情奔跑和野餐露营。"
   }
  },
  "p_0339422f6f": {
@@ -3808,6 +6604,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 45,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗",
+    "高能量犬"
+   ],
+   "pet_hook": "商场内设有宠物店，并提供宠物推车租赁服务，但宠物不可落地，需全程在推车或背包中。"
   }
  },
  "p_d5ce8f2834": {
@@ -3860,6 +6691,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "整体对宠物友好，许多餐厅提供外摆座位，适合带狗狗一起散步休闲。"
   }
  },
  "p_f324165a45": {
@@ -3900,6 +6765,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "门口有专为狗狗撒欢准备的大片草坪，紧邻适合遛狗的徒步小径，客房内提供宠物围栏和专用洗脚区。"
   }
  },
  "p_ac75f6faf7": {
@@ -3936,6 +6837,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "swimming_pool",
+    "indoor_pet_zone",
+    "large_open_space",
+    "pet_bathroom",
+    "shower"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "喜欢社交的狗狗",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "入住有狗狗用品大礼包，提供狗碗狗窝，有分区的草坪、泳池、海洋球等娱乐设施，晚餐有小狗菜单，店员会主动给狗狗拍照并关心狗狗状态。"
   }
  },
  "p_50e355a58a": {
@@ -3980,6 +6921,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": null,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "可为爱犬购买祈福牌，并在宠物谷的大草坪撒欢"
   }
  },
  "p_a14a283253": {
@@ -4020,6 +6996,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "烈性犬",
+     "其他具有攻击性的宠物"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "设有专门的宠物休息区域和遮阳棚，路面平坦宽阔方便漫步"
   }
  },
  "p_95c1684763": {
@@ -4068,6 +7081,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "位于宠物友好园区内，有大片草坪和户外座位，适合宠物自由活动和主人休憩。"
   }
  },
  "p_5751640ac4": {
@@ -4112,6 +7160,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "收费携带宠物",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供独立小院、宠物食盆和零食，狗狗可在院子里自由玩耍，部分房型有私汤泡池可供宠物使用。"
   }
  },
  "p_2b0eace99e": {
@@ -4160,6 +7244,32 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "需提前告知民宿工作人员",
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "民宿工作人员热情友好，如需携带宠物入住，需提前告知。"
   }
  },
  "p_7f6e314947": {
@@ -4196,6 +7306,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "怕生狗"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "许多店铺设有外摆区，部分咖啡馆会主动提供水碗，适合牵绳小型犬在户外区域活动。"
   }
  },
  "p_8586391e91": {
@@ -4240,6 +7387,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "怕生狗"
+   ],
+   "not_for": [
+    "高能量犬"
+   ],
+   "pet_hook": "有老爷爷可以定制宠物印章，许多咖啡馆和文创店有户外座位可供宠物休息"
   }
  },
  "p_82821d21b3": {
@@ -4314,6 +7497,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "拥有开阔草坪供狗狗尽情奔跑，入园需签署宠物承诺书并全程牵绳。"
   }
  },
  "p_c35c192d82": {
@@ -4366,6 +7586,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_bathroom",
+    "shower"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "平谷国际桃花节设有“桃宠共欢”主题活动，提供宠物互动专区、宠物比赛、宠物讲座、宠物义诊美容服务，并有宠物友好型酒店和民宿可供选择。"
   }
  },
  "p_0f22d33d39": {
@@ -4402,6 +7660,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "pet_bathroom",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗",
+    "高能量犬"
+   ],
+   "pet_hook": "提供宠物专属礼包、定制小窝，有专用洗脚区和宠物围栏"
   }
  },
  "p_c96492eaac": {
@@ -4442,6 +7735,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "坡度平缓，适合狗狗尽情撒野的广阔山林步道"
   }
  },
  "p_ebeb642cc7": {
@@ -4491,6 +7816,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗",
+    "怕热"
+   ],
+   "pet_hook": "设有1500平米独立宠物乐园，狗狗可自由奔跑，是人宠共享美食与露营乐趣的理想场所。"
   }
  },
  "p_9abf808424": {
@@ -4527,6 +7890,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": null,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "明确允许携带宠物入内就餐，适合行为稳定的小、中型犬，建议避开高峰时段或提前与店家沟通。"
   }
  },
  "p_bf3bc17c20": {
@@ -4575,6 +7969,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "pet_bed",
+    "pet_drinking_area",
+    "pet_leash_hooks"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "性格温顺的中型犬"
+   ],
+   "not_for": [
+    "高能量犬",
+    "怕生狗",
+    "大型犬"
+   ],
+   "pet_hook": "提供免费“爪布奇诺”和宠物休息站，户外区域设有宠物专属座位、杯槽、牵引绳挂钩及便便专区。"
   }
  },
  "p_e1424ec86e": {
@@ -4620,6 +8054,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter",
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "宠物游泳池单次收费50元/只，犬只入园10元/犬，游人免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "超十万平米的纯种犬主题乐园，集训练、美容、寄养、泳池于一体，狗狗可尽情奔跑玩耍。"
   }
  },
  "p_4e43150c31": {
@@ -4668,6 +8139,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 50,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "商场和酒店普遍欢迎宠物，部分餐厅允许宠物入内，进入室内建议使用宠物推车或抱起小型犬，诺岚酒店提供宠物友好客房。"
   }
  },
  "p_dcd6612e12": {
@@ -4712,6 +8216,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "indoor_pet_zone"
+   ],
+   "services": [
+    "grooming_onsite"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "华北线下最大的宠物市场，提供一站式宠物用品、食品采购服务，可带自家宠物交流玩耍。"
   }
  },
  "p_c524ba1a7b": {
@@ -4748,6 +8289,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "拥有400平米超大露台，为宠物提供充足活动空间，视野开阔，并提供水盆。"
   }
  },
  "p_7da9d8f109": {
@@ -4808,6 +8378,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "全市首个免费宠物友好公园，内设大中小犬分区及跳圈、木桩等游乐设施，是狗狗社交的好去处。"
   }
  },
  "p_93893d6715": {
@@ -4864,6 +8472,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade",
+    "swimming_pool"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "店内有两只可爱的柯基犬，民宿前台是柯基主题咖啡厅，可撸狗。"
   }
  },
  "p_24304559f1": {
@@ -4916,6 +8559,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "欢迎猫狗入住，费用全免，提供带私密庭院的房型方便狗狗活动"
   }
  },
  "p_18415e8a41": {
@@ -4962,6 +8634,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "pet_bathroom",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "有超大草坪和专门的宠物卫生间，适合狗狗尽情奔跑撒欢。"
   }
  },
  "p_fc84c9ab63": {
@@ -5015,6 +8718,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "设有宠物饮水点、停狗处，并有火星宠物超市提供宠物用品和活动空间"
   }
  },
  "p_2840bb84a7": {
@@ -5063,6 +8800,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "室内主用餐区完全开放，提供免费清水和小块鸡胸肉零食，可为宠物办生日派对。"
   }
  },
  "p_e30f44e5c7": {
@@ -5111,6 +8882,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "空间巨大，是北京通州区遛狗胜地，可尽情奔跑撒欢。"
   }
  },
  "p_63ec9cfaf3": {
@@ -5151,6 +8958,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [
+    "幼犬",
+    "老年犬"
+   ],
+   "pet_hook": "沿途看到特别多带狗带猫爬山的，适合精力旺盛的狗狗。"
   }
  },
  "p_7b30f10049": {
@@ -5195,6 +9034,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "null",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "设有大小犬分区、独立泳池和自助洗护区，宠物可自由奔跑撒欢儿、戏水游泳。"
   }
  },
  "p_8cba157610": {
@@ -5243,6 +9122,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "swimming_pool",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "幼犬",
+    "高能量犬"
+   ],
+   "pet_hook": "允许携带宠物狗，但需提前申请，且不收取额外费用。酒店提供宠物围栏和粪便处理专用盒。"
   }
  },
  "p_e99ba2bfa7": {
@@ -5279,6 +9191,33 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": null,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "独栋四合院自带院落，提供相对安全、封闭的活动区域。"
   }
  },
  "p_853a0cb8d1": {
@@ -5331,6 +9270,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "每次入住押金 5000 元，服务型动物免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "酒店允许携带狗狗入住，并提供食物碗和水碗，每间房间都有私人庭院。"
   }
  },
  "p_52c751f108": {
@@ -5383,6 +9356,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "首只宠物100元/次，额外宠物50元/只/次",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供宠物碗，入住需提供狂犬病免疫证书复印件"
   }
  },
  "p_aa6d1eb913": {
@@ -5435,6 +9439,36 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "需额外付费，具体费用请咨询酒店",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "欢迎10公斤以下猫狗入住，需出示疫苗证，提供宠物碗。"
   }
  },
  "p_9b054da994": {
@@ -5493,6 +9527,48 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "indoor_pet_zone",
+    "large_open_space",
+    "shower"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物自助餐、专属泳池、洗护服务，房间内有狗窝和宠物厕所，并有大小狗分区乐园。"
   }
  },
  "p_d90c515058": {
@@ -5537,6 +9613,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "会收取额外费用，具体费用需咨询酒店",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "提供独门独院的私汤小院，部分房型可携带宠物，但需将宠物放置于专用包中进出酒店公共区域，且仅限在客房内活动。"
   }
  },
  "p_eb1fc01cd9": {
@@ -5589,6 +9696,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "私汤小院有独立封闭庭院，酒店内有5000㎡萌宠戏雪乐园和森林公园可供宠物活动"
   }
  },
  "p_8dc26fdbe1": {
@@ -5629,6 +9767,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "RMB100/晚",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "提供宠物围栏和粪便处理专用盒，宠物仅限在客房内活动，外出需装宠物包或牵绳抱起。"
   }
  },
  "p_3d1306825f": {
@@ -5672,6 +9841,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "每晚233元人民币，外加232元一次性清洁费（入住宠物友好房则不收取清洁费）",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "幼犬",
+    "老年犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "pet_hook": "酒店提供宠物友好客房，并提供食碗和水碗。"
   }
  },
  "p_e06137d587": {
@@ -5724,6 +9929,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "每个房车都有一片自己的草坪区域，可以烧烤，小狗可以荡秋千。"
   }
  },
  "p_e4b7a9ace0": {
@@ -5760,6 +10003,30 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": null,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "明确标注“狗狗友好”的农家院，可以体验地道的农家生活和美食，预订前建议电话联系老板确认携宠入住的具体要求，注意户外防虫。"
   }
  },
  "p_fdee7409a4": {
@@ -5816,6 +10083,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "null",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "院子宽敞，狗狗可以自由奔跑，无需牵绳"
   }
  },
  "p_64dd650c16": {
@@ -5852,6 +10148,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space",
+    "swimming_pool"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "提供狗狗自助餐、狗狗泳池和自助洗护服务，小院和果园封闭安全，并有贴心的宠物托管服务和接送服务。"
   }
  },
  "p_f1b1205dc8": {
@@ -5903,6 +10230,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "shower",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有5000平米草坪和140平米宠物专属泳池，提供宠物摄影服务"
   }
  },
  "p_74c56b48b1": {
@@ -5943,6 +10307,78 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧羊犬",
+     "巴仙吉犬",
+     "澳洲牧羊犬",
+     "比利时牧羊犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "小镇内有两只柴犬“祥仔”“云宝”作为“镇宠”，可与它们偶遇互动。"
   }
  },
  "p_2da70ea938": {
@@ -5995,6 +10431,78 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧羊犬",
+     "巴仙吉犬",
+     "澳洲牧羊犬",
+     "比利时牧羊犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": true
+   },
+   "best_for": [
+    "小型犬",
+    "幼犬",
+    "老年犬",
+    "怕生狗"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "为流浪动物提供线下展示和领养机会，志愿者会核实待领养动物的疫苗和驱虫证明，确保健康亲人。"
   }
  },
  "p_5bb56493b1": {
@@ -6031,6 +10539,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [
+    "pet_bathroom"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "集赛事、市集、公益义诊于一体的大型宠物盛会，倡导科学文明养宠，提供宠物自由撒欢儿社交新空间。"
   }
  },
  "p_f4f8bb68cd": {
@@ -6107,6 +10650,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "large_open_space"
+   ],
+   "services": [
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "幼犬",
+    "老年犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "首都城区首个宠物生活方式展，突破性实现活体进馆展示，打造人宠共生城市文明新标杆。"
   }
  },
  "p_3331dbc5db": {
@@ -6159,6 +10741,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "现场有众多宠物品牌提供试吃、互动和福利，是宠物主社交、购物和体验的嘉年华。"
   }
  },
  "p_66712aadf3": {
@@ -6204,6 +10821,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "原梨园狗市升级，是全国首家宠物元宇宙沉浸式宠物商业中心，可带宠物入内欢乐畅游，定期举办萌宠T台等活动。"
   }
  },
  "p_d05dde7a2a": {
@@ -6252,6 +10900,79 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "罗威纳犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "德国牧羊犬",
+     "比利时牧羊犬",
+     "澳洲牧羊犬",
+     "阿富汗猎犬",
+     "爱尔兰狼犬",
+     "荷兰毛狮犬",
+     "牛头梗",
+     "伯恩山犬",
+     "英国斗牛犬",
+     "大白熊犬",
+     "威玛猎犬",
+     "雪达犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧羊犬",
+     "巴仙吉犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "古典英国牧羊犬",
+     "松狮犬",
+     "斑点犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": "10元/犬，游人免费；宠物游泳池单次单只50元/票",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "国内规模宏大的纯种犬文化主题公园，设有宠物泳池、美容、寄养等专业设施。"
   }
  },
  "p_51c20dcd19": {
@@ -6308,6 +11029,80 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧养犬",
+     "巴仙吉犬",
+     "澳洲牧养犬",
+     "比利时牧养犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "large_open_space",
+    "outdoor_seating",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "grooming_onsite",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "园区内有宠物友好咖啡厅“超级小狗计划”，提供宠物洗美、咖啡和原创周边，还有热情好客的“狗老板”迎接顾客。"
   }
  },
  "p_227167d218": {
@@ -6353,6 +11148,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 50,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "拥有大片户外草坪，适合狗狗玩耍和拍照，提供宠物专属菜单和水碗。"
   }
  },
  "p_c1a806dc8c": {
@@ -6393,6 +11228,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大室外封闭草坪，狗狗可尽情撒欢跑酷，室内有奶油风治愈空间可供人宠共享下午茶。"
   }
  },
  "p_dbebff10a2": {
@@ -6437,6 +11309,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [
+    "怕生狗",
+    "高能量犬"
+   ],
+   "pet_hook": "提供免费“爪布奇诺”和宠物专用水，部分门店有宠物派对、生日会、领养日等活动。"
   }
  },
  "p_10d05495a1": {
@@ -6497,6 +11406,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "800平米中央大草坪，是市中心遛狗社交的好去处"
   }
  },
  "p_ed2da6c5fc": {
@@ -6545,6 +11486,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费提供宠物纸尿裤和饮水点",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "商场内有火星宠物超市，提供宠物推车租赁、免费纸尿裤和饮水点，顶楼露台有宠物友好咖啡馆。"
   }
  },
  "p_2f13e0a039": {
@@ -6581,6 +11560,30 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "小红书上有网友分享带宠物在店内用餐的经历，但未提及具体宠物政策细节，建议提前电话预约并告知携带宠物。"
   }
  },
  "p_065635f371": {
@@ -6637,6 +11640,45 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "怕生狗"
+   ],
+   "not_for": [
+    "高能量犬"
+   ],
+   "pet_hook": "提供免费“爪布奇诺”和饮用水，户外区域设有牵引绳挂钩和宠物专属垃圾桶。"
   }
  },
  "p_d521730662": {
@@ -6681,6 +11723,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "占地40亩，被誉为“狗狗版迪士尼”，是集宠物互动、露营休闲于一体的综合乐园。"
   }
  },
  "p_4af78236be": {
@@ -6737,6 +11813,47 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "pet_bathroom",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "怕热",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "园区内设有宠物饮水点和休息区，部分区域有跳杆、跳圈等宠物游乐设施。"
   }
  },
  "p_4cd5c341ee": {
@@ -6773,6 +11890,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "入住时服务人员会给毛孩子准备小零食",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物友好房型和带围起来的院子，毛孩子可以随便撒欢，前台会准备小零食。"
   }
  },
  "p_2eefdb8330": {
@@ -6817,6 +11966,42 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大户外封闭草坪，狗狗可自由奔跑，提供宠物专属饮品和零食。"
   }
  },
  "p_0cec3ddfc5": {
@@ -6861,6 +12046,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "门口有草坪可供遛狗，店内提供水碗，建议提前预订并告知会携带宠物以便安排合适座位。"
   }
  },
  "p_d6d8d4e685": {
@@ -6901,6 +12119,83 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧养犬",
+     "巴仙吉犬",
+     "澳洲牧养犬",
+     "比利时牧养犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗",
+     "比特犬",
+     "捷克狼犬",
+     "拳师犬",
+     "马犬",
+     "昆明狼犬",
+     "重庆犬（川东猎犬）"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "超大面积宠物友好空间，毛孩子的社交撒欢天地，有专业摄影服务"
   }
  },
  "p_e739cf5f3b": {
@@ -6941,6 +12236,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "设有1500平米的独立宠物活动区，可以吃饭、露营和遛狗"
   }
  },
  "p_8677eb788f": {
@@ -6985,6 +12312,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "幼犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大室外封闭草坪，能让幼犬安全地尽情奔跑和社交，店内提供宠物零食和宠物友好饮品。"
   }
  },
  "p_371a0e50c0": {
@@ -7025,6 +12390,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "城市里的小森林，适合带狗狗爬山和尽情撒欢。"
   }
  },
  "p_9251655b7c": {
@@ -7073,6 +12467,32 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": null,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "推出专为猫狗设计的宠物蛋糕，需至少提前24小时预订。"
   }
  },
  "p_12001b6693": {
@@ -7117,6 +12537,32 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "提供露营风帐篷和星空泡泡屋，宠物可进入陪伴主人，体验城市露营氛围。"
   }
  },
  "p_fe54c3b815": {
@@ -7161,6 +12607,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "位于朝阳公园内，提供帐篷和树屋，为宠物提供城市中心的森林活动空间，并有咖啡屋提供宠物饮水。"
   }
  },
  "p_473184a130": {
@@ -7230,6 +12710,38 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "提供专门的宠物菜单，让宠物也能共享美食时光。"
   }
  },
  "p_aaa075c438": {
@@ -7278,6 +12790,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 40,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "独门独院，有超大庭院供宠物奔跑，且支持自助烧烤，免费提供烤炉炭火。"
   }
  },
  "p_7bd33385f8": {
@@ -7318,6 +12864,34 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬"
+   ],
+   "not_for": [
+    "活泼好动的犬只"
+   ],
+   "pet_hook": "与店家充分沟通后可携带行为良好的小型犬"
   }
  },
  "p_55004db076": {
@@ -7354,6 +12928,33 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "拥有精致庭院，宠物可在庭院用餐区活动，建议提前预定庭院座位。"
   }
  },
  "p_357d543213": {
@@ -7402,6 +13003,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "部分分店允许宠物进入，通常会安排外摆或独立区域，店内有可爱的浣熊作为“镇店神兽”。"
   }
  },
  "p_5f470913c9": {
@@ -7446,6 +13080,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": true,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "店内提供宠物水盆和专属菜单，会员公狗免费提供纸尿裤。"
   }
  },
  "p_656aaae139": {
@@ -7482,6 +13151,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "老年犬"
+   ],
+   "not_for": [
+    "高能量犬"
+   ],
+   "pet_hook": "公园内有PAWSBAR爪吧宠物乐园，提供宠物洗护和摄影服务，还有草地、滑梯、泳池等设施供宠物玩耍。"
   }
  },
  "p_32b9861013": {
@@ -7538,6 +13241,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": null,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "园区内有宠物友好咖啡厅，提供宠物洗美服务和狗狗图案咖啡甜点，部分商家会主动给狗狗倒水。"
   }
  },
  "p_5a62e4b108": {
@@ -7586,6 +13326,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "幼犬",
+    "老年犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有超大室外封闭草坪，狗狗可尽情撒欢跑酷，室内可抱狗喝咖啡。"
   }
  },
  "p_03288af390": {
@@ -7646,6 +13424,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "shower"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "2万平米超大宠物冰雪乐园，设专属雪道、雪地寻宝、敏捷拉力赛等趣味项目，配套专业宠物洗护中心，不定期发放宠物零食、玩具。"
   }
  },
  "p_2c77449539": {
@@ -7698,6 +13509,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "fenced_area",
+    "large_open_space"
+   ],
+   "services": [
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "设有宠物专属戏雪区和宠物寄养服务，是北京目前唯一支持宠物入园的滑雪场，方便主人滑雪和狗狗玩乐。"
   }
  },
  "p_c439934b24": {
@@ -7738,6 +13580,41 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "超大面积围栏式宠物乐园，有草地、滑梯、泳池，提供宠物摄影服务"
   }
  },
  "p_2a78bed741": {
@@ -7782,6 +13659,40 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "冬季可带宠物参与冰雪嘉年华，有萌宠乐园和缓坡雪道嬉雪区。"
   }
  },
  "p_efdf6a446a": {
@@ -7826,6 +13737,37 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space"
+   ],
+   "services": [
+    "pet_menu",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "收费携带宠物",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物餐食和活动空间，小院和果园封闭安全，可托管小狗并接送音乐节。"
   }
  },
  "p_246cda0d9f": {
@@ -7866,6 +13808,35 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "宠物可在草地上自由活动，近距离接触小羊、小马、鸡鸭鹅等农场动物"
   }
  },
  "p_dd9cdc169e": {
@@ -7906,6 +13877,78 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧养犬",
+     "巴仙吉犬",
+     "澳洲牧养犬",
+     "比利时牧养犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "outdoor_seating",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "怕热"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "拥有1.2万平方米城市森林空间，户外餐饮区可携宠，并有丽卡宠物入驻。"
   }
  },
  "p_a9998368e2": {
@@ -7946,6 +13989,49 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "烈性犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭",
+    "怕热"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "超大户外草坪和专业宠物泳池，近期新增宠物摄影服务，可一站式洗护拍照"
   }
  },
  "p_05b9028311": {
@@ -7986,6 +14072,51 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "比特斗牛梗",
+     "阿根廷杜告狗",
+     "巴西非拉狗",
+     "日本土佐犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_dessert",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "超大室外封闭草坪，狗狗可以尽情撒欢跑酷，店内提供宠物零食和饮品，可人宠共享下午茶。"
   }
  },
  "p_e377193579": {
@@ -8034,6 +14165,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "提供2000平米封闭式大草坪供狗狗撒欢，早餐会给狗狗送鸡蛋，退房送小礼品。"
   }
  },
  "p_2825bc29f1": {
@@ -8074,6 +14242,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "grooming_onsite",
+    "pet_sitter"
+   ],
+   "fees": {
+    "pet_extra_fee": "单次入场50元/人（狗），会员898元/年（含两人两狗全年门票），泳池、寄养等服务单独收费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "社交型犬只",
+    "高能量犬",
+    "多狗家庭",
+    "怕热"
+   ],
+   "not_for": [],
+   "pet_hook": "超8000平米一站式专业宠物乐园，5000平米草坪和140平米宠物泳池，适合狗狗尽情奔跑玩耍和社交。"
   }
  },
  "p_9cfd64d3d3": {
@@ -8122,6 +14328,30 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": null,
+    "leash_required": null,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": null,
+    "sterilization_required": null
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "798艺术区整体对宠物友好，但慢时光手作体验馆的具体宠物政策需电话咨询确认。"
   }
  },
  "p_378ccc7029": {
@@ -8182,6 +14412,30 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [],
+   "not_for": [],
+   "pet_hook": "WeWork全球政策历史上对宠物友好，但具体社区政策可能不同，需提前致电核实。"
   }
  },
  "p_41fa948fdb": {
@@ -8218,6 +14472,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬"
+   ],
+   "not_for": [],
+   "pet_hook": "D.A.O coffee多家分店明确为宠物友好，空间宽敞，适合带宠物一同休闲放松，店家会主动提供水碗。"
   }
  },
  "p_47e9e11e88": {
@@ -8266,6 +14553,81 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": [
+     "獒犬",
+     "德国杜宾犬",
+     "圣伯纳犬",
+     "大丹犬",
+     "大白熊犬",
+     "波恩山犬",
+     "罗威纳犬",
+     "威玛猎犬",
+     "雪达犬",
+     "阿富汗猎犬",
+     "猎狐犬",
+     "寻血猎犬",
+     "爱尔兰狼犬",
+     "沙克犬",
+     "灵缇",
+     "苏俄牧羊犬",
+     "巴仙吉犬",
+     "澳洲牧羊犬",
+     "比利时牧羊犬",
+     "法兰德斯牧羊犬",
+     "长须牧羊犬",
+     "苏格兰牧羊犬",
+     "德国牧羊犬",
+     "古典英国牧羊犬",
+     "英国斗牛犬",
+     "松狮犬",
+     "斑点犬",
+     "荷兰毛狮犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "雪橇犬",
+     "贝林登梗",
+     "伯德梗",
+     "牛头梗",
+     "凯利兰梗"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "拥有专门的宠物乐园“一朵萌云”和“PawsBar爪吧”，内含宠物草坪和泳池。"
   }
  },
  "p_dc735371c8": {
@@ -8310,6 +14672,46 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu",
+    "pet_dessert",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "提供宠物推车，店内有宠物专属奶茶、鲜食和免费零食，并设有宠物艺术品专区和拍照场景。"
   }
  },
  "p_b0c803adde": {
@@ -8358,6 +14760,44 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space"
+   ],
+   "services": [
+    "pet_bathroom",
+    "grooming_onsite",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "宠物节期间提供1200亩绿野草坪供宠物游园，并设有宠物医生、美容师、摄影师等有偿服务。"
   }
  },
  "p_165cf0fba0": {
@@ -8406,6 +14846,39 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "烈性犬"
+   ],
+   "pet_hook": "拥有1.2万平方米城市森林绿地，并引入宠物社交品牌丽卡宠物"
   }
  },
  "p_ca5a9214b3": {
@@ -8442,7 +14915,41 @@
   },
   "lat": 39.944324,
   "lng": 116.463583,
-  "geo_source": "nominatim"
+  "geo_source": "nominatim",
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬"
+   ],
+   "pet_hook": "服务员会主动提供免费的宠物水碗和小块鸡胸肉零食"
+  }
  },
  "p_62fc3c917e": {
   "id": "p_62fc3c917e",
@@ -8483,6 +14990,43 @@
     }
    ],
    "checked_at": "2026-05-27"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_menu",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "包含在套餐内，约80-120元/人",
+    "sterilization_required": null
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "店内有专门的狗狗零食菜单可供购买喂食，为宠物社交提供了便利，狗狗可自由活动。"
   }
  },
  "p_6f77521352": {
@@ -8519,6 +15063,43 @@
   },
   "lat": 39.927666,
   "lng": 116.458169,
-  "geo_source": "nominatim"
+  "geo_source": "nominatim",
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": null,
+    "diaper_required": false,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "large_open_space"
+   ],
+   "services": [
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "与火星宠物超市共享空间，可直接带宠物进入咖啡店，提供饮水碗，是宠物社交的热门场所。"
+  }
  }
 }

@@ -103,6 +103,101 @@ async function loadMd(slug) {
   return text;
 }
 
+// ===== pet feature → display tags =====
+const PET_FACILITY_LABEL = {
+  grass_area:       '🌿 草坪',
+  fenced_area:      '🚧 围栏',
+  swimming_pool:    '🏊 宠物泳池',
+  indoor_pet_zone:  '🏠 室内宠物区',
+  outdoor_seating:  '🌳 户外位',
+  pet_bathroom:     '🚽 宠物厕所',
+  shower:           '🚿 冲洗',
+  large_open_space: '🌅 大开放空间',
+  tree_shade:       '🌴 树荫',
+};
+const PET_SERVICE_LABEL = {
+  water_bowl:       '💧 水碗',
+  free_treats:      '🦴 免费狗零食',
+  pet_menu:         '🍽 宠物餐单',
+  pet_dessert:      '🍰 宠物甜品',
+  grooming_onsite:  '✂️ 美容',
+  pet_sitter:       '👥 寄养',
+  pet_photo:        '📷 宠物摄影',
+};
+function petTagsHtml(p, max) {
+  if (max == null) max = 5;
+  const f = p.pet_features;
+  if (!f) return '';
+  const tags = [];
+  if (f.size_limit && f.size_limit.large_dog_allowed === true)  tags.push('🐕 大型犬OK');
+  if (f.size_limit && f.size_limit.large_dog_allowed === false) tags.push('🐕 仅小中型');
+  (f.facilities || []).forEach(k => { if (PET_FACILITY_LABEL[k]) tags.push(PET_FACILITY_LABEL[k]); });
+  (f.services   || []).forEach(k => { if (PET_SERVICE_LABEL[k])  tags.push(PET_SERVICE_LABEL[k]); });
+  if (f.access && f.access.diaper_required)     tags.push('🩴 需穿尿不湿');
+  if (f.access && f.access.vaccination_proof)   tags.push('🆔 需免疫本');
+  if (f.access && f.access.carrier_required)    tags.push('🎒 需航空箱');
+  return tags.slice(0, max).map(t => `<span class="pet-tag">${escapeHtml(t)}</span>`).join('');
+}
+function petHookHtml(p) {
+  const h = p.pet_features && p.pet_features.pet_hook;
+  if (!h) return '';
+  return `<div class="pet-hook">★ ${escapeHtml(h)}</div>`;
+}
+
+function petFeaturesHtml(p) {
+  const f = p.pet_features;
+  if (!f) return '';
+  const rows = [];
+
+  // facilities
+  const fac = (f.facilities || []).map(k => PET_FACILITY_LABEL[k]).filter(Boolean);
+  if (fac.length) rows.push(['🏗 设施', fac.join(' · ')]);
+
+  // services
+  const svc = (f.services || []).map(k => PET_SERVICE_LABEL[k]).filter(Boolean);
+  if (svc.length) rows.push(['🐾 服务', svc.join(' · ')]);
+
+  // size limit
+  const sz = f.size_limit || {};
+  const szParts = [];
+  if (sz.large_dog_allowed === true) szParts.push('大型犬可');
+  else if (sz.large_dog_allowed === false) szParts.push('仅小中型');
+  if (sz.max_shoulder_height_cm) szParts.push(`肩高≤${sz.max_shoulder_height_cm}cm`);
+  if (sz.banned_breeds && sz.banned_breeds.length) szParts.push(`禁: ${sz.banned_breeds.join('/')}`);
+  if (szParts.length) rows.push(['🐕 体型政策', szParts.join(' · ')]);
+
+  // access rules
+  const a = f.access || {};
+  const ruleParts = [];
+  if (a.indoor_allowed === false || a.outdoor_only) ruleParts.push('仅户外');
+  if (a.leash_required) ruleParts.push('必牵绳');
+  if (a.diaper_required) ruleParts.push('需穿尿不湿');
+  if (a.carrier_required) ruleParts.push('需航空箱');
+  if (a.vaccination_proof) ruleParts.push('查免疫本');
+  if (ruleParts.length) rows.push(['⚠ 准入规则', ruleParts.join(' · ')]);
+
+  // fees
+  const fees = f.fees || {};
+  if (fees.pet_extra_fee && fees.pet_extra_fee !== 'null') {
+    rows.push(['💰 宠物相关费用', String(fees.pet_extra_fee)]);
+  }
+  if (fees.sterilization_required) {
+    rows.push(['ℹ️ 其它', '需绝育']);
+  }
+
+  // best / not for
+  if (f.best_for && f.best_for.length) rows.push(['✅ 适合', f.best_for.join(' · ')]);
+  if (f.not_for && f.not_for.length)   rows.push(['🚫 不适合', f.not_for.join(' · ')]);
+
+  if (rows.length === 0) return '';
+  return `
+    <div class="section-title">宠物友好详情</div>
+    <div class="md-body pet-features">
+      ${rows.map(([k, v]) => `<div class="pf-row"><span class="pf-key">${escapeHtml(k)}</span><span class="pf-val">${escapeHtml(v)}</span></div>`).join('')}
+    </div>
+  `;
+}
+
 // ===== geo helpers =====
 function haversineKm(a, b) {
   if (!a || !b || typeof a.lat !== 'number' || typeof b.lat !== 'number') return 0;
@@ -362,13 +457,17 @@ function poiCardHtml(p) {
   const sources = dedupeSourcesByHost(p.sources).slice(0, 3).map(s =>
     `<a class="poi-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '原文')}</a>`
   ).join('');
+  const tags = petTagsHtml(p, 4);
+  const hook = petHookHtml(p);
   return `
     <a class="poi-card" href="#/poi/${p.id}">
       <div class="poi-icon">${icon}</div>
       <div class="poi-body">
         <div class="poi-name">${escapeHtml(p.name)}${p.district ? `<span class="poi-district">· ${escapeHtml(p.district)}</span>` : ''}</div>
         ${freshnessPillHtml(p)}
-        ${p.why_friendly ? `<p class="poi-why">${escapeHtml(p.why_friendly)}</p>` : ''}
+        ${hook}
+        ${tags ? `<div class="pet-tags">${tags}</div>` : ''}
+        ${p.why_friendly && !hook ? `<p class="poi-why">${escapeHtml(p.why_friendly)}</p>` : ''}
         ${p.price_hint ? `<div class="poi-meta">💰 ${escapeHtml(p.price_hint)}</div>` : ''}
         ${p.tips ? `<div class="poi-meta poi-meta-tip">⚠️ ${escapeHtml(p.tips)}</div>` : ''}
         ${sources ? `<div class="poi-sources">${sources}</div>` : ''}
@@ -650,10 +749,13 @@ function renderPoiDetail(id) {
           ${p.freshness.checked_at ? `<div style="font-size:11px;color:#9CA3AF;margin-top:4px;">北京宠物路书核查于 ${escapeHtml(p.freshness.checked_at)}</div>` : ''}
         </div>
       ` : ''}
+      ${petHookHtml(p)}
       ${p.why_friendly ? `<p>${escapeHtml(p.why_friendly)}</p>` : ''}
       ${p.price_hint ? `<p>💰 ${escapeHtml(p.price_hint)}</p>` : ''}
       ${p.tips ? `<p style="color:#b76a2a;">⚠️ ${escapeHtml(p.tips)}</p>` : ''}
     </div>
+
+    ${petFeaturesHtml(p)}
 
     ${(p.sources && p.sources.length) ? `
       <div class="section-title">数据来源</div>
@@ -952,7 +1054,14 @@ async function callGemini(form, apiKey, proxyUrl) {
   let pool = Object.values(cityPois());
   if (wantCats.size) pool = pool.filter(p => wantCats.has(p.category));
   if (form.district && form.district !== '不限') pool = pool.filter(p => p.district === form.district);
-  if (form.size === 'large') pool = pool.filter(p => p.category !== 'mall');
+  if (form.size === 'large') {
+    pool = pool.filter(p => {
+      if (p.category === 'mall') return false;
+      const sl = p.pet_features && p.pet_features.size_limit;
+      if (sl && sl.large_dog_allowed === false) return false;
+      return true;
+    });
+  }
   // 必须有坐标，否则无法算通勤
   pool = pool.filter(p => typeof p.lat === 'number' && typeof p.lng === 'number');
 
@@ -976,12 +1085,28 @@ async function callGemini(form, apiKey, proxyUrl) {
     mall: 90, petpark: 100, hotel: 0, vet: 30,
   };
 
-  const pickedPool = pool.map(p => ({
-    id: p.id, name: p.name, category: p.category, district: p.district,
-    address: p.address_hint, why: p.why_friendly, tips: p.tips, price: p.price_hint,
-    lat: p.lat, lng: p.lng,
-    stay_min: STAY_MIN[p.category] || 60,
-  }));
+  const pickedPool = pool.map(p => {
+    const f = p.pet_features || {};
+    const compact = {
+      id: p.id, name: p.name, category: p.category, district: p.district,
+      address: p.address_hint, why: p.why_friendly, tips: p.tips, price: p.price_hint,
+      lat: p.lat, lng: p.lng,
+      stay_min: STAY_MIN[p.category] || 60,
+    };
+    // 把 pet_features 压成"扁平特征"字段，节省 token
+    if (f.pet_hook) compact.pet_hook = f.pet_hook;
+    if (f.facilities && f.facilities.length) compact.facilities = f.facilities;
+    if (f.services && f.services.length) compact.services = f.services;
+    if (f.size_limit) {
+      if (f.size_limit.large_dog_allowed != null) compact.large_dog_ok = f.size_limit.large_dog_allowed;
+    }
+    if (f.access) {
+      if (f.access.indoor_allowed === false || f.access.outdoor_only) compact.outdoor_only = true;
+      if (f.access.diaper_required) compact.diaper_required = true;
+    }
+    if (f.best_for && f.best_for.length) compact.best_for = f.best_for;
+    return compact;
+  });
 
   const sizeLabel = { small: '小型', medium: '中型', large: '大型' }[form.size] || form.size;
   const whenScaffold = {
@@ -1149,9 +1274,10 @@ function renderMap() {
 
   // Filter chips (category)
   const cats = Object.keys(POI_CAT_LABEL);
-  const filter = JSON.parse(sessionStorage.getItem('map-filter') || '{"cats":[],"district":""}');
+  const filter = JSON.parse(sessionStorage.getItem('map-filter') || '{"cats":[],"district":"","pet":[]}');
   const activeCats = new Set(filter.cats || []);
   const activeDistrict = filter.district || '';
+  const activePet = new Set(filter.pet || []);   // 例如：'large_dog' 'grass' 'pet_menu' 'indoor'
 
   const districts = [...new Set(Object.values(cityPoiMap).map(p => p.district).filter(Boolean))].sort();
 
@@ -1184,6 +1310,18 @@ function renderMap() {
         <div class="chip ${!activeDistrict ? 'active' : ''}" data-district="">全部区域</div>
         ${districts.map(d => `<div class="chip ${activeDistrict === d ? 'active' : ''}" data-district="${d}">${d}</div>`).join('')}
       </div>
+
+      <div class="filter-row">
+        ${[
+          ['large_dog',   '🐕 大型犬OK'],
+          ['grass',       '🌿 草坪'],
+          ['indoor',      '🏠 室内可'],
+          ['water_bowl',  '💧 水碗'],
+          ['pet_menu',    '🍽 宠物餐'],
+          ['fenced',      '🚧 围栏'],
+          ['pool',        '🏊 宠物泳池'],
+        ].map(([k, l]) => `<div class="chip ${activePet.has(k) ? 'active' : ''}" data-pet="${k}">${l}</div>`).join('')}
+      </div>
     </div>
 
     <div id="map" style="height: 70vh; min-height: 480px; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); position: relative;">
@@ -1205,15 +1343,20 @@ function renderMap() {
   };
   $$('.filter-row .chip').forEach(c => {
     c.addEventListener('click', () => {
-      if (c.dataset.all === '1') return updateFilter({ cats: [], district: activeDistrict });
+      const base = { cats: [...activeCats], district: activeDistrict, pet: [...activePet] };
+      if (c.dataset.all === '1') return updateFilter({ ...base, cats: [] });
       if (c.dataset.cat) {
-        const cats = new Set(activeCats);
-        if (cats.has(c.dataset.cat)) cats.delete(c.dataset.cat);
-        else cats.add(c.dataset.cat);
-        return updateFilter({ cats: [...cats], district: activeDistrict });
+        const s = new Set(activeCats);
+        s.has(c.dataset.cat) ? s.delete(c.dataset.cat) : s.add(c.dataset.cat);
+        return updateFilter({ ...base, cats: [...s] });
       }
       if (c.dataset.district !== undefined) {
-        return updateFilter({ cats: [...activeCats], district: c.dataset.district });
+        return updateFilter({ ...base, district: c.dataset.district });
+      }
+      if (c.dataset.pet) {
+        const s = new Set(activePet);
+        s.has(c.dataset.pet) ? s.delete(c.dataset.pet) : s.add(c.dataset.pet);
+        return updateFilter({ ...base, pet: [...s] });
       }
     });
   });
@@ -1227,10 +1370,25 @@ function renderMap() {
   });
 
   // Build markers
+  const matchPet = (p, key) => {
+    const f = p.pet_features;
+    if (!f) return false;
+    switch (key) {
+      case 'large_dog':  return f.size_limit && f.size_limit.large_dog_allowed === true;
+      case 'grass':      return (f.facilities || []).includes('grass_area');
+      case 'fenced':     return (f.facilities || []).includes('fenced_area');
+      case 'pool':       return (f.facilities || []).includes('swimming_pool');
+      case 'indoor':     return f.access && f.access.indoor_allowed === true;
+      case 'water_bowl': return (f.services || []).includes('water_bowl');
+      case 'pet_menu':   return (f.services || []).includes('pet_menu');
+    }
+    return false;
+  };
   const points = Object.values(cityPoiMap).filter(p => {
     if (typeof p.lat !== 'number' || typeof p.lng !== 'number') return false;
     if (activeCats.size && !activeCats.has(p.category)) return false;
     if (activeDistrict && p.district !== activeDistrict) return false;
+    if (activePet.size && ![...activePet].every(k => matchPet(p, k))) return false;
     return true;
   });
 

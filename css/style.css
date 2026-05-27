@@ -567,6 +567,51 @@ button { font-family: inherit; cursor: pointer; }
   -webkit-tap-highlight-color: rgba(255, 122, 61, 0.1);
 }
 
+/* ============ Pet feature tags & hook ============ */
+.pet-hook {
+  font-size: 13px;
+  color: var(--primary-deep);
+  background: var(--primary-soft);
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin: 6px 0;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.pet-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 0;
+}
+.pet-tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: 12px;
+  background: #F0F7FF;
+  color: #2B6FB5;
+  border: 1px solid #D5E5FA;
+  white-space: nowrap;
+}
+.pet-features .pf-row {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.pet-features .pf-row:last-child { border-bottom: none; }
+.pet-features .pf-key {
+  flex: 0 0 96px;
+  color: var(--text-soft);
+}
+.pet-features .pf-val {
+  flex: 1;
+  color: var(--text);
+}
+
 /* ============ Plan tabs (personalize multi-plan) ============ */
 .plan-tabs {
   display: flex;
