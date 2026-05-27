@@ -64,13 +64,23 @@ export default {
     if (!model.startsWith('gemini-')) {
       return json({ error: 'invalid model name' }, 400, request, env);
     }
+    const incomingGen = body.generationConfig || {};
     const safeBody = {
       contents: body.contents,
       generationConfig: {
-        temperature: clamp(body.generationConfig && body.generationConfig.temperature, 0, 1, 0.5),
-        maxOutputTokens: clamp(body.generationConfig && body.generationConfig.maxOutputTokens, 1, 8192, 4096),
+        temperature: clamp(incomingGen.temperature, 0, 1, 0.5),
+        maxOutputTokens: clamp(incomingGen.maxOutputTokens, 1, 8192, 4096),
       },
     };
+    // Pass-through thinkingConfig (Gemini 2.5 thinking control) — clamp budget
+    if (incomingGen.thinkingConfig && typeof incomingGen.thinkingConfig === 'object') {
+      const budget = incomingGen.thinkingConfig.thinkingBudget;
+      if (typeof budget === 'number') {
+        safeBody.generationConfig.thinkingConfig = {
+          thinkingBudget: Math.max(0, Math.min(24576, budget)),
+        };
+      }
+    }
     // Only allow google_search tool (not anything custom)
     if (Array.isArray(body.tools)) {
       const t = body.tools.filter(x => x && x.google_search).slice(0, 1);

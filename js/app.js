@@ -947,7 +947,12 @@ ${JSON.stringify(pickedPool, null, 2)}
 
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.5, maxOutputTokens: 1500 },
+    generationConfig: {
+      temperature: 0.5,
+      // 关掉 Gemini 2.5 的 thinking 模式（不然思考过程吃光 token，输出被截断）
+      thinkingConfig: { thinkingBudget: 0 },
+      maxOutputTokens: 4096,  // 给输出充裕空间，~300 字中文绰绰有余
+    },
   };
   let url;
   if (proxyUrl) {
