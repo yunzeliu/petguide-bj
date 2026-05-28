@@ -223,6 +223,30 @@ function coverImageUrl(poi, w) {
   return poi.photo_url || null;
 }
 
+// 8 套养宠人友好的暖色渐变，每个 POI 按 id 哈希确定性挑一套
+const POI_PALETTES = [
+  { from: '#FFD9C2', to: '#FF9F66' },   // 暖橙
+  { from: '#FFEBC7', to: '#FFCB7A' },   // 蜂蜜黄
+  { from: '#FFD5D8', to: '#FF95A2' },   // 樱花粉
+  { from: '#FFE0CC', to: '#FFAA82' },   // 桃肉
+  { from: '#E2F1D6', to: '#A6CC8B' },   // 抹茶绿
+  { from: '#D9EBFF', to: '#92B8E8' },   // 雾蓝
+  { from: '#EDDDFF', to: '#BFA0EE' },   // 薰衣紫
+  { from: '#FFE5BC', to: '#F0B26C' },   // 焦糖
+];
+function poiPalette(poi) {
+  return POI_PALETTES[hashCode(poi.id) % POI_PALETTES.length];
+}
+// 每个 category 对应的大插画 emoji（比小 icon 更出彩）
+const CATEGORY_BIG = {
+  park:       '🌳', water: '🏞️', hike: '⛰️', camp: '🏕️',
+  cafe:       '☕', restaurant: '🍽️', hotel: '🏡', mall: '🛍️',
+  petpark:    '🐕', vet: '🩺',
+};
+function bigCategoryGlyph(poi) {
+  return CATEGORY_BIG[poi.category] || '🐾';
+}
+
 // ===== pet feature → display tags =====
 const PET_FACILITY_LABEL = {
   grass_area:       '🌿 草坪',
@@ -582,10 +606,15 @@ function poiCardHtml(p) {
   const distText = km != null ? `📍 ${formatKm(km)}` : '';
   const drive = km != null ? formatDriveMin(km) : '';
   const photo = coverImageUrl(p, 400);
+  const pal = poiPalette(p);
+  const bigGlyph = bigCategoryGlyph(p);
+  const coverStyle = photo ? '' : `style="background: linear-gradient(135deg, ${pal.from}, ${pal.to});"`;
   return `
     <a class="poi-card" href="#/poi/${p.id}">
-      <div class="poi-cover ${photo ? '' : 'cover-fallback'}">
-        ${photo ? `<img src="${escapeHtml(photo)}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none';this.parentElement.classList.add('cover-fallback');">` : ''}
+      <div class="poi-cover ${photo ? '' : 'cover-illus'}" ${coverStyle}>
+        ${photo
+          ? `<img src="${escapeHtml(photo)}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none';this.parentElement.classList.add('cover-illus');this.parentElement.style.background='linear-gradient(135deg, ${pal.from}, ${pal.to})';">`
+          : `<div class="poi-cover-glyph">${bigGlyph}</div>`}
         <div class="poi-cover-icon">${icon}</div>
         ${p.pet_features && p.pet_features.size_limit && p.pet_features.size_limit.large_dog_allowed === true
           ? '<div class="poi-cover-badge">🐕 大型犬OK</div>'
@@ -925,8 +954,10 @@ function renderPoiDetail(id) {
   ` : '';
 
   $('#app').innerHTML = `
-    <section class="poi-banner ${coverImageUrl(p, 1200) ? '' : 'banner-fallback'}">
-      ${coverImageUrl(p, 1200) ? `<img class="poi-banner-img" src="${escapeHtml(coverImageUrl(p, 1200))}" loading="eager" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">` : `<div class="poi-banner-emoji">${icon}</div>`}
+    <section class="poi-banner ${coverImageUrl(p, 1200) ? '' : 'banner-fallback'}"${coverImageUrl(p, 1200) ? '' : ` style="background: linear-gradient(135deg, ${poiPalette(p).from}, ${poiPalette(p).to});"`}>
+      ${coverImageUrl(p, 1200)
+        ? `<img class="poi-banner-img" src="${escapeHtml(coverImageUrl(p, 1200))}" loading="eager" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">`
+        : `<div class="poi-banner-emoji">${bigCategoryGlyph(p)}</div>`}
       <div class="poi-banner-overlay"></div>
       <div class="poi-banner-info">
         <div class="poi-banner-cat">${icon} ${escapeHtml(POI_CAT_LABEL[p.category] || '')}</div>
