@@ -154,6 +154,77 @@ async function loadMd(slug) {
   return text;
 }
 
+// ===== POI cover image system =====
+// 按 category 精选 Unsplash 真实照片（每个 POI 按 id 哈希确定性选一张）
+// 全部为商业 free-to-use 的 CC0 图片
+const COVER_PHOTOS = {
+  park: [
+    'photo-1517423440428-a5a00ad493e8', 'photo-1505761671935-60b3a7427bad',
+    'photo-1500382017468-9049fed747ef', 'photo-1502318217862-8b9f08e1ed3a',
+    'photo-1469474968028-56623f02e42e', 'photo-1441974231531-c6227db76b6e',
+  ],
+  cafe: [
+    'photo-1495474472287-4d71bcdd2085', 'photo-1554118811-1e0d58224f24',
+    'photo-1521017432531-fbd92d768814', 'photo-1453614512568-c4024d13c247',
+    'photo-1559925393-8be0ec4767c8', 'photo-1442512595331-e89e73853f31',
+  ],
+  restaurant: [
+    'photo-1517248135467-4c7edcad34c4', 'photo-1414235077428-338989a2e8c0',
+    'photo-1555396273-367ea4eb4db5', 'photo-1559339352-11d035aa65de',
+    'photo-1424847651672-bf20a4b0982b', 'photo-1592861956120-e524fc739696',
+  ],
+  hotel: [
+    'photo-1455587734955-081b22074882', 'photo-1611892440504-42a792e24d32',
+    'photo-1582719508461-905c673771fd', 'photo-1564501049412-61c2a3083791',
+    'photo-1551776235-dde6d482980b', 'photo-1566073771259-6a8506099945',
+  ],
+  petpark: [
+    'photo-1601758228041-f3b2795255f1', 'photo-1583512603805-3cc6b41f3edb',
+    'photo-1530281700549-e82e7bf110d6', 'photo-1561037404-61cd46aa615b',
+    'photo-1450778869180-41d0601e046e', 'photo-1568572933382-74d440642117',
+  ],
+  mall: [
+    'photo-1568667056549-094345857637', 'photo-1481437156560-3205f6a55735',
+    'photo-1519567241046-7f570eee3ce6', 'photo-1542222024-c39e2281f121',
+    'photo-1546552768-9e3a94b38a59',
+  ],
+  hike: [
+    'photo-1551632811-561732d1e306', 'photo-1465056836041-7f43ac27dcb5',
+    'photo-1464822759023-fed622ff2c3b', 'photo-1486870591958-9b9d0d1dda99',
+    'photo-1551632811-561732d1e306', 'photo-1551632811-561732d1e306',
+  ],
+  water: [
+    'photo-1500382017468-9049fed747ef', 'photo-1505144808419-1957a94ca61e',
+    'photo-1439066615861-d1af74d74000', 'photo-1559827260-dc66d52bef19',
+    'photo-1551731409-43eb3e517a1a', 'photo-1503602642458-232111445657',
+  ],
+  vet: [
+    'photo-1583337130417-3346a1be7dee', 'photo-1612531386530-97286d97c2d2',
+    'photo-1576201836106-db1758fd1c97', 'photo-1583337130417-3346a1be7dee',
+    'photo-1583337130417-3346a1be7dee', 'photo-1583337130417-3346a1be7dee',
+  ],
+  camp: [
+    'photo-1504280390367-361c6d9f38f4', 'photo-1487730116645-74489c95b41b',
+    'photo-1455763916899-e8b50eca9967', 'photo-1496080174650-637e3f22fa03',
+    'photo-1444930694458-01babe71870e', 'photo-1496080174650-637e3f22fa03',
+  ],
+};
+
+function hashCode(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h);
+}
+
+function coverImageUrl(poi, w) {
+  w = w || 600;
+  const list = COVER_PHOTOS[poi.category] || COVER_PHOTOS.park;
+  const id = list[hashCode(poi.id) % list.length];
+  return `https://images.unsplash.com/${id}?w=${w}&q=80&auto=format&fit=crop`;
+}
+
 // ===== pet feature → display tags =====
 const PET_FACILITY_LABEL = {
   grass_area:       '🌿 草坪',
@@ -507,24 +578,27 @@ function dedupeSourcesByHost(sources) {
 
 function poiCardHtml(p) {
   const icon = POI_ICON[p.category] || '📍';
-  const sources = dedupeSourcesByHost(p.sources).slice(0, 3).map(s =>
-    `<a class="poi-source-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '原文')}</a>`
-  ).join('');
-  const tags = petTagsHtml(p, 4);
-  const hook = petHookHtml(p);
-  const distPill = distancePillHtml(p);
+  const tags = petTagsHtml(p, 3);
+  const hook = (p.pet_features && p.pet_features.pet_hook) || p.why_friendly || '';
+  const km = distanceKm(p);
+  const distText = km != null ? `📍 ${formatKm(km)}` : '';
+  const drive = km != null ? formatDriveMin(km) : '';
   return `
     <a class="poi-card" href="#/poi/${p.id}">
-      <div class="poi-icon">${icon}</div>
+      <div class="poi-cover">
+        <img src="${coverImageUrl(p, 400)}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none';this.parentElement.classList.add('cover-fallback');">
+        <div class="poi-cover-icon">${icon}</div>
+        ${p.pet_features && p.pet_features.size_limit && p.pet_features.size_limit.large_dog_allowed === true
+          ? '<div class="poi-cover-badge">🐕 大型犬OK</div>'
+          : ''}
+        ${distText ? `<div class="poi-cover-dist">${distText}${drive ? ` · ${drive}` : ''}</div>` : ''}
+      </div>
       <div class="poi-body">
-        <div class="poi-name">${escapeHtml(p.name)}${p.district ? `<span class="poi-district">· ${escapeHtml(p.district)}</span>` : ''}</div>
-        ${distPill}
-        ${hook}
+        <div class="poi-name">${escapeHtml(p.name)}</div>
+        ${p.district ? `<div class="poi-district-tag">${escapeHtml(p.district)}${POI_CAT_LABEL[p.category] ? ' · ' + POI_CAT_LABEL[p.category] : ''}</div>` : ''}
+        ${hook ? `<p class="poi-hook-text">${escapeHtml(hook)}</p>` : ''}
         ${tags ? `<div class="pet-tags">${tags}</div>` : ''}
         ${freshnessPillHtml(p)}
-        ${p.price_hint ? `<div class="poi-meta">💰 ${escapeHtml(p.price_hint)}</div>` : ''}
-        ${p.tips ? `<div class="poi-meta poi-meta-tip">⚠️ ${escapeHtml(p.tips)}</div>` : ''}
-        ${sources ? `<div class="poi-sources">${sources}</div>` : ''}
       </div>
     </a>
   `;
@@ -852,18 +926,21 @@ function renderPoiDetail(id) {
   ` : '';
 
   $('#app').innerHTML = `
-    <section class="poi-detail-head">
-      <div class="poi-detail-icon">${icon}</div>
-      <h1 class="poi-detail-name">${escapeHtml(p.name)}</h1>
-      <div class="poi-detail-loc">
-        ${p.district ? escapeHtml(p.district) + '区' : ''}${p.address_hint ? ' · ' + escapeHtml(p.address_hint) : ''}
-      </div>
-      ${distPill ? `<div class="poi-detail-dist">${distPill}</div>` : ''}
-      <div class="actions">
-        <button class="btn btn-ghost" id="fav-poi-btn">${isFav ? '★ 已收藏' : '☆ 收藏'}</button>
-        <button class="btn btn-primary" id="share-poi-btn">📤 复制链接</button>
+    <section class="poi-banner">
+      <img class="poi-banner-img" src="${coverImageUrl(p, 1200)}" loading="eager" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">
+      <div class="poi-banner-overlay"></div>
+      <div class="poi-banner-info">
+        <div class="poi-banner-cat">${icon} ${escapeHtml(POI_CAT_LABEL[p.category] || '')}</div>
+        <h1 class="poi-banner-name">${escapeHtml(p.name)}</h1>
+        <div class="poi-banner-loc">${p.district ? escapeHtml(p.district) + '区' : ''}${p.address_hint ? ' · ' + escapeHtml(p.address_hint) : ''}</div>
+        ${distPill ? `<div class="poi-banner-dist">${distPill}</div>` : ''}
       </div>
     </section>
+
+    <div class="poi-actions-row">
+      <button class="btn btn-ghost" id="fav-poi-btn">${isFav ? '★ 已收藏' : '☆ 收藏'}</button>
+      <button class="btn btn-primary" id="share-poi-btn">📤 复制链接</button>
+    </div>
 
     ${petHookHtml(p) ? `<div class="md-body">${petHookHtml(p)}</div>` : ''}
 

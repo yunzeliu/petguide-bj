@@ -3,19 +3,21 @@
   --primary-soft: #FFE9DC;
   --primary-deep: #E45F1F;
   --secondary: #4FB5A5;
-  --bg: #FAFAF9;
+  --warm-cream: #FFF7EE;     /* 偏暖底色 */
+  --warm-tan: #F5E8D9;
+  --bg: #FAF7F2;             /* 改成暖米色而非冷灰白 */
   --card: #FFFFFF;
-  --text-strong: #1F2937;
-  --text: #374151;
-  --text-soft: #6B7280;
-  --text-mute: #9CA3AF;
-  --border: #ECEEF2;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
-  --shadow: 0 4px 14px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
-  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
-  --radius: 12px;
-  --radius-lg: 18px;
-  --max: 760px;
+  --text-strong: #2A1F18;    /* 略暖的黑 */
+  --text: #4A3B30;
+  --text-soft: #7A6657;
+  --text-mute: #B0A091;
+  --border: #EDE5DA;         /* 暖色边框 */
+  --shadow-sm: 0 1px 3px rgba(70, 40, 20, 0.04), 0 1px 2px rgba(70, 40, 20, 0.03);
+  --shadow: 0 4px 14px rgba(70, 40, 20, 0.06), 0 1px 3px rgba(70, 40, 20, 0.04);
+  --shadow-lg: 0 12px 32px rgba(70, 40, 20, 0.08);
+  --radius: 14px;
+  --radius-lg: 20px;
+  --max: 880px;
 }
 
 * { box-sizing: border-box; }
@@ -341,35 +343,118 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 13px;
 }
 
-/* ============ POI list ============ */
-.poi-list { display: grid; gap: 10px; }
+/* ============ POI list (vertical image-first cards) ============ */
+.poi-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+@media (min-width: 600px) {
+  .poi-list { grid-template-columns: repeat(3, 1fr); gap: 14px; }
+}
+@media (min-width: 900px) {
+  .poi-list { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+}
+
 .poi-card {
-  display: flex;
-  gap: 14px;
+  display: block;
   background: var(--card);
-  border-radius: var(--radius);
-  padding: 14px 16px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
   box-shadow: var(--shadow-sm);
   cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.2s;
-  align-items: flex-start;
+  transition: transform 0.18s, box-shadow 0.25s;
+  text-decoration: none;
+  color: inherit;
 }
-.poi-card:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
-.poi-icon {
-  width: 44px; height: 44px;
-  border-radius: 10px;
-  background: var(--primary-soft);
+.poi-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+
+.poi-cover {
+  aspect-ratio: 4 / 3;
+  position: relative;
+  background: linear-gradient(135deg, var(--primary-soft), var(--warm-tan));
+  overflow: hidden;
+}
+.poi-cover img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s;
+}
+.poi-card:hover .poi-cover img { transform: scale(1.04); }
+.poi-cover.cover-fallback::before {
+  content: '🐾';
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
-  flex-shrink: 0;
+  font-size: 56px;
+  opacity: 0.45;
 }
-.poi-body { flex: 1; min-width: 0; }
+.poi-cover-icon {
+  position: absolute;
+  top: 8px; left: 8px;
+  width: 30px; height: 30px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+.poi-cover-badge {
+  position: absolute;
+  top: 8px; right: 8px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.poi-cover-dist {
+  position: absolute;
+  bottom: 8px; right: 8px;
+  background: rgba(40, 25, 15, 0.7);
+  color: #fff;
+  font-size: 10.5px;
+  padding: 3px 9px;
+  border-radius: 11px;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.poi-body {
+  padding: 11px 12px 14px;
+}
 .poi-name {
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 600;
   color: var(--text-strong);
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.poi-district-tag {
+  font-size: 11px;
+  color: var(--text-mute);
+  margin-top: 3px;
+}
+.poi-hook-text {
+  font-size: 12px;
+  color: var(--text-soft);
+  line-height: 1.45;
+  margin: 6px 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .poi-district {
   font-size: 12px;
@@ -569,10 +654,35 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ============ PawsPath specific ============ */
 .hero-paws {
+  position: relative;
   background: linear-gradient(135deg, #FFEAD6 0%, #FFB892 100%);
+  overflow: hidden;
 }
-.hero-paws h1 { font-size: 24px; margin: 0 0 6px; }
-.hero-paws p  { font-size: 13px; margin: 0; opacity: 0.85; line-height: 1.55; }
+.hero-paws::before {
+  content: '';
+  position: absolute;
+  top: -20px; right: -30px;
+  width: 180px; height: 180px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='%23FFFFFF' opacity='0.25'><ellipse cx='50' cy='55' rx='22' ry='18'/><ellipse cx='25' cy='32' rx='9' ry='11'/><ellipse cx='42' cy='22' rx='8' ry='10'/><ellipse cx='58' cy='22' rx='8' ry='10'/><ellipse cx='75' cy='32' rx='9' ry='11'/></g></svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  transform: rotate(15deg);
+}
+.hero-paws::after {
+  content: '';
+  position: absolute;
+  bottom: -50px; left: 20%;
+  width: 110px; height: 110px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='%23FFFFFF' opacity='0.18'><ellipse cx='50' cy='55' rx='22' ry='18'/><ellipse cx='25' cy='32' rx='9' ry='11'/><ellipse cx='42' cy='22' rx='8' ry='10'/><ellipse cx='58' cy='22' rx='8' ry='10'/><ellipse cx='75' cy='32' rx='9' ry='11'/></g></svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  transform: rotate(-25deg);
+}
+.hero-paws > * { position: relative; z-index: 1; }
+.hero-paws h1 { font-size: 26px; margin: 0 0 6px; font-weight: 700; color: #2A1F18; }
+.hero-paws p  { font-size: 13px; margin: 0; opacity: 0.85; line-height: 1.55; color: #4A3B30; }
 .hero-cta {
   margin-top: 14px;
   display: flex;
@@ -620,7 +730,7 @@ button { font-family: inherit; cursor: pointer; }
   cursor: not-allowed;
 }
 
-/* POI detail head */
+/* POI detail head — legacy (keep for back-compat) */
 .poi-detail-head {
   margin: -8px -4px 20px;
   padding: 28px 22px;
@@ -632,6 +742,88 @@ button { font-family: inherit; cursor: pointer; }
 .poi-detail-name { font-size: 22px; font-weight: 700; color: var(--text-strong); margin: 0; }
 .poi-detail-loc { font-size: 13px; color: var(--text-soft); margin-top: 4px; }
 .poi-detail-dist { margin-top: 10px; }
+
+/* POI detail banner (new) */
+.poi-banner {
+  position: relative;
+  margin: -8px -4px 12px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 280px;
+  background: linear-gradient(135deg, #FFD4B8, #FF9F66);
+}
+.poi-banner-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.poi-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(20,12,6,0.78) 100%);
+}
+.poi-banner-info {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 20px 22px 18px;
+  color: #fff;
+}
+.poi-banner-cat {
+  font-size: 12px;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(8px);
+  padding: 3px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.poi-banner-name {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 4px;
+  line-height: 1.25;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.poi-banner-loc {
+  font-size: 13px;
+  opacity: 0.92;
+}
+.poi-banner-dist {
+  margin-top: 8px;
+}
+.poi-banner-dist .dist-pill {
+  background: rgba(255,255,255,0.95);
+  color: var(--primary-deep);
+  border: none;
+}
+
+.poi-actions-row {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+.poi-actions-row .btn { flex: 1; }
+
+/* ============ Paw print background decoration ============ */
+.paw-deco {
+  position: relative;
+}
+.paw-deco::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 100px;
+  height: 100px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g fill='%23FFE5D5' opacity='0.5'><ellipse cx='50' cy='55' rx='22' ry='18'/><ellipse cx='25' cy='32' rx='9' ry='11'/><ellipse cx='42' cy='22' rx='8' ry='10'/><ellipse cx='58' cy='22' rx='8' ry='10'/><ellipse cx='75' cy='32' rx='9' ry='11'/></g></svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 0;
+}
 
 .map-jump {
   display: flex;
