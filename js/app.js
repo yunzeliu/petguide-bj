@@ -219,10 +219,8 @@ function hashCode(s) {
 }
 
 function coverImageUrl(poi, w) {
-  w = w || 600;
-  const list = COVER_PHOTOS[poi.category] || COVER_PHOTOS.park;
-  const id = list[hashCode(poi.id) % list.length];
-  return `https://images.unsplash.com/${id}?w=${w}&q=80&auto=format&fit=crop`;
+  // 只用真实门店照片；没有就返回 null，前端走 emoji + 渐变（不放误导性占位图）
+  return poi.photo_url || null;
 }
 
 // ===== pet feature → display tags =====
@@ -583,10 +581,11 @@ function poiCardHtml(p) {
   const km = distanceKm(p);
   const distText = km != null ? `📍 ${formatKm(km)}` : '';
   const drive = km != null ? formatDriveMin(km) : '';
+  const photo = coverImageUrl(p, 400);
   return `
     <a class="poi-card" href="#/poi/${p.id}">
-      <div class="poi-cover">
-        <img src="${coverImageUrl(p, 400)}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none';this.parentElement.classList.add('cover-fallback');">
+      <div class="poi-cover ${photo ? '' : 'cover-fallback'}">
+        ${photo ? `<img src="${escapeHtml(photo)}" loading="lazy" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none';this.parentElement.classList.add('cover-fallback');">` : ''}
         <div class="poi-cover-icon">${icon}</div>
         ${p.pet_features && p.pet_features.size_limit && p.pet_features.size_limit.large_dog_allowed === true
           ? '<div class="poi-cover-badge">🐕 大型犬OK</div>'
@@ -926,8 +925,8 @@ function renderPoiDetail(id) {
   ` : '';
 
   $('#app').innerHTML = `
-    <section class="poi-banner">
-      <img class="poi-banner-img" src="${coverImageUrl(p, 1200)}" loading="eager" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">
+    <section class="poi-banner ${coverImageUrl(p, 1200) ? '' : 'banner-fallback'}">
+      ${coverImageUrl(p, 1200) ? `<img class="poi-banner-img" src="${escapeHtml(coverImageUrl(p, 1200))}" loading="eager" decoding="async" alt="${escapeHtml(p.name)}" onerror="this.style.display='none'">` : `<div class="poi-banner-emoji">${icon}</div>`}
       <div class="poi-banner-overlay"></div>
       <div class="poi-banner-info">
         <div class="poi-banner-cat">${icon} ${escapeHtml(POI_CAT_LABEL[p.category] || '')}</div>
