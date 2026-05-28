@@ -145,13 +145,17 @@ def process(p):
     pid = p["id"]
     # Skip if already have a LOCAL photo
     if (p.get("photo_url") or "").startswith("data/photos/"):
-        return {"pid": pid, "skip": True}
+        return {"pid": pid, "skip": True, "reason": "already have"}
+    # Skip if we already tried and failed (avoid burning API quota on every daily run)
+    if p.get("photo_attempted"):
+        return {"pid": pid, "skip": True, "reason": "previously failed"}
+
     res = find_place(p.get("name", ""), p.get("district", ""))
     if not res:
-        return {"pid": pid, "ok": False, "reason": "not found / no photos"}
+        return {"pid": pid, "ok": False, "reason": "not found / no photos", "mark_attempted": True}
     save_path = os.path.join(PHOTOS_DIR, f"{pid}.jpg")
     if not download_photo(res["photo_reference"], save_path):
-        return {"pid": pid, "ok": False, "reason": "download failed"}
+        return {"pid": pid, "ok": False, "reason": "download failed", "mark_attempted": True}
     return {
         "pid": pid,
         "ok": True,
@@ -182,14 +186,13 @@ def main():
                 pois[pid]["photo_url"] = r["photo_url"]
                 pois[pid]["photo_attribution"] = r["photo_attribution"]
                 pois[pid]["google_place_id"] = r["google_place_id"]
-                # Optionally update lat/lng to Google's more accurate one
-                # Comment out if you want to preserve original Photon coords
-                # pois[pid]["lat"] = r["google_lat"]; pois[pid]["lng"] = r["google_lng"]
                 n_ok += 1
                 attr = (r.get("photo_attribution") or "")[:30]
                 print(f"  [{n_ok}] OK   {name:24} | by {attr}", flush=True)
             else:
                 n_fail += 1
+                if r.get("mark_attempted"):
+                    pois[pid]["photo_attempted"] = True
                 print(f"  -    fail {name:24} | {r.get('reason')}", flush=True)
             # checkpoint every 25
             if (n_ok + n_fail) % 25 == 0:

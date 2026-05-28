@@ -32,6 +32,16 @@ jobs:
         run: |
           python scripts/daily_update.py
 
+      - name: Fetch Google Maps photos for new POIs
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          if [ -n "$GOOGLE_MAPS_API_KEY" ]; then
+            python scripts/fetch_google_photos.py
+          else
+            echo "GOOGLE_MAPS_API_KEY not set, skipping photo fetch"
+          fi
+
       - name: Commit and push if changed
         run: |
           git config user.email "daily-bot@petguide.local"
