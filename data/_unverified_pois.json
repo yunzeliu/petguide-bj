@@ -63,7 +63,23 @@
   "lat": 39.956892,
   "lng": 116.513809,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月未找到东风公园明确的宠物友好政策更新。北京市公园普遍对宠物有严格限制。",
+   "sources": [
+    {
+     "name": "可进公园遛狗？不妨多听听群众的意见| 津报早评 - 新浪财经",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwjO5chbpgvYGOGw1BAb9E4wOPXHhDAtDw-BX33M6Kqdkb5hAqpABZQ010FZTpFAeydzf5qmvm6ctZrY-isKuDPyfCUG9D-j2ObKONlYzaGNXd6_WRK3weFB_H-4RXhbnyemt_genCngh8YkwebL9Fh1SSYQoo4eqalhThAQ=="
+    },
+    {
+     "name": "汉坤知苑| 特别策划：宠物与法律系列——宠物友好场所的合规边界与实务指引 - 腾讯新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrizkAVTeUzXa3ciNIPNoN4E34QQaOfqzEFDigAGfJLw_jo7XcSTC3RdjwShhrGlAXZ6jnWezuA2UrNd2CM-rdsCoa3I5hfm2zcYGhNtzNb2EyZNKUZVSL5tA39CvtJGvjdbifafY=="
+    }
+   ],
+   "checked_at": "2026-05-28"
+  },
+  "_drop_reason": "unclear"
  },
  "p_2eea71b98b": {
   "id": "p_2eea71b98b",
@@ -2271,31 +2287,6 @@
   },
   "_drop_reason": "unclear"
  },
- "p_c35b9be04e": {
-  "id": "p_c35b9be04e",
-  "name": "密云君澜度假酒店",
-  "category": "hotel",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "密云",
-  "address_hint": "溪翁庄镇，近万科弗农小镇",
-  "why_friendly": "官方明确标注“宠物友好”，拥有8000平米巨大草坪供宠物活动。",
-  "tips": "预订前务必电话确认最新宠物政策、收费标准及活动范围。",
-  "price_hint": "人均 800+ / 晚",
-  "sources": [
-   {
-    "url": "https://m.ctrip.com/html5/hotel/hoteldetail/91995220.html",
-    "name": "携程酒店"
-   }
-  ],
-  "route_slugs": [
-   "district-miyun"
-  ],
-  "lat": 40.375103,
-  "lng": 116.837184,
-  "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
- },
  "p_285c0497ae": {
   "id": "p_285c0497ae",
   "name": "鹿鸣营地",
@@ -2744,7 +2735,35 @@
   "lat": 40.112002,
   "lng": 116.703256,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-04",
+   "note": "公园开放，但近6个月内无明确信息表明其仍对宠物友好，近期宠物友好公园列表未提及。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmp9eTJ8r3ZIePlsONrW3TIVAho-TXEq77sJVYzpFLGAWJMKQeQJ_q4nGxgvPf9c0Cco3HACSssN8m7wPmchPfMWIArJy2PICbLawhlAlGgXlI_hRfuU-0fs4t-fmHMvVsq3wZ-qSXZYpo6T_4f-TV2vfmgSPSOn3orsPfd60kdkICuR8C4Q=="
+    },
+    {
+     "name": "国家林业和草原局",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiiVl1ca5JGgSsz7DUbiVcKq_oZk8L5L9d64nSDSB9ep5qbaDj__xVAodBL4p8C-kI9MsuTL69YPcroSp8O1zwEpEuhKSbx_Lg4y9LtZlii2rUCGphzh4mTHyLbxjaeaS_AT6jszCOb16oVVfOzA=="
+    },
+    {
+     "name": "豆瓣",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_tQnRYRF7SNz0hNinRLpq1DA13O-eWL1xrHxapVHPO9zW4Id2-cToez4k4_dJVOlE8kYRxWHYNgQBM0EpKu_fhSDRinGSAPA4q6q_yMdHLY93GeWnEPXXp7adPd0UwAvnow7YC5o=="
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxOkQn2hVT3xQYInCqiaIo711CTYlOjyGP_YtW-dtV5KauQpez9EglBl1zU1svEgmaZE2hCIQKuR9tYzZ0EpXvG9_SPDN_iiczFlqtlGU1Wj4KpTmCFnNr6nzqf5R1RyAq9JInpLF77Ew9d_eUqw=="
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK7BqYj7eZuM0HPlP_uIOjqFplzZn71CLx8BgMSZ6FHVCLa0c8bbrkFL0vAbz_xrwGW_16p-gLimFnJLSzEBekALZ_xnqRPCrr6BCjIJ2WR9LD3ZptPDN_6mXzySCbKQ=="
+    }
+   ],
+   "checked_at": "2026-05-28"
+  },
+  "_drop_reason": "unclear"
  },
  "p_ad0e71a6ae": {
   "id": "p_ad0e71a6ae",
@@ -3961,31 +3980,6 @@
   "lat": 39.911675,
   "lng": 116.27051,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
- },
- "p_166a6372e2": {
-  "id": "p_166a6372e2",
-  "name": "super puppy plan 超级小狗计划",
-  "category": "cafe",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "郎园Station园区内",
-  "why_friendly": "集宠物洗美、咖啡、零售于一体的复合店，店内有店宠，氛围极佳。",
-  "tips": "周末人多，建议看管好自家宠物，避免与店宠或其他犬只冲突。",
-  "price_hint": "人均 80~120",
-  "sources": [
-   {
-    "url": "https://www.thepaper.cn/newsDetail_forward_27857218",
-    "name": "澎湃新闻"
-   }
-  ],
-  "route_slugs": [
-   "new-restaurant-2025"
-  ],
-  "lat": 39.921,
-  "lng": 116.486,
-  "geo_source": "district-centroid",
   "_drop_reason": "no_freshness_check"
  },
  "p_94b0320cd4": {
