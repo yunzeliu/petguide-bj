@@ -39,7 +39,17 @@ jobs:
           if [ -n "$GOOGLE_MAPS_API_KEY" ]; then
             python scripts/fetch_google_photos.py
           else
-            echo "GOOGLE_MAPS_API_KEY not set, skipping photo fetch"
+            echo "GOOGLE_MAPS_API_KEY not set, skipping Google photo fetch"
+          fi
+
+      - name: Fetch Amap photos (fallback for Google-missing POIs)
+        env:
+          AMAP_API_KEY: ${{ secrets.AMAP_API_KEY }}
+        run: |
+          if [ -n "$AMAP_API_KEY" ]; then
+            python scripts/fetch_amap_photos.py
+          else
+            echo "AMAP_API_KEY not set, skipping Amap photo fetch"
           fi
 
       - name: Commit and push if changed
