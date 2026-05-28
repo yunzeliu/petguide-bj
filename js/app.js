@@ -6,7 +6,58 @@ const STATE = {
   cities: [],       // [{key, name, count}]
   mdCache: {},      // slug -> markdown string
   loaded: false,
+  userLoc: null,    // {lat, lng} once geolocation granted
 };
+
+// ===== geolocation =====
+const BEIJING_CENTER = { lat: 39.905, lng: 116.397 };  // 默认锚点：天安门
+function loadUserLoc() {
+  try {
+    const s = sessionStorage.getItem('user-loc');
+    if (s) STATE.userLoc = JSON.parse(s);
+  } catch (e) {}
+}
+function requestLocation(force) {
+  if (!navigator.geolocation) return Promise.resolve(null);
+  if (!force && STATE.userLoc) return Promise.resolve(STATE.userLoc);
+  if (!force && sessionStorage.getItem('loc-denied')) return Promise.resolve(null);
+  return new Promise(resolve => {
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        STATE.userLoc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+        sessionStorage.setItem('user-loc', JSON.stringify(STATE.userLoc));
+        sessionStorage.removeItem('loc-denied');
+        resolve(STATE.userLoc);
+      },
+      err => {
+        sessionStorage.setItem('loc-denied', '1');
+        resolve(null);
+      },
+      { timeout: 8000, maximumAge: 600000, enableHighAccuracy: false }
+    );
+  });
+}
+function distanceKm(p) {
+  if (!STATE.userLoc || typeof p.lat !== 'number') return null;
+  return haversineKm(STATE.userLoc, p);
+}
+function formatKm(km) {
+  if (km == null) return '';
+  return km < 1 ? `${Math.round(km * 1000)} m` : `${km.toFixed(1)} km`;
+}
+function formatDriveMin(km) {
+  // city driving ~25 km/h, road factor 1.4, + 5 min buffer (parking/pickup)
+  if (km == null) return '';
+  const m = Math.round(km * 1.4 / 25 * 60 + 5);
+  if (m < 60) return `${m} 分钟`;
+  return `${Math.floor(m / 60)} 小时 ${m % 60 ? (m % 60) + ' 分' : ''}`.trim();
+}
+function distancePillHtml(p) {
+  const km = distanceKm(p);
+  if (km == null) return '';
+  const drive = formatDriveMin(km);
+  return `<span class="dist-pill">📍 ${formatKm(km)} · 🚗 ${drive}</span>`;
+}
 
 function currentCity() {
   return localStorage.getItem('city') || 'beijing';
@@ -310,13 +361,15 @@ function parseHash() {
 
 const ROUTES = [
   { match: /^\/$/,                  page: 'home',        render: renderHome },
-  { match: /^\/route\/([\w-]+)$/,   page: 'route',       render: (m) => renderRouteDetail(m[1]) },
-  { match: /^\/poi\/([\w-]+)$/,     page: 'poi',         render: (m) => renderPoiDetail(m[1]) },
+  { match: /^\/route\/([\w-]+)$/,   page: 'collections', render: (m) => renderRouteDetail(m[1]) },
+  { match: /^\/poi\/([\w-]+)$/,     page: 'home',        render: (m) => renderPoiDetail(m[1]) },
   { match: /^\/map$/,               page: 'map',         render: renderMap },
-  { match: /^\/search$/,            page: 'search',      render: renderSearch },
+  { match: /^\/collections$/,       page: 'collections', render: renderCollections },
+  { match: /^\/search$/,            page: 'home',        render: renderSearch },
   { match: /^\/personalize$/,       page: 'personalize', render: renderPersonalize },
-  { match: /^\/favs$/,              page: 'favs',        render: renderFavs },
-  { match: /^\/about$/,             page: 'about',       render: renderAbout },
+  { match: /^\/favs$/,              page: 'profile',     render: renderFavs },
+  { match: /^\/profile$/,           page: 'profile',     render: renderProfile },
+  { match: /^\/about$/,             page: 'profile',     render: renderAbout },
 ];
 
 async function route() {
@@ -329,7 +382,7 @@ async function route() {
   }
   // update active nav
   $$('.topnav a').forEach(a => a.classList.remove('active'));
-  const navMap = { home: 'home', map: 'map', search: 'search', personalize: 'personalize', about: 'about' };
+  const navMap = { home: 'home', map: 'map', collections: 'collections', personalize: 'personalize', profile: 'profile' };
   if (matched && navMap[matched.r.page]) {
     const link = $(`.topnav a[data-route="${navMap[matched.r.page]}"]`);
     if (link) link.classList.add('active');
@@ -350,7 +403,7 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', route);
+window.addEventListener('DOMContentLoaded', () => { loadUserLoc(); route(); });
 
 // ===== Service Worker registration =====
 if ('serviceWorker' in navigator) {
@@ -459,15 +512,16 @@ function poiCardHtml(p) {
   ).join('');
   const tags = petTagsHtml(p, 4);
   const hook = petHookHtml(p);
+  const distPill = distancePillHtml(p);
   return `
     <a class="poi-card" href="#/poi/${p.id}">
       <div class="poi-icon">${icon}</div>
       <div class="poi-body">
         <div class="poi-name">${escapeHtml(p.name)}${p.district ? `<span class="poi-district">· ${escapeHtml(p.district)}</span>` : ''}</div>
-        ${freshnessPillHtml(p)}
+        ${distPill}
         ${hook}
         ${tags ? `<div class="pet-tags">${tags}</div>` : ''}
-        ${p.why_friendly && !hook ? `<p class="poi-why">${escapeHtml(p.why_friendly)}</p>` : ''}
+        ${freshnessPillHtml(p)}
         ${p.price_hint ? `<div class="poi-meta">💰 ${escapeHtml(p.price_hint)}</div>` : ''}
         ${p.tips ? `<div class="poi-meta poi-meta-tip">⚠️ ${escapeHtml(p.tips)}</div>` : ''}
         ${sources ? `<div class="poi-sources">${sources}</div>` : ''}
@@ -532,115 +586,172 @@ function recommendationsHtml() {
 }
 
 // ===== home (feed) =====
-function renderHome() {
-  const filter = JSON.parse(sessionStorage.getItem('home-filter') || '{}');
-  const cat = filter.category || '';
-  const dim = filter.dim || '';
-  const city = currentCity();
+// ===== HOME — POI-first feed =====
+async function renderHome() {
+  document.title = 'PawsPath · 爪迹';
 
-  let list = cityRoutes();
-  // 默认只展示已通过近期核验的路书（verified === true）
-  list = list.filter(r => r.verified !== false);
-  if (cat) list = list.filter(r => r.category === cat);
-  if (dim) list = list.filter(r => r.dim === dim);
+  const filter = JSON.parse(sessionStorage.getItem('home-pf') || '{}');
+  const district = filter.district || '';
+  const category = filter.category || '';
+  const pet = new Set(filter.pet || []);
+  const maxKm = parseFloat(filter.maxKm) || 0;   // 0 = unlimited
+  const sort = filter.sort || (STATE.userLoc ? 'distance' : 'recent');
 
-  // city tabs (only show if more than 1 city has content)
-  const activeCities = STATE.cities.filter(c => c.count > 0);
-  const showCityTabs = activeCities.length > 1;
+  const allPois = Object.values(cityPois());
 
-  const categoryOpts = [
-    { v: '', l: '全部' },
-    { v: 'season', l: '🌸 季节场景' },
-    { v: 'district', l: '🗺️ 按区域' },
-    { v: 'dog-type', l: '🐶 按狗狗' },
-    { v: 'cat', l: '☕ 类别清单' },
-  ];
-
-  const dimOpts = {
-    season: [
-      { v: '', l: '全部' },
-      { v: 'spring', l: '春' }, { v: 'summer', l: '夏' },
-      { v: 'autumn', l: '秋' }, { v: 'winter', l: '冬' },
-      { v: 'rainy', l: '雨天' }, { v: 'camping', l: '露营' },
-      { v: 'picnic', l: '野餐' }, { v: 'morning', l: '清晨' },
-    ],
-    district: [
-      { v: '', l: '全部' },
-      ...['chaoyang','haidian','tongzhou','daxing','shunyi','changping','mentougou','fangshan']
-        .map(d => ({ v: d, l: { chaoyang:'朝阳', haidian:'海淀', tongzhou:'通州', daxing:'大兴', shunyi:'顺义', changping:'昌平', mentougou:'门头沟', fangshan:'房山' }[d] })),
-    ],
-    'dog-type': [
-      { v: '', l: '全部' },
-      { v: 'large', l: '大型犬' }, { v: 'small', l: '小型犬' },
-      { v: 'senior', l: '老年犬' }, { v: 'puppy', l: '幼犬' },
-      { v: 'family', l: '亲子带狗' }, { v: 'afterwork', l: '下班后' },
-    ],
-    cat: [
-      { v: '', l: '全部' },
-      { v: 'cafe', l: '咖啡馆' }, { v: 'restaurant', l: '餐厅' },
-      { v: 'hotel', l: '酒店民宿' }, { v: 'mall', l: '商场' },
-      { v: 'petpark', l: '宠物乐园' }, { v: 'hike', l: '徒步' },
-      { v: 'water', l: '湖河水边' }, { v: 'vet', l: '宠物医院' },
-    ],
+  // Compute candidates with filters
+  const matchPet = (p, key) => {
+    const f = p.pet_features;
+    if (!f) return false;
+    switch (key) {
+      case 'large_dog':  return f.size_limit && f.size_limit.large_dog_allowed === true;
+      case 'grass':      return (f.facilities || []).includes('grass_area');
+      case 'fenced':     return (f.facilities || []).includes('fenced_area');
+      case 'pool':       return (f.facilities || []).includes('swimming_pool');
+      case 'indoor':     return f.access && f.access.indoor_allowed === true;
+      case 'water_bowl': return (f.services || []).includes('water_bowl');
+      case 'pet_menu':   return (f.services || []).includes('pet_menu');
+      case 'free_treats':return (f.services || []).includes('free_treats');
+    }
+    return false;
   };
 
-  const app = $('#app');
-  app.innerHTML = `
-    <section class="hero">
-      <h1>和狗狗一起逛${cityName(city)} 🐶</h1>
-      <p>${list.length} 篇真实路书 · ${Object.keys(cityPois()).length} 个宠物友好地点 · 每条都附原始来源</p>
-      <div style="margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap;">
-        <a href="#/map" class="badge" style="text-decoration:none;color:inherit;">🗺️ 打开地图</a>
-        <a href="#/personalize" class="badge" style="text-decoration:none;color:inherit;">✨ AI 定制</a>
-        <a href="#/favs" class="badge" style="text-decoration:none;color:inherit;">⭐ 我的收藏</a>
+  let list = allPois.filter(p => {
+    if (district && p.district !== district) return false;
+    if (category && p.category !== category) return false;
+    if (pet.size && ![...pet].every(k => matchPet(p, k))) return false;
+    if (maxKm > 0) {
+      const km = distanceKm(p);
+      if (km == null || km > maxKm) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  if (sort === 'distance' && STATE.userLoc) {
+    list.sort((a, b) => (distanceKm(a) || 1e9) - (distanceKm(b) || 1e9));
+  } else if (sort === 'recent') {
+    list.sort((a, b) => {
+      const am = (a.freshness && a.freshness.latest_mention) || '';
+      const bm = (b.freshness && b.freshness.latest_mention) || '';
+      return ymScore(bm) - ymScore(am);
+    });
+  }
+
+  const districts = [...new Set(allPois.map(p => p.district).filter(Boolean))].sort();
+  const categoryOpts = [
+    ['', '全部'], ['park','🌳 公园'], ['cafe','☕ 咖啡馆'],
+    ['restaurant','🍽 餐厅'], ['petpark','🐾 宠物乐园'],
+    ['hotel','🏨 民宿'], ['mall','🛍 商场'],
+    ['hike','⛰️ 徒步'], ['water','🌊 水边'],
+    ['camp','⛺ 营地'], ['vet','🏥 宠物医院'],
+  ];
+  const petChips = [
+    ['large_dog',   '🐕 大型犬OK'],
+    ['indoor',      '🏠 室内可'],
+    ['grass',       '🌿 草坪'],
+    ['fenced',      '🚧 围栏'],
+    ['water_bowl',  '💧 水碗'],
+    ['pet_menu',    '🍽 宠物餐'],
+    ['free_treats', '🦴 免费零食'],
+    ['pool',        '🏊 宠物泳池'],
+  ];
+  const kmChips = [['0','不限'],['3','3km 内'],['5','5km 内'],['10','10km 内'],['30','30km 内']];
+
+  const haveLoc = !!STATE.userLoc;
+
+  $('#app').innerHTML = `
+    <section class="hero hero-paws">
+      <h1>本地带宠物去哪玩</h1>
+      <p>${allPois.length} 个已核验地点 · 每个 POI 都附设施 / 政策 / 距离</p>
+      <div class="hero-cta">
+        <button class="badge ${haveLoc ? 'badge-on' : ''}" id="loc-btn">${haveLoc ? '✓ 已定位 · 点击更新' : '📍 定位我，按距离排序'}</button>
+        <a href="#/map" class="badge">🗺️ 地图视图</a>
       </div>
     </section>
 
-    ${showCityTabs ? `
-      <div class="filter-row" id="city-row">
-        ${activeCities.map(c => `<div class="chip ${c.key === city ? 'active' : ''}" data-city="${c.key}">${c.name} · ${c.count}</div>`).join('')}
-      </div>
-    ` : ''}
-
-    ${!cat && !dim ? recommendationsHtml() : ''}
-
-    <div class="section-title">按主题</div>
     <div class="filter-row" id="cat-row">
-      ${categoryOpts.map(o => `<div class="chip ${o.v === cat ? 'active' : ''}" data-v="${o.v}">${o.l}</div>`).join('')}
+      ${categoryOpts.map(([v, l]) => `<div class="chip ${v === category ? 'active' : ''}" data-cat="${v}">${l}</div>`).join('')}
     </div>
 
-    ${cat ? `
-      <div class="filter-row" id="dim-row">
-        ${(dimOpts[cat] || []).map(o => `<div class="chip ${o.v === dim ? 'active' : ''}" data-v="${o.v}">${o.l}</div>`).join('')}
-      </div>
-    ` : ''}
+    <div class="filter-row" id="pet-row">
+      ${petChips.map(([k, l]) => `<div class="chip ${pet.has(k) ? 'active' : ''}" data-pet="${k}">${l}</div>`).join('')}
+    </div>
 
-    ${list.length === 0
-      ? `<div class="empty-state"><div class="emoji">🐾</div><div class="text">没有匹配的路书，换个条件试试</div></div>`
-      : `<div class="grid">${list.map(routeCardHtml).join('')}</div>`}
+    <div class="filter-row" id="km-row" style="${haveLoc ? '' : 'display:none;'}">
+      ${kmChips.map(([k, l]) => `<div class="chip ${(maxKm + '') === k ? 'active' : ''}" data-km="${k}">${l}</div>`).join('')}
+    </div>
+
+    <div class="filter-row" id="district-row">
+      <div class="chip ${!district ? 'active' : ''}" data-district="">全部区域</div>
+      ${districts.map(d => `<div class="chip ${district === d ? 'active' : ''}" data-district="${d}">${d}</div>`).join('')}
+    </div>
+
+    <div class="sort-row">
+      <span class="muted small">共 ${list.length} 个 · 排序：</span>
+      <span class="sort-chip ${sort === 'distance' ? 'active' : ''} ${haveLoc ? '' : 'disabled'}" data-sort="distance">距离最近</span>
+      <span class="sort-chip ${sort === 'recent' ? 'active' : ''}" data-sort="recent">最近被提及</span>
+    </div>
+
+    <div id="poi-feed">
+      ${list.length
+        ? `<div class="poi-list">${list.map(poiCardHtml).join('')}</div>`
+        : `<div class="empty-state"><div class="emoji">🐾</div><div class="text">没有符合的地点</div><div class="muted small">换个筛选条件试试</div></div>`}
+    </div>
   `;
 
-  const cityRow = $('#city-row');
-  if (cityRow) cityRow.addEventListener('click', e => {
-    const c = e.target.closest('.chip');
-    if (!c) return;
-    setCity(c.dataset.city);
-    sessionStorage.removeItem('home-filter');
-    renderHome();
-  });
+  // Filter clicks
   $('#cat-row').addEventListener('click', e => {
     const c = e.target.closest('.chip');
     if (!c) return;
-    sessionStorage.setItem('home-filter', JSON.stringify({ category: c.dataset.v, dim: '' }));
-    renderHome();
+    setFilter({ category: c.dataset.cat });
   });
-  const dimRow = $('#dim-row');
-  if (dimRow) dimRow.addEventListener('click', e => {
+  $('#pet-row').addEventListener('click', e => {
     const c = e.target.closest('.chip');
     if (!c) return;
-    sessionStorage.setItem('home-filter', JSON.stringify({ category: cat, dim: c.dataset.v }));
-    renderHome();
+    const s = new Set(pet);
+    s.has(c.dataset.pet) ? s.delete(c.dataset.pet) : s.add(c.dataset.pet);
+    setFilter({ pet: [...s] });
   });
+  const kmRow = $('#km-row');
+  if (kmRow) kmRow.addEventListener('click', e => {
+    const c = e.target.closest('.chip');
+    if (!c) return;
+    setFilter({ maxKm: c.dataset.km });
+  });
+  $('#district-row').addEventListener('click', e => {
+    const c = e.target.closest('.chip');
+    if (!c) return;
+    setFilter({ district: c.dataset.district });
+  });
+  $$('.sort-chip').forEach(s => {
+    s.addEventListener('click', () => {
+      if (s.classList.contains('disabled')) return;
+      setFilter({ sort: s.dataset.sort });
+    });
+  });
+
+  // Locate button
+  $('#loc-btn').addEventListener('click', async () => {
+    const btn = $('#loc-btn');
+    btn.textContent = '定位中…';
+    btn.disabled = true;
+    const loc = await requestLocation(true);
+    if (loc) {
+      toast('定位成功');
+      setFilter({ sort: 'distance' });
+    } else {
+      toast('定位失败，浏览器可能拒绝了');
+      btn.disabled = false;
+      btn.textContent = '📍 定位我，按距离排序';
+    }
+  });
+
+  function setFilter(patch) {
+    const next = { district, category, pet: [...pet], maxKm, sort, ...patch };
+    sessionStorage.setItem('home-pf', JSON.stringify(next));
+    renderHome();
+  }
 }
 
 // ===== route detail =====
@@ -724,47 +835,71 @@ function renderPoiDetail(id) {
     $('#app').innerHTML = `<div class="empty-state"><div class="emoji">🐾</div><div class="text">地点不存在</div></div>`;
     return;
   }
-  document.title = `${p.name} · 北京宠物路书`;
+  document.title = `${p.name} · PawsPath`;
 
   const icon = POI_ICON[p.category] || '📍';
   const relRoutes = (p.route_slugs || []).map(s => STATE.routesById[s]).filter(Boolean);
+  const distPill = distancePillHtml(p);
+  const isFav = favs.has(id);
+
+  // 地图链接（外部跳转）
+  const mapLinks = (typeof p.lat === 'number') ? `
+    <div class="map-jump">
+      <a class="jump-btn" target="_blank" rel="noopener" href="https://uri.amap.com/marker?position=${p.lng},${p.lat}&name=${encodeURIComponent(p.name)}">高德导航</a>
+      <a class="jump-btn" target="_blank" rel="noopener" href="https://api.map.baidu.com/marker?location=${p.lat},${p.lng}&title=${encodeURIComponent(p.name)}&content=${encodeURIComponent(p.name)}&output=html&coord_type=wgs84">百度地图</a>
+      <a class="jump-btn" target="_blank" rel="noopener" href="https://maps.google.com/?q=${p.lat},${p.lng}">Google Maps</a>
+    </div>
+  ` : '';
 
   $('#app').innerHTML = `
-    <section class="route-detail-head" style="text-align:center;">
-      <div style="font-size: 56px; margin-bottom: 4px;">${icon}</div>
-      <h1 style="font-size: 22px; text-align: center;">${escapeHtml(p.name)}</h1>
-      <p class="route-detail-summary" style="text-align:center;">
-        ${p.district ? escapeHtml(p.district) : ''}${p.address_hint ? ' · ' + escapeHtml(p.address_hint) : ''}
-      </p>
+    <section class="poi-detail-head">
+      <div class="poi-detail-icon">${icon}</div>
+      <h1 class="poi-detail-name">${escapeHtml(p.name)}</h1>
+      <div class="poi-detail-loc">
+        ${p.district ? escapeHtml(p.district) + '区' : ''}${p.address_hint ? ' · ' + escapeHtml(p.address_hint) : ''}
+      </div>
+      ${distPill ? `<div class="poi-detail-dist">${distPill}</div>` : ''}
+      <div class="actions">
+        <button class="btn btn-ghost" id="fav-poi-btn">${isFav ? '★ 已收藏' : '☆ 收藏'}</button>
+        <button class="btn btn-primary" id="share-poi-btn">📤 复制链接</button>
+      </div>
     </section>
 
-    <div class="md-body">
-      ${p.freshness ? `
-        <div style="padding:12px 14px;border-radius:8px;background:${(FRESHNESS_PILL[p.freshness.status]||FRESHNESS_PILL.unclear).bg};margin-bottom:12px;">
+    ${petHookHtml(p) ? `<div class="md-body">${petHookHtml(p)}</div>` : ''}
+
+    ${petFeaturesHtml(p)}
+
+    ${(p.why_friendly || p.price_hint || p.tips) ? `
+      <div class="section-title">其它信息</div>
+      <div class="md-body">
+        ${p.why_friendly ? `<p>${escapeHtml(p.why_friendly)}</p>` : ''}
+        ${p.price_hint ? `<p>💰 ${escapeHtml(p.price_hint)}</p>` : ''}
+        ${p.tips ? `<p style="color:#b76a2a;">⚠️ ${escapeHtml(p.tips)}</p>` : ''}
+      </div>
+    ` : ''}
+
+    ${p.freshness ? `
+      <div class="section-title">实时核验</div>
+      <div class="md-body">
+        <div style="padding:12px 14px;border-radius:8px;background:${(FRESHNESS_PILL[p.freshness.status]||FRESHNESS_PILL.unclear).bg};">
           <div style="font-weight:600;color:${(FRESHNESS_PILL[p.freshness.status]||FRESHNESS_PILL.unclear).color};font-size:13px;">
             ${(FRESHNESS_PILL[p.freshness.status]||FRESHNESS_PILL.unclear).label}
             ${p.freshness.latest_mention ? `· 最新提到 ${escapeHtml(p.freshness.latest_mention)}` : ''}
           </div>
           ${p.freshness.note ? `<div style="font-size:13px;margin-top:4px;color:#374151;">${escapeHtml(p.freshness.note)}</div>` : ''}
-          ${p.freshness.checked_at ? `<div style="font-size:11px;color:#9CA3AF;margin-top:4px;">北京宠物路书核查于 ${escapeHtml(p.freshness.checked_at)}</div>` : ''}
+          ${p.freshness.checked_at ? `<div style="font-size:11px;color:#9CA3AF;margin-top:4px;">PawsPath 核验于 ${escapeHtml(p.freshness.checked_at)}</div>` : ''}
         </div>
-      ` : ''}
-      ${petHookHtml(p)}
-      ${p.why_friendly ? `<p>${escapeHtml(p.why_friendly)}</p>` : ''}
-      ${p.price_hint ? `<p>💰 ${escapeHtml(p.price_hint)}</p>` : ''}
-      ${p.tips ? `<p style="color:#b76a2a;">⚠️ ${escapeHtml(p.tips)}</p>` : ''}
-    </div>
+      </div>
+    ` : ''}
 
-    ${petFeaturesHtml(p)}
+    ${mapLinks ? `<div class="section-title">导航前往</div>${mapLinks}` : ''}
 
     ${(p.sources && p.sources.length) ? `
-      <div class="section-title">数据来源</div>
+      <div class="section-title">网友实测来源</div>
       <div class="md-body">
         ${dedupeSourcesByHost(p.sources).map(s => `
           <p>
-            <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">
-              ${escapeHtml(s.name || '原文')} ↗
-            </a>
+            <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name || '原文')} ↗</a>
             <br>
             <span class="small muted" style="word-break: break-all;">${escapeHtml(s.url)}</span>
           </p>
@@ -773,10 +908,19 @@ function renderPoiDetail(id) {
     ` : ''}
 
     ${relRoutes.length ? `
-      <div class="section-title">出现在以下路书</div>
+      <div class="section-title">出现在以下专题</div>
       <div class="grid">${relRoutes.map(routeCardHtml).join('')}</div>
     ` : ''}
   `;
+
+  $('#fav-poi-btn').addEventListener('click', () => {
+    const now = favs.toggle(id);
+    $('#fav-poi-btn').textContent = now ? '★ 已收藏' : '☆ 收藏';
+    toast(now ? '已收藏' : '已取消');
+  });
+  $('#share-poi-btn').addEventListener('click', () => {
+    navigator.clipboard.writeText(location.href).then(() => toast('链接已复制'));
+  });
 }
 
 // ===== search =====
@@ -1239,6 +1383,113 @@ ${JSON.stringify(pickedPool, null, 2)}
 }
 
 // ===== favorites page =====
+// ===== collections (themed routes, secondary entry) =====
+function renderCollections() {
+  document.title = '专题 · PawsPath';
+
+  const filter = JSON.parse(sessionStorage.getItem('coll-filter') || '{}');
+  const cat = filter.category || '';
+  let list = cityRoutes().filter(r => r.verified !== false);
+  if (cat) list = list.filter(r => r.category === cat);
+
+  const categoryOpts = [
+    ['', '全部'], ['season', '🌸 季节'], ['district', '🗺 区域'],
+    ['dog-type', '🐶 犬种'], ['cat', '☕ 品类'],
+  ];
+
+  $('#app').innerHTML = `
+    <section class="hero hero-paws">
+      <h1>专题清单</h1>
+      <p>${list.length} 个主题清单 · 按场景/区域/犬种/品类组织 · 每个清单含 6+ 个 POI</p>
+    </section>
+
+    <div class="filter-row" id="coll-cat-row">
+      ${categoryOpts.map(([v, l]) => `<div class="chip ${v === cat ? 'active' : ''}" data-v="${v}">${l}</div>`).join('')}
+    </div>
+
+    ${list.length
+      ? `<div class="grid">${list.map(routeCardHtml).join('')}</div>`
+      : `<div class="empty-state"><div class="emoji">📚</div><div class="text">没有匹配的专题</div></div>`}
+  `;
+
+  $('#coll-cat-row').addEventListener('click', e => {
+    const c = e.target.closest('.chip');
+    if (!c) return;
+    sessionStorage.setItem('coll-filter', JSON.stringify({ category: c.dataset.v }));
+    renderCollections();
+  });
+}
+
+// ===== profile (我的：收藏 + 设置) =====
+function renderProfile() {
+  document.title = '我的 · PawsPath';
+  const favIds = favs.get();
+  const favPois = favIds.map(id => STATE.pois[id]).filter(Boolean);
+  const favRoutes = favIds.map(id => STATE.routesById[id]).filter(Boolean);
+  const haveLoc = !!STATE.userLoc;
+
+  $('#app').innerHTML = `
+    <section class="hero hero-paws">
+      <h1>我的 PawsPath</h1>
+      <p>本地宠物 POI 数据库 · 你的收藏与设置</p>
+    </section>
+
+    <div class="section-title">设置</div>
+    <div class="card menu">
+      <div class="menu-item flex-between">
+        <span>地理位置</span>
+        <span class="muted small">${haveLoc ? `${STATE.userLoc.lat.toFixed(3)}, ${STATE.userLoc.lng.toFixed(3)}` : '未授权'}</span>
+      </div>
+      <div class="divider"></div>
+      <div class="menu-item" id="profile-loc-btn">${haveLoc ? '🔄 重新定位' : '📍 开启定位（按距离推荐）'}</div>
+      <div class="divider"></div>
+      <div class="menu-item" id="clear-favs">清空本地收藏</div>
+    </div>
+
+    ${favPois.length ? `
+      <div class="section-title">收藏的地点 · ${favPois.length}</div>
+      <div class="poi-list">${favPois.map(poiCardHtml).join('')}</div>
+    ` : ''}
+
+    ${favRoutes.length ? `
+      <div class="section-title">收藏的专题 · ${favRoutes.length}</div>
+      <div class="grid">${favRoutes.map(routeCardHtml).join('')}</div>
+    ` : ''}
+
+    ${!favPois.length && !favRoutes.length ? `
+      <div class="empty-state"><div class="emoji">⭐</div><div class="text">还没收藏任何地点</div></div>
+    ` : ''}
+
+    <div class="section-title">关于</div>
+    <div class="md-body">
+      <p><strong>PawsPath · 爪迹</strong> 是面向养狗人的本地宠物友好 POI 查询工具，聚焦"带狗去哪玩"这一刚需。</p>
+      <p>每个 POI 都包含：设施清单 / 准入规则 / 大型犬支持 / 距离与驾车时间 / 网友实测来源 / 近期核验状态。</p>
+      <p>数据基于公开互联网（小红书 / 大众点评 / 北京旅游网等）聚合 + 编辑团队人工核查，每日自动更新。</p>
+      <p>地图数据 © OpenStreetMap · 出行前请向商家电话确认 · 文明遛狗 / 全程牵绳 / 清理粪便。</p>
+    </div>
+  `;
+
+  $('#profile-loc-btn').addEventListener('click', async () => {
+    const btn = $('#profile-loc-btn');
+    btn.textContent = '定位中…';
+    const loc = await requestLocation(true);
+    if (loc) {
+      toast('定位成功');
+      renderProfile();
+    } else {
+      toast('定位失败');
+      renderProfile();
+    }
+  });
+  $('#clear-favs').addEventListener('click', () => {
+    if (confirm('清空所有本地收藏？')) {
+      favs.set([]);
+      toast('已清空');
+      renderProfile();
+    }
+  });
+}
+
 function renderFavs() {
   document.title = '我的收藏 · 北京宠物路书';
   const ids = favs.get();

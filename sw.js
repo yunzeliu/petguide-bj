@@ -1,5 +1,5 @@
 // Service worker for offline-first browsing
-const VERSION = 'v2.4.0';
+const VERSION = 'v2.5.0';
 const CORE_CACHE = `petguide-core-${VERSION}`;
 const DATA_CACHE = `petguide-data-${VERSION}`;
 const CDN_CACHE  = `petguide-cdn-${VERSION}`;

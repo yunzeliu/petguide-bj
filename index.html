@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#FF7A3D">
-  <meta name="description" content="北京宠物路书 · 周末遛狗 / 京郊出游 / 宠物友好咖啡馆 · 编辑团队整理">
-  <title>北京宠物路书 · 周末遛狗与京郊出游指南</title>
+  <meta name="description" content="PawsPath 爪迹 · 本地带宠物去哪玩 · 北京宠物友好 POI 数据库 · 距离+设施+政策一键查">
+  <title>PawsPath · 爪迹 · 本地宠物友好 POI 指南</title>
 
   <!-- Open Graph (微信 / 朋友圈 / Facebook / LinkedIn 分享卡片) -->
   <meta property="og:type"        content="website">
-  <meta property="og:site_name"   content="北京宠物路书">
-  <meta property="og:title"       content="北京宠物路书 · 周末遛狗与京郊出游">
-  <meta property="og:description" content="50+ 篇路书 · 170+ 个已核验宠物友好地点 · 每条都附原始来源 · 每月核查更新">
+  <meta property="og:site_name"   content="PawsPath · 爪迹">
+  <meta property="og:title"       content="PawsPath · 爪迹 · 本地宠物友好 POI 指南">
+  <meta property="og:description" content="180+ 个已核验北京宠物友好地点 · 距离 / 设施 / 政策 / 来源一目了然 · 每日自动更新">
   <meta property="og:image"       content="https://yunzeliu.github.io/petguide-bj/assets/og-cover.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -21,13 +21,13 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:title"       content="北京宠物路书 · 周末遛狗与京郊出游">
-  <meta name="twitter:description" content="50+ 篇路书 · 170+ 个已核验地点 · 每月核查更新">
+  <meta name="twitter:title"       content="PawsPath · 爪迹 · 本地宠物友好 POI 指南">
+  <meta name="twitter:description" content="180+ 个已核验地点 · 距离 / 设施 / 政策一目了然">
   <meta name="twitter:image"       content="https://yunzeliu.github.io/petguide-bj/assets/og-cover.jpg">
 
-  <!-- 微信 / WeChat 分享时按惯例会从 head meta 抓 -->
-  <meta itemprop="name"        content="北京宠物路书">
-  <meta itemprop="description" content="50+ 篇路书 · 170+ 个已核验宠物友好地点 · 每月核查">
+  <!-- 微信 / WeChat -->
+  <meta itemprop="name"        content="PawsPath · 爪迹">
+  <meta itemprop="description" content="180+ 个已核验北京宠物友好地点 · 距离/设施/政策一目了然">
   <meta itemprop="image"       content="https://yunzeliu.github.io/petguide-bj/assets/og-cover.jpg">
 
   <link rel="stylesheet" href="css/style.css">
@@ -42,24 +42,22 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="北京宠物路书">
-
-  <!-- 配置：把 yunzeliu.github.io/petguide-bj 改成实际站点（部署后），或写个相对路径 -->
+  <meta name="apple-mobile-web-app-title" content="PawsPath">
 </head>
 <body>
 
 <header class="topbar">
   <a href="#/" class="brand">
     <span class="brand-emoji">🐾</span>
-    <span class="brand-name">北京宠物路书</span>
-    <span class="brand-sub">周末 · 遛狗 · 出游</span>
+    <span class="brand-name">PawsPath</span>
+    <span class="brand-sub">爪迹 · 北京</span>
   </a>
   <nav class="topnav">
-    <a href="#/" data-route="home">发现</a>
+    <a href="#/" data-route="home">附近</a>
     <a href="#/map" data-route="map">地图</a>
-    <a href="#/search" data-route="search">搜索</a>
-    <a href="#/personalize" data-route="personalize">定制</a>
-    <a href="#/about" data-route="about">关于</a>
+    <a href="#/collections" data-route="collections">专题</a>
+    <a href="#/personalize" data-route="personalize">推荐</a>
+    <a href="#/profile" data-route="profile">我的</a>
   </nav>
 </header>
 
@@ -72,7 +70,7 @@
 
 <footer class="footer">
   <div>所有地点经近期网络证据核验 · 出行前请向商家电话确认 · 文明遛狗 / 全程牵绳 / 清理粪便</div>
-  <div class="muted small">v1.0 · <a href="https://github.com" target="_blank" rel="noopener">源码与免责声明</a></div>
+  <div class="muted small">PawsPath v2.5 · <a href="#/about">关于</a></div>
 </footer>
 
 <!-- 配置 -->
@@ -91,7 +89,6 @@
 <script>
 (function () {
   var cfg = window.PETGUIDE_CONFIG || {};
-  // Umami
   if (cfg.umami && cfg.umami.websiteId) {
     var s = document.createElement('script');
     s.defer = true;
@@ -99,7 +96,6 @@
     s.setAttribute('data-website-id', cfg.umami.websiteId);
     document.body.appendChild(s);
   }
-  // GoatCounter（替代）
   if (cfg.goatCounter && cfg.goatCounter.code) {
     window.goatcounter = { endpoint: 'https://' + cfg.goatCounter.code + '.goatcounter.com/count' };
     var g = document.createElement('script');
