@@ -840,9 +840,16 @@ button { font-family: inherit; cursor: pointer; }
 .poi-actions-row {
   display: flex;
   gap: 10px;
-  margin: 0 0 18px;
+  margin: 0 0 12px;
 }
 .poi-actions-row .btn { flex: 1; }
+
+.photo-attribution {
+  font-size: 11px;
+  color: var(--text-mute);
+  margin: 0 4px 18px;
+  text-align: right;
+}
 
 /* ============ Paw print background decoration ============ */
 .paw-deco {

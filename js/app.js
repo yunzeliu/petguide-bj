@@ -971,6 +971,7 @@ function renderPoiDetail(id) {
       <button class="btn btn-ghost" id="fav-poi-btn">${isFav ? '★ 已收藏' : '☆ 收藏'}</button>
       <button class="btn btn-primary" id="share-poi-btn">📤 复制链接</button>
     </div>
+    ${p.photo_attribution ? `<div class="photo-attribution">照片 by ${escapeHtml(p.photo_attribution)} via Google Maps</div>` : ''}
 
     ${petHookHtml(p) ? `<div class="md-body">${petHookHtml(p)}</div>` : ''}
 
