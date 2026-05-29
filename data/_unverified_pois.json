@@ -3489,31 +3489,6 @@
   "geo_source": "nominatim",
   "_drop_reason": "no_freshness_check"
  },
- "p_cd6910a5af": {
-  "id": "p_cd6910a5af",
-  "name": "Mandarin Oriental Cake Shop (文华饼店)",
-  "category": "bakery",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "东城",
-  "address_hint": "王府井大街269号北京王府井文华东方酒店2层",
-  "why_friendly": "五星级酒店于2025年新推出高端宠物蛋糕系列，分犬用和猫用款。",
-  "tips": "需提前至少24小时预订，可电话或通过酒店微信商城操作。",
-  "price_hint": "人均 398 元",
-  "sources": [
-   {
-    "url": "https://www.thebeijinger.com/blog/2025/07/17/where-get-pet-friendly-birthday-cakes-beijing",
-    "name": "the Beijinger"
-   }
-  ],
-  "route_slugs": [
-   "new-bakery-dessert"
-  ],
-  "lat": 39.929,
-  "lng": 116.416,
-  "geo_source": "district-centroid",
-  "_drop_reason": "no_freshness_check"
- },
  "p_18e0486ac7": {
   "id": "p_18e0486ac7",
   "name": "J·M Pet Cake (通州新店)",
@@ -5539,5 +5514,59 @@
   "lng": 116.671659,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
+ },
+ "p_c3233cfee3": {
+  "id": "p_c3233cfee3",
+  "name": "禧室咖啡 (COFFEE&MORE)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "崔各庄乡何各庄村318号",
+  "why_friendly": "拥有一个对大狗也十分友好的超大草坪，狗狗可以尽情奔跑和社交，被博主称为“人狗都舒服的地方”。",
+  "tips": "门票可抵扣餐饮消费。周末人可能较多，建议提前规划或选择非高峰时段前往。",
+  "price_hint": "人均50-80元",
+  "sources": [
+   {
+    "url": "https://www.douyin.com/video/7364658607323696436",
+    "name": "抖音"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-29"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到禧室咖啡(COFFEE&MORE)的明确营业及宠物友好信息。",
+   "sources": [],
+   "checked_at": "2026-05-29"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_9156a9207c": {
+  "id": "p_9156a9207c",
+  "name": "雁栖湖畔宠物友好步道",
+  "category": "hike",
+  "district": "怀柔区",
+  "address_hint": "雁栖湖环湖西路入口附近",
+  "why_friendly": "湖边步道允许宠物牵绳通行，风景优美，空间开阔，适合长时间散步和拍照，是远离市区的绝佳选择。",
+  "tips": "建议自备宠物饮水和拾便袋。傍晚景色尤其好，但注意蚊虫防护。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/662b9712000000001101a88b",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-29"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.357493,
+  "lng": 116.672214,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
  }
 }
