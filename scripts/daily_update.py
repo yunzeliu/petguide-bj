@@ -255,8 +255,17 @@ def strip_ai_voice(text):
         text = p.sub('', text)
     return text
 
+_NORM_PUNCT = re.compile(r"[\s\(\)（）·.,\-—\[\]【】《》\"'　、:：;；?？!！]+")
+def normalize_for_id(s):
+    """规范化字符串，避免标点/空格/区/区差异造成重复 id。"""
+    if not s:
+        return ""
+    cleaned = _NORM_PUNCT.sub("", s).lower()
+    cleaned = re.sub(r"区$", "", cleaned)
+    return cleaned
+
 def poi_id(poi):
-    key = (poi.get("name", "") + "|" + poi.get("district", "")).strip().lower()
+    key = normalize_for_id(poi.get("name", "")) + "|" + normalize_for_id(poi.get("district", ""))
     return "p_" + hashlib.md5(key.encode("utf-8")).hexdigest()[:10]
 
 # ---------- 2. Freshness re-verify stale ----------
@@ -491,13 +500,29 @@ def geocode_pois(pois):
                 p["geo_source"] = "district-centroid"
 
 # ---------- 4. Build merged data (mirrors build_data.py minimal) ----------
+def _build_name_index(pois):
+    """规范化 name → existing pid。识别同店异写。"""
+    idx = {}
+    for pid, p in pois.items():
+        key = normalize_for_id(p.get("name", ""))
+        if key:
+            idx.setdefault(key, pid)
+    return idx
+
 def merge_route_into_pois(slug, route_data, pois, preserve_freshness=True):
-    """Take a single route's JSON data and merge its POIs into the main pool."""
+    """Take a single route's JSON data and merge its POIs into the main pool.
+    重要：按 normalized name 查找已有 POI，避免标点/空格/区差异造成重复条目。"""
+    name_idx = _build_name_index(pois)
     for p in route_data.get("pois", []):
         pid = p.get("id")
         if not pid:
             continue
-        if pid not in pois:
+        # 优先按 normalized name 找已有同店
+        norm_name = normalize_for_id(p.get("name", ""))
+        existing = name_idx.get(norm_name)
+        if existing:
+            pid = existing
+        elif pid not in pois:
             pois[pid] = {
                 "id": pid,
                 "name": p.get("name", ""),
@@ -512,6 +537,7 @@ def merge_route_into_pois(slug, route_data, pois, preserve_freshness=True):
                 "city": "beijing",
                 "city_name": "北京",
             }
+            name_idx[norm_name] = pid
         if p.get("source_url"):
             pois[pid]["sources"].append({
                 "url": p["source_url"],
