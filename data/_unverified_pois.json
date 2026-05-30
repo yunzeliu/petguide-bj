@@ -3464,31 +3464,6 @@
   },
   "_drop_reason": "unclear"
  },
- "p_b7ecdcf16f": {
-  "id": "p_b7ecdcf16f",
-  "name": "Holiland Pet (好利来宠物烘焙)",
-  "category": "bakery",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "线上",
-  "address_hint": "微信小程序下单，支持配送或部分门店自提",
-  "why_friendly": "知名烘焙品牌于2024年推出的宠物专属蛋糕及零食产品线，食材安全。",
-  "tips": "需通过微信小程序提前1-2天预订，主打宠物生日蛋糕。",
-  "price_hint": "人均 138~218 元",
-  "sources": [
-   {
-    "url": "https://www.chinadaily.com.cn/a/202404/14/WS661b203da31082fc043c2ea9.html",
-    "name": "China Daily"
-   }
-  ],
-  "route_slugs": [
-   "new-bakery-dessert"
-  ],
-  "lat": 39.916477,
-  "lng": 116.523781,
-  "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
- },
  "p_18e0486ac7": {
   "id": "p_18e0486ac7",
   "name": "J·M Pet Cake (通州新店)",
@@ -5544,23 +5519,23 @@
   },
   "_drop_reason": "unclear"
  },
- "p_9156a9207c": {
-  "id": "p_9156a9207c",
-  "name": "雁栖湖畔宠物友好步道",
-  "category": "hike",
+ "p_5c64ff56f5": {
+  "id": "p_5c64ff56f5",
+  "name": "FUN清松民宿",
+  "category": "hotel",
   "district": "怀柔区",
-  "address_hint": "雁栖湖环湖西路入口附近",
-  "why_friendly": "湖边步道允许宠物牵绳通行，风景优美，空间开阔，适合长时间散步和拍照，是远离市区的绝佳选择。",
-  "tips": "建议自备宠物饮水和拾便袋。傍晚景色尤其好，但注意蚊虫防护。",
-  "price_hint": "免费",
+  "address_hint": "怀柔区",
+  "why_friendly": "明确对宠物友好的民宿，公共区域安全，服务人员对宠物友好，可以和主人一起享受京郊的宁静和特色住宿体验。",
+  "tips": "建议提前预定，并与民宿方再次确认宠物入住的具体规定和是否有额外费用。",
+  "price_hint": "约600-800元/晚",
   "sources": [
    {
-    "url": "https://www.xiaohongshu.com/explore/662b9712000000001101a88b",
-    "name": "小红书"
+    "url": "https://www.trip.com/moments/detail/beijing-1-120752006/",
+    "name": "Trip.com"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-29"
+   "daily-2026-05-30"
   ],
   "city": "beijing",
   "city_name": "北京",

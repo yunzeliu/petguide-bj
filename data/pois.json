@@ -1180,10 +1180,15 @@
    {
     "url": "https://www.beijing.com.cn/a/20240520/10002000000202405200922008.shtml",
     "name": "北京旅游网"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/47QlnQ3dPbz",
+    "name": "北京旅游网"
    }
   ],
   "route_slugs": [
-   "cafe-chaoyang"
+   "cafe-chaoyang",
+   "daily-2026-05-30"
   ],
   "lat": 39.921,
   "lng": 116.486,
@@ -5018,10 +5023,15 @@
    {
     "url": "https://www.douyin.com/search/%E5%8C%97%E4%BA%AC%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD%E5%95%86%E5%9C%BA",
     "name": "抖音"
+   },
+   {
+    "url": "https://www.36kr.com/p/2791192931133315",
+    "name": "36氪"
    }
   ],
   "route_slugs": [
    "cat-market",
+   "daily-2026-05-30",
    "family-kid-dog",
    "puppy",
    "weekend-stay"
@@ -14719,10 +14729,15 @@
    {
     "url": "https://www.163.com/dy/article/J1P48GDR0552G3C1.html",
     "name": "网易"
+   },
+   {
+    "url": "https://new.qq.com/rain/a/20260429A03V5T00",
+    "name": "新京报"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-28"
+   "daily-2026-05-28",
+   "daily-2026-05-30"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -14782,10 +14797,15 @@
    {
     "url": "https://www.sohu.com/a/776941193_121124373",
     "name": "什么值得买"
+   },
+   {
+    "url": "https://www.163.com/dy/article/J1PQUN440556133L.html",
+    "name": "网易新闻"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-28"
+   "daily-2026-05-28",
+   "daily-2026-05-30"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15202,5 +15222,154 @@
   "photo_url": "data/photos/p_c433a16304.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B000A7HMEZ"
+ },
+ "p_b7ecdcf16f": {
+  "id": "p_b7ecdcf16f",
+  "name": "Holiland Pet (好利来宠物烘焙)",
+  "category": "bakery",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "线上",
+  "address_hint": "微信小程序下单，支持配送或部分门店自提",
+  "why_friendly": "知名烘焙品牌于2024年推出的宠物专属蛋糕及零食产品线，食材安全。",
+  "tips": "需通过微信小程序提前1-2天预订，主打宠物生日蛋糕。",
+  "price_hint": "人均 138~218 元",
+  "sources": [
+   {
+    "url": "https://www.chinadaily.com.cn/a/202404/14/WS661b203da31082fc043c2ea9.html",
+    "name": "China Daily"
+   }
+  ],
+  "route_slugs": [
+   "new-bakery-dessert"
+  ],
+  "lat": 39.916477,
+  "lng": 116.523781,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "好利来宠物烘焙产品线仍在正常运营，线上平台持续销售宠物蛋糕及零食。",
+   "sources": [
+    {
+     "name": "京东",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvH9uN0k7s5jjA1ep6EVKGxceZa44mAeJZEqtSNSTk03A93cgxxnMk5uLmsFyN8i3ul5FOhlZosz9L6L8xvpIJb085CJlowKuQiNXKjQCmh1CWjeWuqeImoKx85KwyL7CL2MNXGx4bB8gQnVc="
+    },
+    {
+     "name": "淘宝Taobao｜天猫Tmall",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk17cW_6gDnGzCk5Xz29FxfcWyC_Yu-Kuval0cIOMPm-HqfCA_kvFbxJhEnHQWU-XJNyUUEgC8pm6DnnVXXwSG1NxcD1lT_P1r3r8CNLYRpbDnSxYSDZX4U_dH-4_HKKOc5ELQciJsCq8AePnLLJSHa3tZVCY0iQQpx6DQi1Zh1_-JYgcZrcGgEWcFPZYfhg="
+    },
+    {
+     "name": "淘宝Taobao｜天猫Tmall",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9U2ZaZYs6w0-5O9akDc9UJ1W0gP-iKdebkzRRF6Hm1rn9AgFhsRyWPkPZzM92I8wxPazs6Q5YpvrQNrOl_AYhbBcdVgJOi-4TKczVNRjU2SA2olDCe5YnQuLzoZk6l5YlzZKok0s48nXadlZd9-PqxB8yMIlZxxM8yVjnjrnFouAxc3k14A="
+    },
+    {
+     "name": "淘宝Taobao｜天猫Tmall",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr9JSfe4Yt4UHR2x1WPNnR930UWBTyPfRiGohMQq8cxs3eQAP6VtuKSY76aVtD2eCrjWcOj7eCr2CYJSZtVPg2IdNrQL0h6TeJDXwtlsqZS6Rwv9F8yDLeVxvWl4ZQrnxfXFCDW_FZYj2PinvQuHL5NZGtZTLOpIpAeGKlhli_Ua1hpG_EOzAbZDAjj3Jl-ZjDeUxsxnt0VTH7cG1Z187htA="
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELavqbyYEWvWez3pffP-kD3l8qRPdNU_Y-k7C0GCMiNESYG_6GsV8nLRo7X-GOAK91L6cMAE9FuUyieCllRKWtZ00pzbTKx9trem6I5UUzAtlZIl5z4paoHvmxHnhU"
+    }
+   ],
+   "checked_at": "2026-05-30"
+  },
+  "photo_url": "data/photos/p_b7ecdcf16f.jpg",
+  "photo_attribution": "Lei Zhang (張磊)",
+  "google_place_id": "ChIJS_eWYtVS8DUR2nlI4AwIV1A"
+ },
+ "p_9156a9207c": {
+  "id": "p_9156a9207c",
+  "name": "雁栖湖畔宠物友好步道",
+  "category": "hike",
+  "district": "怀柔区",
+  "address_hint": "雁栖湖环湖西路入口附近",
+  "why_friendly": "湖边步道允许宠物牵绳通行，风景优美，空间开阔，适合长时间散步和拍照，是远离市区的绝佳选择。",
+  "tips": "建议自备宠物饮水和拾便袋。傍晚景色尤其好，但注意蚊虫防护。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/662b9712000000001101a88b",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-29"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.357493,
+  "lng": 116.672214,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-04",
+   "note": "湖畔步道仍允许宠物牵绳通行，但西山步道禁止宠物进入。风景优美，适合散步。",
+   "sources": [
+    {
+     "name": "北京遛狗踏春好去處｜雁棲湖畔的治癒系時光 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeOqoYRgf8Qr87nI7lSlL7vmA9WF7uqC14xR85GpmQtiudX-c66IgOxhhkOovVqG88BNy40QA7pmOCcyI5PoKuwgy94FKej8sD6IKX7_Pu1Yo2pCM9p9o7okjriSoZuHA_JMRCMzJP_Gx9fJMo5mKVNk0WdVXUcqpm67e9Sg=="
+    },
+    {
+     "name": "2026 北京雁棲湖西山步道家庭與兒童推薦| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWxAW2LaNN8nczyAq_ULIIrA40QYjhp6a63NohdDgTedFylxkrYSQVItJdVOw-IhmPyizylS4yVuD2koMkkEwUeNE1OUIAycqsZkjtu8I0tJM0VzEMECrI5252IcSCEL5P1GQPALdafDdg-vi5XOgxPPaZDujIJ4LpbrXKVY2Dhp2TlMnC-qjmNsco-Sdja_XT0zd8qoalNjewO-hcefRO"
+    },
+    {
+     "name": "北京雁栖湖西山栈道要门票吗? - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeswyzhuSNgL0gVrlPoDeT3D0k3X9rrsNEfp9aMDdsA_ZAkpJBp8ho07LjQeyIfhf6984C6ecAd6wzuv51Aye3oBYthHPrwFuytJdQtJ85UZPW5taQXCSkJsPmKypggRpn3GEJ"
+    }
+   ],
+   "checked_at": "2026-05-30"
+  },
+  "photo_url": "data/photos/p_9156a9207c.jpg",
+  "photo_attribution": "Eric Kuo (郭 湘衡 秀湘)",
+  "google_place_id": "ChIJExljIKU78TURaHgIcO2bO5Q"
+ },
+ "p_0341ead3fe": {
+  "id": "p_0341ead3fe",
+  "name": "奥北森林公园二期",
+  "category": "park",
+  "district": "昌平区",
+  "address_hint": "昌平区东小口",
+  "why_friendly": "公园内设有“萌宠开心互动区”，并曾举办狗狗拔河比赛等宠物主题活动，拥有可供狗狗奔跑的大草坪。",
+  "tips": "公园会不定期举办各类活动，前往-前可关注相关信息，部分活动和设施可能单独收费。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://news.sina.com.cn/c/2026-05-02/doc-adcnirsv3558394.shtml",
+    "name": "新浪新闻"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-30"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "公园仍正常开放且对宠物友好，设有萌宠互动区并举办宠物活动。",
+   "sources": [
+    {
+     "name": "奥北森林公园五一活动_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1_e3iuZ0Hi8PeGKiegdGYpME85grNPFEs4o5i9jf8I1vJck4nhWeabjQasG9MhjBL1L6gdp485xueJZP7aY-eLdObbHvhyJI3TZP3U7euzgRr9IoJsag9iG6ArY74y6L7mPCZK8FPBUMevXPhSRJC"
+    },
+    {
+     "name": "奥北森林公园二期五一免费开放_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3FdQ_JdR-ut1_hkz5r4I_Wlq_QuNQ4hk-pyWuTDzcHEtqeUUK8yBLEVcuIT6Mt-s5JosvzxmMIC-lTCkrm76WjoO3Mj5HSqVS1rjtdttUrTxgXW9HmGtev0OOFFfg4f9cVwRQskaHOCtSVw9uc5Sz"
+    },
+    {
+     "name": "北京首个官方认证宠物公园将落地，引热议：是城市文明升级还是形式主义？全景呈现用户真实观点_国内门票与活动 - 什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyhdXXdSczT55HDGJdl-c5xFBiY-f58QJngbmwErA2XK8yp_eu-nFxPbnXn2MHseJQknf4zj72Bix9ho82TpuEOVderzOTM7GuSuo_lvkXIZfUwsHTtg85CeyjqO7_nw=="
+    }
+   ],
+   "checked_at": "2026-05-30"
+  },
+  "lat": 40.061287,
+  "lng": 116.387199,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_0341ead3fe.jpg",
+  "photo_attribution": "강신오",
+  "google_place_id": "ChIJ0wLY4sEd8TUR_oClOvKW6Ak"
  }
 }
