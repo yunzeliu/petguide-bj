@@ -14638,10 +14638,15 @@
    {
     "url": "https://www.163.com/dy/article/J1B6OCV90552G3C1.html",
     "name": "网易"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/66324a1b000000001a01b2c3",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-28"
+   "daily-2026-05-28",
+   "daily-2026-05-31"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -14801,11 +14806,16 @@
    {
     "url": "https://www.163.com/dy/article/J1PQUN440556133L.html",
     "name": "网易新闻"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/663c9a2f000000001a02d4e5",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "daily-2026-05-28",
-   "daily-2026-05-30"
+   "daily-2026-05-30",
+   "daily-2026-05-31"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15338,10 +15348,15 @@
    {
     "url": "https://news.sina.com.cn/c/2026-05-02/doc-adcnirsv3558394.shtml",
     "name": "新浪新闻"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/66338b1d000000001a01f8a7",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-30"
+   "daily-2026-05-30",
+   "daily-2026-05-31"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15371,5 +15386,159 @@
   "photo_url": "data/photos/p_0341ead3fe.jpg",
   "photo_attribution": "강신오",
   "google_place_id": "ChIJ0wLY4sEd8TUR_oClOvKW6Ak"
+ },
+ "p_5c64ff56f5": {
+  "id": "p_5c64ff56f5",
+  "name": "FUN清松民宿",
+  "category": "hotel",
+  "district": "怀柔区",
+  "address_hint": "怀柔区",
+  "why_friendly": "明确对宠物友好的民宿，公共区域安全，服务人员对宠物友好，可以和主人一起享受京郊的宁静和特色住宿体验。",
+  "tips": "建议提前预定，并与民宿方再次确认宠物入住的具体规定和是否有额外费用。",
+  "price_hint": "约600-800元/晚",
+  "sources": [
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-120752006/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-30"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.357493,
+  "lng": 116.672214,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "民宿仍正常营业，且明确对宠物友好，公共区域安全，服务人员对宠物友好。",
+   "sources": [
+    {
+     "name": "FUN清松民宿&西餐吧",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3T5pd0mopga_vptWbMyHE35xlCXaYbIoAkBYOj3_2p-MDmLhR_3vl5T9GoLAiGsedkZFmGv3IX23ROx4KvwuZRt27gNiULqdAvXxhNpWwuJox2R_T8TR3OlCfmPwFyMYLGE0fhriXBI93bEoO"
+    },
+    {
+     "name": "2026 FUN清松民宿民宿推薦| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfYA-jKLRqe2kSwKmhJmDtSEW6EKisx5He5-y_y_znrp_uKMdaGQaYdyzF_5jI73soxzy3SQNsHDRB-pUqw4CFTBatZAyQEnaJTwKjYRIrK_zxXda6I9Kdi0NkvcxuadzkpurKMDeSABXOD62x3O9IxO9auo21NLjLxWqewAx8XteWHbX5tgOvcTYsaXrfwGpc"
+    },
+    {
+     "name": "FUN Qingsong Homestay(FUN清松民宿), Beijing - 2026 Prices & Reviews | Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRnmARqyIyc12_KxjaNIk1lUVcyTHikfI_M3EngwhPBlw_dCxQUhIUY5d9xAnhljAR64CMQRq0DD6uqfkPxv81pQn2B1syO0FdPu8VZroKAOSIDiwLRResm0GzuyB3LWXixGRfLHXpGOgkTTDI5j_9poszlOHXWh4x_LyZkoHL8y2yTCAGIoItt14X"
+    }
+   ],
+   "checked_at": "2026-05-31"
+  },
+  "photo_url": "data/photos/p_5c64ff56f5.jpg",
+  "photo_attribution": "Marjorie Ayres",
+  "google_place_id": "ChIJTaDy7Qcl8TURcN-PrpZIEDQ"
+ },
+ "p_df5ea334f5": {
+  "id": "p_df5ea334f5",
+  "name": "首钢园-永定河畔草坪",
+  "category": "park",
+  "district": "石景山区",
+  "address_hint": "石景山路68号",
+  "why_friendly": "拥有开阔平坦的河边大草坪，官方允许宠物进入奔跑，是城市露营和野餐的绝佳地点。",
+  "tips": "河边风较大，如搭天幕需准备防风性能好的地钉。周末人较多，建议提早占位。",
+  "price_hint": "园区免费，消费自理",
+  "sources": [
+   {
+    "url": "https://post.trip.com/content/article/76332143",
+    "name": "Trip Moments"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-31"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "首钢园永定河畔草坪仍正常开放，是热门露营野餐地，明确允许宠物进入奔跑，并设有宠物玩乐区和饮水机。",
+   "sources": [
+    {
+     "name": "Beijing's Best Picnic Spots Revealed - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENQpu_Jns0IjPBIIlt78dJBZ55hS3T8rZjWRfFSGH5ei4ihefercyyHruRuFla1sLduOpYo2pWAjXTU6qXddZ4WcMVmWSmmqd-x-owOLUXgDadZIpF5aeXvCMAaEkQ6fmQXTzE4E7siGs4ZQo6QJ8o8CB8ZttYGYoltRCgh5A="
+    },
+    {
+     "name": "首鋼園露營新玩法 永定河遛狗野 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCOI9WXMA5869izbfdIQ9gh8SP_ROVPLCirqgbQ-0UoW3OKidlAfPlAwGuZNmW_MeBrJpLCPLure5ciYrUBL5uG3K84y4mz4xCmopePeCvpfB7L-UooR99lTjkRWTRnwIhk_svvp0Nl-rXp7DI2msT_XQ="
+    },
+    {
+     "name": "New Camping Experience at Shougang Park Dog Walking by Yongding River Wild | Trip.com Beijing",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYzoB3FFWUukRluGZREI-gJMPHv92ahsPbbTaWhpNR5sah7VluOGR1FG9dp9OmPB7SOAnEP39SDlu2OGRIf-WTxVbaDlTIVbYUIaNApsTpozOq99IjNT_xRtXHTgrItBih-3GR8CXpBjObQCsq69iVp-GTCjr9pvpECQTkR7U="
+    },
+    {
+     "name": "New Camping Experience at Shougang Park Dog Walking by Yongding River Wild | Trip.com Beijing",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqSrvZzyZX1Aog7ox_tNsL-IjPeT1L42_IMrzDIxKM2BNpL4FpRBPs58EyjmsQ9qnvA5maCueF48yw3e_eHDBxTLQvoU7tZIwN-TamozodZ4CsRv0DJqC2drhIQHaLHsjqTb6dnZXTehYraelzPeyrCMCgALGpvQkqeFlqR90="
+    },
+    {
+     "name": "New Camping Experience at Shougang Park Dog Walking by Yongding River Wild - Trip.com Singapore",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVu7LvB9w5b1-nE5miObue4maqcO50LC_8h3L9mKY36tne1YqLzwJqM_CPO0725vTIsWwfDgqHo322nov9NLg7c0dcHKEqKpoEY4fxXCEa-ZCZ7TXVBoX2aDZiOP99z1GehEoRmitp3i60nD4wMkTT2is="
+    },
+    {
+     "name": "首钢园永定河集游_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdS0wg_H1EhKIAiZwLNRUx3ERX-7NyLwkdineI30QBTufrQhKYMhFiF7QqcVi0IJt9aG-05WEMCnltJRrcy9aaJ7K0SSWEalEFKpU-bRVoi7boqSZiYAaTZ94o0Tf7glnamL_mb3i2Fl0jNCncWAJa"
+    },
+    {
+     "name": "京城野餐勝地大公開｜Trip.com 北京",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGdv0umR6a5HPXRwzMWDAjlR1nfSIFAomGxCAha2ueO57wwiKddLHwBKUxy7z_NYMR5TfttuKSud8n2cRkRV2B9bcvRIkSGMsG-sOA5jRhogSAY01sHw_lUGgNbSfAXkPz9Jhdh1JRq4GYf_FvHdqcv70="
+    }
+   ],
+   "checked_at": "2026-05-31"
+  },
+  "photo_url": "data/photos/p_df5ea334f5.jpg",
+  "photo_attribution": "Z Jack Joe",
+  "google_place_id": "ChIJG0whVf1F8DURBA4cdtze7BU"
+ },
+ "p_d70f93d882": {
+  "id": "p_d70f93d882",
+  "name": "京华福满园",
+  "category": "park",
+  "district": "通州区",
+  "address_hint": "近京榆旧线",
+  "why_friendly": "2026年5月新开放的线性公园，官方明确宠物友好，步道系统完善，空间开阔，遛狗体验舒适。",
+  "tips": "公园为长条形，建议规划好往返路线，以免狗狗过累。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.163.com/dy/article/J1P4SDBA0553AAYF.html",
+    "name": "网易新闻"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-31"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "京华福满园于2026年5月1日正式开放，明确为宠物友好公园，提供完善的步道系统和开阔空间。",
+   "sources": [
+    {
+     "name": "京报新闻_北京日报网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYFnx8OKtH8S91LGuwk1ZIto4semnTunXEwLK1Wm_W0PXjjZBgry1bw0ofRMFQcGOMtER9zqhNkkvk6cPizGK5-IAVF94ZkkRHTGCxFhJ3cZ8iXo24uvlkmM2Et59CV_R_joGIDZX6rprzoQ="
+    },
+    {
+     "name": "网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhsQi0xrmXQFuXxju2Mrda7Dm2n7l-yrI5c5XRbfX5M_Ne3Pv81aPxYsz7okodLpbhQrYkpMo_5bcvkpBGexN9FsEIghNAr8mZPJkQVFZFprCx_aujeEXx5EyXUyJpRU8C1RJH9TbN51btGgB_PqQ="
+    },
+    {
+     "name": "京报网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPySk230RPCU2IWgr4wjS_6fXAHR48Hd2xUzURN--e0HMOasmXSJJGWbiVdgvQfmyHZ7mWAmVlcMPkbLs4sD5IkII6M9irZupE1Bis5nEl_NWMJi1plTcZDrgGK0crp-4yI-lgFGCTuK6rMCU="
+    }
+   ],
+   "checked_at": "2026-05-31"
+  },
+  "lat": 39.890102,
+  "lng": 116.704683,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_d70f93d882.jpg",
+  "photo_attribution": "Shunichi Arai",
+  "google_place_id": "ChIJ5f6ApZus8TURaWL0TKXCtBE"
  }
 }

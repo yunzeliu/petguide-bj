@@ -5519,29 +5519,70 @@
   },
   "_drop_reason": "unclear"
  },
- "p_5c64ff56f5": {
-  "id": "p_5c64ff56f5",
-  "name": "FUN清松民宿",
-  "category": "hotel",
+ "p_411cec30d9": {
+  "id": "p_411cec30d9",
+  "name": "渡野·轻奢露营地",
+  "category": "camp",
   "district": "怀柔区",
-  "address_hint": "怀柔区",
-  "why_friendly": "明确对宠物友好的民宿，公共区域安全，服务人员对宠物友好，可以和主人一起享受京郊的宁静和特色住宿体验。",
-  "tips": "建议提前预定，并与民宿方再次确认宠物入住的具体规定和是否有额外费用。",
-  "price_hint": "约600-800元/晚",
+  "address_hint": "渤海镇板栗园内",
+  "why_friendly": "欢迎宠物，提供广阔的草坪活动区，私密性强，适合多组养宠家庭聚会烧烤。",
+  "tips": "建议提前预定，并告知携带宠物的数量和体型，以便营地更好地安排。",
+  "price_hint": "人均200-600元",
   "sources": [
    {
-    "url": "https://www.trip.com/moments/detail/beijing-1-120752006/",
-    "name": "Trip.com"
+    "url": "https://www.xiaohongshu.com/discovery/item/663e0d3b000000001a03f5c1",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-30"
+   "daily-2026-05-31"
   ],
   "city": "beijing",
   "city_name": "北京",
-  "lat": 40.357493,
-  "lng": 116.672214,
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到“渡野·轻奢露营地”明确的宠物友好政策或营业状态更新信息。",
+   "sources": [
+    {
+     "name": "活动网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX57w6fS5TmM8ad8FjU9kVE8lC4Zc6zMY1qZvwXgRAGQV6MtZB0-eAr8PP8CoDFopfTAqgmG4gvDI4GRN-RIe8R1VoLUlyUzstVwtd2WcvDZr92aajLd_xguAKrQZbNt2V"
+    }
+   ],
+   "checked_at": "2026-05-31"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_10e13d1085": {
+  "id": "p_10e13d1085",
+  "name": "禧室咖啡",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "奶西村甲1号",
+  "why_friendly": "有超大围栏草坪，对大型犬友好，门票可抵咖啡，是市区内稀缺的狗狗社交场地。",
+  "tips": "草坪区为土路和草地，雨后可能会泥泞，建议选择晴天前往。",
+  "price_hint": "人均约60元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/663b8e4c000000001a0299d8",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-31"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于禧室咖啡在朝阳区的明确营业或宠物政策信息。",
+   "sources": [],
+   "checked_at": "2026-05-31"
+  },
+  "lat": 39.954415,
+  "lng": 116.61759,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "_drop_reason": "unclear"
  }
 }
