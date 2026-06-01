@@ -14642,11 +14642,16 @@
    {
     "url": "https://www.xiaohongshu.com/discovery/item/66324a1b000000001a01b2c3",
     "name": "小红书"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/6635f2a1000000000b02a1b3",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "daily-2026-05-28",
-   "daily-2026-05-31"
+   "daily-2026-05-31",
+   "daily-2026-06-01"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -14738,11 +14743,16 @@
    {
     "url": "https://new.qq.com/rain/a/20260429A03V5T00",
     "name": "新京报"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/6641c88e000000000c03d4f2",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "daily-2026-05-28",
-   "daily-2026-05-30"
+   "daily-2026-05-30",
+   "daily-2026-06-01"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -14810,12 +14820,17 @@
    {
     "url": "https://www.xiaohongshu.com/discovery/item/663c9a2f000000001a02d4e5",
     "name": "小红书"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a25d60np/",
+    "name": "什么值得买"
    }
   ],
   "route_slugs": [
    "daily-2026-05-28",
    "daily-2026-05-30",
-   "daily-2026-05-31"
+   "daily-2026-05-31",
+   "daily-2026-06-01"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15352,11 +15367,16 @@
    {
     "url": "https://www.xiaohongshu.com/discovery/item/66338b1d000000001a01f8a7",
     "name": "小红书"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/6633c1d9000000000a01b2e7",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "daily-2026-05-30",
-   "daily-2026-05-31"
+   "daily-2026-05-31",
+   "daily-2026-06-01"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15540,5 +15560,96 @@
   "photo_url": "data/photos/p_d70f93d882.jpg",
   "photo_attribution": "Shunichi Arai",
   "google_place_id": "ChIJ5f6ApZus8TURaWL0TKXCtBE"
+ },
+ "p_bc27e76eda": {
+  "id": "p_bc27e76eda",
+  "name": "朝阳合生汇",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "西大望路21号",
+  "why_friendly": "2026年5月底举办大型“夏日爱它节”宠物市集，活动期间允许宠物进入商场指定区域，体现了对宠物社群的高度重视。",
+  "tips": "日常情况下，宠物主要在户外区域和部分店铺外摆活动，进入商场内部需遵守具体规定，建议使用宠物推车或背包。",
+  "price_hint": "免费进入，消费自理",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/6659a0b4000000000e01f5c8",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-01"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "朝阳合生汇于2026年5月30-31日举办“夏日爱它节”，持续对宠物友好。",
+   "sources": [
+    {
+     "name": "夏日爱它节：让商业空间多一份温度 - 中国新闻周刊",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdXZOvu_T2Wb7c6BtE1OuQGgYzGvO7gskROVwLrrSccU04NLIub4LvD2rOnmz6DveNRV8sQfSpufTwpsvD7l0_9Ls3BXujBCqa0lSYbtzySduEZ5tR6Ec8beDGL-_DXYTLYr1bPgXFAXAUuk1dAvkqgA=="
+    },
+    {
+     "name": "夏日爱它节：让商业空间多一份温度 - 房产- 央广网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6wBQMZJuGyTDT279nF59a99uAf7hpN4mWst_x6vOvNZHjR51MekM7EC-boENITe6_qizeSaitYoNd542sQ5cyPIG6ZqD59iK7Y5pRPv6PYFDBtq-w5VdNYCvCtUiFiQb4qmU643xQ6ux_y7geoh7pgX2dP7tVEQ=="
+    }
+   ],
+   "checked_at": "2026-06-01"
+  },
+  "lat": 39.954415,
+  "lng": 116.61759,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_bc27e76eda.jpg",
+  "photo_attribution": "warezcg",
+  "google_place_id": "ChIJ2xAdP-mt8TURZ_kfhuLhbxg"
+ },
+ "p_bb7bac6d1d": {
+  "id": "p_bb7bac6d1d",
+  "name": "亦花园（Yihua Garden）",
+  "category": "park",
+  "district": "大兴区",
+  "address_hint": "亦庄镇",
+  "why_friendly": "作为5月“北京国际宠物嘉年华”的举办地，园区内为人宠互动设计了专属游戏环节，如NPC问答集章，是新晋的宠物活动中心。",
+  "tips": "关注园区公众号，获取最新宠物主题活动信息。非活动期间的日常开放政策建议提前确认。",
+  "price_hint": "免费入园，活动及消费另计",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/G8Gz3bN5z5I2bL9q",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-01"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "亦花园近期举办大型宠物嘉年华，设有宠物互动区、市集等，明确对宠物友好。",
+   "sources": [
+    {
+     "name": "首届北京国际宠物嘉年华：《萌宠出道》宠物春晚亦庄赛区火热开赛 - 企业报道",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfifPYu6KK96WQCoVGBN3hvl1--1Yxgg2PgZCWyiP6dOrvbAl6rF3NbgwYyqJOIDYALklrStF5zc99u7RfP4UDi-q2PeMNNW0EMbpvGQXesiVPmnCCGmcL4V__WX5l-gyhqd-e6NkMn5Q1SuSSpw=="
+    },
+    {
+     "name": "首届北京国际宠物嘉年华·亦庄站盛大启幕 - 中华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVX-MYw6gxdYPxpY86OuQiXDJ2ANva6l_i11UfOHqUTnckRWhk8u8Vd0XV2vHQeMnXkq2fzukrBNZs2XkDJgOTP6JUHiyp3Mwh8kqvTDXVzdcyygtuQ6W88aDb10QpRL7yE_AUyYHOQuoNX7klCq6sHFGb_E3vGg=="
+    },
+    {
+     "name": "首届北京国际宠物嘉年华隆重启幕",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlkAK9G9BMfGMo-TZwYGWZ4qu7iCTBeeHer8gFOScLla8KaW7Lzc8U3P7PDe-RKZkboHdFhSuUilR6XmbQSoiN1gaBVOfX3PRdFHXs8dt0VqE8gV5m6mSVbOnhpWx7Ymr2bqpoF3WdlkU8eXTL"
+    },
+    {
+     "name": "首届北京国际宠物嘉年华：《萌宠出道》宠物春晚亦庄赛区火热开赛 - 网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOPzsJabhS98PfDn00KzJH3WepLIpEeJbg5L7EhCkENQk-w_mODMiAOTJyVrAwWBixYlZvEcl501GvI5Fp8QbyK-EQOjx-7nie0ipxwThgHKG5RtfViUgBX3vL6JeC6IenHmqu79AzNHzubxiJuio="
+    }
+   ],
+   "checked_at": "2026-06-01"
+  },
+  "photo_url": "data/photos/p_bb7bac6d1d.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0FFIN9WNU"
  }
 }
