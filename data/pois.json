@@ -1421,10 +1421,15 @@
    {
     "url": "https://post.smzdm.com/p/a9d07n0p/",
     "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a9d7605p/",
+    "name": "小红书 / 什么值得买"
    }
   ],
   "route_slugs": [
-   "cafe-east"
+   "cafe-east",
+   "daily-2026-06-02"
   ],
   "lat": 39.930862,
   "lng": 116.405859,
@@ -1958,12 +1963,17 @@
    {
     "url": "https://post.smzdm.com/p/a9d07n0p/",
     "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a9d7605p/",
+    "name": "小红书 / 什么值得买"
    }
   ],
   "route_slugs": [
    "cafe-quiet",
    "cafe-terrace",
    "cat-cafe",
+   "daily-2026-06-02",
    "restaurant-bakery",
    "senior-dog"
   ],
@@ -2120,10 +2130,15 @@
    {
     "url": "https://post.smzdm.com/p/a9d5r70k/",
     "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a9d7605p/",
+    "name": "小红书 / 什么值得买"
    }
   ],
   "route_slugs": [
    "cafe-terrace",
+   "daily-2026-06-02",
    "district-tongzhou"
   ],
   "lat": 39.906918,
@@ -15651,5 +15666,100 @@
   "photo_url": "data/photos/p_bb7bac6d1d.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B0FFIN9WNU"
+ },
+ "p_59e221be8d": {
+  "id": "p_59e221be8d",
+  "name": "超级小狗 Super Pup",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "亮马桥附近",
+  "why_friendly": "提供宠物洗澡美容服务，并有专门的宠物服装和派对活动。店外有大草坪可供狗狗奔跑。",
+  "tips": "一站式宠物服务空间，不仅能喝咖啡，还能为狗狗做全套护理和社交。",
+  "price_hint": "人均 ¥70",
+  "sources": [
+   {
+    "url": "https://www.sohu.com/a/781521950_121124374",
+    "name": "搜狐"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-02"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "朝阳区THEBOX店仍为宠物友好咖啡店，提供洗澡、派对等服务。",
+   "sources": [
+    {
+     "name": "北京朝阳文旅",
+     "url": "https://mp.weixin.qq.com/s/11YBPhh-Y0nYUQavptYrMg"
+    },
+    {
+     "name": "城市吧",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0rpeq6EgSpoGkXIVJq_GtmOSDYBV8fMpnv8ck3C4RPL27PiOpqw5rpTA_jn1-NwRVvIHoOkbiP0Jh_OSmiiLqqesUjLwn9rRMMe0xiZKZMweHdh344Q0AA3BnbPdKXUJ2qX9sEiZf"
+    },
+    {
+     "name": "抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-eAVKTybG3XjYsClxqPCQ_XY0hOtcfe47sPD-fH-1hoqvToywFuwNfqsIJ7Wi_MvuU-XEtGe5-bDx0b6ryp-iEBGzLaBf9m4He_5xKyiXok8FRDAC44etcvpE5T0f6aBoMwEF9GuIGXUJokEwRag2Qi9-vQJCdsKdciXMaViVZkP7LLXl29kikSYQcQLFYXZY_KNUKNHjnAbmTrJ59VRS4I_"
+    }
+   ],
+   "checked_at": "2026-06-02"
+  },
+  "photo_url": "data/photos/p_59e221be8d.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B000A82W48"
+ },
+ "p_ade43d7428": {
+  "id": "p_ade43d7428",
+  "name": "VOYAGE COFFEE (三里河公园店)",
+  "category": "cafe",
+  "district": "东城区",
+  "address_hint": "三里河公园旁，长巷五条19号",
+  "why_friendly": "拥有舒适的户外露天座位区，紧邻公园小溪，环境安静，适合带领安静的狗狗一同享受下午时光。",
+  "tips": "位于胡同内，环境清幽，是体验慢生活的好去处。建议在天气好的时候前往，享受户外座位。",
+  "price_hint": "人均 ¥45",
+  "sources": [
+   {
+    "url": "https://hk.trip.com/moments/detail/beijing-1-120780287/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-02"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-03",
+   "note": "咖啡店营业中，近期有提及。环境仍有动物，推测对宠物友好。",
+   "sources": [
+    {
+     "name": "大众点评",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGNdNBoz_nllivg_O9FsTvp8wyn_56_mG7aghuHAgwFZ8n8VpKsvkxC4bk1yqR8oGZ3lTOUPH-tX60nLbaPp92AkoUWVZZJ_gnepwl3MT2mJFRQxn3PHbVouYwwltD9XBWeEcbvVXbaD3-f4ZcG5pnQ=="
+    },
+    {
+     "name": "新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyHArKMMrBXVVk3waGEUbpSrVNmOMyYKF3QPjDYadqfdSl0IbQq7Sq9eHPB5_5K7uz-e2RC5mRX_cKBcb_YQMFpDtsMcJipypGthHToQQMdzvRoYaTsb2kfqfS-5O0VgLD561N3PL0kt30MmoUEEw=="
+    },
+    {
+     "name": "YouTube",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-glrkGCS8CIOR1eetphduQ7aXaJ6tVhofI5pp9GdORcBXmUhwv6wUvmgS3UF7lNaTiH5qowGy7r5XkCK3AGBnbyQjOqjBJpUF0py38UxzMRS2cw22LPYJficEXsWch0o8Da0EuA=="
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh_MI940O6F-dv3zrxpafqu-c_CCp-eSuC_dEjpdvsbXw6blgWTtJ7CpZqesz8b2s4jae22_vexEK47uP75KhBD0pszGhOuXu_akA0DxKq0yyqM4vqCR7FxKiQmIXdMsorR2JbMEyBwIRAuIvYuOgSY0ecoayh9LNxwbX3Ulzk2SheSBk=="
+    }
+   ],
+   "checked_at": "2026-06-02"
+  },
+  "lat": 39.940205,
+  "lng": 116.396857,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_ade43d7428.jpg",
+  "photo_attribution": "Horace Leung",
+  "google_place_id": "ChIJGVSp4DtT8DUR8tTd8FHdCiU"
  }
 }
