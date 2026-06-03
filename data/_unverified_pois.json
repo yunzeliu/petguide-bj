@@ -3319,7 +3319,35 @@
   "lat": 39.92045,
   "lng": 116.436911,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-05",
+   "note": "留检所正常开放领养。北京市养犬管理规定修正草案正审议，将影响养犬政策。",
+   "sources": [
+    {
+     "name": "北京市政务服务网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYx4YnjvGOVFpoEOLOC8IttE45fpoX22SZgnSEzNb9y0erp6lpikuPpYqz43S8WvsUu-uFL2myMe_Ede2nkc-Y2tS019e3fZoFBgdYwrJo0XWMjjJ0EMxWY_5koVCtze335MMiEHRvRqofZsmnEQizbAI="
+    },
+    {
+     "name": "北京市石景山区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFErOKgbQiFFOsFImcf3l3bX9tEKoCwAK6ASgNfJrv_Bx_sDZDGlPaxHtdYQJcgoOEbj4LD_Q0QDjOfXfvA18qipSk1IVosgzvIqIqopv5J7jcrWZKLyXzLWOhGUA5mbsf3JgxXCLFjRDax9XfdEZZepRbZQTM4TKRy-WxFNLRfmiZMcO43auI2pqDQTpYPNRRXN2zSzxBEHb8y"
+    },
+    {
+     "name": "新湖南",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcU0S3rahiH7wlcMHhrltNGEAy7-iW6Nrz6wtiT1b4CWg7GdF30UYlXrhtbv3r33XDSXH0dlwRu_6GJaoEDhzBJnfxY2m3mwirlm0TOwhTWAw1JkxxJZ_9f4717JVVsKrdpzy7hhRaeSZptD64ssr-8g=="
+    },
+    {
+     "name": "北京日报客户端",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb7Jo5vwlCaTNNkVBqXGAJo-Mbv1-5NkQIcKpgJChaHks6OOUxwmP1-Y3NSeN-vEnKeF6RF4huJAyl6f8LBzxFw73c4650V-pu1zFVE1E9Pycd7U5XCp6_RM2K9VB7XNZ83WY3li2AJMcawQ=="
+    },
+    {
+     "name": "新京报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX95Kz0g1Q9s8W_K7GJKfoAmHN8q-WD17njHBx2NYeZvUGTBmibYgtjApmRGjDRl6ysvfWnxui2_y03kHJcTz8bhR8lqnqzKlaxGW2DZQQr_0qHHvj6aboYBLd33O2FoRg_gEXQPFzx25OEoGKyA=="
+    }
+   ],
+   "checked_at": "2026-06-03"
+  },
+  "_drop_reason": "policy_changed"
  },
  "p_4be9420830": {
   "id": "p_4be9420830",
@@ -3930,7 +3958,23 @@
   "lat": 39.911675,
   "lng": 116.27051,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2025-12",
+   "note": "商场正常营业，但近6个月无明确宠物友好政策更新。北京养犬规定禁犬入公共场所。",
+   "sources": [
+    {
+     "name": "节日消费活力持续释放，海淀区2026文商旅体跨年活动热力全开 - 海淀区文化和旅游局",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2RFyj1suYCckxN39lFZHhS_eO-zCTdnmTiHYongtoP6ddCa5eGYv-hktKej1NlYLUOB5cxIjDDffeJQpbFQALn6ME2prfBs9RUEpY7C3AwoJ2et-sKLnFFnHGd6MLd7By5O-P0-KRY7-jnZaYAIm8cATghfDCuY1V2C8VMOPXxrNoVxBv8b1WX1aFUu8s9OqI5icVNO5Ew1k3Tx2d9sFgpffOt9SL"
+    },
+    {
+     "name": "带狗逛商场，还不遵守规定，这家“宠物友好”商场引发争议 - 北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc310oXUaWK0Kov1T_G8NeKKpS_3w5M5XPs9-OGOXEBuwK8u5-lWC8WSuW99FjtO-NP5jeSeUL0lJCX5oMvNGFb31z0hob3NuM7DYUFZF9A1IIUzAXxkknD1_gihfO849HMMOl3LrJYOctzE5S--dm5wmRvUBMLTJijU4"
+    }
+   ],
+   "checked_at": "2026-06-03"
+  },
+  "_drop_reason": "unclear"
  },
  "p_94b0320cd4": {
   "id": "p_94b0320cd4",
@@ -5566,10 +5610,15 @@
    {
     "url": "https://www.xiaohongshu.com/discovery/item/663b8e4c000000001a0299d8",
     "name": "小红书"
+   },
+   {
+    "url": "https://www.douyin.com/search/%E5%8C%97%E4%BA%AC%E8%83%BD%E5%B8%A6%E7%8B%97%E7%8B%97%E7%9A%84%E5%92%96%E5%95%A1%E5%8E%85",
+    "name": "抖音"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-31"
+   "daily-2026-05-31",
+   "daily-2026-06-03"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -5669,6 +5718,108 @@
   },
   "lat": 39.953164,
   "lng": 116.460192,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_bbb8ec76e0": {
+  "id": "p_bbb8ec76e0",
+  "name": "銹SHOW",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "751D·PARK时尚设计广场A18栋一层",
+  "why_friendly": "店家在门口设置了专门的宠物围栏和专属活动区，让宠物可以自由活动，而非简单允许进入。",
+  "tips": "位于798艺术区附近，可以安排逛展和喝咖啡的一日行程。周末人多，建议提早前往。",
+  "price_hint": "人均 ¥60-100",
+  "sources": [
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-120081262/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于“銹SHOW”及其宠物友好特点的明确信息。",
+   "sources": [
+    {
+     "name": "2025北京养狗规定 - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMofja7Ox7a5A8fSKBMTQBW_liXiNnNv5FEiYE9K18jyhXIkZG5Tqe9BPD9Uhe1oxIubGG0y0AqasOxD2Uw29kvpJeDOkNyQrPeMaOHRMpmT5F4pA84NViZcwuftxvmtIIlzPXKtMRqlD4AQ=="
+    },
+    {
+     "name": "注册犬证的规定——2025-2026年北京市最新养犬法规定",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYhb4Tiz1mbv3u4HhxBtKu-aqV3awaSqCiRb--1JvokOafpsJmbL9mgNvH8pfrPwkZ89-PzXwf0BTHfBtLUPkoA2IjwXQNpzAnvq48CVySm7K55kIEtpy_V1MH_aajcT2OcTAeo3flVIkpNmtbin84TSDEn_FDDBM-HaUPp1PRemhMgvOPcS7El34ZdOkKNhAv3gq9Edw2_jldeHjkp5TF6Eij9ZIErg=="
+    },
+    {
+     "name": "北京朝阳这几家咖啡店太适合夏天来啦！",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Z-QPvGu_bb750L4VOyNKqHDEsUliH1ZK_AGmR3bN4avXNIQKDXXCpWxpaPiTNdlPFQLYHD3NljDAxG1Ha_ZGMp0D0enh7O-r93XLJQylJkYZ3HIcNdEmYdoEc2373j-qe9W2v5tmg1By5dAnjw=="
+    }
+   ],
+   "checked_at": "2026-06-03"
+  },
+  "lat": 39.954415,
+  "lng": 116.61759,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_6a51a32ccc": {
+  "id": "p_6a51a32ccc",
+  "name": "The Great Outdoors",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "亮马桥官舍地下一层",
+  "why_friendly": "拥有宽敞的下沉式庭院，提供户外野餐风格的用餐环境，会为宠物提供水碗。",
+  "tips": "该店为成熟的宠物友好餐厅，政策相对稳定，但仍建议预定时告知会携带宠物，确保被安排在户外区域。",
+  "price_hint": "人均 ¥150-250",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/G8bVIa5Z9t9FhY5n",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.943314,
+  "lng": 116.457472,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_1d2ad323e7": {
+  "id": "p_1d2ad323e7",
+  "name": "LENTO 慢",
+  "category": "restaurant",
+  "district": "东城区",
+  "address_hint": "箭厂胡同20号",
+  "why_friendly": "拥有一个安静的胡同小庭院（Patio），允许行为良好的狗狗进入庭院区域，店员对宠物态度友好。",
+  "tips": "庭院空间较小，更适合中小型犬。胡同内不好停车，建议绿色出行。务必提前预定并告知有宠物。",
+  "price_hint": "人均 ¥200-350",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/l3z5n8Ie6M1vXgP7",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于LENTO 慢（东城区）营业状态或宠物政策的明确信息。",
+   "sources": [],
+   "checked_at": "2026-06-03"
+  },
+  "lat": 39.911442,
+  "lng": 116.725058,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
  }
