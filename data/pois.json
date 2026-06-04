@@ -133,11 +133,16 @@
    {
     "url": "https://www.cyzone.cn/article/629279.html",
     "name": "创业邦"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/663e0a1b0000000025002f1a",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "afterwork-walk",
    "cat-restaurant",
+   "daily-2026-06-04",
    "early-morning",
    "senior-dog"
   ],
@@ -9799,9 +9804,14 @@
    {
     "url": "https://hotels.ctrip.com/hotel/107743170.html",
     "name": "携程"
+   },
+   {
+    "url": "https://hotels.ctrip.com/hotels/detail/?hotelId=90647849",
+    "name": "携程旅行"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-04",
    "hotel-yanqing"
   ],
   "lat": 40.456813,
@@ -14661,12 +14671,17 @@
    {
     "url": "https://www.xiaohongshu.com/explore/note/6635f2a1000000000b02a1b3",
     "name": "小红书"
+   },
+   {
+    "url": "https://www.163.com/dy/article/J1A4DRDR0553A52F.html",
+    "name": "网易新闻"
    }
   ],
   "route_slugs": [
    "daily-2026-05-28",
    "daily-2026-05-31",
-   "daily-2026-06-01"
+   "daily-2026-06-01",
+   "daily-2026-06-04"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15761,5 +15776,45 @@
   "photo_url": "data/photos/p_ade43d7428.jpg",
   "photo_attribution": "Horace Leung",
   "google_place_id": "ChIJGVSp4DtT8DUR8tTd8FHdCiU"
+ },
+ "p_6876e4fb0a": {
+  "id": "p_6876e4fb0a",
+  "name": "隅（Corner）咖啡",
+  "category": "cafe",
+  "district": "东城区",
+  "address_hint": "美术馆后街77号，77文创园内",
+  "why_friendly": "拥有一个安静的独立小院，适合性格内向的狗狗。店家会主动为宠物狗提供软垫和清水，老板自己也养狗，对宠物非常友好。",
+  "tips": "咖啡馆空间不大，不适合大型犬或多只犬同时进入。可以先在77文创园内散步，再进店休息。",
+  "price_hint": "¥65",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/663b6a9f000000002601d4c2",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-04"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-02",
+   "note": "我与地坛THE CORNER（隅咖啡）在东城区，2026年2月仍被列为宠物友好咖啡馆。",
+   "sources": [
+    {
+     "name": "抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6ODR4E3SnaEye71cicr-gIigfCP57HqPFLPTckCg1MZ7NE9R8E-v9cDUW7-cCjXaKeztdDJLZfFnvRL0jPDaIB3zvh-CKpMfks3693Pxd2NNNbJwNkvl3_l5S6QifQK2_s_DeKGf96xEJLjpDOVfo5XER6vm8nXdYgRILFDyB8ea7AIU1Hl-4YHqfWjZ_jb2qDGcn21SNvwIM2q7h-GKpKQ=="
+    },
+    {
+     "name": "城市惠",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFcbagwl0RQ2MT5S4iFV48TxQOqbI4RAo2wk8vTQucAp2Z8sSwTV-uTZnVlPQDmkS8CiGtwdEpE8dB7wA-PW5H-_8u1tCPuEtSZEAKTC44Q9xtn62a9h384QvXa4B9LkgOkA=="
+    }
+   ],
+   "checked_at": "2026-06-04"
+  },
+  "photo_url": "data/photos/p_6876e4fb0a.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0HD1U3KCL"
  }
 }

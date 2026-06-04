@@ -2985,9 +2985,14 @@
    {
     "url": "https://www.sina.cn/news/detail/5031697369793590.html",
     "name": "新浪"
+   },
+   {
+    "url": "https://weibo.com/1879489524/OaL8Q9sY8",
+    "name": "新浪微博"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-04",
    "family-kid-dog",
    "rescue-dog",
    "restaurant-bbq"
@@ -5789,7 +5794,14 @@
   "lat": 39.943314,
   "lng": 116.457472,
   "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于“The Great Outdoors”宠物友好地点的明确信息。",
+   "sources": [],
+   "checked_at": "2026-06-04"
+  },
+  "_drop_reason": "unclear"
  },
  "p_1d2ad323e7": {
   "id": "p_1d2ad323e7",
@@ -5820,6 +5832,38 @@
   },
   "lat": 39.911442,
   "lng": 116.725058,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_cabf0f5aec": {
+  "id": "p_cabf0f5aec",
+  "name": "Out of Office·在野外",
+  "category": "restaurant",
+  "district": "顺义区",
+  "address_hint": "后沙峪董各庄村裕民大街1号",
+  "why_friendly": "店家会为每只到访的狗狗免费提供一份无调味的鸡胸肉或牛肉粒等专属餐食，并设有宠物饮水点和拾便袋。",
+  "tips": "周末人多，建议提前通过电话或线上平台预定。户外区域蚊虫较多，可以为狗狗和自己做好防护。",
+  "price_hint": "¥200",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/663c9e2a0000000026031f0f",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-04"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到“Out of Office·在野外”顺义区店的明确营业或宠物政策信息。",
+   "sources": [],
+   "checked_at": "2026-06-04"
+  },
+  "lat": 39.917708,
+  "lng": 116.39241,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
  }
