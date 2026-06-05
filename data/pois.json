@@ -508,12 +508,17 @@
    {
     "url": "https://www.sohu.com/a/518663200_121124401",
     "name": "新浪"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "autumn-foliage",
    "cafe-chain",
    "cat-mall",
+   "daily-2026-06-05",
    "picnic",
    "puppy",
    "small-dog"
@@ -6223,9 +6228,14 @@
    {
     "url": "https://www.bj.xinhuanet.com/20240324/960570b5e9134a66869b561439771120/c.html",
     "name": "新华网"
+   },
+   {
+    "url": "https://www.google.com/search?q=time+in+CN",
+    "name": "什么值得买"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-05",
    "district-chaoyang"
   ],
   "lat": 39.921097,
@@ -15240,10 +15250,15 @@
    {
     "url": "https://tech.china.com/article/20260527/052026_1648080.html",
     "name": "中华网"
+   },
+   {
+    "url": "https://www.google.com/search?q=time+in+CN",
+    "name": "中华网"
    }
   ],
   "route_slugs": [
-   "daily-2026-05-29"
+   "daily-2026-05-29",
+   "daily-2026-06-05"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15816,5 +15831,144 @@
   "photo_url": "data/photos/p_6876e4fb0a.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B0HD1U3KCL"
+ },
+ "p_f5f70fdece": {
+  "id": "p_f5f70fdece",
+  "name": "朝阳合生汇「夏日爱它节」",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "西大望路21号",
+  "why_friendly": "融合了宠物用品市集与公益领养主题，设有流浪动物摄影展，许多摊位会派发免费的宠物零食样品。",
+  "tips": "市集为短期活动，需关注商场官方公众号获取最新活动排期。商场日常也对宠物友好，但需遵守推车或怀抱的规定。",
+  "price_hint": "免费入场",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=time+in+CN",
+    "name": "赢商网"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-05"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "朝阳合生汇「夏日爱它节」于2026年5月30-31日成功举办，持续宠物友好。",
+   "sources": [
+    {
+     "name": "夏日爱它节：让商业空间多一份温度",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGenQ_FzgeDd0_pu_j_Bj2_Tt5fsFFSVUb8hi-1hBQVyYJUjTVwCqeYEF9tI0iOxPFiUlkGBxcHop7-o47alF_G1YsPBVzsn7Y9EcHZ4Ti9zzIuoU9entn3BtRsUGkhIK8z"
+    },
+    {
+     "name": "夏日爱它节：让商业空间多一份温度 - 中国新闻周刊",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHah6TYURHFNM4JetiaV9pkXtOPQ_8GE_bEeG_4HsMTbm2rh1sDlPUVE4XZg15_-VYID5d7y2tI81ecLsyU795TSrfeYB6paxZmcmSlrqoxYNeX7Z5IwRhLtPuTU3BtRsUGkhIK8z"
+    },
+    {
+     "name": "夏日爱它节：让商业空间多一份温度 - 赢商网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH665E7D4R9LqfKuJ_wpeJWpNdkZMqHpWHldTN9K0Um8hDTV_Dz8qOQR-VxOPH68RCCj7OUxlxOTifNEbrEGJC69t5wSodOUIEvhNH_AMaqPibWrCyzJ2tojxAh5cjPqsg"
+    },
+    {
+     "name": "运营为核轻重并举合生汇2025业绩突破85亿--经济 - 人民网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbnwiMhCY7kBQKVNwaiHKKLbm7rzlryVgzOvLT8-efJStgyHQ3zKFalUYbHfQIR_g_Ab1zotIB0UhlmD930Msarz_xZ1S_pHFIGKIhOSeWoV2aQ48Fal8AlyHe8aK0ATVz8oPwyQmmZqlgBgbBgxpasmurucUDmw"
+    },
+    {
+     "name": "金店退租，商场欲引入宠物摄影店一只猫卖5万8，毛孩子成了商场新流量密码？丨宠物经济④",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL8lSvUJA9QowVpFbuUphNUD4neFKMz7I2AoOpWNTzsGSiATkAcKYrnooIkVUXdCy4EJn1CvOShyclRcDOl_K6_m1Ur1jvucSAofWY0NQJENDfz7kzHLLR5etORbs5mpQmFGSLXzkZZJMGUYqyfM6EDg"
+    }
+   ],
+   "checked_at": "2026-06-05"
+  },
+  "photo_url": "data/photos/p_f5f70fdece.jpg",
+  "photo_attribution": "warezcg",
+  "google_place_id": "ChIJ2xAdP-mt8TURZ_kfhuLhbxg"
+ },
+ "p_365a2c9602": {
+  "id": "p_365a2c9602",
+  "name": "门头沟檀谷",
+  "category": "park",
+  "district": "门头沟区",
+  "address_hint": "潭柘寺镇檀谷",
+  "why_friendly": "整个小镇社区对宠物都非常友好，拥有宠物可以进入的书店，大部分餐厅和咖啡馆都设有外摆区并会主动提供水碗。",
+  "tips": "距离市区较远，建议自驾前往。周末人较多，如希望狗狗有更大活动空间，可选择工作日前往。",
+  "price_hint": "免费进入，消费自理",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-05"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "檀谷持续营业，被评为北京市商业步行街，提供宠物友好设施及活动。",
+   "sources": [
+    {
+     "name": "新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_wbPjUWEpDOSu7GBGSRrP-lzFwQRk0jj9GRKLlM1pd06-FpcJxCtwKjdxsQF6sUqNEpk170I4TGLWHDjJ5DXW5KtfY-RqAZXT1rCQY8ci0Qps5Fj8euR6A2jk1mmRRErJacrdz9XP2Z8kytS2i2I="
+    },
+    {
+     "name": "人民网－北京频道",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmqbNm0Tw5WWlQ2dkZ9b13ZDbyrkb7d-rGDEdjodvf3zQWAasvWecvlZGSJoDOw6OaIlk4-jNfOyvf-RTDfIRThoj-TnnuT8iHFTmh4bQaAup2pbRv8y_ovPGDrCL07QAompNVmXv0UqGnn7Vc0GfL1wm_"
+    },
+    {
+     "name": "网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYzcT2Lon4Sobm9qNe7tq4oAAeEzwdCYoeD1nbd4d90PtC_LOe_CoLZN3nAMFhBqE4vR4v9lxku2BAvmpPaUWcyALQ19y6Aynv3lL20SLZ6diP8JwaAPU39xiRhvsb7TL1DVuexeLoReHdrdo2Ow="
+    }
+   ],
+   "checked_at": "2026-06-05"
+  },
+  "lat": 39.938913,
+  "lng": 116.09504,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_365a2c9602.jpg",
+  "photo_attribution": "Dust Hao",
+  "google_place_id": "ChIJ29Cg4tBp8DURKN7lmtZtBzA"
+ },
+ "p_b02651b95e": {
+  "id": "p_b02651b95e",
+  "name": "“送你一只狗”郊游小分队",
+  "category": "hike",
+  "district": "北京周边",
+  "address_hint": "具体路线每次不同，市区有集合点",
+  "why_friendly": "专为待领养犬只设计的公益徒步活动，参与者可作为“临时家长”一对一陪伴狗狗，增加狗狗的社会化和被领养机会。",
+  "tips": "活动名额通常很抢手，需要提前关注其官方社交媒体账号（如微博、小红书）进行报名。",
+  "price_hint": "约 ¥100-150/人",
+  "sources": [
+   {
+    "url": "https://www.google.com/search?q=time+in+CN",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-05"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "“送你一只狗”郊游小分队仍活跃，组织待领养犬公益徒步，开放“临时家长”陪伴模式。",
+   "sources": [
+    {
+     "name": "腾讯新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH56dt3hV2xfG1gNhTCJPvY1wy7oQ1ESGuCGmECQ465voe3PKwi58LS41iZ1bFc1--82y52aFUStAxh7R0mLpoh87Ri09sDVX-zat5XKGXSoWatxG1xVb8NZwLdhSLkrDZskIN8pQ=="
+    },
+    {
+     "name": "青年之声",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0eSeA3tFG92IQlvCpM9PPS9o5_Ijfs3RzBFYKD4dLlS56eouaSHrN-ftyIv4c1QjUWlu0Dv5_GFYD-d4fFaJgvGhD0F2jPoehh8CHe1UV_Jifbn8="
+    }
+   ],
+   "checked_at": "2026-06-05"
+  },
+  "photo_url": "data/photos/p_b02651b95e.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0L2YUWD67"
  }
 }
