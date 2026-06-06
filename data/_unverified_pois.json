@@ -2130,36 +2130,6 @@
   },
   "_drop_reason": "unclear"
  },
- "p_01824b9c34": {
-  "id": "p_01824b9c34",
-  "name": "响水湖长城自然风景区",
-  "category": "hike",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "怀柔",
-  "address_hint": "渤海镇大榛峪村东",
-  "why_friendly": "京郊少数允许宠物同游的长城景区之一，可以带狗爬长城。",
-  "tips": "部分路段陡峭且为石路，对犬只体力有要求，请自备足量饮水。",
-  "price_hint": "人均 32元",
-  "sources": [
-   {
-    "url": "https://bj.bendibao.com/tour/201456/110191.shtm",
-    "name": "北京本地宝"
-   },
-   {
-    "url": "https://www.visitbeijing.com.cn/article/48qqm2g3u2x1657978860000/4HDJXBlD8YY1711957500000",
-    "name": "北京旅游网"
-   }
-  ],
-  "route_slugs": [
-   "district-huairou",
-   "large-dog"
-  ],
-  "lat": 40.315481,
-  "lng": 116.626028,
-  "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
- },
  "p_6a656263a9": {
   "id": "p_6a656263a9",
   "name": "in valley 西餐厅",
@@ -5864,6 +5834,143 @@
   },
   "lat": 39.917708,
   "lng": 116.39241,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_1261084ba3": {
+  "id": "p_1261084ba3",
+  "name": "郎园Station中央车站：“它博集”",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "将台路半截塔村",
+  "why_friendly": "专门为宠物举办的大型室内市集，设有宠物用品摊位和品牌方，是大型社交场所，并提供宠物饮水点。",
+  "tips": "室内市集高峰期会非常拥挤，空气流通性一般，对敏感犬优不友好。现场存在未牵绳现象，需主人格外注意。",
+  "price_hint": "门票约40-50元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6659d3a5000000000b01b3a5",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_c5ec0cbb0f": {
+  "id": "p_c5ec0cbb0f",
+  "name": "F·A·S·T馥颂餐厅（郎园Station店）",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "郎园Station A6-B座",
+  "why_friendly": "拥有宽敞的露台区域，店员会主动将带宠客人引导至此，并为狗狗提供专属水碗。桌椅间距大，适合中大型犬。",
+  "tips": "宠物主要活动区域在室外露台，预定时可特别说明希望预留露台位置。",
+  "price_hint": "人均约200-350元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/664604d7000000000703b6e8",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到F·A·S·T馥颂餐厅（郎园Station店）的明确营业及宠物友好政策信息。",
+   "sources": [],
+   "checked_at": "2026-06-06"
+  },
+  "lat": 39.921745,
+  "lng": 116.42988,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_3a78bf73fc": {
+  "id": "p_3a78bf73fc",
+  "name": "Berry Beans（门头沟檀谷店）",
+  "category": "cafe",
+  "district": "门头沟区",
+  "address_hint": "檀谷慢闪公园内",
+  "why_friendly": "有舒适的外摆区域和一片小草坪，店员对狗狗非常热情友好，会主动互动。",
+  "tips": "檀谷商圈本身也是宠物友好社区，可以顺便在周边逛逛。周末人多，建议早去占位。",
+  "price_hint": "人均约60-100元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6645a27c000000000703080c",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "大众点评显示“休息中”，且北京宠物入店政策趋严，近6个月无明确宠物友好信息。",
+   "sources": [
+    {
+     "name": "大众点评",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyzS4YgnvE5ClXlFKN4E9hJNWqPTp6n4v_Kg1Og-_tpu3yXBM7nmG_zHSYA--tFIRM98QJRfBNUaXXGSDVVpaA74xlMBrUlPrJr8YMQXIo1qKHhfPyjJIK84lWS5mKylQ0eclOZw37o-Nv_dzKMOIongg="
+    },
+    {
+     "name": "36氪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhwTE7hNFKWGYATU3iRhdAnAk6YNmgmBYW3J9m8_n0AfqZwXYZi-0ZUzYcM7DPJ0HiUzvWolPC1ulTgFDi22JqsHyAX7_kpcG2-IOuJpNhfdL4gtwzf7JgqCdxbfkM_iw="
+    }
+   ],
+   "checked_at": "2026-06-06"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_0638855372": {
+  "id": "p_0638855372",
+  "name": "爪爪移动照相馆",
+  "category": "petpark",
+  "district": "朝阳区",
+  "address_hint": "798艺术区（具体位置需预约）",
+  "why_friendly": "专门为宠物服务的摄影机构，摄影师非常擅长通过互动和零食引导狗狗，拍摄过程轻松无压力。",
+  "tips": "属于移动摄影车，拍摄地点可能不固定在798，需要提前通过官方渠道预约并确认当期位置。",
+  "price_hint": "套餐约399元起",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/664f331d0000000006037302",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到朝阳区“爪爪移动照相馆”的明确营业信息。",
+   "sources": [
+    {
+     "name": "忆宠物摄影工作室- 医院 - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAmJt8Zg48iWF-cJhTETA0cWVFzJiek6PwvDFwm03unFEcfwj5s0At3jlqCCMD2uYRkKsd-oc1cMDE91xwnZY7eM75jl12ua8z_X2BhFfMaBKCGgWhQ8M9A3N5CeX75qn4BJfHZMDkwr3kD-kvhUs="
+    },
+    {
+     "name": "为什么我们选择，只专心拍毛孩 - 爪爪快門",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKXmZenM9PVfoW-9Fxem1RZ8UdmpF4WTAvyQr92fFiP9gFe9zsruVVOtMIotXrfslRvrBlpx8FxZfmAkoL2LXfj5wvRlcWAMI9aTvUD-aEVldWegU9"
+    },
+    {
+     "name": "宠物O2O平台“爪爪”卖身朝云集团，立白长公主任掌门，腾讯系创始人早已淡出 - 界面新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzAJZW0qDmoIC0_RiHYy_qDmMTI8Hr7dUkdlYxSXUfX4gQ8FshvdOK10FmXNYFrq1-_Pbh8ujqPPm64NiwEWx8WQSHocoQq2EstMY8qmkJZFNjy2CpHXT5UTq9SGGN5o7Ew4nYcSEb"
+    }
+   ],
+   "checked_at": "2026-06-06"
+  },
+  "lat": 39.954415,
+  "lng": 116.61759,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
  }

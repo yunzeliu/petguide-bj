@@ -5483,10 +5483,15 @@
    {
     "url": "https://www.huanqiu.com/article/485v1UvL4iS",
     "name": "环球网"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6638d171000000000b037e5d",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "cat-water",
+   "daily-2026-06-06",
    "summer-evening"
   ],
   "lat": 39.92045,
@@ -15619,10 +15624,15 @@
    {
     "url": "https://www.xiaohongshu.com/explore/note/6659a0b4000000000e01f5c8",
     "name": "小红书"
+   },
+   {
+    "url": "http://www.winshang.com/news-833457.html",
+    "name": "赢商网"
    }
   ],
   "route_slugs": [
-   "daily-2026-06-01"
+   "daily-2026-06-01",
+   "daily-2026-06-06"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -15970,5 +15980,108 @@
   "photo_url": "data/photos/p_b02651b95e.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B0L2YUWD67"
+ },
+ "p_01824b9c34": {
+  "id": "p_01824b9c34",
+  "name": "响水湖长城自然风景区",
+  "category": "hike",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "怀柔",
+  "address_hint": "渤海镇大榛峪村东",
+  "why_friendly": "京郊少数允许宠物同游的长城景区之一，可以带狗爬长城。",
+  "tips": "部分路段陡峭且为石路，对犬只体力有要求，请自备足量饮水。",
+  "price_hint": "人均 32元",
+  "sources": [
+   {
+    "url": "https://bj.bendibao.com/tour/201456/110191.shtm",
+    "name": "北京本地宝"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/48qqm2g3u2x1657978860000/4HDJXBlD8YY1711957500000",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "district-huairou",
+   "large-dog"
+  ],
+  "lat": 40.315481,
+  "lng": 116.626028,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "景区仍正常开放，且允许携带宠物入园。需注意道路多石，保护好宠物。",
+   "sources": [
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGba-9Wx5bH3pxszEZAiaTuUnJYCVf_IsDi3zQmKIWA64e5G80qYR6Z65o3WtqXSkwM8CxojQfwRvwVY7M-SHGS4iI63X1Y1zN8xF0UDxZJjX7CE5XWHNp6U0_bQkP40IxA8in10CdT2mKXObBiFw=="
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHud_8B3p0Ao43bJ8rj9CnAmAJz4TdtBMTA2zDcaKRW20N0BqMCWVWJxIAr2QzHb-skGqClhWEZySkN8H2wVE9zoPClHgb9oSuOwIRfQNut4nwKrEA1GcYvZ4g2yxVF7Cs32k031g3Lvnas0gYLpQ=="
+    }
+   ],
+   "checked_at": "2026-06-06"
+  },
+  "photo_url": "data/photos/p_01824b9c34.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B000A7UPQD"
+ },
+ "p_e7d9778927": {
+  "id": "p_e7d9778927",
+  "name": "荒野7号金海湖大溪水亲子营地",
+  "category": "camp",
+  "district": "平谷区",
+  "address_hint": "金海湖镇彰作村",
+  "why_friendly": "明确允许宠物进入的露营地，拥有临湖大草坪，供狗狗奔跑。许多宠主会带狗在此过夜露营。",
+  "tips": "营地允许使用卡式炉，但禁止明火炭烤。湖边风较大，注意为宠物保暖。",
+  "price_hint": "日营票约198元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6631d10e0000000008013f27",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "营地正常营业，开放时间09:00-21:00。有信息显示其宠物友好政策未变，可带宠物入内。",
+   "sources": [
+    {
+     "name": "荒野7号金海湖大溪水亲子营地",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfPCdhAXIOVFGK5soFczd-HIc4g7-E2mqc0InbOz0FWlgZB76V764OQZFZDuSI-IGD1BDICSBpcEgYE06TpVdVrlDJsfOmxwjNOJhHEA-C4HW_ihalXEWY2bCN1elt3Qol5QgDHsX7svBBxIXIJbv-CY7S1mjkyPdXk92EoniIk9bXGerYbTPzUdzKWoptGyesrXdeDfb5dJWeIWGBYuiLCsiMZg=="
+    },
+    {
+     "name": "荒野7號金海湖大溪水親子營地門票【2026】 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbsmVhedbo9auamTsoKQgykWG9v5Qia-BZckIFEsvGAaCtWd-Aj2KHM_bn00WJ5CZr146raOOWYoRtv1N3ZZ5OsOfgfOnZ9ulY_JV_B7r7DpuSr0haiTsxjFsVTvUmiiej8W51YtclknWKOF_e5htClXutNvggkm8io4y0PhwVWUdXW88JfshpQe4Tg3f7K2b9Nv8=="
+    },
+    {
+     "name": "在金海湖荒野7号大溪水亲子营地的感受_野营烧烤 - 什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvzLD7coCOBeH43HJpF6THCiZFXGyha6_YqwA4gfSW8VY05oGpiI8JpbWxe7PhfXsg_0Hlyxs8IwPh_-IyhAsZK5JRiEGxtktSVpZUt-u5aWDlK7ACftHIvJdjU4x0bQ=="
+    },
+    {
+     "name": "荒野七号金海湖大溪水亲子营地",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzSZsywSMg0kH1ahFEPk2r_uTg8WxtOOU5krVFPPqOxNfTDZaWf8olNgHG7LM2nPmXqy5oMCUA3j4_vDbBfksBoT4aOXJp0QQ0czDiX6KBIXGVfSoZyGtw6Eeb3zCOtzskiSuXNJSeH5SxPGLfs4SSxEidf4LXXBuK31TBxzA_f12ZFsWfe_YFZA5WbFxAKVO-M8ZOJTgWRxBx4KgX6J7SzW4VhQ=="
+    },
+    {
+     "name": "荒野7号金海湖营地 - 抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd9n57yCvXRW1-ADWrZI3IWF99JsRLmaHAhc7sJBy2qT2-xzkTBdqOsE7g-81Del9lA-fryYkjPuzCxTnlhJo_1hjtz-Zgb9ioTJJr-owukT-eBdQEFGqIKDWBbkE-mYucm39Por34K_ybsiiMYUv7JBzfh8Eh1IHr-eTF73ZDMV-3mmVZfFHidY720F4w5pyuqlq8KYF6OLSuJP_I8lofgp0=="
+    }
+   ],
+   "checked_at": "2026-06-06"
+  },
+  "lat": 40.038536,
+  "lng": 117.007015,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_e7d9778927.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0G33MVGFG"
  }
 }
