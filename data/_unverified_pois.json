@@ -5951,5 +5951,121 @@
   "lng": 116.61759,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
+ },
+ "p_fafc09527c": {
+  "id": "p_fafc09527c",
+  "name": "CINKER PICTURES三克映画(亮马河店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "亮马桥官舍南区，近亮马河",
+  "why_friendly": "户外露台区域对宠物开放，可观赏亮马河景，店员会主动为宠物提供饮水。",
+  "tips": "建议提前预定露台座位，室内观影及用餐区禁止宠物入内。",
+  "price_hint": "人均约200-300元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/646b6e95000000001303a3cf",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-08"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_f239ccf81d": {
+  "id": "p_f239ccf81d",
+  "name": "M Stand(朝阳大悦城店)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "朝阳大悦城一层临街",
+  "why_friendly": "店外有宠物友好专区，提供牵引绳挂钩和水碗，店员会为狗狗提供免费的宠物奶油“爪布奇诺”。",
+  "tips": "适合逛街时带宠物小憩，友好区域主要在户外。",
+  "price_hint": "人均约45元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/645b0a930000000013038e45",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-08"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-05",
+   "note": "M Stand营业中。北京新规禁犬入餐饮，原宠物奶油可能受影响。",
+   "sources": [
+    {
+     "name": "大众点评",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2E6ca1E_OXWJdwk_L2mvTfJpTIwQScriKEQ3TY6oUDeaC8rRE7YbToFjpQjGnK_C03HV1lhX5VoL3YIOtuTHTtTDXmtZBeuX8TZu1h3wd8agK88pN0_mDIsrJa8Hl37_kjI2eWHOhlWSVjvkt4YzIbA=="
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELTZvBFetggyXpFPiWwp4qLKBozKAN_Dv3YyCdywATABaUT3WGsBIcwSiKYuizUg4cLFJHaOLpsmQH3Oj_gswApKCVQOOYHqAIGFwqgQpmRqZNMxbf-j_TThAL772L"
+    }
+   ],
+   "checked_at": "2026-06-08"
+  },
+  "lat": 39.91228,
+  "lng": 116.446685,
+  "geo_source": "nominatim",
+  "_drop_reason": "policy_changed"
+ },
+ "p_fca94e4720": {
+  "id": "p_fca94e4720",
+  "name": "北京THE BOX 朝外",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "朝外大街12号",
+  "why_friendly": "配备宠物专用电梯，提供宠物推车租赁、免费纸尿裤及饮水点，形成完整的宠物友好服务动线。",
+  "tips": "严格遵守商场宠物入内规范，是体验合规化宠物友好商场的优选。",
+  "price_hint": "免费入场",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07k7p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-08"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-05",
+   "note": "宠物友好区域限室外及G层公区，犬只须符合体重肩高规定，猫狗需疫苗、牵引绳/猫包。",
+   "sources": [
+    {
+     "name": "把策展装进零售“THE BOX朝外”套住了流量密码？ - 新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnxmnQj_7voygwkb7-Rv6znDKZAnt8Q7Cxw7tlZj6QTR6jq6wtIny_gX05BTpopIkth9YXRgOGDUAUhKSVG8YQ06NBQXjnyvtvksSJTD8G1zJ8Bhm7t1b2mBHd1_N-wK1jIPPBGQguPNaUQzL63fZyw4R8tJach936grs7kEteHiyDMzYjeA=="
+    },
+    {
+     "name": "带上“毛孩子”，来北京CBD逛THE BOX朝外吧！ - 北京市朝阳区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuS7ZvqGMaLDIrP8T1Pv91oFSpRYkz_AnrwFH9ZPBP3lzgJ7Bk8qQFO-yHkIRoWlE8pMqi8z8mPnrpLBK7xJuEU5SeMsWIjh83uJEkAzSFjI98DmQd767gDpAjHpAp_bFMUenucgyLtRYJaVT5j6hSzorRvM_psK5inLzmaTcuNArnlRM"
+    },
+    {
+     "name": "非标商业案例：THE BOX朝外， 北京新晋潮人聚集地！ - 超市设计",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOGEryOIwJfmHwuFiNEzvEOTHhaIIAym_pElKKhXPLpjAamUvbe1rH5lijcthS9NiydInJdp6y-muzixpllR9nAtxf20_XXfpY5zGQb46DJ9TmSzWpN7kqN-V2IHP4UWbnswnzsNCzan9heaw7j5Y="
+    },
+    {
+     "name": "“宠物友好”餐厅，两边不讨好-虎嗅网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdQnHmFl9Wmj8O31nSVGbLpZeFAhi0s8D42zxelN_5y358wF1CCjEtAU21DkutIhU5yQePLH5AmynzklICz82QBpbfiQW9-KTpCEY6vJYprH5Vxe5_3PDS_-0mGVedxZCakn4RPQ=="
+    },
+    {
+     "name": "THE BOX - 首都文明网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUVqhqLvJn8gWMpvCYuAVcMQZFUnhgpR0ws_WOSwm_u1X55hehofLTDkd95T7G3LiTx9IgsCqV6Crw7kB3IfJb42_v8eohdkDxYNu5KlvGrzJxXq1VLGT7cu_o9vtfX5UlaAa9Euo_28tYLu1J8pl6is87UWW-5A=="
+    }
+   ],
+   "checked_at": "2026-06-08"
+  },
+  "lat": 39.916967,
+  "lng": 116.437185,
+  "geo_source": "nominatim",
+  "_drop_reason": "policy_changed"
  }
 }
