@@ -4171,88 +4171,6 @@
   "photo_attribution": "via 高德地图",
   "amap_id": "B0FFF3T3SE"
  },
- "p_0339422f6f": {
-  "id": "p_0339422f6f",
-  "name": "世纪金源购物中心",
-  "category": "mall",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "海淀",
-  "address_hint": "远大路1号，近长春桥地铁站",
-  "why_friendly": "北京较早的大型宠物友好商场，允许宠物入内，并配有宠物店。",
-  "tips": "宠物不可落地，必须使用宠物推车或背包。周末人多，注意狗狗情绪。",
-  "price_hint": "免费",
-  "sources": [
-   {
-    "url": "https://www.sohu.com/a/753386616_121124374",
-    "name": "搜狐"
-   }
-  ],
-  "route_slugs": [
-   "district-haidian"
-  ],
-  "lat": 39.957439,
-  "lng": 116.282322,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2025-11",
-   "note": "商场正常营业并改造中，仍有宠物店，改造计划包含“宠物友好”主题空间。",
-   "sources": [
-    {
-     "name": "乐宠宠物店(世纪金源店)-图片-beijing宠物-大众点评网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRlgL42LL3juKw46_uP_fO0oExBy7rW3vYwfNl2Itt_i7r_eBPJJYAA5WQr0gdgGRV75e1XSRMZxvHQOSyE9Rf5Pos980b2WV31nEtmfhxAd8zJhC4mpMqT3ca-jb5OxSIxAWxNvVQ"
-    },
-    {
-     "name": "北京世纪金源购物中心2025年启动分区改造 - 中购联",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxbvOQkY_NyWeOHASkMOFZWhTvrVSSyzE3pau5JQ4kuqiLEhKYQMyKWZtqJKXqSm8y3UcW4yGfdquLTI1h8HFH33hioqnqpNRkLtUs9A2nFjZ_425T2SopEUhzSvX-sdAPwyLQvwE"
-    },
-    {
-     "name": "北京哪个商场可以带宠物 - 抖音",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpt2Gp9Gp8mF_d2aSHAo1dk30HtwwC5qa54Blr7Cid0v7gLpBcaiquaDEnf5GN8Ef71_youHYju84KUznPETW1LBGZrBJncQIJaweCOQzA5v4B21zIo07PU6Me-RQNmPQOlznircKEYVYv2ej9WmpNlGaJkmHoHImMoShS9u-_KmqEPpRsX1IppuqRYXAIjXXazeVfVVR6MTrG3M8PbrQN0-MWz0aHHbyoI7AOl-yQA4AN9XF68VIjWj-AkI"
-    }
-   ],
-   "checked_at": "2026-05-27"
-  },
-  "pet_features": {
-   "access": {
-    "indoor_allowed": true,
-    "outdoor_only": false,
-    "leash_required": true,
-    "diaper_required": null,
-    "carrier_required": true,
-    "vaccination_proof": false
-   },
-   "size_limit": {
-    "max_shoulder_height_cm": 45,
-    "large_dog_allowed": false,
-    "banned_breeds": []
-   },
-   "facilities": [
-    "indoor_pet_zone"
-   ],
-   "services": [
-    "water_bowl"
-   ],
-   "fees": {
-    "pet_extra_fee": "免费",
-    "sterilization_required": false
-   },
-   "best_for": [
-    "小型犬",
-    "中型犬"
-   ],
-   "not_for": [
-    "大型犬",
-    "怕生狗",
-    "高能量犬"
-   ],
-   "pet_hook": "商场内设有宠物店，并提供宠物推车租赁服务，但宠物不可落地，需全程在推车或背包中。"
-  },
-  "photo_url": "data/photos/p_0339422f6f.jpg",
-  "photo_attribution": "World Shopping News",
-  "google_place_id": "ChIJwSE6g6xR8DURYT3p8QbmqlY"
- },
  "p_d5ce8f2834": {
   "id": "p_d5ce8f2834",
   "name": "1733（大钟寺）商业街区",
@@ -10235,53 +10153,6 @@
   "photo_attribution": "Santiago Lazo",
   "google_place_id": "ChIJuRnb_HlS8DURVWDemUPX6gM"
  },
- "p_cd6910a5af": {
-  "id": "p_cd6910a5af",
-  "name": "Mandarin Oriental Cake Shop (文华饼店)",
-  "category": "bakery",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "东城",
-  "address_hint": "王府井大街269号北京王府井文华东方酒店2层",
-  "why_friendly": "五星级酒店于2025年新推出高端宠物蛋糕系列，分犬用和猫用款。",
-  "tips": "需提前至少24小时预订，可电话或通过酒店微信商城操作。",
-  "price_hint": "人均 398 元",
-  "sources": [
-   {
-    "url": "https://www.thebeijinger.com/blog/2025/07/17/where-get-pet-friendly-birthday-cakes-beijing",
-    "name": "the Beijinger"
-   }
-  ],
-  "route_slugs": [
-   "new-bakery-dessert"
-  ],
-  "lat": 39.929,
-  "lng": 116.416,
-  "geo_source": "district-centroid",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2025-07",
-   "note": "文华饼店正常营业，2025年7月推出高端宠物蛋糕系列，有犬猫款。",
-   "sources": [
-    {
-     "name": "Where To Get Pet-Friendly Birthday Cakes in Beijing | the Beijinger",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_h1805__KTYPtzmcEyqrzrO8olQybu9yq73K1bJ57rX1Mp-d3era_hUZHL1jWczzwYfxCBwpEElSxTDZcuumjG8yEZhjWM5aBPkD7iVsvDpoim0SEmS84fWgrkyCOJJ_XdDdwbP9U_upXY__lynW_lFhhwHoeH7Wa7t__iR7pIv4="
-    },
-    {
-     "name": "Exquisite Cakes & Pastries at Mandarin Cake Shop | Mandarin Oriental, Beijing",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0d-A_8oIbXzBte30-NTzXRhXBolYeb7_sD8CqiF7n4H1f9UBNlXYnHRv_JuUnJV0_KlxHgvAntX6pBAmH5JsO04PK5OMFlpVk8NPXQFayb0YJoNipv0YZQkCrwjgUbIv1qFLU-1nBRP_4adWcVHnShJnc0MXkmawprxRawsK2lAMVazI6-p1oZkZxBog="
-    },
-    {
-     "name": "文华饼店The Mandarin Cake Shop (Tian'anmen Square and Wangfujing Area, Beijing) - Restaurant Reviews, Menu & Contact | Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK2HsXtQnkR6ed9jRchmJiETwEdnJktNXGVanQTSS7je4PqbYIk8BkugxsSQPWOiIGhMeRSu_YzezzGlmglShIJJfEaOcBX_kN9n38YcfWEU2PU7CZTPtCEXw3Nil9w8bisoKCq0bYg-n7njIoxd2R3T4kR6JD-ndteiYzouPmz4C2byIz"
-    }
-   ],
-   "checked_at": "2026-05-29"
-  },
-  "photo_url": "data/photos/p_cd6910a5af.jpg",
-  "photo_attribution": "via 高德地图",
-  "amap_id": "B0I3VLHTJL"
- },
  "p_9ad89e1f31": {
   "id": "p_9ad89e1f31",
   "name": "奥北森林公园“五一”萌宠狂欢节",
@@ -10880,101 +10751,6 @@
   "photo_url": "data/photos/p_bb7bac6d1d.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B0FFIN9WNU"
- },
- "p_59e221be8d": {
-  "id": "p_59e221be8d",
-  "name": "超级小狗 Super Pup",
-  "category": "cafe",
-  "district": "朝阳区",
-  "address_hint": "亮马桥附近",
-  "why_friendly": "提供宠物洗澡美容服务，并有专门的宠物服装和派对活动。店外有大草坪可供狗狗奔跑。",
-  "tips": "一站式宠物服务空间，不仅能喝咖啡，还能为狗狗做全套护理和社交。",
-  "price_hint": "人均 ¥70",
-  "sources": [
-   {
-    "url": "https://www.sohu.com/a/781521950_121124374",
-    "name": "搜狐"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-02"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-05",
-   "note": "朝阳区THEBOX店仍为宠物友好咖啡店，提供洗澡、派对等服务。",
-   "sources": [
-    {
-     "name": "北京朝阳文旅",
-     "url": "https://mp.weixin.qq.com/s/11YBPhh-Y0nYUQavptYrMg"
-    },
-    {
-     "name": "城市吧",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0rpeq6EgSpoGkXIVJq_GtmOSDYBV8fMpnv8ck3C4RPL27PiOpqw5rpTA_jn1-NwRVvIHoOkbiP0Jh_OSmiiLqqesUjLwn9rRMMe0xiZKZMweHdh344Q0AA3BnbPdKXUJ2qX9sEiZf"
-    },
-    {
-     "name": "抖音",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-eAVKTybG3XjYsClxqPCQ_XY0hOtcfe47sPD-fH-1hoqvToywFuwNfqsIJ7Wi_MvuU-XEtGe5-bDx0b6ryp-iEBGzLaBf9m4He_5xKyiXok8FRDAC44etcvpE5T0f6aBoMwEF9GuIGXUJokEwRag2Qi9-vQJCdsKdciXMaViVZkP7LLXl29kikSYQcQLFYXZY_KNUKNHjnAbmTrJ59VRS4I_"
-    }
-   ],
-   "checked_at": "2026-06-02"
-  },
-  "photo_url": "data/photos/p_59e221be8d.jpg",
-  "photo_attribution": "via 高德地图",
-  "amap_id": "B000A82W48"
- },
- "p_ade43d7428": {
-  "id": "p_ade43d7428",
-  "name": "VOYAGE COFFEE (三里河公园店)",
-  "category": "cafe",
-  "district": "东城区",
-  "address_hint": "三里河公园旁，长巷五条19号",
-  "why_friendly": "拥有舒适的户外露天座位区，紧邻公园小溪，环境安静，适合带领安静的狗狗一同享受下午时光。",
-  "tips": "位于胡同内，环境清幽，是体验慢生活的好去处。建议在天气好的时候前往，享受户外座位。",
-  "price_hint": "人均 ¥45",
-  "sources": [
-   {
-    "url": "https://hk.trip.com/moments/detail/beijing-1-120780287/",
-    "name": "Trip.com"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-02"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-03",
-   "note": "咖啡店营业中，近期有提及。环境仍有动物，推测对宠物友好。",
-   "sources": [
-    {
-     "name": "大众点评",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGNdNBoz_nllivg_O9FsTvp8wyn_56_mG7aghuHAgwFZ8n8VpKsvkxC4bk1yqR8oGZ3lTOUPH-tX60nLbaPp92AkoUWVZZJ_gnepwl3MT2mJFRQxn3PHbVouYwwltD9XBWeEcbvVXbaD3-f4ZcG5pnQ=="
-    },
-    {
-     "name": "新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyHArKMMrBXVVk3waGEUbpSrVNmOMyYKF3QPjDYadqfdSl0IbQq7Sq9eHPB5_5K7uz-e2RC5mRX_cKBcb_YQMFpDtsMcJipypGthHToQQMdzvRoYaTsb2kfqfS-5O0VgLD561N3PL0kt30MmoUEEw=="
-    },
-    {
-     "name": "YouTube",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-glrkGCS8CIOR1eetphduQ7aXaJ6tVhofI5pp9GdORcBXmUhwv6wUvmgS3UF7lNaTiH5qowGy7r5XkCK3AGBnbyQjOqjBJpUF0py38UxzMRS2cw22LPYJficEXsWch0o8Da0EuA=="
-    },
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh_MI940O6F-dv3zrxpafqu-c_CCp-eSuC_dEjpdvsbXw6blgWTtJ7CpZqesz8b2s4jae22_vexEK47uP75KhBD0pszGhOuXu_akA0DxKq0yyqM4vqCR7FxKiQmIXdMsorR2JbMEyBwIRAuIvYuOgSY0ecoayh9LNxwbX3Ulzk2SheSBk=="
-    }
-   ],
-   "checked_at": "2026-06-02"
-  },
-  "lat": 39.940205,
-  "lng": 116.396857,
-  "geo_source": "nominatim",
-  "photo_url": "data/photos/p_ade43d7428.jpg",
-  "photo_attribution": "Horace Leung",
-  "google_place_id": "ChIJGVSp4DtT8DUR8tTd8FHdCiU"
  },
  "p_6876e4fb0a": {
   "id": "p_6876e4fb0a",
@@ -12085,5 +11861,547 @@
   "photo_url": "data/photos/p_2250f12a7a.jpg",
   "photo_attribution": "via 高德地图",
   "amap_id": "B000A8Y8Y8"
+ },
+ "p_31f72b4dc8": {
+  "id": "p_31f72b4dc8",
+  "name": "北京国际鲜花港（宠物节期间）",
+  "category": "park",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "顺义",
+  "address_hint": "鲜花港南路9号",
+  "why_friendly": "在特定活动期间（如宠物节），整个园区开放为大型宠物活动场所，设有市集、草坪和互动区。",
+  "tips": "属于季节性活动，出行前务必核实当年的具体举办日期和门票政策。",
+  "price_hint": "票价约59.9元/人",
+  "sources": [
+   {
+    "url": "http://bj.bendibao.com/xiuxian/202459/346895.shtm",
+    "name": "北京本地宝"
+   }
+  ],
+  "route_slugs": [
+   "cat-market"
+  ],
+  "lat": 39.811754,
+  "lng": 116.28895,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2024-05",
+   "note": "北京国际鲜花港于2024年5月18日至6月10日举办了宠物节，期间园区对宠物开放，设有互动区和市集。",
+   "sources": [
+    {
+     "name": "2024北京国际鲜花港宠物节游玩攻略（时间+门票）- 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESohWL5hUPDvkZ_X5UY8YUAg8ZIoakmgRdAeROxPaoDr0QgWR81pjQItzGYgo-D8xh9RiVWhXldamhNkDcYXgeMN26oG7z6sJEiQn8mWNwGQYNm_HVfGYTg7liWlrVpOJRt1z5xbX4"
+    },
+    {
+     "name": "2024北京国际鲜花港宠物节活动内容",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3IMcFvGnBGKrYnD6eIytN8YGH5uuIAlmH2FQ0ZLk6oMur00iynCbbazhKm5rQ2bgCDz7FTRH_AWnnOKdarYoGIz-N0I8ajvy3L-lINlAAxg8H-36lob_t0nQq-Up3Al5NTMAk"
+    },
+    {
+     "name": "2024北京国际鲜花港宠物节可以带宠物吗？ - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgVi9ImYeN8FNNvzszz7Zjxa3UYYqskVeQhdeUlg0sq7yVrkabARgm2UpqCTOSCXZr1f5yesOgYyjAzpHRrEs9VMPxdxmhAIVW4Yw9Sq7acD8EWUgRjMI-lG_-jRYEpI8bB8Gr"
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_31f72b4dc8.jpg",
+  "photo_attribution": "sorairo dennkyuu",
+  "google_place_id": "ChIJYbgnX1Rr8TUR6nFoPGv4Y5M"
+ },
+ "p_73beda2eec": {
+  "id": "p_73beda2eec",
+  "name": "地图之外·露营主题餐厅（顺义店）",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "顺义",
+  "address_hint": "后沙峪朗姿女装购物广场北侧",
+  "why_friendly": "拥有宽敞的户外露营区，草坪可供宠物玩耍，店家对宠物非常友好。",
+  "tips": "户外区域以烧烤为主，火锅需提前与店家确认。周末人多，注意看管宠物。",
+  "price_hint": "人均 200~300",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/G11Xq3hCqg03cWp3",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "restaurant-hotpot"
+  ],
+  "lat": 40.13,
+  "lng": 116.654,
+  "geo_source": "district-centroid",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "仍正常营业，近期有新店开业及活动，且明确提及为宠物友好营地。",
+   "sources": [
+    {
+     "name": "抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE61dtQ3IhNMiLa5k56lr89Y-H5zXlx9z1nayFaRWabkQf1QAvbJ2B8J6pWWnyTSlo9c3-_AauJbePpT-nkEEU-lGIdPtyvfAiuCXE2zMrdsG8_0m90XpFIEmvXFD5IPoBbm15Z95oI7ypccs6YqEOgdrOChTxHTfNq3inJT4hC1EuKYiAiz3Vj3BOqj_VKu0gvw1GZjHyPVlKXmVMBkyEhFQ=="
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8M62ZMMELkL56sKCeuRSWDwVWtMvK3tFhX1d9trW6U_RnrhnxZUNO42retdq2wITC_9EnrZ0A1n3-pGruaE-GnU9f3H2Sg80RfItEGR7ROTTycv0pOGWXP55b076S2W52saWC3yypQlurDB2HvQisuugnv8x96EAyaEE="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_73beda2eec.jpg",
+  "photo_attribution": "Neme SiS",
+  "google_place_id": "ChIJ02FT4L4G8TURmA0783Apu6Y"
+ },
+ "p_0a032d6cd7": {
+  "id": "p_0a032d6cd7",
+  "name": "南霈92号 - 东南亚美食",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "东四环中路92号院37号楼2层",
+  "why_friendly": "允许宠物进入，并且如果提前预订，会为携带宠物的客人安排角落的座位，以便管理宠物。",
+  "tips": "建议提前电话预订并说明会携带宠物。餐厅外有草坪可供狗狗活动。",
+  "price_hint": "人均约200元",
+  "sources": [
+   {
+    "url": "https://new.qq.com/rain/a/20221007A02Y4F00",
+    "name": "腾讯新闻"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-27"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2023-12",
+   "note": "南霈·東南亞美食（大郊亭店）目前正常营业，且在2023年12月的评价中明确提及为宠物友好餐厅。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNv8z-qcqlXo5_bykI3qdNMJFUDtfLAh7E78TaAH7pCDs9z43VYK8y3sUUtJt1aulW5m7psN-e9pg-9i0ua37d4c7io1M4leJPnlpAgvhaF21SrukBHiIeswPMjhQ4qYXR8Bq05NcypONTFye8Z_bufUAunewloSvW3UV7tWkr2lFM_A=="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "lat": 39.849432,
+  "lng": 116.671659,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_0a032d6cd7.jpg",
+  "photo_attribution": "Muneer Al Huseini",
+  "google_place_id": "ChIJYaUKisiu8TURTtl03aGE_7w"
+ },
+ "p_c503530e55": {
+  "id": "p_c503530e55",
+  "name": "锈SHOW (Rust Show)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "798艺术区751D·PARK时尚设计广场一层",
+  "why_friendly": "门口设有宠物专属的活动围栏，狗狗可以在围栏区内安全社交，店内空间也对宠物开放。",
+  "tips": "工业风环境非常适合拍照，周末人可能较多，建议规划好时间。",
+  "price_hint": "人均 ¥65",
+  "sources": [
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-120042079/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-02"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-01",
+   "note": "锈SHOW仍正常营业且对宠物友好，设有全封闭室外草坪，提供宠物用品。",
+   "sources": [
+    {
+     "name": "2026 銹SHOW食物推薦| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSENqMDvsyQrqVeEsSTLJodIjACJgY0U0lXhGeR5Kq7WRJrxz-9T0D2YIUKIuV2WwEQ228Oj0FOvY9EB2s1tyZzZkab5lNslDt7nCOXGTeEJmtBdTSQ4ZHYr88puqsvU3E84Yl-eHkJBsVFkiv2OljYXCkjog0ApUIHRUf"
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_c503530e55.jpg",
+  "photo_attribution": "sorairo dennkyuu",
+  "google_place_id": "ChIJW5WV3vms8TURskU3y6KOsGI"
+ },
+ "p_6f712de8f0": {
+  "id": "p_6f712de8f0",
+  "name": "Bistro 36 (三里屯店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "三里屯路那里花园1层",
+  "why_friendly": "服务员会主动提供宠物水碗和拾便袋，并赠送鸡胸肉零食。允许宠物进入室内主用餐区（需牵绳，不上桌）。",
+  "tips": "仅限15kg以下犬猫，大型犬慎往。建议提前确认当日具体政策。",
+  "price_hint": "人均约180元",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d07g0p/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-10"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.935321,
+  "lng": 116.438521,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "Bistro 36 (三里屯店) 仍正常营业且对宠物友好，提供水碗和零食，允许15kg以下犬猫进入室内主用餐区（需牵绳，不上桌）。",
+   "sources": [
+    {
+     "name": "带狗吃饭不再被拦：全国真实宠物友好餐厅清单 - 什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_A-OWSXoXLs-AqLducQBN7llG2nHlVim-xoANU34pZX2biX5YRXifU7rj63SDPXDSVepk5EYeofQaT2vO1Ot8dL64-ymyXZ9M0KfKKj3RfMXUYz_0Oo1ReWiRlDj_ "
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_6f712de8f0.jpg",
+  "photo_attribution": "Nguyễn Ngọc Thái Hòa",
+  "google_place_id": "ChIJe5IofvGs8TURNjRZgPPE9_Q"
+ },
+ "p_9cb1d249ae": {
+  "id": "p_9cb1d249ae",
+  "name": "「没有狗不行」度假村 (No Dog No Life)",
+  "category": "hotel",
+  "district": "怀柔区",
+  "address_hint": "雁栖镇不夜谷莲花池村158号",
+  "why_friendly": "必须携带宠物才能入住的“狗本”民宿，房间内提供宠物专用楼梯、豪华狗床，并设有大型户外草坪和狗狗技能拓展区。",
+  "tips": "非常热门，建议至少提前半个月预订，尤其是节假日。对狗狗社交性有一定要求。",
+  "price_hint": "约 1500-2000元/晚",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/6638d901000000001b02445b",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-11"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "仍正常营业，且明确欢迎宠物入住，包括狗，费用全免。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkc73WeI11rIK5ZUyZbmmfwJc6_zSvTkKsAcNejYCb_mLhVyRlMGDUPQt0WpvSMv-zKzAsZ0WjkjYvAr0iTg7N9wS_vBy_Xx46cxQpgEJbdk9M-3xjvEiFwP2ZV8hi3tkl4TqX8nUbt1do5iPKWodcb8GTQcYt7PtfkJq4oUa2lLADkpKK"
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER3NoJJavXzNlDB3nS1fUVqTk1MmjvJwKm6Fc1lYcxnxnPWl13BOGGuqRNdIjaPloxORYzJwzkfG9hq1RvfzSPqF6eS_50NbGlyOSS0u0AQ_pwAaCf24uVWdNynYutZMUAHp-hSsmPlnxEa4AZoyCFTHWtcQ39yYNbXJYBibrtekEFtBY="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_9cb1d249ae.jpg",
+  "photo_attribution": "Qiang Deng",
+  "google_place_id": "ChIJlaWYam0j8TURhfB6BDd3jPE"
+ },
+ "p_e0e4c15060": {
+  "id": "p_e0e4c15060",
+  "name": "「地图之外」露营主题餐厅",
+  "category": "camp",
+  "district": "顺义区",
+  "address_hint": "后沙峪裕华路空港段24号",
+  "why_friendly": "设有1500平方米的独立宠物活动区，工作人员对宠物热情，会主动提供饮水，允许狗狗尽情奔跑。",
+  "tips": "户外烧烤位需要提前预定。傍晚蚊虫较多，请为宠物做好驱虫准备。",
+  "price_hint": "约 350-450元/人",
+  "sources": [
+   {
+    "url": "https://www.visitbeijing.com.cn/article/49151.html",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-11"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2025-05",
+   "note": "“地图之外”露营主题餐厅在顺义区仍正常营业，并被提及为北京超火的宠物友好营地，设有1500平方米宠物专属乐园。",
+   "sources": [
+    {
+     "name": "“五一”畅游顺义｜水杉林露营、花海看星星……顺义这7处露营地→",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsA0Vp5aBey5cSo3QkWgd3D2RAzumQYR52vkS7m7_4vNLPxwWK3sYdSjuCBLKaqeLQWGXwMOAWEWyXz37kiJVsdIVt2YojTPFADsG_2cZq7LLP2elARw-nV8uBt3G5TE-naMYaqLgTPDPqpQJvLvnJb0aLCQNPZyzsMKg=="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_e0e4c15060.jpg",
+  "photo_attribution": "Mark Hsieh",
+  "google_place_id": "ChIJqYMJzppS8DUR8dx-rfBOShU"
+ },
+ "p_ac5ef435c8": {
+  "id": "p_ac5ef435c8",
+  "name": "HoboFarm",
+  "category": "hotel",
+  "district": "密云区",
+  "address_hint": "太师屯镇东田各庄村上庄21号",
+  "why_friendly": "允许宠物进入房间，拥有广阔的私家山野和草坪，狗狗可以自由奔跑。公共区域对宠物同样开放。",
+  "tips": "民宿位于山谷深处，建议自驾前往。餐食评价很高，可以尝试其“从农场到餐桌”的特色晚餐。",
+  "price_hint": "约 2000-2500元/晚",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/664c92190000000006030999",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-11"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.353131,
+  "lng": 116.7971,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-03",
+   "note": "HoboFarm仍正常营业且对宠物友好，猫狗可入住，需支付150元人民币宠物费。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwasReq0dmnxSIrvW39BemgWy7lEiyZU72taADbqbM7V1VRGZOeaLFQNnDFbpNoZkY97VdVGl4DaUtYSbjzsl2DrYCmQFPXSoo2tFsxsgCj8EmVMbUr6e66mdWM9ete2tfSXwLXiXCeMHOwQ2PGOgWeH5C"
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOExRML6UVl-KluKFuoys-TCyyZ5oLG3aEQ86sp2w7FoGqeKHtjzNDN_nkht0I0JXDEkmTDSsaaXxlYei-tFTNQf92o8xx8up0vhvjug8UImtb7lWVBGJN9A-zFaacXNOOQ9O_LfrhJuaIyhJE0iYO4lChivm0kaJqkx9YpQA="
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm6_fv0AhMywPuSuiFfsyiHYlTpcLTM92hjI1TM3vuqevrE257eM50PQLgxUW_lRIyL0zHXqsF6HDLSg0G5frqDd1332Chq_P5FSCIH3h3coovRJRB8kbiFYqCvYzzAsZEjq8HohNRzg5W4AH0oyFxeLNdv3YyCpOUC3ZBt8O3HW0bj6RSsz6ZQC013Q=="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_ac5ef435c8.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0GK0Z8PKW"
+ },
+ "p_750ffb9ad8": {
+  "id": "p_750ffb9ad8",
+  "name": "南森小鹿营地",
+  "category": "petpark",
+  "district": "丰台区",
+  "address_hint": "大红门南苑森林湿地公园内",
+  "why_friendly": "2026年5月新开业，有大片草坪可供宠物奔跑，可以和营地内的温顺动物进行互动。",
+  "tips": "营地内有其他动物，请务必牵好自己的宠物，避免惊扰。适合亲子家庭。",
+  "price_hint": "约 150-250元/人",
+  "sources": [
+   {
+    "url": "https://www.bjnews.com.cn/detail/1714621133129805.html",
+    "name": "新京报"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-11"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.890051,
+  "lng": 116.236559,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "南森小鹿营地于2026年5月开业，提供零距离萌宠互动，有多种温顺动物可亲近投喂。",
+   "sources": [
+    {
+     "name": "南森小鹿营地",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg9d1AMCzIf19LLqZuc8Z1Slh3QVwwxleW9RcVa_dL-cW0-WHwdqk0nLafKyW_RyunhSjIf3URerQYwShfR-3AiOo-_bVkF3YuTuPwfAOPsv0zkat96m_Jp5rX5XxpOV214w9V1zqh8IX5pJuwqFKm5rPbkZJTlwMEROQSqcON7E5fH5XmIqbEazlpzHE1ImMwpvDMDSt8XMpp64ClcVo="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_750ffb9ad8.jpg",
+  "photo_attribution": "Midori Tasaka",
+  "google_place_id": "ChIJOSqPOFu08TURK3NpzNYy40g"
+ },
+ "p_0e86e09e52": {
+  "id": "p_0e86e09e52",
+  "name": "北京领养日 @ 双桥万达广场",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "双桥万达广场户外区域",
+  "why_friendly": "在商场户外举办，空间开阔；待领养动物有独立休息区；欢迎爱宠人士带自家宠物前往交流学习。",
+  "tips": "每月举办地点可能不同，请关注“北京领养日”官方社交媒体获取最新活动预告。",
+  "price_hint": "免费参与",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6658e1c3000000001f03a2b1",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-12"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.907308,
+  "lng": 116.570008,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "第133届北京领养日于2026年5月30日在北京双桥万达广场成功举办，有大量待领养猫狗参与。",
+   "sources": [
+    {
+     "name": "133届领养日收官_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfR82x0rnoptIqJfamnaCHhAA1wRKiZzSx1yRYbKNhiVobiriPAE3e4IGxz0urOLaQdFf_vIKbxRZPfnU0SKmHGJRfd3NFruuyC3bmipK9CjBE3Oozy6a_M9KckYmVRV7wtJZXmWvJ1xCBs9eMaraO"
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_0e86e09e52.jpg",
+  "photo_attribution": "Bautista Martínez",
+  "google_place_id": "ChIJLZo4Y-Gs8TURwheYiuXXpT0"
+ },
+ "p_9933c8957e": {
+  "id": "p_9933c8957e",
+  "name": "京华福满园（东六环高线公园）",
+  "category": "park",
+  "district": "通州区",
+  "address_hint": "导航“京华福满园”即可",
+  "why_friendly": "2026年5月新开公园，设施崭新；全程允许宠物牵绳落地行走；路面平整且有专门的步道，遛狗体验好。",
+  "tips": "公园为线性，全长1.7公里，可根据体力量力而行。周边配套正在完善中，建议自备充足饮水。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6633e4c1000000001d03f8a2",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-12"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.890102,
+  "lng": 116.704683,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-06",
+   "note": "京华福满园（东六环高线公园）于2026年5月1日正式开放，全面提供宠物友好服务，并举办萌宠沙龙等活动。",
+   "sources": [
+    {
+     "name": "新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYUUMoyuaFVPq5V31UcjrhsJ3boAtlDOIZ-jDI6CJPSQmgI5k9ccrT9XyC2DPcLpxh4XEsN1r-BBCeAmexqBzfl-WvjQin3r4UKwFyTyHUjmbaJT62J4DAvVMFiHmCk2fQCD9frpXFLOUnUlAySY_z"
+    },
+    {
+     "name": "北京这座空中公园来啦！“五一”正式开放～",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv_MeWmjHKjpqtT2D4F8mSCPUSHTLYCG3sXjaHRIv-eHjpfyQcSv3S7_Va06Iid-HuGldkHZyjxJi5uJDnm1JmAnnhobOYGsuqVWPqciH9D2MjCoLvuVnOl1l6PI-D2EP6_Hwc7K2R7VsRjg1Ixh1zQIOvk6lrFqJvlDw="
+    },
+    {
+     "name": "新京报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUyPj2yHO2vXGQsk7EWpvQdrDWVUMenqY44qiOk9dyPQE9UtT3cS4Gg821hpGfEemUlNofPfAZUiuGZ9iPruZ6mSdr90xuqFmezlFwLjZa_3TrynfN4eEIeWtfRaGQ2EyQ6sYhkh3WS02yq2zBdvY="
+    },
+    {
+     "name": "北京六环高线公园福园实现无界无感入园",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk-EpKYIsuZKkS2-po7WHQEGWOJqUjCLx412e6a2-wMdAVpxmdTr5uj08me_pvyAWrctNuPAlNCEwXB46Z7SrI5frlJoXsVOo0Tf6AmX9FRTSPkVFQT2RWePFZYhUhile3abeLzsOPUu5z2Q-_FWk="
+    },
+    {
+     "name": "逛吃遛娃全拿捏！北京非遗嘉年华在福园等你来嗨",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAiuF6v7aw_8nmmg-P3AWCF2QMNQt5qdtuH_IIDoD22nlFokZOWb_73DvB9CGlHMQYixZ4rDmnWPrRdfhn9TEZNKNzUL31hsGNNeWo5NsETC3n9Akyp-OdgxLnB952MxVxB0yBUw4Qe4vc_E9d1w="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_9933c8957e.jpg",
+  "photo_attribution": "Jason Chang",
+  "google_place_id": "ChIJJyhNkdOj8TURZEQwXiYlQbk"
+ },
+ "p_6b3ff04dfb": {
+  "id": "p_6b3ff04dfb",
+  "name": "大兴狼垡城市森林公园",
+  "category": "petpark",
+  "district": "大兴区",
+  "address_hint": "芦求路与京良路交叉口附近",
+  "why_friendly": "官方试点公园，内有约435亩的宠物专属空间；在专属空间内狗狗可脱离牵引绳自由奔跑。",
+  "tips": "进入宠物专属区需在门口登记，并出示有效的养犬登记证和免疫证明，请务必带齐证件。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/664d8f2a000000001e02a9d3",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-12"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.782441,
+  "lng": 116.506886,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-04",
+   "note": "大兴区首个宠物友好试点公园，狗狗可脱离牵引绳自由奔跑，需登记入园。",
+   "sources": [
+    {
+     "name": "狼垡城市森林公园 - 抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQw-31gWKMW7UP4lkYSI3-JjMUtjYJsAq6ElIRzlhZADZ_Meev_C0nTc1ybcXBV177wlAnPFAeuimCNMF_YX8v3Kag4SlML6ZQWtcMbE2utgRkoyMVsWRE3Fr4R_F4QhqLD_As7H5qdEXoDuq73JpUz5oRNJv_QifJMkUc_XPBgzCgarXX1RgzHRQE8ihrXyIvLSXL7qtI6Bxkxe9b2zMbXQ=="
+    },
+    {
+     "name": "狼垡城市森林公园-大兴区 - 北京市园林绿化局",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGINnXWQDuS8Y68qgjuCFSdKqjTFv1Y67ZDIlFQgmkSrayFF1gM-7vRSv6atMOr66ewMIXJS7_1oSeAqgkTvPJnpDTLIZ5TsLQu9fKFvcgnxPui0v3dPlcQygcxW_bMqGFyDYiC7xIzJZSXEhIFgUr8Rg-2kLW4U62PR9bbYhImSDyqpf-x3OiZ6AI0aw=="
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_attempted": true,
+  "amap_attempted": true
+ },
+ "p_47470db244": {
+  "id": "p_47470db244",
+  "name": "Bistro 36 西餐厅",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "三里屯太古里南区",
+  "why_friendly": "允许宠物进入室内主用餐区，店员会主动提供免费的宠物水碗和鸡胸肉零食。",
+  "tips": "仅限15公斤以下犬猫，需全程牵绳且不能上桌。建议避开用餐高峰期前往。",
+  "price_hint": "¥180",
+  "sources": [
+   {
+    "url": "https://post.smzdm.com/p/a9d8k5n0/",
+    "name": "什么值得买"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-14"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-05",
+   "note": "仍正常营业，允许宠物入室内主用餐区，提供水碗和零食，限15kg以下犬猫。",
+   "sources": [
+    {
+     "name": "带狗吃饭不再被拦：全国真实宠物友好餐厅清单 - 什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUuQSgKYihP4T--ikkJKlM8rCwlGNgPSeUS1fNIx-vI46XDtdbMMFxvaQGcnJpSXAvM4AS3E1gwth-3sCFGo0kzn7d7moG0CfNuDBUVN64S03uS_UTWGcORGh9KyJU"
+    },
+    {
+     "name": "铲屎官的快乐，爱惨了北京这几家宠物友好餐厅",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdlp5-8NFdPteZngiK7rESxgT0W-v8QGJGztbs1NZ8fHK6CLgf0hpeoiLHDlj4dMnieeqQ4qZTT1y1nvkkvJ6JvC5Nks4uJI9lPL8soYYrnJhVFx7wefpim_MB2qzkues9vhdXhAJZ9DzOrXYn1M_qd1ujrDsqUWWrPzwDUHJu9DdFRg"
+    }
+   ],
+   "checked_at": "2026-06-16"
+  },
+  "photo_url": "data/photos/p_47470db244.jpg",
+  "photo_attribution": "Victor Ng",
+  "google_place_id": "ChIJ0cnQwLes8TURpo-lfjJ6-LU"
  }
 }

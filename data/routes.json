@@ -1490,10 +1490,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_0339422f6f",
    "p_d5ce8f2834"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（1.5米以内）",
    "充足的饮用水和便携水碗",
@@ -4627,12 +4626,10 @@
   "category": "season",
   "dim": "daily-1",
   "poi_ids": [
-   "p_59e221be8d",
-   "p_ade43d7428",
    "p_87cd443c64",
    "p_865abbf502"
   ],
-  "poi_count": 4,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -4648,7 +4645,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10151,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-03",
