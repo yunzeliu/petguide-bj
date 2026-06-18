@@ -1,4 +1,89 @@
 {
+ "p_18415e8a41": {
+  "id": "p_18415e8a41",
+  "name": "凉水河公园",
+  "category": "park",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "大兴",
+  "address_hint": "亦庄荣华街道西环南路",
+  "why_friendly": "设施完善，有超大草坪和专门的宠物卫生间，对宠物主人非常友好。",
+  "tips": "保护公园内的花草植被，文明赏景。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.thepaper.cn/newsDetail_forward_17664810",
+    "name": "澎湃新闻"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/47QoaLOWE6F",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "early-morning",
+   "holiday-may1",
+   "spring-flower"
+  ],
+  "lat": 39.725413,
+  "lng": 116.335442,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到凉水河公园宠物友好政策的明确更新信息。",
+   "sources": [
+    {
+     "name": "豆瓣",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_uwMX1ohaba62anXee7rWgYFEBPdMhTMwnwST-7-CFbxlKkXjxdkE6VOjxTOTiAJjBYr1ELVp8D4p3uIfYCaGVnWaASGnFuFTXp2e_nqt554mQ1CVTWTXhIkBGuQ6xqL0ulf2jg=="
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXoDFXGLrGyb7r1483aCVBjo8ge8Ku_Mv01XaEVHyjubO_Wy4MZUkI7JeuQY0rxoRGut7wsjYsHBi-sTnGBKc6u5XW1MVURnZ4uB9_mfD5ZGWKdc7r_PjqCBBzSSz7B9z6BZiTaS-PU5ES2osa"
+    },
+    {
+     "name": "北京旅游网综合",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn-wg1pzH6KK1CSjT4BLTpHLcOjfjROJ65BoOhmTsm7X6jB__u0i8CcPCnhzk8g29bW0WCn8QTKX6o25Isnl-M729Z-zkKaMQzjfEby9ltjLWJIbaPkmyYz3rZEqeKEmvY1pjEADDTbL-OiQqg"
+    }
+   ],
+   "checked_at": "2026-06-18"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": null,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "pet_bathroom",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬"
+   ],
+   "not_for": [],
+   "pet_hook": "有超大草坪和专门的宠物卫生间，适合狗狗尽情奔跑撒欢。"
+  },
+  "photo_url": "data/photos/p_18415e8a41.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0FFMATC37",
+  "_drop_reason": "unclear"
+ },
  "p_0339422f6f": {
   "id": "p_0339422f6f",
   "name": "世纪金源购物中心",
@@ -1903,10 +1988,15 @@
    {
     "url": "https://m.dianping.com/shop/k9GqgVf5tLgZq5Uj",
     "name": "大众点评"
+   },
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-12095033/",
+    "name": "Trip.com"
    }
   ],
   "route_slugs": [
    "cat-hike",
+   "daily-2026-06-18",
    "district-chaoyang",
    "puppy"
   ],
@@ -5806,47 +5896,6 @@
   },
   "_drop_reason": "closed"
  },
- "p_ba6770492c": {
-  "id": "p_ba6770492c",
-  "name": "凉水河公园(亦庄段)",
-  "category": "park",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "大兴",
-  "address_hint": "亦庄新城滨河公园",
-  "why_friendly": "设施完善，内有超大草坪和专门的宠物卫生间，对宠物非常友好。",
-  "tips": "园内花田、芦苇小道适合拍照，请文明使用宠物设施，随手清理。",
-  "price_hint": "免费",
-  "sources": [
-   {
-    "url": "https://www.visitbeijing.com.cn/article/48qqm2g3u2x",
-    "name": "北京旅游网"
-   }
-  ],
-  "route_slugs": [
-   "cat-pet-park"
-  ],
-  "lat": 39.72118,
-  "lng": 116.49073,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "2025-07",
-   "note": "近6个月无明确宠物友好政策更新。2022年及之前曾对宠物友好，设施完善。",
-   "sources": [
-    {
-     "name": "千年凉水河今朝焕新颜 - 人民日报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4YTcJoacI77EU7J84XzW8fGR3D0p0osBTPYxJEnQK2DwgY6Y7NhMQZjswq9yBg2d13MR0zOgEjjagVc7jQwP7OD39bCs7TMHXZs_b7WRqK6Yp9IuEBZF-ClnpDICwAriNbqoni_iQfU-1l8uJhiHOoLSzbUT1PouQZNuWYF8idetRu5yRb-o"
-    },
-    {
-     "name": "2022北京“宠物友好”公园图鉴，一起带着毛孩子去撒欢儿吧 - 澎湃新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTwif3aiZ0m-f55KJP-ejwKxb57ffhOD0YdXP76qLisJWLf5YEcLeoa8cbk9XOhUGS9sGs6ZiAHihfGvbYXltjQQpmeidocT0TxnK9eTLEXHkkf_X1_GiJjF_YBOPJ1yrZx27XmOCw2VSiOJeL"
-    }
-   ],
-   "checked_at": "2026-05-27"
-  },
-  "_drop_reason": "unclear"
- },
  "p_d8ab6af51f": {
   "id": "p_d8ab6af51f",
   "name": "DOS道厮（郎园Station店）",
@@ -6717,47 +6766,6 @@
   },
   "_drop_reason": "unclear"
  },
- "p_0c75401dbd": {
-  "id": "p_0c75401dbd",
-  "name": "金隅琉璃文化创意产业园",
-  "category": "park",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "门头沟",
-  "address_hint": "龙泉镇琉璃渠村",
-  "why_friendly": "官方允许宠物进入的文创园区，空间开阔，并设有宠物饮水点等便利设施。",
-  "tips": "进入室内商铺需遵守各家具体规定，建议在户外区域活动。",
-  "price_hint": "免费",
-  "sources": [
-   {
-    "url": "https://www.visitbeijing.com.cn/article/4MnzYE9V0rW",
-    "name": "北京旅游网"
-   }
-  ],
-  "route_slugs": [
-   "district-mentougou"
-  ],
-  "lat": 39.938913,
-  "lng": 116.09504,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "2026-05",
-   "note": "园区正常开放，但近6个月内未找到明确提及宠物友好政策或设施的信息。",
-   "sources": [
-    {
-     "name": "2026金隅琉璃文化創意產業園| 北京指南與旅客實拍| Trip Moments",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qfwUIgLzTE97kb4KniRT3iUu7k_UgbrbECwx7RLgo5FvYYP2cFtHYHWnG4fVtzLnMen7CmUCyfUceZ5_WbGVdVkbxwz6mi0zaLYE9BxfngGhU6QMsx70XWZ4d1LZey5SUTf7U_4Ow1TLKtdxkahnReZZ3Ava0m6AJrrr3V-yNY-yT5q-V9HD6eYg54iOfTrRR6l-QzO_"
-    },
-    {
-     "name": "金隅琉璃古窑重燃_新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzHxiUE4-M9pPgL-1xUzRr_Fcf5GuiQdju0cd7yotrPSl1Vv8UnQAXsMlyRkLRW7vrs4T9xMb8Hrq5kl0j24TlmslH8H1-YSy2BHx7FsCxZVG2lDHcgoO1MTIq3j_aYRKKUR3IyQj71E2lo5R832eh"
-    }
-   ],
-   "checked_at": "2026-05-27"
-  },
-  "_drop_reason": "unclear"
- },
  "p_285c0497ae": {
   "id": "p_285c0497ae",
   "name": "鹿鸣营地",
@@ -7167,23 +7175,15 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-04",
-   "note": "近6个月无将军关村樱桃园明确宠物政策更新。平谷区正积极建设宠物友好城市，但该园具体政策不明。",
+   "latest_mention": "",
+   "note": "近6个月未找到将军关村樱桃园明确的宠物友好政策信息。",
    "sources": [
     {
-     "name": "新京报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZcj3i2Ym3UDdxg1gPy8E0IML8GKIjssTwDzeEy53uVYB_K9bvIFS7oeqNJ2rUMvlXRCdUw9UBfp0lUVqAqGcvQl4oXZncNQ34lGAu9PuS_gouhCT9PwP_6PUMJ5RBZxnfGsfSKludc8IH7hkYFzJXaw=="
-    },
-    {
-     "name": "人民网－北京频道",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr36mCPrSp3vrzg5ZfZa0k1SOGBTHpkpZ_zJJEYnc4ADVWOVA2qyAVdYBNom6mlQiBaggNCM-z-HiaGNgJo8mTHTBNQ7mGpWGwUyXxcifoW8U2YzGMBxo_hm_DshQsyp64EkDmNXxnI9gaKUqfd6QZIXlJOA=="
-    },
-    {
-     "name": "高大尚平谷",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkzzgPgMVbpojCMFzLW71QAnd64Os4dgHgAZgiHaScuzMnesm1rDbtscvhf5xWZJNLwqJwqIpXIymP-VcYTrnPlxYHf9HHOLf2mZ45mzDFfZFjqPxPUVOk5XJ0NylcQMc8Fg9V7bg96DRLPL9WxvffgSWssj4Wctbbh_t17bOTmnyF"
+     "name": "将军关樱桃休闲采摘园 - 北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPDmxW0lFebJeUPkPTovFr0E4sA6orEQov9ZUz93TdjHdeF2Mbk5HiimSWW826qecH_MyXi9WWyvukbgI6POVjfNGatrJg3ANR7Yxk9EEnzOnubHgk5_KfCDaAJWJxs0532AuAumV972Yq"
     }
    ],
-   "checked_at": "2026-05-27"
+   "checked_at": "2026-06-18"
   },
   "_drop_reason": "unclear"
  },
@@ -10025,9 +10025,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于“The Great Outdoors”宠物友好地点的明确信息。",
+   "note": "近6个月内未找到朝阳区“The Great Outdoors”餐厅的明确信息。",
    "sources": [],
-   "checked_at": "2026-06-04"
+   "checked_at": "2026-06-18"
   },
   "_drop_reason": "unclear"
  },
@@ -10086,9 +10086,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“Out of Office·在野外”顺义区店的明确营业或宠物政策信息。",
+   "note": "近6个月内未找到“Out of Office·在野外”顺义区店的明确宠物友好政策更新或营业状态信息。",
    "sources": [],
-   "checked_at": "2026-06-04"
+   "checked_at": "2026-06-18"
   },
   "lat": 39.917708,
   "lng": 116.39241,
@@ -10855,5 +10855,92 @@
    "checked_at": "2026-06-16"
   },
   "_drop_reason": "unclear"
+ },
+ "p_36c27312b3": {
+  "id": "p_36c27312b3",
+  "name": "密云南山小筑民宿",
+  "category": "hotel",
+  "district": "密云区",
+  "address_hint": "河南寨镇，近南山滑雪场",
+  "why_friendly": "拥有独立私密的超大庭院，对宠物极度包容，狗狗可以不用牵绳肆意奔跑撒欢。",
+  "tips": "民宿提供免费的烧烤炉具，可以自备食材，在院子里和爱宠一起举办烧烤派对。",
+  "price_hint": "约400-600元/晚（整院）",
+  "sources": [
+   {
+    "url": "https://hk.trip.com/moments/detail/beijing-1-133132799/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-18"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.353131,
+  "lng": 116.7971,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_fd3144e6d8": {
+  "id": "p_fd3144e6d8",
+  "name": "地图之外营地",
+  "category": "camp",
+  "district": "顺义区",
+  "address_hint": "后沙峪裕华路空港段24号",
+  "why_friendly": "专门划出1500平方米的独立宠物区域，是专属乐园，而非简单允许进入。提供宠物活动、美容甚至寄养服务。",
+  "tips": "营地晚间常有乐队演出和夜市，氛围很好，但如果宠物对声音敏感需注意。",
+  "price_hint": "人均消费约150-200元",
+  "sources": [
+   {
+    "url": "https://finance.sina.com.cn/jjxw/2026-06-10/doc-inaxssyp2142784.shtml",
+    "name": "新浪财经"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-18"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到“地图之外营地”明确的营业状态或宠物政策更新信息。",
+   "sources": [
+    {
+     "name": "“五一”畅游顺义｜水杉林露营、花海看星星……顺义这7处露营地→",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZY9mOV4veCri1Fw-fX3b00SNv0oOGkE9eS8NN01Wx2HBoDC2OkPxJURSx5U_RXcHgo-9RXU4TDAFg2ZBDdIfYCiZg1rCzPdHrfHnuVJiwVBQK9MhSNMxdBes4330euRzYzDP-NwexZSicz3i2tkrDHV_SpKPGj0WSwQM="
+    }
+   ],
+   "checked_at": "2026-06-18"
+  },
+  "lat": 40.086326,
+  "lng": 116.651516,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
+ },
+ "p_254c9e4500": {
+  "id": "p_254c9e4500",
+  "name": "奥林匹克森林公园",
+  "category": "park",
+  "district": "朝阳区",
+  "address_hint": "科荟路33号（南园）",
+  "why_friendly": "公园南园草坪开阔，允许宠物进入。近期（如6月初）会举办如“修狗生活哲学乐园”等免费的宠物主题活动。",
+  "tips": "周末人流和宠物都非常多，适合喜欢热闹和社交的狗狗。请务必牵好牵引绳，并及时清理粪便。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://www.toutiao.com/article/7377287231448891913/",
+    "name": "今日头条"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-18"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.02072,
+  "lng": 116.384939,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
  }
 }
