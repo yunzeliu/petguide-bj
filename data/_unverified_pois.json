@@ -1,4 +1,52 @@
 {
+ "p_365a2c9602": {
+  "id": "p_365a2c9602",
+  "name": "门头沟檀谷",
+  "category": "park",
+  "district": "门头沟区",
+  "address_hint": "潭柘寺镇檀谷",
+  "why_friendly": "整个小镇社区对宠物都非常友好，拥有宠物可以进入的书店，大部分餐厅和咖啡馆都设有外摆区并会主动提供水碗。",
+  "tips": "距离市区较远，建议自驾前往。周末人较多，如希望狗狗有更大活动空间，可选择工作日前往。",
+  "price_hint": "免费进入，消费自理",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-05"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-05",
+   "note": "北京市正修订法规拟禁犬类进入餐厅，檀谷宠物友好政策或受影响。",
+   "sources": [
+    {
+     "name": "“宠物友好”餐厅，两边不讨好 - 新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdBEzPie-pRkHH9jtaOtS9xb1o7iP0gJrtvKC0_6iZFtdkyjJkT9ih_xU3ouoFPxg2lpFWORO8aVwumySl3ALaMfZs_YXmSw1eWNciL5X_HF_ls2_evJM6y5nfM7SoZYzGd9QZ500orR-s0dGcfKY5hwPAM3Hl42OYuDTW57yGalZTFNsjLw_3zg=="
+    },
+    {
+     "name": "店铺上新！门头沟这里太好逛了",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhZR2mRK9mXNeKIq8endxfEEacYAea7GSbmoRpf_fYXEAiqkTqP1qxeqThoQLIWq_OPnjAI6lSVTW4h1dm2laxP1GfdcWBx2fcMtfff_3A72gnyrj-_SXc9h1xjJp80GDG5w3peua7VMBomQVDYT_JVYCzWSHtgoG5vYY="
+    },
+    {
+     "name": "京西门头沟| 檀谷TANKO的新玩儿法 - 北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz4DFxgfaJ9KdHTD8Ok2nFPqM53JtuiTQkXAYpzjqOsybzAcOWTr1eYofLTNnnGZl7WVOM8WV0jbghLtPgxgavUr0y_yvFvq7_2Mzmvk_b-9UyHRm5TEqQ9QxmQ6vxnPiw1nz0VIYbsMTjwjpyfw=="
+    }
+   ],
+   "checked_at": "2026-06-19"
+  },
+  "lat": 39.938913,
+  "lng": 116.09504,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_365a2c9602.jpg",
+  "photo_attribution": "Dust Hao",
+  "google_place_id": "ChIJ29Cg4tBp8DURKN7lmtZtBzA",
+  "_drop_reason": "policy_changed"
+ },
  "p_18415e8a41": {
   "id": "p_18415e8a41",
   "name": "凉水河公园",
@@ -4548,9 +4596,14 @@
    {
     "url": "https://www.syncedreview.com/2023/09/27/beijings-pet-friendly-cafes-a-haven-for-animal-lovers/",
     "name": "Synced"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/4HDVFE6PXLB",
+    "name": "北京吃喝玩乐"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-19",
    "district-chaoyang"
   ],
   "lat": 39.92045,
@@ -5896,51 +5949,6 @@
   },
   "_drop_reason": "closed"
  },
- "p_d8ab6af51f": {
-  "id": "p_d8ab6af51f",
-  "name": "DOS道厮（郎园Station店）",
-  "category": "restaurant",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "郎园Station园区内",
-  "why_friendly": "拥有宽敞的户外露营风区域和大草坪，为宠物提供充足的活动空间。",
-  "tips": "郎园Station为宠物友好园区，但仍需牵绳。周末人多，注意看管。",
-  "price_hint": "人均 100~150",
-  "sources": [
-   {
-    "url": "https://k.sina.com.cn/article_1800888567_6b5790f702001a1lb.html",
-    "name": "新浪"
-   }
-  ],
-  "route_slugs": [
-   "cat-restaurant"
-  ],
-  "lat": 39.966853,
-  "lng": 116.509543,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "",
-   "note": "近6个月内未找到DOS道厮（郎园Station店）宠物友好政策的明确更新信息。",
-   "sources": [
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBczB30o4LitCdBS2B8U0bo4UAZe6LICraYYa_kSjFcvLIuKQynZpdOqNgOM3dsCCUUD7IEdHzrU5IJT91qhUop_8g1HzF-0HYv20edHgxveKoGw_yKAGnUriD01gHyJGcj4e7kLERcIk9-hZQs37BPJ0IyBTvHrKdLEySkNzMBjByAJ8="
-    },
-    {
-     "name": "澎湃新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkDF30AZUTiUaitGInfOUPTJvyTCt5y8z4DcphTF8MyLYsnAwuVNmTKAKTEsO4Vk3mWUQGcHfGJJIKy6VpC8jq8cB5WMfTDF8IhrFmzXfY5-dVBhkRFVhi_WX19VNIRZJ2S9l9j_qTiGpE3XTUCg=="
-    },
-    {
-     "name": "中央社CNA",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVyvwTpkGTGddX8t0Tbl0Fug7VLXE1pFCOT3T7USZFTFj7hzMxSBejZhAYuUCLQiSwQoOXX-Xleb92LXXfmL2RGeCxpEbmr4QFcc_YRvQc0xBHAVle61djBWve81cM9mFSHzBKhWL6N-ODtxc="
-    }
-   ],
-   "checked_at": "2026-05-27"
-  },
-  "_drop_reason": "unclear"
- },
  "p_9bd61d7d9e": {
   "id": "p_9bd61d7d9e",
   "name": "小院儿·标准私家菜",
@@ -7264,22 +7272,30 @@
   "lng": 116.720316,
   "geo_source": "nominatim",
   "freshness": {
-   "status": "policy_changed",
+   "status": "closed",
    "latest_mention": "2026-05",
-   "note": "未在近期宠物友好公园列表提及，可能已禁宠或政策变更。",
+   "note": "公园正常开放，但官方规定除导盲犬外禁止携犬入园，与原宠物友好描述不符。",
    "sources": [
     {
-     "name": "京报网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmpQd-t4RVHCLLxLUern5iPjEsRvOrYa_o2hvscBK7uzGBKSWFzYJPRZtjjcIaic3bYsjjPlV6OSt25L9--3eB4G0qulst7Gi1ZCWNltrQ6fAPQrKBgkh5DSR0-SZhuIdRJHdqraiXb43m6g4="
+     "name": "北京城市副中心绿心公园游园须知(入园注意事项)- 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhC7KwlA5cl5bxHI7IJS262Az7iolmhBezIBjSbMFegsufsjPXNLvm3yZ5skp-U7lONAh1CX93RwiFYDaNG5lXelCpngeVxwO2gqiVdgZJS3orPsczc1vIFoXnP1XCc1Z0QjzFZw=="
     },
     {
-     "name": "北京旅游网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqvKGB661idYwv93ImULQLGJlOC8occGLFZL3l3uef8FzjN5Qxp3_OfUXio2nk2JXuDiOx5eLer1JlqGAJVDZzsnIOTvv8LujSWJtm4lzAwZuKABZl-ta-i-hhlIy33KfXpEObSE4aC8WuPhfIXg="
+     "name": "城市绿心森林公园下周二开园，游览攻略来了 - 新京报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hfLLjL6tSeub0QfeqMgb_jdy-AEJEKXb6KoRGvCrV8Mih4Pxd7DVQXgtdymdhPIX3KPdKEHibkvY12tSoRnRh5YRIHPYbNUyYeMIu71KSuVVI3MWxXlOkVUaKFH97jPRfrK25Wq0jtmVUVp2AQ=="
+    },
+    {
+     "name": "绿心公园月季文化节启幕 - 首都文明网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYXZlmEQNsyNMcc5vNBPwrmCqI8AY9KKznYJ4OP8JzpZPVuFjKXO_7O3OgqfOfTg1xDc_Cy7iBx47MOMtMvgx0dCiV1w3CBoxa8l2PXJqqCo4sPgHrGOybLCmiKTf_5XVylv3mGTMcIc4i"
+    },
+    {
+     "name": "2026 城市綠心森林公園家庭與兒童推薦| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIGaKxWHf9mj9CvDZfFU5nxz3pa_8CjiLl6KoPsQTv00IhceoaxoFrK9fUsFvIW39H6qhKDO5oGF9RlzPBq5QyuAy17_5thJ8ZWOSnPqEr-tpjzu5KBkW72F6jLIKZQNoq1EXCWe1UZkM77HRanjdQhe0a3REUAmAB9ktnpaIAalr3zWpSD5yt8jU9Whw5uGAo4R5U6CItA94=="
     }
    ],
-   "checked_at": "2026-05-27"
+   "checked_at": "2026-06-19"
   },
-  "_drop_reason": "policy_changed"
+  "_drop_reason": "closed"
  },
  "p_22e3e6738b": {
   "id": "p_22e3e6738b",
@@ -10856,31 +10872,6 @@
   },
   "_drop_reason": "unclear"
  },
- "p_36c27312b3": {
-  "id": "p_36c27312b3",
-  "name": "密云南山小筑民宿",
-  "category": "hotel",
-  "district": "密云区",
-  "address_hint": "河南寨镇，近南山滑雪场",
-  "why_friendly": "拥有独立私密的超大庭院，对宠物极度包容，狗狗可以不用牵绳肆意奔跑撒欢。",
-  "tips": "民宿提供免费的烧烤炉具，可以自备食材，在院子里和爱宠一起举办烧烤派对。",
-  "price_hint": "约400-600元/晚（整院）",
-  "sources": [
-   {
-    "url": "https://hk.trip.com/moments/detail/beijing-1-133132799/",
-    "name": "Trip.com"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-18"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "lat": 40.353131,
-  "lng": 116.7971,
-  "geo_source": "nominatim",
-  "_drop_reason": "no_freshness_check"
- },
  "p_fd3144e6d8": {
   "id": "p_fd3144e6d8",
   "name": "地图之外营地",
@@ -10942,5 +10933,47 @@
   "lng": 116.384939,
   "geo_source": "nominatim",
   "_drop_reason": "no_freshness_check"
+ },
+ "p_e076a6579f": {
+  "id": "p_e076a6579f",
+  "name": "北京领养日",
+  "category": "petpark",
+  "district": "多区",
+  "address_hint": "不固定，通常在大型商场举办",
+  "why_friendly": "提供一个安全、规范的平台，让待领养的流浪动物与潜在领养家庭进行线下互动和了解。",
+  "tips": "关注“北京领养日”官方社交媒体账号，可获取最新的活动时间和地点信息。",
+  "price_hint": "免费参与",
+  "sources": [
+   {
+    "url": "https://socialbeta.com/cases/cornetto-beijing-adoption-day-2022",
+    "name": "SocialBeta"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-19"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2025-08",
+   "note": "近6个月内未找到北京领养日明确活动或运营信息。",
+   "sources": [
+    {
+     "name": "2025北京宠物领养日活动攻略（时间+地点+内容）- 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIj4eHZGosg1m2jAMbK3_kM8LsQ40MhYq5t_Dw-PNXDv2SgylE7k1QP1RFU7yerboE6tDPTMZCrfW9pxst49bRQppQdJx8mNSMFYWxU_gUs860Y4H9kqATlPANuFScf0Rfm1rFRU5krA=="
+    },
+    {
+     "name": "2025北京宠物领养日领养流程 - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHN36uOuyLTuBebZxVEgWnMEvTEAJqyr9B5eKz8i0TyiXvjY-vcGjWN9gZeSqVBgaaJJLMZ2dGmSqBzFWILpmt3Foa7yyLargzZdDXgVEBpxFyxo7doRipKdJDUi73TrARFDjSKa8ULw=="
+    },
+    {
+     "name": "2025北京宠物领养日待领养动物预览入口（附领养流程） - 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuzZLVUIPwJsElWh-BASSKr4fsgUhkqN0RSC7dknB1birKFpzNpqfmSc-CaHx02pUq9-BP0YTZ4EHp2ZfVsRb8dhDe404reA763OD2NdLq5VDGa7LWhk9BONfOqei0j87MBTiY15dXQQ=="
+    }
+   ],
+   "checked_at": "2026-06-19"
+  },
+  "_drop_reason": "unclear"
  }
 }
