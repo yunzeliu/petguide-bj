@@ -1,4 +1,57 @@
 {
+ "p_01824b9c34": {
+  "id": "p_01824b9c34",
+  "name": "响水湖长城自然风景区",
+  "category": "hike",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "怀柔",
+  "address_hint": "渤海镇大榛峪村东",
+  "why_friendly": "京郊少数允许宠物同游的长城景区之一，可以带狗爬长城。",
+  "tips": "部分路段陡峭且为石路，对犬只体力有要求，请自备足量饮水。",
+  "price_hint": "人均 32元",
+  "sources": [
+   {
+    "url": "https://bj.bendibao.com/tour/201456/110191.shtm",
+    "name": "北京本地宝"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/48qqm2g3u2x1657978860000/4HDJXBlD8YY1711957500000",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "district-huairou",
+   "large-dog"
+  ],
+  "lat": 40.315481,
+  "lng": 116.626028,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-06",
+   "note": "近6个月内未找到响水湖长城自然风景区明确的宠物政策信息。",
+   "sources": [
+    {
+     "name": "中国民营经济国际合作商会",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6gApCj-FFoAaGlblsywRzL3AJr7QRUogivOPTdy9uEZxcSrB66fWJfATpSuPZBDHBjToHAhIr0gmjzOmvXVICcilTokzaEGIisyEusbk-IWIr6s0zjDqPIkwgB3J5y0JCd690sJW5x7PhzYS-F2GINg=="
+    },
+    {
+     "name": "Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcB3IPOzVj1QgDQ--UEjanrXgNXFPLUwmtm2bjmzAGGU15odolj2vHy7cNtCxH7uUMAIgt2m6Whkv8U3F4R179jZOfWQy-LVI9R8do8XHZ6iax2r7h4yd8ve_4fLptvlZP9lrkvIZ4gJhUqnlT_fbrajg0GibFB1SrrRQ1dp8NzX0u6xrJ6OUvBzYi2gX0e8JjIasm8-LKJSzQdT6Q2KdgVTbfUsYqK2Pgsw=="
+    },
+    {
+     "name": "携程攻略",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvmnJHD2C4MF_AI-EJbPxeahcJWYeRQ3JO5LPzGmlkfL2PKVXuk5vmLzeUFsmhEUriudDZSFn6Qf5yf-tNU_iZ0cucf7ICr-zbZ-8KE5VzyewNni3CYlzMB3s_USmukfrbIQvDr6ins-Va_LrqXB6M9p0K"
+    }
+   ],
+   "checked_at": "2026-06-21"
+  },
+  "photo_url": "data/photos/p_01824b9c34.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B000A7UPQD",
+  "_drop_reason": "unclear"
+ },
  "p_365a2c9602": {
   "id": "p_365a2c9602",
   "name": "门头沟檀谷",
@@ -2572,9 +2625,14 @@
    {
     "url": "https://www.winshang.com/html/news/332795.html",
     "name": "赢商网"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123456",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-21",
    "early-morning",
    "market-charity"
   ],
@@ -3718,10 +3776,15 @@
    {
     "url": "https://www.sohu.com/a/740266159_121123893",
     "name": "搜狐"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123458",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
-   "cafe-haidian"
+   "cafe-haidian",
+   "daily-2026-06-21"
   ],
   "lat": 39.913,
   "lng": 116.366,
@@ -8359,22 +8422,22 @@
   "lng": 116.27051,
   "geo_source": "nominatim",
   "freshness": {
-   "status": "unclear",
-   "latest_mention": "2025-12",
-   "note": "商场正常营业，但近6个月无明确宠物友好政策更新。北京养犬规定禁犬入公共场所。",
+   "status": "policy_changed",
+   "latest_mention": "2026-06",
+   "note": "北京宠物政策收紧，商场普遍禁犬入内，原包容度或已变更。",
    "sources": [
     {
-     "name": "节日消费活力持续释放，海淀区2026文商旅体跨年活动热力全开 - 海淀区文化和旅游局",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2RFyj1suYCckxN39lFZHhS_eO-zCTdnmTiHYongtoP6ddCa5eGYv-hktKej1NlYLUOB5cxIjDDffeJQpbFQALn6ME2prfBs9RUEpY7C3AwoJ2et-sKLnFFnHGd6MLd7By5O-P0-KRY7-jnZaYAIm8cATghfDCuY1V2C8VMOPXxrNoVxBv8b1WX1aFUu8s9OqI5icVNO5Ew1k3Tx2d9sFgpffOt9SL"
+     "name": "宠物进商场餐厅被全面收紧，法律红线为何压倒“友好”潮流？ - 什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxXFOfxz0Mh-HNiWiTXi_PeD7lm86sLC0MwGJOewsAtawS4ULiRfaCiZUwk9xSurJe6Yv2a3Cwlr4wQyTxC7Jvyw8Nb6re40NZzqbhIB20JdI-Ad8LyXWF3bYtKJzMw=="
     },
     {
-     "name": "带狗逛商场，还不遵守规定，这家“宠物友好”商场引发争议 - 北京日报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc310oXUaWK0Kov1T_G8NeKKpS_3w5M5XPs9-OGOXEBuwK8u5-lWC8WSuW99FjtO-NP5jeSeUL0lJCX5oMvNGFb31z0hob3NuM7DYUFZF9A1IIUzAXxkknD1_gihfO849HMMOl3LrJYOctzE5S--dm5wmRvUBMLTJijU4"
+     "name": "“宠物友好”餐厅，两边不讨好 - 新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl-PFvAiRzJn_cEgl5eYiNBzesZMwzIUw3c8Yl6DEmsMOPwb45-5TJYYgzY1AGIXoAiFM2oJV7brt5-8qx2P7JJPf_Sy3Ujie-TwjpzpQ4lMzoKo_VcUmLNnubdVo17Ei77oedWp-1EDNrL6O1-7IKdal-y2tjB7wOHWSn9TRtYpdUZ3a4Gf88tw=="
     }
    ],
-   "checked_at": "2026-06-03"
+   "checked_at": "2026-06-21"
   },
-  "_drop_reason": "unclear"
+  "_drop_reason": "policy_changed"
  },
  "p_94b0320cd4": {
   "id": "p_94b0320cd4",
@@ -10932,5 +10995,81 @@
    "checked_at": "2026-06-19"
   },
   "_drop_reason": "unclear"
+ },
+ "p_6f339fd03f": {
+  "id": "p_6f339fd03f",
+  "name": "野邻LINE FRIENDS露营村 (北京)",
+  "category": "camp",
+  "district": "密云区",
+  "address_hint": "河南寨镇河东路与顺密路交叉口东500米",
+  "why_friendly": "拥有广阔的草坪区域供狗狗奔跑，部分住宿单元允许宠物进入，并提供专门的宠物拾便袋。",
+  "tips": "郊区蚊虫较多，请为自己和宠物做好防虫措施。建议提前预定，尤其是节假日。",
+  "price_hint": "人均约500元（日间票）",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123459",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_b7f9029049": {
+  "id": "p_b7f9029049",
+  "name": "LITTLE NAP COFFEE & BAR (国贸店)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "建国门外大街1号国贸商城北区B1层",
+  "why_friendly": "店员会主动安排携带宠物客人在外摆区域就坐，并会主动询问是否需要为宠物提供饮水。",
+  "tips": "位于商场负一层，空间有限，主要适合小型犬短暂停留。",
+  "price_hint": "人均约60元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123460",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到LITTLE NAP COFFEE & BAR (国贸店)在北京的明确营业及宠物友好信息。",
+   "sources": [],
+   "checked_at": "2026-06-21"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_e59dee18f7": {
+  "id": "p_e59dee18f7",
+  "name": "M Stand (多家分店)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "三里屯太古里南区S2-12",
+  "why_friendly": "连锁品牌，宠物友好政策标准化。大部分门店的户外区域均对宠物开放，店员会主动提供拾便袋。",
+  "tips": "各分店政策可能略有不同，特别是商场内的门店，友好范围可能仅限店铺外摆区。",
+  "price_hint": "人均约50元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123461",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.91228,
+  "lng": 116.446685,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
  }
 }
