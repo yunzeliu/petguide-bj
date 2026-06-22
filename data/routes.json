@@ -4967,10 +4967,9 @@
   "dim": "daily-0",
   "poi_ids": [
    "p_bc27e76eda",
-   "p_6f552cc8ae",
-   "p_f4438d5e8c"
+   "p_6f552cc8ae"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -4986,7 +4985,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10157,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-09",
@@ -5541,6 +5540,64 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10170,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-06-22",
+  "title": "北京宠物友好新去处：近14天小红书博主热议的7个周末出行地",
+  "summary": "告别旧网红店，本期为您精选7个近30天内备受小红书博主和媒体关注的北京宠物友好新地点。从怀柔的专业宠物营地到市区的狗狗友好咖啡馆，这些地方不仅欢迎宠物，更在细节上提供贴心服务，如独立泳池、自助洗护和宠物专属菜单，确保您和爱宠都能度过一个完美的周末。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "朝阳区",
+   "石景山区",
+   "顺义区",
+   "门头沟区"
+  ],
+  "tags": [
+   "宠物营地",
+   "每日发现",
+   "大草坪",
+   "宠物友好咖啡",
+   "新晋网红",
+   "2026年06月",
+   "周末好去处",
+   "近期新开"
+  ],
+  "category": "season",
+  "dim": "daily-0",
+  "poi_ids": [
+   "p_7315b8f5bc",
+   "p_0c75401dbd"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水",
+   "狗狗零食",
+   "疫苗本（部分场所需要）",
+   "防虫喷雾（户外场地）"
+  ],
+  "warnings": [
+   "出行前建议再次电话确认各场所最新的宠物政策，以免临时变动。",
+   "在公共场所，请务必使用牵引绳，并及时清理宠物排泄物，文明养宠。",
+   "夏季户外活动注意防暑，避免在午后高温时段长时间逗留。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10171,
   "verified": false
  }
 ]

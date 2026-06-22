@@ -1,4 +1,81 @@
 {
+ "p_1261084ba3": {
+  "id": "p_1261084ba3",
+  "name": "郎园Station中央车站：“它博集”",
+  "category": "mall",
+  "district": "朝阳区",
+  "address_hint": "将台路半截塔村",
+  "why_friendly": "专门为宠物举办的大型室内市集，设有宠物用品摊位和品牌方，是大型社交场所，并提供宠物饮水点。",
+  "tips": "室内市集高峰期会非常拥挤，空气流通性一般，对敏感犬优不友好。现场存在未牵绳现象，需主人格外注意。",
+  "price_hint": "门票约40-50元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/6659d3a5000000000b01b3a5",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-06"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-05",
+   "note": "近6个月未找到“它博集”在郎园Station中央车站举办或相关信息。",
+   "sources": [
+    {
+     "name": "Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP_LiavuckfnEMXp_L1OGC2mX6fzifs_VEx1YBAWzfvdWvE8JqWb17I9vEnKoTY0cOHTTNBtg-fT80A3bKPSiKimfONqgeNeyVpEoz-oriCsN7M907Ea0okbJXnT4foUJpydJvOmmkfHSCkHG777VSbQacFxnGqQ1yY19hqGTBXycGiCt7E_iB"
+    },
+    {
+     "name": "北京经济信息网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUBxe_-pmV1spm-BlQ7WXjo8mc62fCe1qz74oWD6AtH0pLdUmTC1GUTkLDcyHMxEkMkJuHqP-b3TsrB7s4yyFZoiHlhOjWolekqfEceV6pb_pCZ-CkPinqh8h9bsc8o2K3dpDPZITd2e1yJQWqpekmCTKw"
+    },
+    {
+     "name": "首创·郎园Station - 欢迎您！",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-OwbIhcNu2AkVI2xPJuuEybJGU4rv9hB4uBto6vRpspysVTcnArq-RJai9NE8tfW3OALVttwFfr85JIlZv7pWIRJtJc-sHbzyPPQW-BPhxL7nOaFnIDlvt-D5BYNm3qk_BQkpEJW_Jm4="
+    }
+   ],
+   "checked_at": "2026-06-22"
+  },
+  "photo_url": "data/photos/p_1261084ba3.jpg",
+  "photo_attribution": "Kenzo*",
+  "google_place_id": "ChIJF8pZQamt8TUROK7lAVzNuwc",
+  "_drop_reason": "unclear"
+ },
+ "p_f4438d5e8c": {
+  "id": "p_f4438d5e8c",
+  "name": "百里之遥·乡食",
+  "category": "restaurant",
+  "district": "怀柔区",
+  "address_hint": "渤海镇六渡河村，近慕田峪长城",
+  "why_friendly": "拥有独立的超大山水庭院，可以让狗狗自由奔跑玩耍，不用一直被拴在桌边。",
+  "tips": "适合京郊游，爬完长城后用餐。山野环境，注意蚊虫防护。",
+  "price_hint": "人均约150元",
+  "sources": [
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-133263229/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-08"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到关于“百里之遥·乡食”营业状态或宠物政策的明确信息。",
+   "sources": [],
+   "checked_at": "2026-06-22"
+  },
+  "photo_url": "data/photos/p_f4438d5e8c.jpg",
+  "photo_attribution": "Stephen Ng",
+  "google_place_id": "ChIJT54k_gut8TUR1bQJS3Nja3s",
+  "_drop_reason": "unclear"
+ },
  "p_01824b9c34": {
   "id": "p_01824b9c34",
   "name": "响水湖长城自然风景区",
@@ -1293,9 +1370,14 @@
    {
     "url": "https://www.visitbeijing.com.cn/article/4Mnz0tQfF1r",
     "name": "北京文旅生活季"
+   },
+   {
+    "url": "https://www.sohu.com/a/790108399_120207234",
+    "name": "搜狐新闻"
    }
   ],
   "route_slugs": [
+   "daily-2026-06-22",
    "puppy"
   ],
   "lat": 40.13,
@@ -11016,7 +11098,19 @@
   ],
   "city": "beijing",
   "city_name": "北京",
-  "_drop_reason": "no_freshness_check"
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到“野邻LINE FRIENDS露营村 (北京)”的明确信息。同品牌苏州太仓店政策为不允许携带宠物。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOvxSsPDHX-zSdfeN4dweoHtqQXvU-QnvOOElW-uKXZ7oaiMgv6BIKmUU7ZvvVd9UN0H3hK9ru-hXijDhyMG0E2sSE_S1hNvZ5EmOIZG5MBKIzNm3VVo4gUJ2h80TFluCiPQXC56fEdSVVoWz1ykKto36PV91u_Zje2Mpmy4PVFta8F7fP9Y4smshdX0CscZ8FB2Xz9RKtqbc="
+    }
+   ],
+   "checked_at": "2026-06-22"
+  },
+  "_drop_reason": "unclear"
  },
  "p_b7f9029049": {
   "id": "p_b7f9029049",
@@ -11071,5 +11165,113 @@
   "lng": 116.446685,
   "geo_source": "nominatim",
   "_drop_reason": "no_freshness_check"
+ },
+ "p_4987863b24": {
+  "id": "p_4987863b24",
+  "name": "WANDER LIFE 宠物乐园",
+  "category": "petpark",
+  "district": "朝阳区",
+  "address_hint": "东风公园附近",
+  "why_friendly": "五环内少有的户外宠物乐园，入园需查验疫苗证明，环境安全有保障。",
+  "tips": "记得携带爱犬的疫苗本备查，园内设施丰富，适合精力旺盛的狗狗。",
+  "price_hint": "¥80/人/犬",
+  "sources": [
+   {
+    "url": "https://www.163.com/dy/article/J25PTT4A0552E894.html",
+    "name": "网易"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-22"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2024-05",
+   "note": "近6个月内未找到WANDER LIFE宠物乐园（朝阳区）的明确最新情况。",
+   "sources": [
+    {
+     "name": "每一只狗狗都值得可以奔跑的大草坪| 北京宠物营地指南 - 网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-5kDEriQY9wtOqdsCHUDyeyokaBpkHggQZGxTjfvo7JdoWzRFlWYxgLSY-4H_IoFZfRQbu9WlbT00B-1tQO8_Rx2kJM07GwOiNtdLOcbP_upRrywAOErsXCa8kETJmk2-97DOxMnOM104oEgT0VA="
+    }
+   ],
+   "checked_at": "2026-06-22"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_3beef7f1f5": {
+  "id": "p_3beef7f1f5",
+  "name": "四脚吞金兽宠物营地",
+  "category": "camp",
+  "district": "朝阳区",
+  "address_hint": "郊区，具体地址需通过其官方渠道查询",
+  "why_friendly": "提供丰富的餐饮选择，包括铁锅炖等特色菜，并售卖狗狗专属零食，实现人宠共乐。",
+  "tips": "适合喜欢美食和露营的宠主，建议关注其社交媒体获取最新活动和菜单信息。",
+  "price_hint": "¥180/人",
+  "sources": [
+   {
+    "url": "https://www.163.com/dy/article/J25PTT4A0552E894.html",
+    "name": "网易"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-22"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.954415,
+  "lng": 116.61759,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_76260d2448": {
+  "id": "p_76260d2448",
+  "name": "D.A.O COFFEE (西西里村)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "798艺术区",
+  "why_friendly": "允许狗狗在店内落地行走，设有含饮用水和拾便袋的“狗狗能量补给站”，并会赠送狗狗奶油。",
+  "tips": "位于798艺术区内，逛展和喝咖啡遛狗可以一并安排。周末人流较大，注意看管好宠物。",
+  "price_hint": "¥40/人",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/664c8e0a000000001b02b48e",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-22"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月未找到D.A.O COFFEE (西西里村)宠物政策或营业状态的明确更新。中国宠物友好政策趋严。",
+   "sources": [
+    {
+     "name": "新浪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkMuXH-ZKtbnwiFuAAUUZn1w5V-E-I1VYnY5aG1G7X2sDcsEb3estKeNzY1mNy2d_T7hVh4FqNzlK24BFcNZOOSzksX18RYuOqfappJxJpxam6dKqiD8Nea1BO2fLbUPvq2g32Ten49Ps6UE0CUNyd"
+    },
+    {
+     "name": "赢商网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2oCYwNIWXXljHUzY4790b8nNWWFMIzQNT9o0bmPXN9tQK_VqQsENXAx38jEX10-ZOsMZNe1qCPaxo7PYLPrMkBBYE4mK5UuQy6auNO65aqPEY8q5Ri-CJEuX_cCFZMgsh"
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEH4gkkC-ppC151IHrs8AoJBhX3VEdG5v7um8sScco-tXy5lXo2h_pXfDNUvhw1ZW9QStoIMLt3UJSVgZyU0vX4IAn3oB1QkY5oUxb_syMKEn7aOKigbFLsJcgq4eR_N2yp3ydW_GzuuiB6_S_kQ=="
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMeYN_RWoGJplIFa6PPwvNQsBhnr69f9OUOJqsKfifiRyM2ZxHdvDkVMUesFtXegzmLCUWoW8fUnpkDRggcYgavAHrNyq42ILPW45K92QeMmSv1zOEHI0NqwCKEBWSSFs0G3C5othe36FUjWT8TdCQcKD7OZ74msH7Mzw5EBLTsE49ahTFN3bxmQ=="
+    }
+   ],
+   "checked_at": "2026-06-22"
+  },
+  "lat": 39.953164,
+  "lng": 116.460192,
+  "geo_source": "nominatim",
+  "_drop_reason": "unclear"
  }
 }

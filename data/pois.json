@@ -1330,10 +1330,15 @@
    {
     "url": "https://www.beijing.gov.cn/ywdt/gqrd/202406/t20240621_3720743.html",
     "name": "怀柔区人民政府"
+   },
+   {
+    "url": "http://www.bjhr.gov.cn/bjhr/ydly/202406/3283236.shtml",
+    "name": "怀柔区人民政府"
    }
   ],
   "route_slugs": [
    "camping",
+   "daily-2026-06-22",
    "district-huairou",
    "hotel-great-wall",
    "multi-dog",
@@ -1758,6 +1763,10 @@
    {
     "url": "https://www.beijing.gov.cn/shenghuo/chwl/202505/t20250512_3702131.html",
     "name": "北京日报"
+   },
+   {
+    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202405/t20240512_3693399.html",
+    "name": "北京日报"
    }
   ],
   "route_slugs": [
@@ -1766,6 +1775,7 @@
    "cat-cafe",
    "cat-pet-park",
    "cat-restaurant",
+   "daily-2026-06-22",
    "puppy",
    "restaurant-bakery",
    "work-and-pet"
@@ -10860,46 +10870,6 @@
   "photo_attribution": "via 高德地图",
   "amap_id": "B0G33MVGFG"
  },
- "p_1261084ba3": {
-  "id": "p_1261084ba3",
-  "name": "郎园Station中央车站：“它博集”",
-  "category": "mall",
-  "district": "朝阳区",
-  "address_hint": "将台路半截塔村",
-  "why_friendly": "专门为宠物举办的大型室内市集，设有宠物用品摊位和品牌方，是大型社交场所，并提供宠物饮水点。",
-  "tips": "室内市集高峰期会非常拥挤，空气流通性一般，对敏感犬优不友好。现场存在未牵绳现象，需主人格外注意。",
-  "price_hint": "门票约40-50元",
-  "sources": [
-   {
-    "url": "https://www.xiaohongshu.com/discovery/item/6659d3a5000000000b01b3a5",
-    "name": "小红书"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-06"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-06",
-   "note": "郎园Station仍正常营业，并持续举办宠物友好型市集活动，如2026年6月的“它博集”。",
-   "sources": [
-    {
-     "name": "北京！！ 它博集来了！！100+宠物品牌！附攻略北京周末！！6月「它-今日头条",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjtfJGlTLIA9Zz2_WkmMqLlqLVh5gFf_OwRVlnWGr4C_1vVRVmfXB34Mv9_trJTnjcBTbI7VC1HzHzAJwQr7mkX_a2mOGK__qovlxpAcxb7cTgtGsSq4QhiAM88wov-dAs4MGP"
-    },
-    {
-     "name": "郎园Station文化生活节_新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsVj5wf2qe7HJbmlbrDQgmwKqsJpQVIhhrlD6wCXPuQmqpRsTadJKfhSVANIVrXbcnx1hPsnOAIYVtKEhFvGqFRpfO-w-00znG5Os8u2AAfJr-3nJ7bP_qX1VlPVDI4ZRKxt7Wzz4Wh1yVR-QfIVRj"
-    }
-   ],
-   "checked_at": "2026-06-07"
-  },
-  "photo_url": "data/photos/p_1261084ba3.jpg",
-  "photo_attribution": "Kenzo*",
-  "google_place_id": "ChIJF8pZQamt8TUROK7lAVzNuwc"
- },
  "p_5926e0b3a3": {
   "id": "p_5926e0b3a3",
   "name": "朗园Station（它博集）",
@@ -10922,27 +10892,27 @@
   "city_name": "北京",
   "freshness": {
    "status": "open",
-   "latest_mention": "2026-02",
-   "note": "朗园Station在2026年2月举办了萌宠新春庙会，设有宠物互动区，仍对宠物友好。",
+   "latest_mention": "2026-06",
+   "note": "园区近期举办它博集等多个宠物友好活动，设有狗狗专属互动区。",
    "sources": [
     {
+     "name": "首创·郎园Station举办户外宠物派对 - 首都建设报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuDuP6kMxGEauhBQg5o8RRgf5KnxGBG8cqyVRwrPbY67QR2AP_GmX4a0_-0kJplMkBTP-GRW7GcVdHdaPPijBHXxp7jvzY4y5YFaFU6RBb8AnW29A_SO0bKzaui_Xbsd_jQOa06dsWC9LfNFz9__qSrsamunEc9YGMv3DGKtiXn3O7XM0="
+    },
+    {
      "name": "2026北京郎园Station萌宠新春庙会活动内容及亮点",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SC3-by60KkAEtvTxaYAgzIM6YWvYSdkDuwSaF9_xuF-jgUY6Dk-feLyHckly8mz9xA7O1FH5QKw66hVbzUmbB4IzF_m78WLhOqh-1BINTH6DKt48PTDv4pbak9VVQzX5NYFFAn5JHQ=="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ITsILQwt5seo0oZHNJ5Oy5L_ODUFldtnKc9YSxfLUYYwdjK9xVQD5hqn8xhvWhRUn6C0JJu_7zJ3cnaoF_8EoxxrjILwKdWJBnoL4k32_6LeX5kmEs44kxoKuI6_p8kBZ2ReOw-eKg=="
     },
     {
-     "name": "全国首个萌宠主题新春庙会落地北京首创·郎园Station，解锁宠物经济新消费新场景 - 腾讯新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Uxx-_RxWzC2OpxRCy4dQkubSCIs72lLXyWUevNKT4Z4_mDcVIn_zWew8r_cvAOGEll5jTa8uOB1m41uYx3Qh2lYe7WufVkRC13lcyTmcxs5HN1TDRdRYr_U6V0lJScNPNYHgWmE="
+     "name": "美食、亲子、潮玩等多个领域北京朝阳东坝乡2026年夏季消费季开幕|万达广场 - 网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0C4bG8CKZnU66i3Gkb4TQezcKpfFZknkNcA7nySMpvYLv9jtA5oJftlBgXVI2XRRD1fUUBw1eQzr3dtyoAmSMyiB5GN980wWgTMzR-z9Ye5HIEzi7AElvPSZLtkgZFSAxjntaLk1h3CE7cPOsgTA="
     },
     {
-     "name": "2026北京郎园Station萌宠新春庙会活动攻略（时间+地点+内容）",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeVR1F4BeVh6D7ucNO4-oouy3CiI3ksMCetvv8nu707UTHsuFRjJx2ABbb0XUTwCd3j4Rbl9z0WpKs4bO-5qEiKPU5giqbiv3Ad1r4ViOlfNL3hK1g4vGLisC12fv33RJhqDPvf0xQWg=="
-    },
-    {
-     "name": "首创朗园Vintage、Park、Station三大园区全解析：前身、特色与最新动态 - 北京写字楼出租",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOrwwlwMrtTcGad-MXOJW3TnbAHO8tlo4gdseuwlrVUYp4zmXdcv42JGa6U8Aa6-DfsyG46jTF7oOPZDZdNpCae-xbS9Wx361BsNyBQiUygB6Wd27YHqN87nxVZ6fS8sjJJfQ8"
+     "name": "郎园Station举办国际文化生活节 - 北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIvLeHW38ssTf48Spy1vA7GfkzsLhv6yGPpfE_4bWVrC1q0AXIa3xm1NKbowDlx16ios3zv_B279nJClnyU3x6oX-bqblJ12n_w7tg6-kXTEgAHYS98bwVm12L7G90Sin__F_1g-LV09zUTaJVLN0LeguTJ3X060YJ3fQ="
     }
    ],
-   "checked_at": "2026-06-07"
+   "checked_at": "2026-06-22"
   },
   "photo_url": "data/photos/p_5926e0b3a3.jpg",
   "photo_attribution": "Kenzo*",
@@ -10970,15 +10940,27 @@
   "city_name": "北京",
   "freshness": {
    "status": "open",
-   "latest_mention": "2026-05",
-   "note": "首钢园永定河畔设有宠物撒欢区，提供饮水机，仍对宠物友好。",
+   "latest_mention": "2026-06",
+   "note": "首钢园仍对宠物友好，永定河畔有宠物撒欢区、饮水机，并计划新增宠物社交营地。",
    "sources": [
     {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv3uRa8LquCb3c03LiBlMOg6a1jp3TZ6hAfgDBlrMo3N8I1WRKs632ELfQFdK2CZILG7DvtEIsTw_aNjrfno5FuEmM7Xd7eEk3Y3_s0-CyeQYrF5o16QTp_6acSinvGsbiU3SsS-Iy0KaLB_acmu2BIw=="
+     "name": "首钢园可以带宠物的商场 - 抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElmlj5WEr5K8sYl6COvuEI-KnfQHdvIxaLKOYjlC_E-iTg5s3zAOxA09EI_-ktCNU7FVnR7Wuc37Apro6pysOmo6AV-2XIBzP_DymkigMppco6uBqWKGACVIbjjb9Ttjc2tBxPHf4Q1UoluGixFifi0AYiDlRYegcD2yIUge1Pmsj9qwxr79fXWlASAmLrG2PyJI7JQP7KRJgqoNqS3tc1w04PDXsccvctyDi0b6YAC1P6tJsJ3CTVwvhgOQ=="
+    },
+    {
+     "name": "首鋼園露營新玩法 永定河遛狗野 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGe1Liq4B7TuqkRHvuqD9a3dsSL-aaPls6Vjgw8nJo8267Pq6P_Z8pdWmnA-AsLipS2Eqx1i6RXT3piGr2LFrr0qGeNMdttc7ZcRZuKJ9UR0vT5ciWB9BDNg5frIscRgfEOYLkbKvkPs5XrDu0ptVZ_g=="
+    },
+    {
+     "name": "媒体聚焦| 石景山今年实施5大项目！永定河畔将添水岸客厅 - 北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsufPRk-pL_yn7poCA05-gOOmV54Kq2IBlpPFZN-VaaLrO2WyJZ2vbTH2_aPxQvhvVcbuppm-GmyJFC_cKFtA--BHthES8oZeGOhXjaYyptkQbUHPZ99Ttgleu4TfO2IEzD6gOy7IoElUPTYQbh-FmZ87suXcB-mou-Q=="
+    },
+    {
+     "name": "石景山区与首钢集团区企高层对接会召开 - 北京石景山",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQChwlvxKFy1MNFsvz4Ht3mEO0LwdOkfIDeMd0cYQL4AAEdujp6q7AsIKRCFseDP_XvFZ9sh-u7pwE13C_gTnTJlaTqsK_0DDiFZHJlfAfAJBquGQb73l0pxIdYjfaHlsEuReaiCwpo7itY0X8iPnd0oAhqpMhsyIEtQg=="
     }
    ],
-   "checked_at": "2026-06-07"
+   "checked_at": "2026-06-22"
   },
   "lat": 39.934024,
   "lng": 116.195017,
@@ -11147,46 +11129,6 @@
   "photo_url": "data/photos/p_6f552cc8ae.jpg",
   "photo_attribution": "Flaming F.",
   "google_place_id": "ChIJ6c7QT3dL8DURwQAB2rB2bRQ"
- },
- "p_f4438d5e8c": {
-  "id": "p_f4438d5e8c",
-  "name": "百里之遥·乡食",
-  "category": "restaurant",
-  "district": "怀柔区",
-  "address_hint": "渤海镇六渡河村，近慕田峪长城",
-  "why_friendly": "拥有独立的超大山水庭院，可以让狗狗自由奔跑玩耍，不用一直被拴在桌边。",
-  "tips": "适合京郊游，爬完长城后用餐。山野环境，注意蚊虫防护。",
-  "price_hint": "人均约150元",
-  "sources": [
-   {
-    "url": "https://www.trip.com/moments/detail/beijing-1-133263229/",
-    "name": "Trip.com"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-08"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "freshness": {
-   "status": "open",
-   "latest_mention": "2026-06",
-   "note": "餐厅近期有推广信息，描述其拥有超大庭院空间，未提及宠物政策变更或关停。",
-   "sources": [
-    {
-     "name": "北京懷柔出逃！逃離城市喧囂的山野用餐之地 - Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-2Iu3Dx6_Syfx12V9hNoJcfcSU5jHe5x2RwR1XhA4k5yJZm3hitTobGZRRmc-7yae7h54lx-UwocE6KiIRfvkzfzFzRyPfKDGAdoK-4Reu-Z5tKDf6_eUxtKcQUwZ5uDCf56mKVJHR8LryYKg3ura5Q=="
-    },
-    {
-     "name": "如何避開人潮遊覽中國長城。｜Trip.com 北京",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW7v3Rr3a4GBENBKM-vs35sXuRP68i4EPwYSQE6P9xLSM8MA81E6nsUZ_wEBauobSXRZRJ_dlr8501J7yPdtXsMRu1DDscfIdLINbUxdV_2kMkJMAassNn1xZa9N5AiR0_QlKILvOgOMKydJJT397gLg=="
-    }
-   ],
-   "checked_at": "2026-06-08"
-  },
-  "photo_url": "data/photos/p_f4438d5e8c.jpg",
-  "photo_attribution": "Stephen Ng",
-  "google_place_id": "ChIJT54k_gut8TUR1bQJS3Nja3s"
  },
  "p_3b6186de1d": {
   "id": "p_3b6186de1d",
@@ -12386,6 +12328,7 @@
    }
   ],
   "route_slugs": [
+   "daily-2026-06-22",
    "district-mentougou"
   ],
   "lat": 39.938913,
