@@ -3862,11 +3862,16 @@
    {
     "url": "https://www.xiaohongshu.com/explore/note/fake_post_id_123458",
     "name": "小红书"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
    "cafe-haidian",
-   "daily-2026-06-21"
+   "daily-2026-06-21",
+   "daily-2026-06-23"
   ],
   "lat": 39.913,
   "lng": 116.366,
@@ -10413,25 +10418,21 @@
   "city": "beijing",
   "city_name": "北京",
   "freshness": {
-   "status": "policy_changed",
-   "latest_mention": "2026-05",
-   "note": "M Stand营业中。北京新规禁犬入餐饮，原宠物奶油可能受影响。",
+   "status": "unclear",
+   "latest_mention": "2024-06",
+   "note": "大众点评显示该店休息中，近6个月未找到宠物友好专区等明确信息。",
    "sources": [
     {
      "name": "大众点评",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2E6ca1E_OXWJdwk_L2mvTfJpTIwQScriKEQ3TY6oUDeaC8rRE7YbToFjpQjGnK_C03HV1lhX5VoL3YIOtuTHTtTDXmtZBeuX8TZu1h3wd8agK88pN0_mDIsrJa8Hl37_kjI2eWHOhlWSVjvkt4YzIbA=="
-    },
-    {
-     "name": "什么值得买",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELTZvBFetggyXpFPiWwp4qLKBozKAN_Dv3YyCdywATABaUT3WGsBIcwSiKYuizUg4cLFJHaOLpsmQH3Oj_gswApKCVQOOYHqAIGFwqgQpmRqZNMxbf-j_TThAL772L"
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsmHrYH6L-ctvhChupI6aUUBSwC78kuGLP8TtONHma6Q8froGtobOCUfg4NyVlrLLeS2KecMjcSccWOB3WnSfzbAwh11BxcJPMVb0Efp3s8OAQ86s9A2xG7kQeJbHSn7-koILICvyXS3w7Hn6ENTuH_A=="
     }
    ],
-   "checked_at": "2026-06-08"
+   "checked_at": "2026-06-23"
   },
   "lat": 39.91228,
   "lng": 116.446685,
   "geo_source": "nominatim",
-  "_drop_reason": "policy_changed"
+  "_drop_reason": "unclear"
  },
  "p_fca94e4720": {
   "id": "p_fca94e4720",
@@ -10455,31 +10456,23 @@
   "city_name": "北京",
   "freshness": {
    "status": "policy_changed",
-   "latest_mention": "2026-05",
-   "note": "宠物友好区域限室外及G层公区，犬只须符合体重肩高规定，猫狗需疫苗、牵引绳/猫包。",
+   "latest_mention": "2026-06",
+   "note": "仍营业且宠物友好，但室内区域宠物需在推车/包内或抱起，不可落地，犬只需牵引。",
    "sources": [
     {
-     "name": "把策展装进零售“THE BOX朝外”套住了流量密码？ - 新华网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnxmnQj_7voygwkb7-Rv6znDKZAnt8Q7Cxw7tlZj6QTR6jq6wtIny_gX05BTpopIkth9YXRgOGDUAUhKSVG8YQ06NBQXjnyvtvksSJTD8G1zJ8Bhm7t1b2mBHd1_N-wK1jIPPBGQguPNaUQzL63fZyw4R8tJach936grs7kEteHiyDMzYjeA=="
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcpqVpD0vebfc41QrFDOj_ujcM7YB1zqcf1ZV6_UCLcE-6rbro9mWBW7GNS7M_cTjNXJCo64eZLa6MFvZdjdcfFQzd3Im-sCVI0jdIQlAgXFeLjAC-uHB58nHPr4xTw=="
     },
     {
-     "name": "带上“毛孩子”，来北京CBD逛THE BOX朝外吧！ - 北京市朝阳区人民政府",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuS7ZvqGMaLDIrP8T1Pv91oFSpRYkz_AnrwFH9ZPBP3lzgJ7Bk8qQFO-yHkIRoWlE8pMqi8z8mPnrpLBK7xJuEU5SeMsWIjh83uJEkAzSFjI98DmQd767gDpAjHpAp_bFMUenucgyLtRYJaVT5j6hSzorRvM_psK5inLzmaTcuNArnlRM"
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrXE9USVMPV6jy2JHSxq3Jc8sCIQqoAlpdrHWNzMjxG8lzYfwhbxKgPj6JSj_7tCJ0KPDuLwV4x5rKMm_l8GwbwR5-nhuUYrSxEn3GrkBO5GyL7Cz6HAAHetBicgvQoyQUA_YMLCcHlOKJMuYsQBwHjhAQTMIDqWCUO-WmF0zbeqTD3PWlysjoTg=="
     },
     {
-     "name": "非标商业案例：THE BOX朝外， 北京新晋潮人聚集地！ - 超市设计",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOGEryOIwJfmHwuFiNEzvEOTHhaIIAym_pElKKhXPLpjAamUvbe1rH5lijcthS9NiydInJdp6y-muzixpllR9nAtxf20_XXfpY5zGQb46DJ9TmSzWpN7kqN-V2IHP4UWbnswnzsNCzan9heaw7j5Y="
-    },
-    {
-     "name": "“宠物友好”餐厅，两边不讨好-虎嗅网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdQnHmFl9Wmj8O31nSVGbLpZeFAhi0s8D42zxelN_5y358wF1CCjEtAU21DkutIhU5yQePLH5AmynzklICz82QBpbfiQW9-KTpCEY6vJYprH5Vxe5_3PDS_-0mGVedxZCakn4RPQ=="
-    },
-    {
-     "name": "THE BOX - 首都文明网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUVqhqLvJn8gWMpvCYuAVcMQZFUnhgpR0ws_WOSwm_u1X55hehofLTDkd95T7G3LiTx9IgsCqV6Crw7kB3IfJb42_v8eohdkDxYNu5KlvGrzJxXq1VLGT7cu_o9vtfX5UlaAa9Euo_28tYLu1J8pl6is87UWW-5A=="
+     "name": "北京市朝阳区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpdaVO-xR-krrkS7UiLGamllJtxKU-bPXeosyGHr0Na6ksPRFvFAvS3aJGYJTtcDjsb7XLWQ54HKVI_VAO_k2A3FwP24KcAfgHdR_QOf_wyYdUj9PGeewREC55y29mCJ3Kozc-ND29gB9c8Tq7YyV-2fzWs_H6knST2b1YUXoU7Qw=="
     }
    ],
-   "checked_at": "2026-06-08"
+   "checked_at": "2026-06-23"
   },
   "lat": 39.916967,
   "lng": 116.437185,
@@ -11273,5 +11266,180 @@
   "lng": 116.460192,
   "geo_source": "nominatim",
   "_drop_reason": "unclear"
+ },
+ "p_2bd48a8d1b": {
+  "id": "p_2bd48a8d1b",
+  "name": "红枫里·Remap Cafe",
+  "category": "cafe",
+  "district": "东城区",
+  "address_hint": "国子监街86号",
+  "why_friendly": "新开胡同咖啡馆，拥有一个安静的独立院落，允许宠物在院内小范围活动。",
+  "tips": "位于国子监景区内，周边适合citywalk，但周末人流可能较多。",
+  "price_hint": "人均 ¥60-80",
+  "sources": [
+   {
+    "url": "https://posts.careerengine.us/p/665956972e334a4069822a10",
+    "name": "北京吃货小分队"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-23"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到“红枫里·Remap Cafe”在东城区营业及宠物友好的明确信息。",
+   "sources": [
+    {
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=红枫里+Remap+Cafe+宠物+最新"
+    },
+    {
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=红枫里+Remap+Cafe+营业状态"
+    },
+    {
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=红枫里+Remap+Cafe+东城区"
+    },
+    {
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=红枫里+Remap+Cafe+2025年12月+2026年6月"
+    }
+   ],
+   "checked_at": "2026-06-23"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_3965a9de94": {
+  "id": "p_3965a9de94",
+  "name": "京A Taproom (亮马河店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "麦子店西街38号一层",
+  "why_friendly": "拥有宽敞的户外宠物友好区域，店员会主动为狗狗提供水碗，宠物社交氛围浓厚。",
+  "tips": "虽然是餐吧，但下午时段同样适合喝东西小坐。周末傍晚是宠物聚集的高峰期。",
+  "price_hint": "人均 ¥150-200",
+  "sources": [
+   {
+    "url": "https://www.trip.com/moments/detail/beijing-1-133602952/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-23"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-05",
+   "note": "北京市新规自2026年5月27日起禁止犬只进入各类餐饮服务场所，京A Taproom亮马河店宠物政策可能已变更。",
+   "sources": [
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYZMNWuS9zD_80lfqlduL3M3zZfLAY0tUGqoMYx43Wvo1XLtRi-uUJ-kDd__eITdQQz9MOOaPI0aPEf97C83YmqXSgH7KiXZtfAzXOdeeJpfq9KBfNyxMRwWKn-Lb_QA=="
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHAjm_HYfyQIlwMixPCyuZ7h-h1FK8niES4XZ9bvn0wyGq7lY8H94b7ux91RQ4hNomf9YdoCoTW8nzkoae2BqVF5O7v25kuk_ElhmIZsAoIAg9AID6LQSX3maGHX1mP9L1s--dglr39donqMaXLL7nxFce71ZFH1uQylEozfrepRMuN8psgftSJQ=="
+    }
+   ],
+   "checked_at": "2026-06-23"
+  },
+  "_drop_reason": "policy_changed"
+ },
+ "p_77e2a8cfbb": {
+  "id": "p_77e2a8cfbb",
+  "name": "fafa cafe&bistro",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "三里屯路11号太古里北区N5三层",
+  "why_friendly": "顶层露台区域宠物友好，允许狗狗落地活动，店员会主动提供宠物水碗。",
+  "tips": "露台视野很好，适合傍晚前去，可以和爱宠一起看落日。建议提前电话确认露台开放情况。",
+  "price_hint": "人均 ¥150",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-23"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2025-12",
+   "note": "近6个月未找到fafa cafe&bistro明确的宠物友好政策更新，北京宠物政策趋严。",
+   "sources": [
+    {
+     "name": "抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN6wjf_oiRXYxVBsVsGLgrgoZ9mzpzip4MdBqAiTDtzWvGQLw4PGF5ZNILm_4D67eputXYbBjlPQ8_LVJQJBQjhSkTZMwNRdnGue5ai4qAFY-6lpiHXx05NO-RxO-0DhRMiMn7IuGXraCvbqN3NACL7gSm97QMMDE"
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYrn_45WnjL_bghySbm4_RLlYM-xynSKJSg7M1Z3ADMn2ozuFJdNWOHnCJ9CSceFet30KN8jHJDzm62ksBRKIoQpsQI8WLCZlcUZL5sbo7urIi5dcMSLyB3d3LeAy99XzErVvqiZBsRx50aEthfBQlck2XGsCaRXyqUfXh0W2R-YGAEnyS4eGuuw"
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgIyHEc7lbATt8qYcPZUAHGYyamnt9e0wYX1e40pPKdCo-_NHqgy1gMXDs3g9a95UyrPEwh9mG_K8AGVNFp54pN8e8OI9LpZAUicx0dUg_8HjmRgF61tHc86n1DhefTw=="
+    },
+    {
+     "name": "界面新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCBHWfAthlzpjqY5-BVRJh2jxQiywVO2FK54lBaKwfwCa0P-iXNZ_XHGk4Kfd6O4jZIew1vi1Ub7XQd_vAADgdbjnY36HnNFEpyiEjOFgxeSvpxXFzzpWUumVPEulvlqUfuRwo06Y"
+    },
+    {
+     "name": "北京朝阳文旅",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnqY43LPlJLsq8Ab0-7q2B0Uk78nFR0whfaKgp5bYTRnoNCRwYZIb-j6U55j_Yl2ZRHPoy-QQp0zmD-R1pkAVjJh04DYw3kV7X7P8OaqqsLdwh-S8T6IG-Ak4raY2GFQaKfqgt7-EYJo8olBlX-g=="
+    },
+    {
+     "name": "咖啡茶与冰淇淋杂志",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWJLWFkBA4OIds_CEMiqzAGkdOBsez4eNStZRHSiSbWUmxULZjl2v8uUg57yN42h03g84mYyOYkTFtsFiUtrzwIUqZBKvxoC7VfHoBfHZr5UGcmNm03yOTx6sjfKzIm8oQ2xAd8oi90oMvXk4A_Sj9G_jFBK5hld9MpYJhtZVm7TEp_UICoz9m8Q3TCyXCHyWcs9UWlG2-Vv-YOq_FFK26TfB6tjMSj7P3kyK86-1abBmSbkdot4KLvPd_NWvVWWbpBQ0MVcsgMLudA6j3dW5QqjHiIygi38z0l_EYPQWTSTEFGRahnSD04wTTjEeVAyh_fflN2A7mfZb-AlJtrMc_nnhhN9zgePY3Zx9l3X2-wX5p5MulSoh-cUOSSQ"
+    },
+    {
+     "name": "网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQzMqfVnrwJNnczcJWpTUyTFtAGX-g5bx2wjSPEH_hmlVlnAVN7IDj3gUa8wljFxdnnr0RuaBGv7QzketosiNJpvTcBYzum-st82S-tyVQkoN7P7N9iWAhdhErT60n5UOQ2SaFq24eObv88m1JQo8"
+    },
+    {
+     "name": "青年参考",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtnRitj-5v55aTXaP2s0x31HN1tIZA230ebN5DJGUEzt4Kz1dSrhU5DL_ZG62ckBVZg-46J_BpjmXwgfJTFFvOHkS3-Gz5kivrVfHZVijtmCEJXM4yspSRJLjTVVCgA12vaAh01ZbJar-hCmtQai11SFqqiCn7NcRhV0XvbxqB8g"
+    },
+    {
+     "name": "yeeyi",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC5p0xEjVIH_-2PYuI0QADtjZcfgb4rSBUscwC4E-SxVdgTA6nUip2wjPJUwUnlbHhXH6H23XlcXK9P1Z974yWAkcjMeSeWRTngAL3Dr8ZNxG_l-9GZIPXvfM5mFv96xqMOWPDHzUzBiyGku7tFA=="
+    }
+   ],
+   "checked_at": "2026-06-23"
+  },
+  "_drop_reason": "unclear"
+ },
+ "p_38cc0947aa": {
+  "id": "p_38cc0947aa",
+  "name": "2026怀柔村咖生活集",
+  "category": "park",
+  "district": "怀柔区",
+  "address_hint": "怀柔科学城城市客厅",
+  "why_friendly": "大型官方活动，明确设置了“宠物友好空间”，为携带宠物的游客提供了便利。",
+  "tips": "属于短期市集活动，非永久咖啡馆。出行前请确认活动仍在举办期间。适合郊区游。",
+  "price_hint": "人均 ¥40-60",
+  "sources": [
+   {
+    "url": "https://www.people.com.cn/n1/2026/0621/c32306-40277382.html",
+    "name": "人民网"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-23"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.357493,
+  "lng": 116.672214,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
  }
 }
