@@ -330,11 +330,10 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_1d208b2e67",
    "p_c451038ee1",
    "p_db15353e52"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋",
@@ -350,7 +349,7 @@
    "出发前最好致电商家，再次确认当日的宠物友好政策。"
   ],
   "order": 7,
-  "verified": true
+  "verified": false
  },
  {
   "id": "cafe-haidian",
@@ -489,10 +488,8 @@
   "dim": "cafe-quiet",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_865abbf502"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳和胸背带",
    "充足的饮用水和便携水碗",
@@ -545,11 +542,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_473184a130",
-   "p_87cd443c64",
-   "p_865abbf502",
    "p_ad359d479f"
   ],
-  "poi_count": 4,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "充足饮水和便携水碗",
@@ -565,7 +560,7 @@
    "请勿让宠物随意上桌椅，或使用人类餐具。"
   ],
   "order": 11,
-  "verified": true
+  "verified": false
  },
  {
   "id": "camping",
@@ -660,10 +655,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_450e884b29",
-   "p_5be92503cc",
-   "p_865abbf502"
+   "p_5be92503cc"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋/湿纸巾",
@@ -679,7 +673,7 @@
    "出发前最好再次致电商家确认宠物友好政策是否有变动。"
   ],
   "order": 13,
-  "verified": true
+  "verified": false
  },
  {
   "id": "cat-emergency",
@@ -779,10 +773,9 @@
   "poi_ids": [
    "p_fa17ecc9d8",
    "p_3faa554492",
-   "p_eb9f82ae18",
    "p_8ce6638029"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "携带有效的宠物疫苗接种证明。",
    "提前电话或线上预约服务时间。",
@@ -1544,10 +1537,9 @@
   "poi_ids": [
    "p_f324165a45",
    "p_ac75f6faf7",
-   "p_7315b8f5bc",
-   "p_50e355a58a"
+   "p_7315b8f5bc"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳和胸背带",
    "足量饮用水和便携水碗",
@@ -1866,10 +1858,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_4e43150c31",
-   "p_dcd6612e12",
-   "p_87cd443c64"
+   "p_dcd6612e12"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水和便携水碗",
@@ -1885,7 +1876,7 @@
    "安全第一：切勿让犬只在无看管情况下自由活动，避免与其他犬只或路人发生冲突。"
   ],
   "order": 35,
-  "verified": true
+  "verified": false
  },
  {
   "id": "district-yanqing",
@@ -3263,10 +3254,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_450e884b29",
-   "p_865abbf502",
    "p_9251655b7c"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳、胸背带",
    "充足的饮用水和便携水碗",
@@ -3282,7 +3272,7 @@
    "出发前请再次与商家确认最新的宠物友好政策，以免跑空。"
   ],
   "order": 60,
-  "verified": true
+  "verified": false
  },
  {
   "id": "restaurant-bbq",
@@ -3641,10 +3631,9 @@
   "poi_ids": [
    "p_656aaae139",
    "p_51c20dcd19",
-   "p_2a6a3379fd",
-   "p_865abbf502"
+   "p_2a6a3379fd"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "长度不超过1.5米的牵引绳",
    "充足的饮用水和便携水碗",
@@ -4622,11 +4611,8 @@
   ],
   "category": "season",
   "dim": "daily-1",
-  "poi_ids": [
-   "p_87cd443c64",
-   "p_865abbf502"
-  ],
-  "poi_count": 2,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5652,6 +5638,55 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10172,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-06-24",
+  "title": "2026年6月北京宠物友好新餐厅/小酒馆推荐",
+  "summary": "为你整理了2026年6月小红书和各大媒体上最新推荐的7家北京宠物友好餐厅和小酒馆。从允许进室内的西餐到河畔露台，再到可以撒欢的草坪烧烤，带上毛孩子，享受一个愉快的周末吧！",
+  "duration_hours": 4,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区"
+  ],
+  "tags": [
+   "周末",
+   "近期新开",
+   "2026年06月",
+   "餐厅",
+   "小酒馆",
+   "宠物友好",
+   "新店",
+   "每日发现"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "宠物水壶",
+   "（可选）宠物推车或背包"
+  ],
+  "warnings": [
+   "部分餐厅对宠物友好区域（室内/室外）有严格划分，建议提前电话确认。",
+   "北京关于餐饮场所的养犬管理规定可能随时更新，出行前请留意最新政策。",
+   "请务必文明养宠，及时清理宠物排泄物，避免吠叫影响他人。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10173,
   "verified": false
  }
 ]
