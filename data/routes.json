@@ -1745,10 +1745,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_82821d21b3",
-   "p_c35c192d82",
-   "p_0f22d33d39"
+   "p_c35c192d82"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳和胸背带",
    "充足的饮用水和便携水碗",
@@ -1764,7 +1763,7 @@
    "注意防暑、防过敏、防蜱虫，根据季节做好相应防护。"
   ],
   "order": 33,
-  "verified": true
+  "verified": false
  },
  {
   "id": "district-shunyi",
@@ -3463,10 +3462,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_55004db076",
    "p_f1b1205dc8"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋（必备）",
@@ -3740,11 +3738,10 @@
    "p_2c77449539",
    "p_c439934b24",
    "p_a47c2400e8",
-   "p_2a78bed741",
    "p_efdf6a446a",
    "p_473184a130"
   ],
-  "poi_count": 7,
+  "poi_count": 6,
   "checklist": [
    "牵引绳（小于1.5米）及胸背带",
    "足量的饮用水（建议温水）和便携水碗",
@@ -5796,6 +5793,66 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10175,
+  "verified": true
+ },
+ {
+  "id": "daily-2026-06-27",
+  "title": "北京宠物友好周末出行指南（2026年6月版）",
+  "summary": "为您精选近30天内由小红书博主和生活方式媒体真实分享的7个北京宠物友好目的地。内容涵盖宠物专属营地、提供宠物菜单的餐厅和设施完善的公园，所有地点均提供具体友善细节、近期探访日期和来源链接。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "autumn",
+   "summer"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "朝阳区",
+   "门头沟区",
+   "大兴区"
+  ],
+  "tags": [
+   "每日发现",
+   "近期新开",
+   "宠物营地",
+   "京郊游",
+   "宠物友好公园",
+   "周末撒欢",
+   "2026年06月",
+   "宠物友好餐厅"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_7315b8f5bc",
+   "p_47470db244",
+   "p_e8209e296e",
+   "p_0c75401dbd",
+   "p_2ee1affc76"
+  ],
+  "poi_count": 5,
+  "checklist": [
+   "牵引绳",
+   "足量饮用水",
+   "拾便袋",
+   "宠物零食",
+   "宠物湿巾",
+   "宠物推车（如需）"
+  ],
+  "warnings": [
+   "进入餐厅前请再次与店家确认宠物规定，以免政策临时变更。",
+   "夏季户外活动注意地面温度，避免烫伤宠物脚垫。",
+   "京郊地区蚊虫较多，请为宠物做好体外驱虫。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10176,
   "verified": true
  }
 ]
