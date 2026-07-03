@@ -3239,10 +3239,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_450e884b29",
-   "p_9251655b7c"
+   "p_450e884b29"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳、胸背带",
    "充足的饮用水和便携水碗",
@@ -4687,10 +4686,9 @@
   "category": "season",
   "dim": "daily-3",
   "poi_ids": [
-   "p_6876e4fb0a",
    "p_64dd650c16"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5359,12 +5357,10 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_9f85c7776b",
    "p_bbdc9772bc",
-   "p_f0c5cb5315",
    "p_7b44fdcfe2"
   ],
-  "poi_count": 4,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5380,7 +5376,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10168,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-20",
@@ -6054,5 +6050,60 @@
   "city_name": "北京",
   "order": 10181,
   "verified": true
+ },
+ {
+  "id": "daily-2026-07-03",
+  "title": "北京宠物友好周末指南：6月最热市集与嘉年华盘点",
+  "summary": "铲屎官必看！整合近30天小红书博主真实分享，为您盘点北京最新、最潮的宠物市集、狗狗运动会及领养日。从THE BOX朝外的纳凉企划到望京小街的爪爪市集，带你和爱宠玩转京城。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "spring",
+   "autumn",
+   "summer"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "大兴区",
+   "顺义区"
+  ],
+  "tags": [
+   "狗狗运动",
+   "每日发现",
+   "周末去哪儿",
+   "宠物市集",
+   "宠物友好商场",
+   "2026年07月",
+   "近期新开",
+   "领养日"
+  ],
+  "category": "season",
+  "dim": "daily-4",
+  "poi_ids": [
+   "p_8eed9404e1",
+   "p_283c236d1c"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "牵引绳",
+   "充足饮水和便携水碗",
+   "拾便袋",
+   "少量零食用于奖励和安抚",
+   "狗狗的疫苗本照片（部分活动可能需要）"
+  ],
+  "warnings": [
+   "进入商场或密闭空间请尽量使用宠物推车或宠物背包。",
+   "市集等犬只密集场所，请时刻关注爱犬情绪，避免冲突。",
+   "夏季地面温度高，注意保护狗狗脚垫，避免长时间在暴晒的地面行走。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10182,
+  "verified": false
  }
 ]
