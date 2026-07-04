@@ -33,10 +33,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_a47c2400e8",
-   "p_450e884b29",
-   "p_2a6a3379fd"
+   "p_450e884b29"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋和湿纸巾",
@@ -52,7 +51,7 @@
    "关注爱犬状态，避免在炎热天气下长时间户外活动导致中暑。"
   ],
   "order": 1,
-  "verified": true
+  "verified": false
  },
  {
   "id": "autumn-2025-new",
@@ -1102,10 +1101,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_2a6a3379fd",
    "p_450e884b29"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "1.5米内牵引绳",
    "充足饮用水和便携水碗",
@@ -1953,10 +1951,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_a47c2400e8",
-   "p_2a6a3379fd"
+   "p_a47c2400e8"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "办理有效的养犬登记证",
    "长度不超过1.5米的牵引绳",
@@ -3607,10 +3604,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_656aaae139",
-   "p_51c20dcd19",
-   "p_2a6a3379fd"
+   "p_51c20dcd19"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "长度不超过1.5米的牵引绳",
    "充足的饮用水和便携水碗",
@@ -3626,7 +3622,7 @@
    "时刻关注老年犬的身体状况，避免过度劳累、中暑或受寒。"
   ],
   "order": 67,
-  "verified": true
+  "verified": false
  },
  {
   "id": "small-dog",
@@ -6105,5 +6101,61 @@
   "city_name": "北京",
   "order": 10182,
   "verified": false
+ },
+ {
+  "id": "daily-2026-07-04",
+  "title": "北京养犬人周末出行指南（2026年7月版）",
+  "summary": "本指南整理了近30天内由小红书博主和媒体真实分享的6个北京宠物友好地点。内容涵盖专属宠物营地、特色友好餐厅和山间咖啡馆，复述了博主提及的“大小犬分区泳池”、“提供宠物菜单”等具体服务细节，为你和爱犬的周末提供新鲜、可靠的出行选择。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "夏",
+   "秋"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "朝阳区",
+   "海淀区"
+  ],
+  "tags": [
+   "2026年07月",
+   "宠物营地",
+   "周末遛狗",
+   "每日发现",
+   "近期新开",
+   "宠物友好餐厅",
+   "户外咖啡馆",
+   "狗狗玩水"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_7315b8f5bc",
+   "p_5c83e2189f",
+   "p_e8209e296e",
+   "p_c543338cd5"
+  ],
+  "poi_count": 4,
+  "checklist": [
+   "牵引绳",
+   "充足饮水",
+   "拾便袋",
+   "狗狗零食",
+   "宠物湿巾/毛巾"
+  ],
+  "warnings": [
+   "进入夏季，户外活动请注意地面温度，避免烫伤狗狗脚垫。",
+   "在任何公共区域，请务必使用牵引绳，文明养犬。",
+   "部分场地需要驱车前往，请提前规划路线和停车位。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10183,
+  "verified": true
  }
 ]
