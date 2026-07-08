@@ -273,10 +273,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_1a39b60dd5",
    "p_7441df856f"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳、胸背带",
    "充足饮用水和便携水碗",
@@ -327,10 +326,8 @@
   "dim": "cafe-east",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_c451038ee1"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋",
@@ -537,10 +534,8 @@
   "dim": "cafe-terrace",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_ad359d479f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "充足饮水和便携水碗",
@@ -6261,6 +6256,60 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10186,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-07-08",
+  "title": "2026北京宠物友好新风向：7月最值得带狗去的6家餐厅酒馆",
+  "summary": "为你精选2026年7月小红书上多人推荐的6家北京宠物友好新餐厅与小酒馆。从提供狗狗专属菜单和软垫的胡同小馆，到拥有超大花园和宠物饮水站的西餐厅，解决你周末“带狗去哪吃”的终极难题。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "东城区",
+   "顺义区",
+   "海淀区",
+   "西城区"
+  ],
+  "tags": [
+   "每日发现",
+   "近期新开",
+   "2026年07月",
+   "宠物友好",
+   "烤肉",
+   "西餐",
+   "露台",
+   "新店探店",
+   "小酒馆"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "宠物水壶",
+   "小零食",
+   "如有需要，可携带宠物推车或航空箱"
+  ],
+  "warnings": [
+   "出行前建议再次电话与商家确认宠物友好政策，避免变更。",
+   "请务必文明养宠，看管好自己的毛孩子，及时清理排泄物。",
+   "夏季炎热，注意地面温度，避免烫伤狗狗脚垫，并及时补水防暑。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10187,
   "verified": false
  }
 ]
