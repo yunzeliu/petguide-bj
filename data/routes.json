@@ -928,11 +928,10 @@
   "city_name": "北京",
   "poi_ids": [
    "p_1d14eb571a",
-   "p_03c20cef02",
    "p_283c236d1c",
    "p_513aaaacb0"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳（必备）",
    "宠物推车或背包（根据商场规定）",
@@ -986,10 +985,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_f1b1205dc8",
-   "p_36be62d712",
    "p_23d050f97f"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（1.5米以内为佳）",
    "充足的饮用水和便携水碗",
@@ -1005,7 +1003,7 @@
    "关注宠物的行为和情绪，避免与其他犬只或游客发生冲突。"
   ],
   "order": 19,
-  "verified": true
+  "verified": false
  },
  {
   "id": "cat-pet-park",
@@ -2282,10 +2280,9 @@
   "poi_ids": [
    "p_9b054da994",
    "p_e06137d587",
-   "p_fdee7409a4",
-   "p_64dd650c16"
+   "p_fdee7409a4"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳、胸背带",
    "足量犬粮、零食和饮用水",
@@ -2392,10 +2389,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_2da70ea938",
-   "p_5bb56493b1"
+   "p_2da70ea938"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "办理并携带有效犬证",
    "牵引绳、胸背带",
@@ -2448,10 +2444,9 @@
   "poi_ids": [
    "p_3331dbc5db",
    "p_66712aadf3",
-   "p_03c20cef02",
    "p_513aaaacb0"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水和便携水碗",
@@ -2501,12 +2496,11 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_03c20cef02",
    "p_51c20dcd19",
    "p_f1b1205dc8",
    "p_513aaaacb0"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "1.5米内的非伸缩性牵引绳",
    "充足的拾便袋和湿纸巾",
@@ -2892,11 +2886,10 @@
   "poi_ids": [
    "p_d521730662",
    "p_4af78236be",
-   "p_4cd5c341ee",
    "p_7315b8f5bc",
    "p_82821d21b3"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [
    "1.5米内牵引绳和胸背带",
    "充足的饮用水和便携水碗",
@@ -4672,10 +4665,8 @@
   ],
   "category": "season",
   "dim": "daily-3",
-  "poi_ids": [
-   "p_64dd650c16"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -6356,6 +6347,59 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10189,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-07-11",
+  "title": "北京养犬人周末出行指南（2026年7月版）",
+  "summary": "本指南整理了近30天内由小红书博主和生活方式媒体分享的6个北京宠物友好目的地。内容涵盖了拥有专属活动区的宠物乐园、提供定制化服务的星级酒店、带封闭草坪的咖啡馆以及免费的郊野公园，旨在为养宠家庭提供具体、时效性强的周末出行参考。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "石景山区",
+   "昌平区"
+  ],
+  "tags": [
+   "每日发现",
+   "宠物友好酒店",
+   "免费公园",
+   "露营",
+   "2026年07月",
+   "近期新开",
+   "宠物公园",
+   "宠物友好咖啡"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "足量饮用水和水碗",
+   "拾便袋",
+   "宠物湿巾或毛巾",
+   "少量零食",
+   "如有需要，准备宠物推车或航空箱"
+  ],
+  "warnings": [
+   "近期北京部分商场收紧了宠物友好政策，进入任何商业体前请务必确认最新规定。",
+   "夏季户外活动注意防暑，避免在午后高温时段让宠物在无遮蔽处长时间活动。",
+   "出发前务必致电商家二次确认宠物政策，避免跑空。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10190,
   "verified": false
  }
 ]
