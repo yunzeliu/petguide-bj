@@ -3587,10 +3587,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_656aaae139",
    "p_51c20dcd19"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "长度不超过1.5米的牵引绳",
    "充足的饮用水和便携水碗",
@@ -5782,10 +5781,9 @@
   "dim": "daily-5",
   "poi_ids": [
    "p_7315b8f5bc",
-   "p_e8209e296e",
    "p_2ee1affc76"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "足量饮用水",
@@ -5802,7 +5800,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10176,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-28",
@@ -6118,10 +6116,9 @@
   "poi_ids": [
    "p_7315b8f5bc",
    "p_5c83e2189f",
-   "p_e8209e296e",
    "p_c543338cd5"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -6458,5 +6455,61 @@
   "city_name": "北京",
   "order": 10191,
   "verified": true
+ },
+ {
+  "id": "daily-2026-07-13",
+  "title": "北京宠物友好新去处（2024年7月版）",
+  "summary": "告别旧网红店，本期为您精选6个近30天内由小红书博主和媒体热议的北京宠物友好新地点。无论是在郊野营地的大草坪和狗狗泳池尽情撒欢，还是在市区的商场顶层咖啡馆享用“爪布奇诺”，这些新晋宝地都能为您和爱宠提供一个完美的周末。",
+  "duration_hours": 5,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "平谷区",
+   "房山区",
+   "怀柔区",
+   "门头沟区"
+  ],
+  "tags": [
+   "近期新开",
+   "户外",
+   "咖啡馆",
+   "宠物友好",
+   "2026年07月",
+   "露营",
+   "周末出行",
+   "每日发现",
+   "新店"
+  ],
+  "category": "season",
+  "dim": "daily-0",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水和便携水碗",
+   "宠物零食",
+   "夏季防晒/降温用品",
+   "宠物推车（如需进入商场）"
+  ],
+  "warnings": [
+   "出行前务必再次确认目的地的最新宠物政策，以免临时变更。",
+   "在公共场所，请务必使用牵引绳，并及时清理宠物粪便，做文明养宠人。",
+   "夏季天气炎热，注意选择阴凉时段出行，并为宠物做好防暑降温措施。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10192,
+  "verified": false
  }
 ]
