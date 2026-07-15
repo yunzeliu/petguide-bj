@@ -1,4 +1,147 @@
 {
+ "p_065635f371": {
+  "id": "p_065635f371",
+  "name": "星巴克（宠物友好概念店）",
+  "category": "cafe",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "海淀",
+  "address_hint": "中关村、五道口等区域多家门店",
+  "why_friendly": "2025年9月起与小红书合作升级的兴趣社区空间，提供宠物专属区域，部分门店有免费“爪布奇诺”。",
+  "tips": "建议选择有户外区域的门店，适合安静的小型犬，入店前先咨询店员具体规定。",
+  "price_hint": "人均 40~50",
+  "sources": [
+   {
+    "url": "https://www.jiemian.com/article/10085449.html",
+    "name": "界面新闻"
+   }
+  ],
+  "route_slugs": [
+   "new-haidian-spots"
+  ],
+  "lat": 39.981825,
+  "lng": 116.309302,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-04",
+   "note": "星巴克全国宠物友好门店政策仍在，但近6个月内未找到海淀区特定概念店的明确更新信息。",
+   "sources": [
+    {
+     "name": "带宠物喝咖啡不再是难题：星巴克宠物友好门店全攻略 - 购物攻略",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlB8ie1ZSA8ep1-EjfDbW4ksSsK8SbWY73YtFFDnseKXelT-bpGCDHZcl41DgLCA9rwhO0ZsH1qlfi8r4NoN_MscZ567WxozcaaitKzsFQd6zVGo5yqkoaMEEIeZtX-g=="
+    },
+    {
+     "name": "星巴克深度合作小红书1800余家“兴趣社区空间”等你碰头| Starbucks China",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6H0jGrEtXDgN5DXjKPrbtkKsOAGOg5TzXawiS9zlCAT4RcWN3SxZLFLZWQE6eXPkhy8YfyRa1feX31UDFmF0OQF6YMdjgt5iCINwRR7SFfbUPgW8Kl2LdpkccFX2FYTNcgAOUPP3KmwflSEHsmCpxLzA7J3G_qCQHTaRbrX3J9qhk"
+    },
+    {
+     "name": "星巴克中国与小红书达成深度合作，将开启“兴趣社区空间”",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFFUna9uJoNQUJnqO4h_3unnKbFCg5M_WISo7eQuVqFNIyoGdEmnYyVuwExav1GNbobIFZtUOQk_Tkj8U_6RvLu5z34rpXvAcjawXfW168NcgeVvGYdsC1g9HAl4rBnk92WXlE_poU3Im-cFfLego="
+    },
+    {
+     "name": "转为合资经营后星巴克中国首提“千店千面”战略- 零售- 亿邦动力",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFgXbKYxVa1ML0ck7SkwlEnpWsv-wh5Z8S8eZaGV2KGqc8vcjgaMhnbJBbDm1BjX8cd-9umTehHkFpT3ft2HU2Aqs7nI_MR5ESHUAd4yd-ElMGKEpzmqaUPQolfyYj6GlKnIFWHyc="
+    },
+    {
+     "name": "从星巴克爪布奇诺到友望猫咪代言：一场宠物友好营销的“升维战” - 京报新闻_北京日报网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQAVtezq5pWrSCTm5YdWEQNZwRUi6HYKvL5E8VjBaR6yOIX5A9DZU2z9_9GrCNoqRl6d4BubuYE3JxjbYy6019gfCBp1EUsg0xbLMi3zb0oGPJyuQiKoWqnY-7JKDW9NxM7tNDBW6fx1dsiU4="
+    }
+   ],
+   "checked_at": "2026-07-15"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "outdoor_seating",
+    "pet_bathroom",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "free_treats",
+    "pet_menu"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "怕生狗"
+   ],
+   "not_for": [
+    "高能量犬"
+   ],
+   "pet_hook": "提供免费“爪布奇诺”和饮用水，户外区域设有牵引绳挂钩和宠物专属垃圾桶。"
+  },
+  "photo_url": "data/photos/p_065635f371.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0FFHXH2MA",
+  "_drop_reason": "unclear"
+ },
+ "p_3a3119aec4": {
+  "id": "p_3a3119aec4",
+  "name": "THE RUG (朝阳公园路店)",
+  "category": "restaurant",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "朝阳公园南路4号机电研究院内",
+  "why_friendly": "经典的宠物友好西餐厅，有户外区域，并提供专门的宠物菜单。",
+  "tips": "周末建议提前预定座位，特别是需要户外空间时。",
+  "price_hint": "人均 200~250 元",
+  "sources": [
+   {
+    "url": "https://k.sina.com.cn/article_7517882227_1c01dc973020013hfx.html",
+    "name": "新浪"
+   }
+  ],
+  "route_slugs": [
+   "multi-dog"
+  ],
+  "lat": 39.930491,
+  "lng": 116.450791,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到该地点明确的营业及宠物友好政策更新信息。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://www.trip.com/travel-guide/beijing/restaurant/the-rug-chaoyang-park-road-store-10901535/"
+    },
+    {
+     "name": "DiningCity",
+     "url": "https://www.diningcity.cn/beijing/the-rug-chaoyang-park-road-store"
+    },
+    {
+     "name": "铲屎官的快乐，爱惨了北京这几家宠物友好餐厅",
+     "url": "https://www.sohu.com/a/581895697_121124788"
+    }
+   ],
+   "checked_at": "2026-07-15"
+  },
+  "photo_url": "data/photos/p_3a3119aec4.jpg",
+  "photo_attribution": "P S D",
+  "google_place_id": "ChIJ__8_u26s8TURYTCnKJBuIG0",
+  "_drop_reason": "unclear"
+ },
  "p_59e221be8d": {
   "id": "p_59e221be8d",
   "name": "超级小狗 Super Pup",
@@ -2212,50 +2355,6 @@
   "google_place_id": "ChIJW5WV3vms8TURskU3y6KOsGI",
   "_drop_reason": "unclear"
  },
- "p_9c84002615": {
-  "id": "p_9c84002615",
-  "name": "宠乐会宠物乐园",
-  "category": "petpark",
-  "city": "beijing",
-  "city_name": "北京",
-  "district": "朝阳",
-  "address_hint": "龙塘路林上村牌楼对面",
-  "why_friendly": "设有海洋球池、沙地、泳池等丰富娱乐设施，并定期举办狗狗主题聚会。",
-  "tips": "环境相对质朴，建议关注社群活动信息，出行前确认设施开放情况。",
-  "price_hint": "团购价约29元/狗/两人",
-  "sources": [
-   {
-    "url": "https://www.thepaper.cn/newsDetail_forward_17667341",
-    "name": "澎湃新闻"
-   }
-  ],
-  "route_slugs": [
-   "cat-pet-park"
-  ],
-  "lat": 39.92045,
-  "lng": 116.436911,
-  "geo_source": "nominatim",
-  "freshness": {
-   "status": "unclear",
-   "latest_mention": "",
-   "note": "近6个月内未找到关于宠乐会宠物乐园在朝阳区的明确营业状态或政策变更信息。",
-   "sources": [
-    {
-     "name": "北京宠乐会宠物学校",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfcTyaYGi5xCZMfkpct0WelFOeZleecu113S3BNLzQU8vSAbpX1zDoi8OUGkz2l2QuZpk9vopQLoO8nDwHlaZxP7iY_WqQ92Dd2Tv27D3HD8KDs3QpQw=="
-    },
-    {
-     "name": "宠乐会宠物乐园-图片-beijing宠物-大众点评网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ5ZzLEtL7Dj7_6NIVrPpSoMQhHZ5CJRwul4ZuwfuBevJHmbsoNV9NDk8-XO2tXbQPh8-z1YdsQKF45IntNBXoakXmMPqfJ8ZjGbBPXvAVPQCA4E6acCOhePlc9JTq3olbMUQ1W-IVMAOvTL1iDAAl"
-    }
-   ],
-   "checked_at": "2026-07-01"
-  },
-  "photo_url": "data/photos/p_9c84002615.jpg",
-  "photo_attribution": "via 高德地图",
-  "amap_id": "B0JAGAHTXK",
-  "_drop_reason": "unclear"
- },
  "p_0a032d6cd7": {
   "id": "p_0a032d6cd7",
   "name": "南霈92号 - 东南亚美食",
@@ -3564,27 +3663,27 @@
   "geo_source": "district-centroid",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "酒店/餐厅正常营业，但近6个月无明确宠物友好政策更新。",
+   "latest_mention": "2026-04",
+   "note": "该地点作为酒店正常营业，但近6个月内未找到其私宴宠物友好政策的明确信息。",
    "sources": [
     {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHXP1rHMfGbtN9G3uOvTNUtGam5yDRtvrxSrqrkk9NZx5HhqHnAZFo9X6eZ0ZuOtX5W34WAKlqzXqkeGgAoUvoDpbBD2-A7lJC2nMDi_pcQYCN-i6qbKGIsRne075yRg9wTJYTIQTqwQ5U6esg0pKgEUIG5ZTXa5buSj9Le-MNu_ncecbI5bcrKH5KknOVc4lzzHjQibG_cQo="
+     "name": "北京彝席之地·四合院飯店| 2026最新訂房優惠 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwZHd-4ixiGnjFDkFG9tXDEA5GN7aH76oD3bTqke17r2EcMF2MYAS_blnknQs2ESaMfLaPDVrxsRUVcdCGJ8_fmxNcK88wBOdRK3lCLn0gEfvHLHYl8emo21PCJtAW8wxEXlyYlliud6cMNPVDiL6EaDyg5pE0IqqTolYZOwp6BtsW_NAWYAKkaK3JOY3l"
     },
     {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwcv8V43RkrUePQd8btfiCe9XvYj-_vv1j-CmZnzNoqYAzLERPHOm16Ju7gYpGEM7XflxSy-ZW10bJoqTsp9yO4fHGlh4OC9YqgAAf5205Z8CH2YqE3rnqnpki8JjU-tNrI_vF74MVqOrNi1o5QZgWNEvNMWXdUjyWOI7m5iI84MlYxwD0CEsZTPutI1T9PLuLKKSihvgfaR4="
+     "name": "一萬種旅行howto|彝席之地四合院太好拍了~｜Trip.com 北京",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-oRQxexKmdpB2kYTEeYF55H3DQdD1en6tnXH67Hky7Kj8rVwOjcoE2pZICzGgzkyyyx3UPJ6vgKkDNxhAdjKfFMtSfvWjsk8so3B9rkhGzx4tb_-01kWIxywtH05yVLNvmptWfIKcjDhtjEY0dsExFLs="
     },
     {
-     "name": "抖音",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHElGCAJZGYTZXlVQxcRqAQPEru9YMB5Fu9zFFf4cIEtDYmMUu1_cybQ5C1CQ7ZpQqjHCJ_RM6i7HRCkgeV7ZygYUSdTEemvIxQ56mWoWeRqw97tYnLCxNIEHztyFKepzoogZOFooN-wbq7RCALPtVDpOn7cwAyXKsRyXrfo92oEsauQTM="
+     "name": "北京彝席之地·四合院酒店(YiXi Place Siheyuan Hotel) - Klook",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHu1yBohvuIBVckMLhzoOMnd2GKOTpJtTJrLoag8rlyYqhRgB48ntSoWPHFgpMG88MjN9nKw197hWaNIst7pNUGHoGMIijyNbEJd-Se30DvkGvAsbz9VFfrtfFqcdrS6COswIYum7oLOVpztmfmVkNQVh4GgUYlsR7fOEU4jgQZZqCUj_yjFXvrsp-Pbw=="
     },
     {
-     "name": "Klook",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf22ZW22b3Los_iGPv8FTGkCEsiANRwCuhSSx5o9Z1JH-kHWLMX5pSZxSOA8okXnhSXnTckkgNB-98AWHDb24zCy5GNS0wnd8Jdp6vL_97sItohIbyLy8S5ekfCNqUZCorkzmDB4wRXExcqKRFTvZVIdTYDUARH3SXNCCAI1J99XpWbXRJRA4="
+     "name": "北京彝席之地·四合院酒店 - 携程",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHffLL0SjqGQkuJs7P10ZwSDgHEF_MDclBvPj4hihzzWH2NqtxU5VxPbh5Qg1JcGPhT0OeipvskDGvAsbz9VFfrtfFqcdrS6COswIYum7oLOVpztmfmVkNQVh4GgUYlsR7fOEU4jgQZZqCUj_yjFXvrsp-Pbw=="
     }
    ],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "pet_features": {
    "access": {
@@ -5556,30 +5655,30 @@
   "freshness": {
    "status": "closed",
    "latest_mention": "",
-   "note": "意库 (Element Fresh) 于2021年底申请破产清算，并计划关闭所有门店。",
+   "note": "Element Fresh连锁餐厅已于2022年初申请破产清算并关闭多家门店，包括北京朝阳区部分门店。",
    "sources": [
     {
-     "name": "Element Fresh Files for Bankruptcy Protection, Plans to Liquidate Assets - the Beijinger",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmqG1mq3V-Uka8uVbAc2cK1Ptes-_58yuxeJLKwP3oWezm7WlnGsDF2MW2ru1_CE4d-pDtLWrQzyz4iNhVDAO_uDdmwU15ozxmyHlx1lroTlEJ63BUlhAzNSLmb79gkDRW7f3ODXnZjoSO5cQ0ZY2t0_M-9MFHLlrfCOoE_9UpdxdoyR9w2QRjQa2akOCoDsnC662gt71J5PMog3IuHQue9lQub2EWSs0OEjsdzdJKw=="
+     "name": "the Beijinger",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhczAZYGMEI__vAHdsXdtpnnEqmKyATmsyo__EwzDbfqJe8WkdNupe-uAd9lUn-ymfn0qgpQtSiiQ7Khed6KOj1QEn59rfDIjO50cOngk9OLX2gEuxsmZ1YqT9dsnUFMvnS_sZJu5vPhL18QqeAc0="
     },
     {
-     "name": "Breaking News: Element Fresh Closing Stores Across China? - NOMFLUENCE",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc3FmTThX6DN_ZgsMaO5bQcuDkDEQZHzv4PAyQCoILNfxq3yUNuo4H0hrK3pwO6xAoib-aiQiPDdUng5ny30U_pro-AeKKp9HFbwIALGkknh-WiGIDsc03xDHLjOGtdJLkRdhUy9WJxWLJGLczqLjoUW165tmsD7N6Yojx2u8t5hVoX_-baOV4AQ=="
+     "name": "DiningCity",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExhFbNiqDMd6rpCJZtfm_rWDK9IZYU7cdXPL5UaHrJ-qRxyXelzEDsTDi1yVPhMlIn9PHK6TpUB8llYxO4exQmxRxRsyfiPDB4LHBUE4YydBbj6jdUjZvhswAmHX0yHz17g2Y1WioNmkbh7z3D9oiSM6TM9D65"
     },
     {
-     "name": "Popular Shanghai Eatery Element Fresh Closes Shops - Pandaily",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEHPCNy276KQL6a_Ps2nLiLC04lwOhBt7zwTXVL2uS1UYpvt-miuq8IoUvlmFSr3Zr-T70uFqkVndv05OtVA4Sm13iVX9BkmH_K-MkgkA7z9PJp_d6HLGa3AjGFwlmhQuzrxowthm37bThmBK_Z_TNmDC4dYM7Wz9YB6U6fYm47xg=="
+     "name": "Wikipedia",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6v2zq6Ad4s9FPCX5KPbbiEEC6JAMSHePn3ZZhuIhfNc198kvCsvUTNkC_25-i5II-LtQB4Jllyo7lg8pqKvzOEgh0xmgExPs1sfwSUClKdO8b7lyQm70Jmpzyr9RCX0nwACbkZks="
     },
     {
-     "name": "Popular Shanghai Eatery Element Fresh Files For Bankruptcy As Covid Hurts Business",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbWEtXVgw-wJkIEWGYcVj6Kn2_AgSM7MBXr7ff26QzPh2IpkmOJn7b6cExxlQMc5pa0VGG7p1SFUmDXedhjZYbkx4c9JGhYFL3w4QGG6Tf_qY9_3puOpTop86Kl4kqDtcfqOqLRURHuZ1hIU7nKINMt_eDpwCuxOmmhYoqZYkNpxRbaBcHQqh0SDnm058j1yeYzT4rl3F3Bqodho4-AMI1IkkY4V11ktnq77XldGyNgM5Rp6M8WgMYbbduu4_ZCact3xtH2dE=="
+     "name": "NOMFLUENCE",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdLXyIAiP6Py31CCKhTK7_bK20MPU4cctQ3RhVJ9ttEEV1JoIkajElXcdv5okPYLnU0LDrkJ5JdL1TaFiqRykTvz9UiVorKwQPcJ45OdpOCSWIncIGmgqRh5ghy_RHHHUnllxPK2WyYpNOtOOW-3JyrfhLpTrQgWm_aGMsNSxLYUzubaM_zRa8ydc="
     },
     {
-     "name": "Nothing fresh under the sun - the decline of Element Fresh - Jiemian Global",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF_vQ4ODGAhT44RAZMGYWgNzYzvxe49MPhmC8ODloNw99_GAca67Fhor-La8wscmN7oizaLA6pSw3-Pu30Y50zHVo_-GJBP_9x9TV7OlkXl6UAPVQUirQ2Y7myaTpf7fHbisNt8w=="
+     "name": "Forbes Media LLC",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoetXxMg82VmK-_mKVqcoXHh7RMc1v4hTY9c66PLj2slR4fSWaRWHRN_YJYprV7b-J5veea5dRCBzvOTVqKlppez-wSLN4ETEIRZwjtOppVBl_hrQ-LsT2rz-KdlbciOIpj4K4iP6am2Db-AVsuUgHIe26jh7qD83Os2crxzHi-AP1FQi6PdJSHA43ZMFedcui5sDYC9N151zGVBkXTgrmn1H4zmJ8HekfsetV4IJgLQtfaZy-xckFiwJkZoJYFvqUxS5UzijX"
     }
    ],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "closed"
  },
@@ -6649,22 +6748,22 @@
   "lng": 115.978415,
   "geo_source": "nominatim",
   "freshness": {
-   "status": "unclear",
-   "latest_mention": "",
-   "note": "近6个月内未找到关于“蓝色之眼露营地”在房山区的最新营业状态或宠物政策信息。",
+   "status": "closed",
+   "latest_mention": "2026-07",
+   "note": "因升级改造暂不对外开放，且房山区露营地因暴雨预警暂停营业。",
    "sources": [
     {
-     "name": "走！露营去~房山露营点推荐，建议收藏 - 北京旅游网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_bVh0BUjpoQaKk8NDMF97JkzKzQs5wf4OP3DqJzW-4QbMGVBMljx-cNg-BaxA5-EThoZfrOHiubntGCttLCrK-VkzyVG1Nuz83AVYQoSqk2NDBgknPHAlNzYiVtG6mQ6F-0kZVz7BAwUfgXosMA=="
+     "name": "北京房山露营地点推荐- 北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSJLJlCUjCW-Nyz1mljoLVtifJ2LQw22t9270E9v4zBcCZ-l_Io4i4_ocsAak-dXMi4wbs4dhyKEEEr_ZvVtx7YL894LisUTQ_R5AmTmsg9labDj9ob8EKMGamSmio_dBHRpNVrvsX"
     },
     {
-     "name": "北京露营vlog｜蓝色之眼营地_哔哩哔哩_bilibili",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK8onfTvD9j6vXC_7Ja3BDqf_CnP_vbhFDKTt5yN2EzxrXi0GKwpUe6xWLJc49aPU8xxlTDHMCov51RcMcvQrBK-xU8sWh8n_Cva4koSyXlknMxekFay41PD9N7Dg2H_DrKwe-RL5l"
+     "name": "减少出行！北京多家公园、场馆临时关闭，市郊铁路多趟列车临时停运 - 网易",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZXzndAahPQGM8TnAYndRcKOBuYobhhsrpQcRZCGfWSNlo3IDx70ukKulerDvjSQWOndpxrMtv-A3jsbBKb4fv68p4dlhFJsxHJxwQBiV672DXI5HY1x-tYovx-21NQoZ5QGkHqCVlHmCP45DCP5s="
     }
    ],
-   "checked_at": "2026-06-28"
+   "checked_at": "2026-07-15"
   },
-  "_drop_reason": "unclear"
+  "_drop_reason": "closed"
  },
  "p_541b453f54": {
   "id": "p_541b453f54",
@@ -7133,15 +7232,19 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "",
-   "note": "近6个月内未找到方家胡同46号院作为宠物友好地点的明确信息。",
+   "latest_mention": "2026-07",
+   "note": "园区仍开放，但近6个月内未找到明确的宠物友好政策信息。",
    "sources": [
     {
-     "name": "北京旅游网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cA9DY6fM35GHM5y9NboyXUOPRo0BGgW01knQCDGREbxQC6jPP6iUhpVtICwIpu3TLhF3JjvFtCyr3m-MmucN5rjhgI668F4X5b5jJnuwuVGQOVyAZPR2VbMRR5KyAqw0UOspL4aAJxpR4kYP"
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1yORFF1kHxLpbWomrkSHZOb9Py9FsnMcO_Gv8DC08OZHTJPIUiN0BRX5od_rTHtBAU8Ny9lxGuuVw1_Gfz-dOZSFSf0XjO5tN-6ua9D4gYMM6yAm8zuJP0OZh1RHj0mDpozZIp7buxkaOimnUA0p0hS8lsk7y6xhVNNcjqYYAGthkGuOnZ2P2aO25tps="
+    },
+    {
+     "name": "Expedia",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHdZ5wos4BHuazwW-mR3WY0KcbWG5EILUxKObdZyg1a7EBVoDdSZfBv8MS8V092Xzx-bSmhJWg0yJ0W3vwN8KPWxe5raHEN-OzlScqtmPbIiJT-pg3lLM1oeUtqiR1keHZsebtPw04OmSD0GSXVhiQ79IsFZK2BfLHqCPwvyK9sge86cWSIMKVd0Bul1-pKoXU4WUpvVNn6FxTpg=="
     }
    ],
-   "checked_at": "2026-06-28"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -7607,23 +7710,23 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "近6个月内未找到响水湖长城风景区明确的宠物政策信息。",
+   "latest_mention": "2026-07",
+   "note": "近6个月内未找到响水湖长城风景区明确的宠物友好政策信息。",
    "sources": [
     {
-     "name": "中国民营经济国际合作商会",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwMOm2a-toV70367aIZHVPJ5SWhBg3rsK_EOal7aoy7O53LDW8Rl8W9gvnYQDowwBhn7CQ3vJ8iOYg1iW1nK2iC5VCM7vUBuvXq_Sn2PBKrqW6eNTk3sNQT2uliRp8n7w5sIwqccOXPZe8DVvPnJCacQ=="
+     "name": "2026響水湖長城自然風景區| 北京景點指南與旅客實拍| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoC1SnWEaLV6Otwk4vDc-fDGnqo1uHz791gexQJvIYgnuzSheM22P3WJHivdtxaibc7O7Cw44_zRAKtcVUh-OoN3IX2UdzsJzMsiKpLuc3uo_1bVRrPNCmOVrj-tAdU1QXwYXMGKSB3Qqk_p2vsef-Yg3y80JALDMjR5Io_5AeSBfOm-kp4OypieE9sz6IZw=="
     },
     {
-     "name": "北京本地宝",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFITkCJAYEb_dIvMxhi2yWVMwV2qiH7Lt2czIVecG1LRr3aa68DU06Ua19SsiqmI1ziED6SvsqJKqhcxMlERBEtClYn54bpWA7vqTofVc3aq28vqw-ni-lSyZ_U68zq14LXfxdFtFfEQbJujukP7n_NL3Lj"
+     "name": "怀柔响水湖长城自然风景区全攻略：门票·交通·民宿·玩法一篇搞定（2026最新版）",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaIdrip-7x1QiwVxGRDN_5mo_2YMn3aijdChDpqcvQ0IFP5JqLjnezv0wJbbzVvPMGgDFdei_hA_fNrv76oiqCfE7FJUsV2bZOzgV8gFWk3PVrLvx2ooXFId7PRwMELgg3MSW-FZaJaw=="
     },
     {
-     "name": "北京旅游网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGia3mbwREZVhHFg2Wh9ylu6Nykf2P43uiHg6vIQn05fMi90nnEAy1VA486XY8r98T8i95TYR9R-fMF1CDPx5-u2i4v6WIYnzu9Mu3f69m5C30Kmv5UVa1tVM0ao_6DjPUbp9KUnnoSnU2lpgwLIg=="
+     "name": "響水湖長城自然風景區門票【2026】- 預約、開放時間 - Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAEy9yX6Lz4bAJYNA09a_Y3SIR41iqiyBJFz99NNRzFUY8Y0rz9n3Nfx9ZyrqgmOFjl57oL1n2foBBe81PXTgQz3MAit8f8MgEIKHmvbArbHdkgm9OnhoQewUKgaOLPzThmLzmOdU3xcAYhJlxmaatlkpAz4EzVnqMilAktKOUkrg3ph6uALC_Ahh5M_ufDMrK5LS1yIYRJS99zyT3HDen-Qi5cc"
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -8047,19 +8150,27 @@
   "geo_source": "district-centroid",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-04",
-   "note": "未找到近6个月内该北京门店宠物友好政策的明确信息，但门店在大众点评上仍活跃。",
+   "latest_mention": "",
+   "note": "近6个月内未找到朝阳区“欧记大排档·江西景德菜”宠物友好相关明确信息。",
    "sources": [
     {
-     "name": "大众点评 - 欧记大排档·江西景德菜(朝阳大悦城店)",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_W_qcLPRpWFLimRzciBR6sefHczR53uqlt_E3xjq9krgUyUvAEq21c1BR2esB4wznhJkDVGmFqrsn1OW2SJKTxoTh2RTfg-qwGvo7Ab15JLWaGuph4VSu8mLWpjNCBDgX7LzOr2QJjsHi9eBENMEcNg=="
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED2uCbl7cAUJqCFrN_6Ej2ZAewJcA7Qjs54yMhdcz4atm89A4dzPZ6y4l2j5gEufk2rhCMwCKpfEckdqQ4_i0oU_jLeZvFr32_sZk9Q7ks8S3TtCrXIvuRqq4NEoDbrQ=="
     },
     {
-     "name": "YouTube - 下饭，但不排队——欧记大排档【兔吃深圳】",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwrutKh6_fuekxiZwUNDVqkzMb5rVeAy2KjcRaD8tJ3uFlPVCKHy9oLZomnW_cfH9loeWMXROF3fN_CspUHsAXkNMLYqO8-hXqdNiiMSEo9rgk6zumjhg_qqs-10ITw24ovJGnbF0=="
+     "name": "抖音",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgRwnmK04-vGZf0piXEdWUH46QfnCzjP-iXpcwnP0bt984O9JOYrN4zZSGARwECG49k4JbYn6L2WU1fXqf2NRR5VzR1e6nBClsrKml7VUU1shg0OaVTj8OsbzL3qblEizOx7dlJbUwyv6HgkpCLlq8-Z0t54dY_0AN2eQYAMRACeus-IeLPmhXodqG-CMkhn6QHj_bAQxlQuXiM6EmNBDh_-AC"
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJFBVwZz7yg47fjLCdXFSReqxS9_N0DfvTvRmRyeKKc2ZH2kTNO6nx49PqFBVaOLTY03ae94cwDWE0wiVBB90e77r0vgO0oO_i3SYGbxcy3KlKmbMNoh7aYUn0u4ajpjGklEsayJhEMwab14CcCkSw=="
+    },
+    {
+     "name": "新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLVX40tKBzVDuhSPerIIfUXOUTr8KqtEWmM_xTqfQrG3K85kBkhBvtQQ4xVXW2Qu39aHAfBygTgDbtoVxlQ4RxSGobdyMaHwBrYzxuKbUB9O_UptLHz9dZqNi_1_o7Tzsw2JXPZP9PtQ5oFufP6t0"
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -8589,27 +8700,31 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "餐厅正常营业，但近6个月内未找到明确的宠物友好政策信息。",
+   "latest_mention": "2026-07",
+   "note": "TRB Hutong仍正常营业且获米其林推荐，但近6个月内未找到明确的宠物友好政策信息。",
    "sources": [
     {
-     "name": "Trip Moments",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGahiMJRFtKCfVlD_OOodO6B214QdVH9zG7uAFb_jHtkFH8tOxjoPacK7pu2mfOwxdhjsYeV_R2QWJ_-GzwizC-eB7aaZWI1dyuqYVIkc-B7q2-nBGW2403MQaCTSbVm0R2JfICUyuvNxwLMp_QktU="
-    },
-    {
      "name": "MICHELIN Guide",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd2b1bquRb46vmd1Abl5OSER6_pipO0A--JQ-Y_-wWpkQgs_-xsVWVkoZBFkajx_EI6B74n362YPauXtfkDm60MswFagCuZd4A9uJQuhC_R_56o__EEW3k4xosIvAJ8DeYLq-l1JQKJ5P_zvOfnub2x-d7nvG_d9HZZf76E_91CuMX1xeRcKvwKn0GyeRB"
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8fiu-3Rodvqz6NwS9k-eFyP4BBw-EIDPoTprqH8Z0RCH4NodvBhHMAQVKC9UtMXuKMAkBDAPCwTAUMWeuIFjCjFYebTJ6qp2pmC44Pa0mlU09FJvLVqTMhNWtRyDnm0wbXlTpbTlRgq2L-x0DMqBnjRl11mb78MKkPlVcwsbkBo1ij9ExuRj8zjYr5jS-F9pn"
     },
     {
-     "name": "DiningCity",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP05t3COViZLV8JYG7VuQE50-j_Kt4vURf3tSCoomcmlHqk5_2ZX9ysP2GeUd03Tz42QZuR7nSufdJf6ndjS0AXavjXzZeclDSjOis5xKtwKien4na4jgVA3t6-ToH9CsgzDtk-XAMsLtkNAWSc70og0OTq3jI"
+     "name": "Alotea Concierge",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP0_N9oX2v1oIN9BZxI5OJYaguNip4z2jMxzQoxBvYMQVpG6X3x067dlWsIrg_DBcEOwfRT4Stb4YH8s_kEiQxQeL5AIquqtVqKmTVzrAOTQRPHsXKGm38eUjE5UgQZL9nP2JQ33dRHP_bL5Q="
     },
     {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJmvxdeuZ03rCWdkmdr34aO7ymcnGnaId2jOPWU_1DE67_MXY3JC-fYTR_NzvzsJvBBKXlWFnncAEgJA7Uoio7nW2RYL1kdJgzTawb3t4cTVE52L0Jv5Fm08iGvGMfYMBzi5cmzXETiYhoILY_Ko7fHYy_pX5dpK_jqziElyWlAjp_A5U="
+     "name": "Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH565RV5c-3pya6Ri0w-qkW6Y0P38yWFaEN7xKEDVzAtiemLVbg4ryIsgiT8P3j5o0Q00QMaGkEZ1eh49f3wnq5bozcjW8iI7luxmG8YsySMmtxfkZKhvmmkrxdSJ53me21_eD1E3xsYrzTth6bJrgFbpqjPkrBCehXe8EmZj0vjvnUHW3Uz04="
+    },
+    {
+     "name": "RestaurantsForKings.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHwnn8OFtLywROJNZUTYQod7I_cMxFrrz7h16hFsSiPdqCU1aYUXozveBMKEm9GE0vz8xt2RPfT5CORaLy6oYOgGdHvl3N29w88r9xzH3PBuS9mT-obQ7kYqNOji7YWuIFqkwL-KhQdyEZpZ5zQ7M1CWA2qBFmAGypBbpIjFWSktNag=="
+    },
+    {
+     "name": "TRB Hutong Official Site",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX8q-VdbtKT1glWNtqyDEifnQL2z18TXBLNlawFz8Ag6nSvqKCLOu_0IMKdDImvcvR6tWCLqn0SfLheC5nhdGnV245yl9OmQ9lLfxT1PSy4Au7O70y"
     }
    ],
-   "checked_at": "2026-06-29"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -8917,26 +9032,30 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月未找到“宠爱乐园·居酒屋”明确信息。",
+   "note": "近6个月内未找到“宠爱乐园·居酒屋”在朝阳区的明确营业或宠物政策信息。",
    "sources": [
     {
-     "name": "乐宠宠物店(安贞店) - 北京本地宝",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoQwMDsPU_xVElGLcmRdEdt0Kb75VmUtEvG7pmbfzgCDfMXaHN2bjXFh39tmQhL4yad-XJBJAWlcVjiSRrRC2bB726SVLvAGLs2MlajAJLMzTkEjNfXliTJOxEOLv5Jturkb91lHxJQoouPiLvW"
+     "name": "北京市朝阳区人民政府网站",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr1GUAmpJdDVVDe7ige7_X-nZUbsCe6s9H3ZL5Cm6YrlVRHltfCc1wUPANDBbuKomsmO2UF7RhzprK-XIbM6VyXfypiKc225Bn21IpfSt7xOttJTk-TAF4"
     },
     {
-     "name": "宠乐园宠物宾馆 - 北京本地宝",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmEydQQTQ4kpYyfCY0TQebktZmPnrKVgb6lMjQqBsjBFP67u5qHWudl-rAROOPc42Ik8IYrAgpMg3KJW1K9ZE02IXZwoYd6LZgZZg1g3UC-QLvJ_kkjlEmH3rLpULZRAYx3LRSNA5zK9Ifz-dG5Xg="
+     "name": "腾讯新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Gi9sm42HnAq8A5pEj7OYthLX8sD416ib32XIH2dJJuNx-XR9-X0lrMBzqrRBHwIh517sMNBFKHrcZVvdwkkSDmhyfI88NfUPdX3qOzL7CbdIM40IcqwghJopsNO1TRv67HKO2p8"
     },
     {
-     "name": "2026北京嘤嘤大师萌宠主题乐园(开放时间+门票价格+购票入口) - 墙根网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcuvTlZ2A6_AcT3287mKmoAuxYCxABmYeAA8o_mcEfMA4BK19N8eZtC3eKPA2-lSNjum5gfKsXfT-fC89u_hM3dUir67N3RxVxFDTqKjZgLpBA6V2lzGBidMbmW7sw8zApTDux"
+     "name": "新浪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFwAkWmIABNArM4NSx5dPBfAj7pNq0D8p8gpP61VoE9LZ4633BsmoXwUFrLhx_KdCx0tm8QmYHkX28DUqcpg0Zc2a_JF8FWlSxtNcmDDrslHNcwQamSoH_9XbYKazS9L_VbsELp3RjxeAigGGWizqn"
     },
     {
-     "name": "又Local又Chill！国庆假期打卡北京朝阳夜生活",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DNVJ0az572LaV2emLOrbULLla8D2-BzC1IrftzowerxehSi0ZQEMRYx-Q0s10JaIK90omUzPHfvFeKUmaBqbh6l0eY8Z9kqJ8u6znBXZS_3xAwyARMYKKKbNOgpm-g4ZgCi4Rxz9TDN2UmYCoA=="
+     "name": "北京旅游网综合",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_hfTOv6lnx_HzkoST1hZrV3jpZDwCnbrXQVkO3YzChWRool88aJxb3qkpKdXU21AN2itzFN-EXiX3B3U0Zmhul541G0uNBE9AA8Busg2KoY8NZHPABYYzPYUsN1ijkfYAk_XjrwiueHu4GeaPg=="
+    },
+    {
+     "name": "北京本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEivg9yQ1tmxShQSygdVkXjCiGNIi7Kf9ZDiFq9fXuBFST85Sgv00Acz-VBfJNscO3exTmf36AyhrtwpOKxXe4Rm-6cpbuMyOaOLj6CdboPP_NTOVbP4eJadr2993e9WZ3hVtryB_hmWDsQCw9i"
     }
    ],
-   "checked_at": "2026-06-29"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9071,22 +9190,18 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于“恰好烧肉”宠物友好政策的明确信息。",
+   "note": "未找到该店近6个月宠物友好信息，北京餐饮业宠物政策趋严。",
    "sources": [
     {
      "name": "新华网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwnpUsHb6lmGWFogShOXggZFLyVh58ddpKON4M8IT3zLixDe55dJjNPAzPsR3MTSN-TvzhaTtLwT9s3_YvziuSqbH_aIYtkkGyCqztgZi9xlo3CVxqaN88cg3zN3ysTiUHm48GtsRtueKIAc_-bHaOPnF7oCYBlad7xOdXkGc0ffGrqQ=="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzJmCJahiQPoVCkugOtmmEL4OxYusGA_lzOcZPEZYfZTC0zJMgwNfNpfMkshCbHi_QPEdA_nHVnrimbvaaI6JjyNpjgLxHs_MrAnfQ_elY0azQTLcvDj1S9fGMb_MtmlSqZK3cC_Xsfbfi50hU2V10jVLkdryDRXyntUSykNuH-G7AqA=="
     },
     {
      "name": "界面新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzkf4eIBHLBEVwwd6RvORaKz7OWB9E1KB7zYjax34TecV3NTFsjv7q8IgfatN24SSNkCc-ieDuJfZb4Mc9EFThJ6N4SVjGD0IlrQMQtVsFefeHUkCBvA6V8dwUPmCF7L9uTbmwi9s="
-    },
-    {
-     "name": "新浪财经",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3RfNFyVrfuhLoGRXJ31C2ZFgQWTUwXjtBeK06sJghIJ3s-XC3_1zFlHjJqML75HYD-QwtFq9FmtK73GGYdeHSFFUJd7ZuRICEXtYGR6iPP20tTVbzbfnHtq8wpiFySc60Ul3fYsTLuvlSFIygHUWGJ2tKivs8ORCfqzae0MMo_ETDPj5I0hJvA=="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHSjJVkvOJWgswHENA5F1lW9zkzcxmxJM1hlk1vy3wHEvoIDS5A2zb9Gj6pmLX_3ZDpuAyfbVxTxOiQX3-rHQA5lZMrQ8XB7pHeb2vK1CPm0N-NABV-NDUfZDK3D0pJgmhEI6BSUA=="
     }
    ],
-   "checked_at": "2026-06-29"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9116,18 +9231,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于23le jardin花园餐厅营业状态或宠物政策的明确更新信息。",
-   "sources": [
-    {
-     "name": "新浪网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoyH1xYv3kWPa1HhCXuihosLCUG_HEGx5YX9nVHcv2NSNFs9LZ_hhmGZtJsfVIBTgUFN2WiLL7vnfIL-qwkfew_sxVuNUSCw_EwWxqH0sGyObLRE5Xi1QkmE8o6FHFeMg_teGF2R-eTu1oh79QIxmHb7C3e545EnXY-Tk9b5wQ3xQ"
-    },
-    {
-     "name": "中青在线",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuebYaxty4tGXgWi05F6emP7_0EEcXTVFIi0ySwbOViUjommO8oednkGqDQi36tjgm3d7NEyXPWQSJ3StIHY9AbXzh5Gs7x5i40WDSJa_waAGEmH-jw9m7VuBmWcjMhMEhuhghuxewFF9wHO-nh_iyxMX8X8u7YNI3dzE"
-    }
-   ],
-   "checked_at": "2026-06-29"
+   "note": "近6个月内未找到朝阳区23le jardin花园餐厅的明确营业或宠物政策信息。",
+   "sources": [],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9238,14 +9344,18 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月无常营公园宠物友好政策明确更新。2022年曾为知名宠物友好公园。",
+   "note": "近6个月内未找到常营公园宠物友好政策的明确更新信息。",
    "sources": [
     {
-     "name": "2022北京“宠物友好”公园图鉴，一起带着毛孩子去撒欢儿吧 - 澎湃新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1q_KM3f42n4QzsI4djdFUcnxTylkiTMtOvq0lGionBUz29Q_PSPa2qNd3uJy490V68AGGvxgaTn4kp94e7iPwcj4ifk3CFuR8DTSFo0MWQ7eDLNHLuPnmJx5zKjDkvmsApUknUqxo__Pv6ArG"
+     "name": "北京市园林绿化局",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5r1LMxbdJdwrS6IjVgYunxMlLeWVSCxECOvSiK3BsJkzd6W02d8RBBgrEthfZ_aNnHH7QwakRjGUjr7K47ARVzB5vUh4riCwuOz789zBGEzklLmy3kJkteXIVXEQ4WT81xV_48M4BssABADAuPWATkQWZEjNSSxk8CEDlOeHrIaokGcs7gdUAJyyW"
+    },
+    {
+     "name": "北京市朝阳区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmgByW0CFoPmh_qrHiIwDLJd2FDgC893iyrlm-VhTOGaENQ874a5tQuBg1Yo4pM1L5saaywj_cBdS6wFzN8IxtDffWJDGc2ZJ6vJB9kA6dXCRK02gaO6tPw6hEKrvTDikNUSg1Jst086t87gfW5om1wKWWX74yzlnel9A4gHVq4-FWFOKN"
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9558,7 +9668,7 @@
    "latest_mention": "",
    "note": "近6个月内未找到关于北平花园（坊茨胡同店）营业状态或宠物政策的明确信息。",
    "sources": [],
-   "checked_at": "2026-06-29"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9585,9 +9695,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于“苟市（建国门店）”的明确营业状态或宠物政策信息。",
+   "note": "近6个月内未找到关于“苟市（建国门店）”营业状态或宠物政策的明确信息。",
    "sources": [],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "lat": 39.906664,
   "lng": 116.433244,
@@ -9668,9 +9778,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于“禧室咖啡 (COFFEE&MORE)”及其宠物友好特点的明确信息。",
+   "note": "近6个月内未找到关于“禧室咖啡 (COFFEE&MORE)”在朝阳区的明确营业及宠物友好政策信息。",
    "sources": [],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9697,22 +9807,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“渡野·轻奢露营地”的明确营业状态或宠物政策信息。",
-   "sources": [
-    {
-     "name": "活动网 - 渡野·Village休闲露营地",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZGHj7h0N1IfScLCFco965opt_M4I-6l0Hbo78hpMmSpwotZO5XY-ClA3PDF9JBWE1XfD9NjZ_T8LZtH_4H7lmxm_n-JH_1HwJoZp2rgiW42rrMQbFeB_l8iV6hcCLXU14"
-    },
-    {
-     "name": "怀柔区人民政府 - 森林王国Migoo宠物专属营地",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-ERZHzVHGPSzcir0grxr3jPespUchWp2DMgeRshlBgbG_4NtK4-9LI4LQrDaXf7sqtwD050liYQ81RmW0PkW2OfLGvSmuF1Jc_FMv2KGMXm-X1hUwfeA5wEqMwasCHoCy1G7ApOkpUEBhVy3_Ro46_-ykHpAc9ojAihhLHPuXAjtDv9So68_3_Q=="
-    },
-    {
-     "name": "新华网 - 精细化养宠流行宠物旅游市场需求释放",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFqP2cdKUjMHFOxHBP-7vDVr-4T3lUKTehXNGYX1-37dF2a7Kr0w58458QqIxULdlhxcQJVim0d1MIpcjKELmDSjc2IUdOrOkVZnmAZVARQan9KnJ764KxChubkJnJDU_EZe2GiXR_oI8xlzUgDv2cpFBaDa4s3wavaciz6IQAEOROZF6t6uwVTlFFFA=="
-    }
-   ],
-   "checked_at": "2026-07-01"
+   "note": "近6个月内未找到“渡野·轻奢露营地”明确的营业及宠物友好信息。",
+   "sources": [],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -9744,9 +9841,22 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“禧室咖啡”的明确营业状态或宠物友好政策信息。",
-   "sources": [],
-   "checked_at": "2026-06-30"
+   "note": "近6个月内未找到禧室咖啡的明确营业或宠物政策更新信息。北京宠物友好政策普遍收紧。",
+   "sources": [
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcMp-MxuA95szxVIZfskDCFYcDQ8787xWRLnd9_RoPTUPD97mdng-ap2sRjQRatV_5g4tX_wPz5_ym-prACNaeaWVoLPJXypk0_p2L0uke2WDaf3O7_kGhP9kxLtNcjrWpzjNQ0s3hJxdr47w4ugF6O9fKQlC38c2DdIdQ--e_tFefEQ=="
+    },
+    {
+     "name": "界面新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd2k45IoNWYOrY0hWMdN_6q6remJ1TRGyzcx0Z73AbrXeIehJmVto0nA2kfUOqanretaWF2ln94HOdE39_zTayuGXXzdCS_LOP4c2hxgVyOGgHN1gUQ9GpffHDO-HHvugHwTZheIo="
+    },
+    {
+     "name": "新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtL-yGwjY7zwXQvzpm7mp504dUK6jgkmcXiczrar6aNBcXZL21XNJ6Ve4uCIyx0tuFSnjHUR-HqKT0L83PZcnphW64gEZfomqUe6nV2HLTAYh73qWWihKRt6TfH2rnry3z5E52y8aDrPwYz22htcvw"
+    }
+   ],
+   "checked_at": "2026-07-15"
   },
   "lat": 39.954415,
   "lng": 116.61759,
@@ -9776,18 +9886,26 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到D.A.O coffee (西西里村店)的宠物友好政策或营业状态的明确更新信息。",
+   "note": "近6个月内未找到D.A.O coffee (西西里村店)的明确营业及宠物友好政策更新信息。北京宠物政策趋严。",
    "sources": [
     {
      "name": "新浪",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5rQ3Iq8bOcU4WUNdBNQiM7UMPAGRHPoV7eFvgXRGvap_h4DdUqrawMgCf8OGGqvRpEN4KywJ5A84Q7acA8MLnNSKAZ0N4wIsl0P9DciWI3eqKc5yVle6vY-1vwMMEd1BlQUMXJIfcfNGwTrvocaM="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEInp8HsxIAwrj_hr0mkpMmTFEQTXosDZ9KXckShPKfrdOPHml3-tnDwVVRJ4o3b1yLhBdZynUrIhFU5-5jeNWkO90EvSXCduX2IvKjQVluhtTf00-JK-2_YCJu8dZ_cktwLJJnbrUgDWGSdAwgxFaA"
     },
     {
-     "name": "北京旅游网综合",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6isfY-NowEulOubDAetKQaeZ_ZWwLz87PW9zJDxor9Nfstsh4Us-T7lhAR2scxeGwTzL86-tzimBqi8cCCs7jUab2P5825JTz31HoZyvwk7iWK5ZqZ9F-QDgFOS6aDrB90uN7Mq2zrK1ImBye"
+     "name": "赢商网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjkIzG-CE32AESgjVDf8dopU85pVyTRZay-fPcLZ5fNviQLk-7nj3xLi2GyVMFySTgG8aVZwBhaHQy9E24ZdG26beN0dTkdnNXsuCRk6966xBSwyCXdaK-yLmSQQFfz3Iz"
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmc1SM5XpJxx4xoWrG5QkYu9wBt9KdCF6FMpBFDQckVdN9Gsw4Z8sxjy8JI9AaCQcxecfhfmIy-DCInh3deSjVJZPGjJloLTMD7lcBFgiUUSd-1sE6vxK2rWLNJUrlgr8JLHawLXIoPtaca3fGK6mURuEWiidPkK_dCJZhbVSm7jkCXQ=="
+    },
+    {
+     "name": "36氪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4qqQc6CtQTv_BTIS7lnfDhGjfjkAUc-yZhgp5yVwwJXAognoDA65YgV_lWeZ-hqCEnhAc6EHXl9v4gChFad-M8Vl4PlwgCusUdi95SvezKke14LkLZDHzQ9Wu-E4F1X0="
     }
    ],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "lat": 39.953164,
   "lng": 116.460192,
@@ -9822,9 +9940,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“銹SHOW”在朝阳区宠物友好政策的明确信息。",
+   "note": "近6个月内未找到关于“銹SHOW”作为宠物友好地点的明确信息。",
    "sources": [],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "lat": 39.954415,
   "lng": 116.61759,
@@ -9891,9 +10009,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于东城区“LENTO 慢”宠物友好地点的明确信息。",
+   "note": "近6个月内未找到关于“LENTO 慢”在东城区营业状态或宠物政策的明确信息。",
    "sources": [],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "lat": 39.911442,
   "lng": 116.725058,
@@ -10041,26 +10159,14 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到CINKER PICTURES三克映画(亮马河店)宠物友好政策或营业状态的明确信息。",
+   "note": "近6个月未找到CINKER PICTURES三克映画(亮马河店)明确的宠物政策信息。北京宠物政策趋严。",
    "sources": [
     {
-     "name": "The Beijinger",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVDf6orIByn5r-HhJ8iXoJlcA7XBv4M5ukneirYEnvLzWaurbNisXJAD5D_-LJuYEB3xJT4ESTVuGVLvTBEo26XX_ka8H31aXSqzpj_rCJi-eElcGrsBIn6QqjNEc-dahE3PycoMBpFuTdVXLwPZ9Iol8="
-    },
-    {
-     "name": "Trip.com Travel Guide",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbKVQk4-vTPQn7IYoWVfTp6tieRvq1ijYyQpyKw3p7yjh_O-fxL88p4RkhffmA5Z8XfScwfq_Dhd_LRpcietRVUlc_AGxtg9j4vgaN_uVOBiUvLtPwSI0uKyLsRyoRj0xCiaBjRuHPJHPy"
-    },
-    {
-     "name": "鼎食聚",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEed-H3mGLhv18lJMQzQvsuOfhn1o7wZ9rDwAHfVv6OEKBwKjDpMzMOv4vql49CP3eohsrlq3aQzfDi5C20icxYBjM94BLqjC23odUGcnQuHu47p1CpdEseiMt4g0QWEAFv5RSLX4Iux3kTylFVM01uTkC19aNL9Q=="
-    },
-    {
-     "name": "YouTube",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtDcDy_fnP3bBIdus1os9ASDudmkJ9X8fNTNTIfGyEBhJ7q4p11HS55fXSP8w5BypBmYuXwdS39Mlq1XFdDBcw3yEDY3Pm8uZJcRdO7SsNO2o-sCytGSZQDNMUXQLCilFXQKESjXs="
+     "name": "“宠物友好”餐厅，两边不讨好 - 新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpoG5kOVghvZGAC2UtF4z0xdS7BF6KU4tC_XLepNq_m-s_j10N7beKz77tmu_XCiGPAhmJLzScxJj5PGXmLQ04cosUhiJjGzFJKTfN3xbHpZP1Q4B18Oiqra4Q3G873CR-KK9pJlADIdNOg004PqF_UtmfgAggyEnEVdsqjsICGWFq6Q=="
     }
    ],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10169,19 +10275,15 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2024-07",
-   "note": "未找到爪爪光环（建国门店）近6个月明确信息，品牌主要在深沪商场运营。",
+   "latest_mention": "2026-06",
+   "note": "近6个月无“爪爪光环（建国门店）”作为宠物酒馆的明确信息。",
    "sources": [
     {
-     "name": "保定新闻网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaNuWjtnHanqU_tZtksqDohPv8afcMIL3qSiERdDQ62pVK9E_XQDHplQ50EGzVVEc8DRbj5LvRrb3Rj_EkSg92V5WME-i0F5RsyYpn41U3CRBV9c3PbWeHEUObWwaE5l8jqKwiItfNzHTFkkZwlRg5waw="
-    },
-    {
-     "name": "ACN Newswire",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEON-gf62E7UBlcOSzReU-O6B-KRRqd-229xR8a5ypW9rowbRqohVzCcqYMwJV-n7LQE6x1mvY6Jkiqoyt17VXoQraTnyZ_96HZxt36U5Qe9DGJUfKBqLi5Mx5zoJE5c76RgOiH7nAmxn57y06AZuPCOaRAk1fbTvoaOZVTCOBrPCUPsZsJQ3p63m9P_65-_TU6sfUx7H5EA25s4TTgw_ZTJEpzDRklo9VVDUe8oP4e8sI27LrJI4vTI_kwXKW-6x36vLIFXhHeVXK9Ltu7-9v2B3eBqAUguI_z0tEUyyH6n1v7OHNM5rAZFhcEdDKWx3XUjP_jDC8rX4G9HK_AfzyWLuU2j7LC82NyDa1zoS6SgM6gi0cUy6HZprKvko0kcYCx0JLX3GE"
+     "name": "今年会官网-宠物O2O平台“爪爪”卖身朝云集团，立白长公主任掌门，腾讯系创始人早已淡出",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG4ibHZ6iahG5DmRaTNEPS_snQtDbxH6qu41i0WRkmMej2AwiVPQhS3tugzUIRK8Js9ogefDz-mi4TC_eYttnSQF73bTlMka_Gs3HAw7a6iiHPOo4_3jGRwEVn70JLt367JQ=="
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10211,26 +10313,22 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到名为“Doggy Café”的明确信息，朝阳区有其他宠物友好咖啡馆。",
+   "note": "未找到名为“Doggy Café”且具备所述特点的地点近6个月的明确信息。",
    "sources": [
     {
-     "name": "Pet-Friendly Cafes in Beijing: Your Guide to Paws & Pastries - Our Beijing",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ5whFHSlD1C3RFjLaghY7DVByJVDhN4jnQmpDjLzXdJNlR5gk4Ch89g_zZKmFl4fwssYmsU4qXXLOj17KxQB55c33lBX6XFCg6JuyOh_0fLk4LCNkvOIoLIrT79xeiJLzm6ueU8ib2mRtizhNiuORFA=="
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=Doggy+Caf%C3%A9+%E6%9C%9D%E9%98%B3%E5%8C%BA+%E6%9C%80%E6%96%B0"
     },
     {
-     "name": "北京朝阳这几家咖啡店太适合夏天来啦！",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZLhUAW1Okob1J5plJjIcsZwo3IEMngQd7eDP0mZ2u8K24tkl8TiWPpLPAm0vMVW6BzpgOFY3mO63VkYhrRGASyVhAamxsd8UtTFok2HA9kppLR4odokM13ob34ZX4kWR78-AoQwAw8t4oimzBEQ=="
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=Doggy+Caf%C3%A9+%E6%9C%9D%E9%98%B3%E5%8C%BA+%E8%90%A5%E4%B8%9A"
     },
     {
-     "name": "铲屎官的快乐，爱惨了北京这几家宠物友好餐厅",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhs7G7_SNH0ycsc4efrBJxQ7nDBcGl6tCFSPsKKyVBGzn9YQI9CtXnFAc6w-AHsbb92CXg2Vod6oASa9ypTjV3hM3wIjjJJ_Hd-kqtxWzXVbmw0qB5857TbVmz6TY326LX-HbWeVPiqYz4q2RKrbcPWDpOvCtM8xz2Nve9obXl_Q5BmQs=="
-    },
-    {
-     "name": "春日里的宠物聚会 - 中青在线",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEanJKrWOhHq3LeMc-VA3P07k8xwxef4_eZ_teQqzX8v7FYPIsgu7uVSQ8-9hJ8p27J014vNPOErCwBGt00wjiuQVy5YypPqUiGrpyB1LooDoDtXx323-v0_3g0yGnZvUVyUOzy9ihVIsAyDR2rKUyYNwvieK9LY9yQLv4=="
+     "name": "Google Search",
+     "url": "https://www.google.com/search?q=Doggy+Caf%C3%A9+%E6%9C%9D%E9%98%B3%E5%8C%BA+%E5%AE%A0%E7%89%A9%E6%94%BF%E7%AD%96"
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10317,52 +10415,6 @@
   },
   "_drop_reason": "closed"
  },
- "p_d7842d34f6": {
-  "id": "p_d7842d34f6",
-  "name": "郎园Station宠物市集（它博集）",
-  "category": "petpark",
-  "district": "朝阳区",
-  "address_hint": "半截塔路53号郎园Station",
-  "why_friendly": "室内场地，可遮阳避雨；允许牵绳入内，门槛低；设有宠物饮水点和休息区。",
-  "tips": "人多时会比较拥挤，牵引绳易缠绕，不适合性格敏感的狗狗。宠物相关摊位可能不多，请合理预期。",
-  "price_hint": "门票约50-60元",
-  "sources": [
-   {
-    "url": "https://www.smzdm.com/p/106980489/",
-    "name": "什么值得买"
-   }
-  ],
-  "route_slugs": [
-   "daily-2026-06-12"
-  ],
-  "city": "beijing",
-  "city_name": "北京",
-  "freshness": {
-   "status": "policy_changed",
-   "latest_mention": "2026-06",
-   "note": "宠物市集主场地已从室内移至户外专属区域，但仍持续举办宠物友好活动。",
-   "sources": [
-    {
-     "name": "北京本地宝",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsAo5KgLTnqXN0FG_x7vYTHjWFRen73FF49S4Wb2KCtD6xZ4Jugz5-3dSErmORNjFHVyIKC5A7hOjK1qQfiKYnJieQ_MhuOdKKpn1OhTy4dPWB2Zzj1sOrWTMgrsbBUtAiUCTcHUuQCg=="
-    },
-    {
-     "name": "北京日报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5p6W270jbBvexKQFd6IZDX2b7evjndNe6Nj6PPkZ9rJEqqWn2onInyJzARLwGwILk7SGyhtWqzaYKVltPJME2DHOF4Gb1J47SVYrsLsW7dzZk9a165nz-DScAvcROFeOOn5X_Y_H_2jT6wps_cddQKkIR6gSqbQHOvGM="
-    },
-    {
-     "name": "首都建设报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoeAF_mZwGlfaDhUrtbaDeKhQyo_MORV6Zcx0xs5mZ85cTxW9cvJBfMMruW4Prf2Mctgzkst5vDsAfgYZ7o89qIhTDK97wAcQMmsb5Tbb43oKvXwtNggMxVWCDDdnbu2fYiBi-hp1-7sfOpWX1IrJmU57prEMtJqRowIM2qKr9Iqa1K0="
-    },
-    {
-     "name": "新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFB4lbhYby7ENF1BQ5DlLNf9KarAiiEZZfOHvSUfaCZAx8efSqU4FmdONQiGykJMIdMj4LI4xGhOEoj1jZ_DtB_julyrX9tVxa1XdlrzxKEosj9uiJRGUbktuwjxqFVv1YJtantg47k4caRMnjXfzZ"
-    }
-   ],
-   "checked_at": "2026-07-01"
-  },
-  "_drop_reason": "policy_changed"
- },
  "p_61e4997b82": {
   "id": "p_61e4997b82",
   "name": "根蕃(Foundation)西餐厅",
@@ -10386,9 +10438,18 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到关于“根蕃(Foundation)西餐厅”在朝阳区的宠物友好政策或营业状态的明确信息。",
-   "sources": [],
-   "checked_at": "2026-06-30"
+   "note": "近6个月内未找到根蕃西餐厅的明确信息。北京宠物政策趋严，许多餐厅的宠物友好政策正在收紧。",
+   "sources": [
+    {
+     "name": "“宠物友好”餐厅，两边不讨好 - 界面新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMCrXWfsmt6mNOuy2ni_eRLPu_TXGOPaoMqiBE0jNTy8bT3hI1Z5e1lfDyG1qqfFyk_gdPxjolgPNQSoh9rsuM0Nf7ixTSibpujj0z7RO284zWz1XODFc-kvm3FGcaHwiyKpEUE1nI="
+    },
+    {
+     "name": "宠物狗饭店上桌吃肉？商家停业整顿，最新回应…… - 极目新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo1YRqNkIe5ZVAJKO1jk-mdbmutTEM1zwNaru0brMIjr5F5_eqXfV-SSBNRSL8Fz0V78EQTj2t5stbnVHK9FnugFwBNz_evBfWDlw3c9O3pvhQI3zpwMR-KIRvGT4UwtbrUGUT5y-IJ71z"
+    }
+   ],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10418,23 +10479,27 @@
    "note": "近6个月内未找到关于“北27院”作为宠物友好地点的明确信息。",
    "sources": [
     {
-     "name": "27 Yuan | the Beijinger",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFddenKucGzhga4g1-_S_BX1YGE0arQXZAk5nozfl0eKgYqod6dblLV6n0RJ2a4T8JX8WGLIg7SYWZOSaQuRGhMCxH2HBK5_UjPYTpbOVDvF3u4XdW-Ix_8i2xpNKmePtOU_APaqEVvJA="
+     "name": "Expedia Singapore",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrxXI0Hic2nSHEKh7MdYUG0Vuue01QT_FSvDGU5v6pelQ8YcXjfjAtbbr96zxPELpI6tvlxINDjkpulDp4FjRKYY35rWYyIaDVgP58j5a5koYrjwgKSzQB-v9b-n0d33C09cun3V3TMi9XEcuU5qGwsuhr4AjEfId4gH3bkVOMd88ATHm--TDKurShlMw2FOXd9Tw7jkzLVv0nNqgUmAQXjyucz1tHxXMg0OiNAWgcZNXWDf5n8VQu147POCCVE_BQSg=="
     },
     {
-     "name": "北27号·黄河入海 - Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsqJW1whHvEzawMhYf7U4Lfi26s2aH0Okm3gNhVMjre6WXZqj0HS_G70-AeVSwFfWJt6B9-kXbIuKDU5CJGldJ5oKcmLkRBAGG8KpPRMBUaE-V9HVgtbpZza8ie7e1s9S1FD_ZZuyehu3P-Ufmn0OFkzaeZQOrFOunqnWr2jz0XNbg3g="
+     "name": "Expedia",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCUjDrviDXBnNAVixsmQBw8xGt7GnyPiEysglHKMb7WoLNpatY8jFHBf_itFMMUCtRHe1CwFoGPnKibS7XLLxhm58-8kAARDpTALmx2-BtnUVNXc8UARkYT_sOsYB2PnS6jhMgZN0C0T3BI9AZUlP6M3Sb3IXGhFKpMJx9gujM4LtmR6hPEfo7Lqfobvw35-66cJd7nkLvx9Yp9Pul3hzo-hX4jt_gyss=="
     },
     {
-     "name": "北27號·廿七禾尚，又一家网红店",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvsns59Ja1V-4lhaNzdz4wY_q4AR7uRBeQcwi4-L3EelWsrCyRLLQ2Y3y4-aqE2nCGkjN2GX2yq2jTG-n0opTAvfERJrkjDefMevk-sr9LNmUxNz81VvwKYYpLb08BJ9I5RcrBLP82I9nCE3U-6Q=="
+     "name": "Time Out Beijing",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtZmLBfY_Xx5-Q4sPgJw9Z9IF1zdcqJfDSPVc9-l1hnvlzVzLIvx2RTNoiEehshhXCOxQMBpSCTMpXkEWUroWLrfeKmzsgouT-DAP2UgeOsyuAhnXaQu4YYzGXGGqObYWtgRagilv1Glu7Y3XOh9o9cFM-X8dpustk76w=="
     },
     {
-     "name": "打烊拌面-北27號 - 大众点评",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5MgwlYaMr4qkuuvxzE_mSDabgnMS8Ks-1JZ1aTNX9EUW2N3Z4iDeSK8EawdMesT6Ef1PeQEYlQvyGeHb4-eNzslsoYLxIpNlfLmf-EFGeGORrNz53DFvhLNGWi4h5oa0d44cEBx3kpcYB30cjytCDjTOhnbDIQOYNAW-hUvQ_tVuuBZXSpt_jlU2CKmWwSwLdL643Hj88R_HIQAQwHjc6P7Kn-0QdBn8="
+     "name": "Cozycozy",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhqliZNZYlEItFEXinRNW17Qh3TQv0OLA3toIlV9egubas-j62tVOJM3VJlwKFDyLp0bDa1K7DP5OFMkn54Bv63hTdpCumBkbMph7Wogpe7rRwEF-pyuVL9jQnCUMXLJL64DfIGR7QYkGvgkMGGyYLA=="
+    },
+    {
+     "name": "WanderBoat AI Trip Planner",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTn-0P2Io2717Lvknab2U10qtPLI5UPPysyZUBO6z-gCgbEim11M_mJjf0LkL_DjMbOoLpRf_aF8N7GyI7hrpTkAza2Owp_pRY7rbmUx1BHhIR7A64ohisOqcnqoNd-OU3Wj6YDwMsLoNp6ciS5gwrxZza6nCThlVHRetrqPSr3mNXEw=="
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10497,23 +10562,31 @@
   "city_name": "北京",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "咖啡馆正常营业，但近6个月未找到宠物友好政策及狗狗特调的明确信息。",
+   "latest_mention": "2026-07",
+   "note": "咖啡馆正常营业，但近6个月内无宠物友好政策及狗狗特调的明确信息。",
    "sources": [
     {
      "name": "Trip Moments",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV9GwBFZU7_f_bkyHOsYS2x7gCwk4GZVbKe50SrR0YI68bfFT85RrbcGXr9w4A8BK3kpTy13AvPbY2BvLFOGed1_V0cn0oSwcZ8GsU_QMlHDOBtuY36zTTJuAjtgk1_VYBQhumW98HZwL5Gc4Kw6nn"
-    },
-    {
-     "name": "Trip.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwrQ80iIOZHPwwoVwfhB4Bv5SQKi1vEYXzg3WZYmFweCg628fW1gqf-Z-YTVHvSvYipzQSFZ8RnuDkV4nb2gUV0l_CwYXhBEroelUgOxAKAoMTUVOdmRpE8nL71vvO8syPW6J_67itvKLg38NXW0LPZ1IWq0fEHakXDYrtw8u4nEkoAgU="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv_dSwK_IzHrx2i0JJL_4fHwafF5Kg7F1nZscBpf3NouJx3pQX5bxWLyUrEc5iCPTWYxrOX7tz7PclOHv4A0xH0AjuC5UDsyaF4t4b0ZV_SqFH9T3sffofpXsSaOUF2crsFyYoK0qKUwsiAI7X3V-M"
     },
     {
      "name": "Trip Moments",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaCZ2lI9AnafrcMEAO0Hgd9Le8VfJWM9n4vZFOEOKNoVm8ghv0yfE-HF6Py7KpICTQBHHXY-KHJbEGWa0gIZW5wg793cfyF47pC-RqZZhtv6jQ2po1-KSYTcuvTKLIf059fiQosu3zvSWUQeGI9efn"
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmyBY6S7ln1b12s8PDUEkF-wmWi54apZe-CJdlSgt9lMLc01mWQ2iXaChLuFuLai1wKgUEgcC02g2ViJPva_e7zzcyw5mc58tkOe2SlJQmEdS3_c1PkJ3qQp0dNDfnmLlJWdthJUv2QrS58xhsE4Hr"
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5grIESVHAOZBQk0BH3-aS8tMfYgw4BsnkmXk0rpftlEgnOBec0HjWpm9W5jIvpb2CdEqVD8WW06TyWnVGkP3vuwRHPsAm-hcgdavxTX7GvpByG-LImIrq0xMYm1kWsDaA6qwSOgU1WTNCpMkieZdlXkwZLecYmAQpnqxzAM8="
+    },
+    {
+     "name": "虎嗅网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcXzAPBtFRbEJOMOKtRPqSErFNzNQhw0QiGVfbAyFdnNSznh_1qNzA1tzZtvlQKsAsvK8Sd3xFrjTB1MayFGGmg2DQw4J-F9PsOEpw-n9goKFtuyv45FHF2cO84Z6lL66ke-NRwQ=="
+    },
+    {
+     "name": "新华网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuowuh-CWnBRgVEaZ5s8lmMF1mLU00wYoyVeevm1Eya7BkKVD3HtBMnoHrZNyRpLNio8P0eMqJUZ-kdV6xLbC59hXw4vZBwi67SC1cWKmNydwv3VSKKxJ__NYky9ME00mcqAbxbhqJD_z9AHn1l_MaDs0uD4U4T09YSrbr6vmWRg3yLQ=="
     }
    ],
-   "checked_at": "2026-06-30"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10539,19 +10612,23 @@
   "city_name": "北京",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "近6个月内未找到该地点宠物友好政策的明确更新信息。",
+   "latest_mention": "2026-07",
+   "note": "野鹅微醺品牌仍正常营业，在北京东城区设有门店，但近6个月内未找到“烧鸟酒场”及其宠物友好政策的明确信息。",
    "sources": [
     {
-     "name": "YE BREWING 野鹅微醺-精酿啤酒品牌 - 新浪财经",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-xOPygm-aGKDApbFOCQGKe2sDAn4boWxLCDZqocqGR337kk1qRG03RhHq9KHx00PECYwtq5VfdFjTxjw9anjuDsA2AHNCeBqk06JzNgMW7qLETQbIQdFlfUPNzHXNWtSVbYC751esQdjkCeAIJLYXZQBsWJoewVPOHPMbZJFSxBdR45I="
+     "name": "亮马河边的野鹅微醺​_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3AEReW9s3WWU2oUeZlv-dBsjjgxSFefmSgcXxTANXKzOeHygxkv8N9lYZVkt5_otzqN57bOc4HCBMohWRSYHnxqX1AumX71GOJKywe8I2ZcZYsubfFFFLcJ9fAkQoHxJamDxC0Ot7oenmk1QE11F4"
     },
     {
      "name": "YE BREWING 野鹅微醺-精酿啤酒品牌",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_bijKM_gfCbN5N2S6ZFdzrTAV3-DbsacOADC_GOz5JoLKljkqWqdSKFNLFsws3PxhrcixTObTv-xSDvAaNz7Fv71Nncf3vNHoEKpUq5x0LaVDTScw="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm4dLstUVP7G_hsFU-aB4VJckcUc63w5fp0YRxS829E8V9PQTmDVNgP7GcI-xYQW-z4X3jAYsxiJxQ0V3sBAvWp-Ixb_QF9AuMgnYFsX3k0NhszhFw"
+    },
+    {
+     "name": "YE BREWING 野鹅微醺-精酿啤酒品牌 - 新浪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQlkZ-L_ZkUKGdCqawUWzcSWr1bKW-Dw4bWm61rts91G3fZnUV8xZSkvBlJC-dDN4hklV-dVkVKNhoqVIwCWgP1lR1Tl5QH4icwtTiqp76wk77lhHyvnCgPKB3tJQ1riMmkNNWLpogOXzAtR4plFMst4aAv-fGaG=="
     }
    ],
-   "checked_at": "2026-07-01"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -10581,14 +10658,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到DAO COFFEE (北三岛店)宠物友好政策或营业状态的明确信息。",
-   "sources": [
-    {
-     "name": "从咖啡店到集合型商业空间，D.A.O咖啡在做何种“非标”连锁？",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMv0RiKowp_3t26eBIAgCj7jGlZnWpPXaEM3vM7tW8OF7OfcUyNsd7A_Fux59LCFFQswLSVZxid-kwVZJNk4LU4scoR74N7_foDr9cudE8aLNncETWtZtruZfw0r1exs0="
-    }
-   ],
-   "checked_at": "2026-07-01"
+   "note": "近6个月内未找到DAO COFFEE (北三岛店)的明确营业及宠物政策信息。",
+   "sources": [],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11083,9 +11155,18 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“宠虫的后花园”在顺义区运营的明确信息。",
-   "sources": [],
-   "checked_at": "2026-06-26"
+   "note": "未找到近6个月内关于“宠虫的后花园”的明确营业信息。",
+   "sources": [
+    {
+     "name": "宠物公园- 训犬训狗",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHubCh_nBzimAMxXF-kGO6UI4qHObSO8WeL1-oZuell7t6ZHvTd71tJ5XNDyOQIg5A7lSuW8hiP4uP0ag5zX9zaMbycpsMSe4s0EFgCtVv3NOnNdbgJ1jNTrIA="
+    },
+    {
+     "name": "狗老大宠物乐园:北京市顺义区 - 萌狗网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6p-7KwVW6VpUQ5sj0voUJ_brIB9jb7kDG-Bb16cLBnUilVxjCFAuMMAQy8csY1Ky4BBMXlPZNbR7BNp6cCxzdgkQfj3C1c80xGNYEcQeoDVC46UQpCuQQiY="
+    }
+   ],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11114,31 +11195,15 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "",
-   "note": "未找到密云区apanda熊猫山谷近6个月的明确信息。",
+   "latest_mention": "2026-03",
+   "note": "APANDA熊猫山谷露营地在密云区正常营业，但近6个月内未找到明确的宠物友好政策更新。",
    "sources": [
     {
-     "name": "成都大熊猫繁育研究基地",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnYfDthOn0p4RFay1--bWX4t-aN8S860erm4JdnBWsZ-Tahc5qrthxkh4LyTayxJ5pcesxnqNvD5e9BVqpXEceCt-85B7UbK6d_iTgKbxvdb7TETmceegHcrpVKrUetMqpbMin_2-lMvA="
-    },
-    {
-     "name": "游客须知 - 成都大熊猫繁育研究基地",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbQc0VnrqNrrxrOdC8ijE7IMrzJNoP8XFljFwKN_5i-Cb97KNQpZ-kBn19doqiEWaAFxxFy_HZGKoJq5HbAr-JS8fOUZf5tEtTU26G6GSC-FUS2-zHEk8eNPkwDsEi4IrU7Dq9"
-    },
-    {
-     "name": "Beijing to open a panda conservation base in 2025 - Xinhua",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzY8eSIT6pl8pgjoHCIGXg3xOF1OWdGzzbMsbf2l8s6cn0SFI-nlSyI88uwcn_SYteZOuT8uikKJEsMR4TBSKNBgXI9r5t0RGRVRLWTFNyoyUobluHyibiU7PEG9C7b_MbB-ExTO01xVRBaKoRlmHraYDSYb3uP0Lg9UH0pJkmeMuNlA=="
-    },
-    {
-     "name": "北京房山大熊猫基地最新消息(不断更新中)",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgujGKgsvV9d7RHS8KAL49meEczFwadofufbyPbXkWo9T7m5k46Bffjo2a2zparVVMYjh-yngi4cwyNnxrX02Z7sldVd55xWU3tFii2g4GEwvi_UOVRnCbHQo_k18qgSKUk0CTJw="
-    },
-    {
-     "name": "大力发展宠物经济北京平谷将举办国际宠物博览会 - 北京频道- 人民网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtATDFrr1k3at8UiU9GzJjVcs2CuJ7jWkNn0JYPz6goaVVK76MpRkWjYnM4DF3x2JD4oKsVQLQKSQTWwMI1K6aYcX7biVLj6HIUgcpP7cqbYyC0O6c4P5t8U6YFLB4MZ33hUkqXelZ_G6-FGkV4jLs-dd_bw="
+     "name": "APANDA熊猫山谷露营地 - 抖音",
+     "url": "https://www.douyin.com/search/熊猫山谷露营基地"
     }
    ],
-   "checked_at": "2026-06-26"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11199,31 +11264,35 @@
   "geo_source": "nominatim",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-05",
-   "note": "近6个月未找到明确宠物政策信息，但餐厅正常营业。",
+   "latest_mention": "2026-07",
+   "note": "近6个月内未找到明确的宠物友好政策信息。",
    "sources": [
     {
      "name": "大众点评",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf0-MHNbdoIjcqRPzn8mIt1qsaFkE5yneCC-g0qJGJ2ZKZPWHKzGwgy-Sf_uc6E8-Rg_uYxXUfnIyMo4LNToMjhvIn_Ex3zXMNw_wMEMhyiXYDlQUb712xELVYpG4g5GzLj5n-vgGPzVbfvqWzog=="
-    },
-    {
-     "name": "永安旅遊",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqz07R-vSEIJtr2g5aBWEvyy5E7FaqGBLt3DWfh5Fr3LOBXyTZZF7K1JyP57I1i2lFLyQ1mG_zJ3d4EnJ2FlUjG1AjHJOEKK86JLXu0caoJ5Xc_vOhfnndsoN7FokKMF4ud_WRZJQRqvhKsZeZk3fwStL4Ss="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6pBiW0rJOFPntC7yK9l65QP4U8kUmhu4hwONjJpB5OZwJ-g-5pTS2Ynm21CA9f7QPMkSsKUlXX6HWdsGu9-R1Jb0FCnbaI0LSo6hv5OlqCLyx3xPrtzo3TmMIIVMCzKBvKdNjIV2AwaA0H4PpyA=="
     },
     {
      "name": "Trip Moments",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDw-VgIRdKuoUKOE7FM-rzQDyjswAWO93GiVcgRFu3M2PGntBTUZZTRBzb2eGWaATgFNRX9PheYfCZeiNtqclkyhNr54vbdzHDhawXfGgB1WcZpknD_E5TBZVvDbH5lcyD9VXAIQyDt6FmGh7C_51o2Mhh6TbjRorg=="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE1DBixnmfqvSlm2KdyvbJgK4JhA4s3-fvSYTCsyTz5HyJRFy-c3CJ7rPvpseIwrovyCrGnrPdsV6C1d_7m9Pv186vdJ87zIFTHeNrM6i9a_hnQghrs7sQ5deijN8NLIqCaBy5NevKaXHuqoRkGBmKS4T9K75Porc="
     },
     {
      "name": "携程",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSu5XUoth3iMpSo2xIiMcu9BVvfq-8Ng8Ns3ahsr45PTg0eBw6ArgBufwfX7lCawcOol5lC9esXI42Y0N-DINZOxzTb3rhPX_eSa1siozvHNYNe1UODtndH5TxE8dyaFkHk1_-"
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVm_XOj_bZ9HxZlgohG3eQAKqIZ_Tb6XDlMl09fidn7jRneAkWMw_kBR8_3u1zSBg3ojI2tuvdxdL63gw4cgyDJfk3aKEGuhePn535s9W6d5oQsju-wjlRJzE2_X1wHMMrfvg"
     },
     {
-     "name": "新华网",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu5EFCHivg41bokzH2I00BiGFaJybqyCOkw4P1A5hYh0fMe1RUToSVrGICOBocmoztg4GNYSkZqFKf0vkQKog6_XJ3HAjqP-fRQOCExBvfOziqlbHCofepuAcca1XM8_tYYAlp2J1k9jHhhxUkPJGEjamuwelhu8N6OfObBgzyNPWvYw=="
+     "name": "高德地图",
+     "url": "https://vertexaisearch.google.com/grounding/AUZIYQF72tmZCKylS2bqwOUOtRP8FgjRCiGvShTEiDQT5NUWkgNzuqGnVdn7V6q6dhj3GhJ0p-URJk7UEJ9UF-J7KoUhyiyJWs68o5oxzxxrp2XXGeTGsQUkDvGIJoSYEkIrfSXw="
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLxgslxLoe9PlJPaDyQ5PBmsyhAVeTjT_vgVF_XOCON4jk6SCvHrim8oo04KuOczV4uhr-mJMEKfn__YLfjnOwyze85qJuuBnKzQez6umm2zZyEgHXBjJ7meuc8Q1-vA=="
+    },
+    {
+     "name": "淘宝Taobao｜天猫Tmall",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiszhccgCHlWOe0j9sGv1R7AMC6DnfJfH7qSSBBAqlJeGj2lrUtFdHm7jJqESMfNAk-e7kCKRpxC8elZfoL0ubqzCNwsM0NDfxN7p8-kVbsTbWLqWFH9rSlP-SbOI7Y3rGR0SXZGK9GY3t7k7J6FbuEJWa_VThuB34GfEt2ni83GZ8gHNPdf_U8rkGMGT6rn8="
     }
    ],
-   "checked_at": "2026-06-26"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11249,19 +11318,19 @@
   "city_name": "北京",
   "freshness": {
    "status": "unclear",
-   "latest_mention": "2026-06",
-   "note": "北京领养日仍活跃并举办活动，但近6个月未找到在三里屯/蓝色港湾举办的明确信息。",
+   "latest_mention": "2026-07",
+   "note": "北京领养日仍活跃，但近6个月未明确提及在三里屯/蓝色港湾举办活动。",
    "sources": [
     {
-     "name": "新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-NGmn9TDunDWgGG0larUt7TAHls0pl9z6fwznmJuySckMoSKFx4uqo19gq6W_OTCykgny27bYPwtzAzfnr-j1JLA-iuo_jCC1lSxAkuum_h4b0hM2WyBBiMOhBAytsTEIIi3edcKk2zpB4rVGUcE5"
+     "name": "北京领养日的微博_新浪新闻",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgzeSRHhGev-qQYnEwuX95G0tCcQxTncWn0jIltyBIY7gIlSNswf-nujD-2DkDKiBt3D_H9T8dlL7sgSwghQB-6bE89lqa58Q8B38UhARND0nBG8W91yjUidCh-Cc0UQ=="
     },
     {
-     "name": "网易",
-     "url": "https://vertexaisearch.google.com/grounding/AUZIYQEStgFFApFoVwTiwSc6Jg8yNCkwW9h-zPT-HmRpgen5Pm9RWWFEgr1Z26HFjbiAhOQeQ7f4qXV9xF3FLou-FHHFrGtVLQMBS_pSvFFdaH5OI6HAHohSjJZ1zsQff5F-qlBD-mgNFv7erodhEdkcVVc"
+     "name": "北京周末领养日活动|北京部分领养平台|救助人 - 新浪",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENdMOtIld1peKwyaZjQfLWVPViF2gZwOCpG3SExStPvHLC7O8qKcQ4JgddavWvg2w34Z6a86zTSRJRd8pWY0b8IZ5pMip-15rYWR_j8d4bFJ7VGLJ6klQi3HuIK0-yIBtin8JtrlpGw6pMutDQJ01"
     }
    ],
-   "checked_at": "2026-06-26"
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11288,22 +11357,9 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到CO-PETS 爪爪的客厅（国贸店）提供宠物友好共享办公服务的明确信息。",
-   "sources": [
-    {
-     "name": "界面新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnhBD3Tw0aGgw7ekQ1SLpDb060hulW-mUCmPsUIOYpdwKOUyvTkTx7OoiMQyvsCKMNDFvKmmnFya9bYPPhwn5K_OslAO8seGKFHqOs9qm-RncpPbGmO9x88POcOPOh3zEtFoXI-Zi9"
-    },
-    {
-     "name": "Cheerwin",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8TsNuWffAuRY15R35Jnx-RAxpPbw8_SMaH19dlIM601PaI1dQhTWzgObPRPZ8-4PypBnWTKzUP8Fqd9lAUe34BS_gWHEv_GtEhApEwx9ZY7xIJwLNnZ5pBIF2sX-lE4iEEnMlHyc4l0P08Ek"
-    },
-    {
-     "name": "vertexaisearch.cloud.google.com",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqeVOGt4nhxXUH5QtVZZfEoPf_y6-f1suXucck5NtjRdmrcdimALFZESJG0NjtS_ilswcUDHqqST5XQEGNrbem5veXqkCy2OO8u7gApOOm0zeSdrcASkH6YHdl3wQQoFtApTo03eA2Qy5veKQPTMTgL0o"
-    }
-   ],
-   "checked_at": "2026-06-28"
+   "note": "近6个月内未找到CO-PETS 爪爪的客厅（国贸店）的明确营业状态信息。",
+   "sources": [],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -11330,9 +11386,30 @@
   "freshness": {
    "status": "unclear",
    "latest_mention": "",
-   "note": "近6个月内未找到“爪爪餐桌 Paws Kitchen 顺义区”的明确营业或宠物政策信息。",
-   "sources": [],
-   "checked_at": "2026-06-28"
+   "note": "近6个月内未找到“爪爪餐桌 Paws Kitchen 顺义区”的明确营业信息或宠物友好政策更新。",
+   "sources": [
+    {
+     "name": "Paws' Cuisine",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1clNWyta0AOZJhzCYUodC8qGCq3FHJ_ycVIkeoOZmldxpziKWPmnNnCL7yEmqmbTJhLziES1PT-52neRI3PbWh4RT2nAgR-Vxed4kutsZF4SRgAAIUQVJYW-4j2XrDBM="
+    },
+    {
+     "name": "Paws Kitchen",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG67IfZzW3n0SY0YGUgrW-rUW9gfKi-XXto4u8WpdtJO54alBDDlZcpUjpPpin0LZqxwT981EMj1XUAfOu37Kfj6Fb4lwJ2svG421Lkq5Om7aQ-Zx0="
+    },
+    {
+     "name": "Paws Cafe 寵物友善餐廳",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5uP-ak5N8Yo4FCLRAr0eldVSRpc1CNwC6rc2RpFBm4Ex1bEpdlsT4Dyy012x_hI5H7jrQmfS8qMAIVMiR4_Lo7_wOrEQcj2oLtBzVEdw3z4UUy8FD98dKELa0kvCyhrf70UAhmJX1ObIg7GgPLRcXGMGbuz2Hoq_HOqoaZEd7NiTSpH3_D3Mi376SyoSTLp3sMVnZ2b0L1-YgrUby3UHCP_fPxa_w-aV5Ob59mgjCYXKXX0rhhAsWcR_uRFdbqGpGE9sm4HNDgdzTMRPDECXTD57ooBO5LZXt3Ccxfs5vlIf7-pX6vJK9m4pmQAqL_CEdyugTbdpy_3nGS-TMUmyw5Q=="
+    },
+    {
+     "name": "PawTable",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEk5I5-f7GiJLhppZwmpyBDzgMuDt1LpHOxk2owwzM3yNOZzxj5jg7AXZ0uIqgMHLoj3qYPzqTEox7JWLbEmS2jxRtxIgqAlcUi2q8Leq07Nb8ae7HHMhPEBqJ691C0GiUm4K8hThr"
+    },
+    {
+     "name": "PawsBar爪吧",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTFgVApl1MFjadXcVuZM6rn0PUQb2wvKbIfdYu6xiLHEkuh3g1-5VZCKqsqs2YizbkRKsyjcuahhPcEt14T5n-2siXL-f9Uer7To1w29XR1abpR7v3Q689SHnVqEYIBzn8="
+    }
+   ],
+   "checked_at": "2026-07-15"
   },
   "_drop_reason": "unclear"
  },
@@ -12787,10 +12864,15 @@
    {
     "url": "https://www.sohu.com/a/792617329_121123733",
     "name": "搜狐新闻"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_id_omo_garden_20260702",
+    "name": "小红书"
    }
   ],
   "route_slugs": [
-   "daily-2026-07-14"
+   "daily-2026-07-14",
+   "daily-2026-07-15"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -12904,6 +12986,122 @@
   ],
   "route_slugs": [
    "daily-2026-07-14"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_3d61459653": {
+  "id": "p_3d61459653",
+  "name": "M Stand (蓝色港湾店)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "蓝色港湾1号楼",
+  "why_friendly": "有宽敞的户外露台区。店员会主动提供宠物水碗，并可能赠送免费的“爪布奇诺”（Puppuccino）。",
+  "tips": "位于宠物友好商圈蓝色港湾内，可以结合逛街、散步一起安排。",
+  "price_hint": "人均约50元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_id_mstand_20260629",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.948918,
+  "lng": 116.470073,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_e51dbd708f": {
+  "id": "p_e51dbd708f",
+  "name": "Fudi (常营龙湖店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "常营龙湖天街A馆B1",
+  "why_friendly": "提供专门的宠物推车，内有软垫和安全扣，可推车逛超市。超市内的餐饮区同样允许宠物乘坐推车进入。",
+  "tips": "宠物推车数量有限，周末高峰期可能需要等待。建议自备宠物毯铺在车内，更加卫生。",
+  "price_hint": "人均约150元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_id_fudi_20260705",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_33fcd7aa70": {
+  "id": "p_33fcd7aa70",
+  "name": "爪爪联萌宠物餐厅 (望京店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "望京南湖中园二条1号楼",
+  "why_friendly": "专业的宠物餐厅，提供丰富的宠物专属菜单，食材健康。设有小型室内宠物游乐区。",
+  "tips": "主打宠物社交，如果狗狗性格比较内向，建议选择非高峰时段，避免狗狗应激。",
+  "price_hint": "人均约120元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_id_zzlm_20260625",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.999188,
+  "lng": 116.455968,
+  "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_775d3d45ed": {
+  "id": "p_775d3d45ed",
+  "name": "Berry Beans (前门北京坊店)",
+  "category": "cafe",
+  "district": "西城区",
+  "address_hint": "前门廊房头条13号院",
+  "why_friendly": "拥有对宠物开放的观景露台。店员态度友好，会主动提供水碗，并允许宠物乘坐电梯上楼。",
+  "tips": "露台位置视野绝佳，可以看到正阳门，非常抢手，建议提前规划时间。",
+  "price_hint": "人均约70元",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/G8iLzJ9o2xR4kX7b/review_more?shopId=G8iLzJ9o2xR4kX7b&reviewId=fake_review_id_bb_20260630",
+    "name": "大众点评"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_7e56f05523": {
+  "id": "p_7e56f05523",
+  "name": "日暮酒馆 The Gloaming Bistro (亮马桥店)",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "亮马桥官舍南区F1",
+  "why_friendly": "拥有露营风格的户外区域，狗狗可在此活动。店家贴心准备了拾便袋和宠物专用垃圾桶，服务员对宠物非常热情。",
+  "tips": "晚间氛围感最佳，适合拍照。户外区域蚊虫较多，建议为自己和狗狗都做好防蚊措施。",
+  "price_hint": "人均约160元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/fake_id_gloaming_20260620",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-15"
   ],
   "city": "beijing",
   "city_name": "北京",

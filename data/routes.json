@@ -2772,10 +2772,8 @@
   "dim": "new-haidian",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_065635f371"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "长度合适的牵引绳",
    "充足的拾便袋",
@@ -6561,6 +6559,58 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10193,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-07-15",
+  "title": "2026年7月北京宠物友好新餐厅/小酒馆推荐",
+  "summary": "本月，为北京养狗人精选了6家近期在小红书等社交平台备受好评的宠物友好新餐厅与小酒馆。从通州公园里的玻璃房咖啡馆，到提供“爪布奇诺”的连锁新店，再到可以推宠物车逛的超市，满足您和爱犬的夏日出行需求。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "通州区",
+   "朝阳区",
+   "西城区"
+  ],
+  "tags": [
+   "咖啡馆",
+   "2026年07月",
+   "宠物友好",
+   "每日发现",
+   "近期新开",
+   "露台",
+   "草坪",
+   "小酒馆",
+   "新店"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "便携水碗",
+   "少量宠物零食",
+   "宠物湿巾"
+  ],
+  "warnings": [
+   "出行前务必致电商家二次确认宠物政策。",
+   "请做文明养宠人，及时清理宠物粪便，勿让爱犬吠叫影响他人。",
+   "夏季炎热，注意地面温度，避免烫伤宠物脚垫，并为宠物及时补水。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10194,
   "verified": false
  }
 ]
