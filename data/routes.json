@@ -5366,10 +5366,9 @@
   "category": "season",
   "dim": "daily-5",
   "poi_ids": [
-   "p_90a46b5ed4",
    "p_2ee1affc76"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋（必备）",
@@ -6080,10 +6079,9 @@
   "category": "season",
   "dim": "daily-5",
   "poi_ids": [
-   "p_5c83e2189f",
-   "p_c543338cd5"
+   "p_5c83e2189f"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -7409,5 +7407,66 @@
   "city_name": "北京",
   "order": 10210,
   "verified": false
+ },
+ {
+  "id": "daily-2026-08-01",
+  "title": "北京宠物友好周末出行指南（2026年7月版）",
+  "summary": "本指南为您精选了近30天内备受好评的6个北京周末带狗好去处。无论您是想在市区的咖啡馆享受悠闲午后，还是去京郊的峡谷、湖畔撒欢，这里都有新鲜且经过验证的选择，确保您和爱犬度过一个完美的周末。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "全市",
+   "门头沟区",
+   "怀柔区",
+   "朝阳区",
+   "延庆区"
+  ],
+  "tags": [
+   "宠物友好",
+   "近期新开",
+   "周末去哪儿",
+   "京郊游",
+   "2026年08月",
+   "宠物友好餐厅",
+   "每日发现",
+   "自然风光",
+   "遛狗"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_2ee1affc76",
+   "p_9ed6950df2",
+   "p_b40f602156",
+   "p_47e9e11e88"
+  ],
+  "poi_count": 4,
+  "checklist": [
+   "牵引绳（必备）",
+   "拾便袋",
+   "充足饮用水和便携水碗",
+   "狗狗零食",
+   "防晒用品（如需长时间户外活动）",
+   "宠物湿巾"
+  ],
+  "warnings": [
+   "进入餐厅或室内场所前，请务必再次与商家确认最新的宠物政策。",
+   "夏季户外活动请注意地面温度，避免烫伤狗狗脚垫。",
+   "在公共场所，请一定系好牵引绳，及时清理宠物粪便，做文明养犬人。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10211,
+  "verified": true
  }
 ]
