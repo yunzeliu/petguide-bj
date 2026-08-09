@@ -915,11 +915,10 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_1d14eb571a",
    "p_283c236d1c",
    "p_513aaaacb0"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（必备）",
    "宠物推车或背包（根据商场规定）",
@@ -935,7 +934,7 @@
    "出发前最好再次确认商家的最新政策，以免跑空。"
   ],
   "order": 18,
-  "verified": true
+  "verified": false
  },
  {
   "id": "cat-market",
@@ -2307,10 +2306,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_f1b1205dc8",
-   "p_74c56b48b1"
+   "p_f1b1205dc8"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "办理有效的养犬登记证并随身携带",
    "长度不超过1.5米的牵引绳",
@@ -5671,10 +5669,9 @@
   "dim": "daily-4",
   "poi_ids": [
    "p_7337dcf4ed",
-   "p_a33cc7119b",
-   "p_e3107df8a6"
+   "p_a33cc7119b"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5691,7 +5688,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10175,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-27",
@@ -6375,10 +6372,9 @@
   "category": "season",
   "dim": "daily-6",
   "poi_ids": [
-   "p_d70f93d882",
    "p_47e9e11e88"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "足量饮用水和水碗",
@@ -6591,10 +6587,9 @@
   "category": "season",
   "dim": "daily-3",
   "poi_ids": [
-   "p_d70f93d882",
    "p_f7e08cdae3"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "饮水碗和足够的水",
@@ -6758,10 +6753,9 @@
   "category": "season",
   "dim": "daily-6",
   "poi_ids": [
-   "p_d70f93d882",
    "p_bd5a6a548d"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -7093,10 +7087,9 @@
   "category": "season",
   "dim": "daily-6",
   "poi_ids": [
-   "p_d70f93d882",
    "p_bd5a6a548d"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水和便携水碗",
@@ -7538,10 +7531,9 @@
   "poi_ids": [
    "p_3885cc1d74",
    "p_80a7b552bf",
-   "p_d70f93d882",
    "p_bd5a6a548d"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "充足饮用水和便携水碗",
@@ -7786,5 +7778,66 @@
   "city_name": "北京",
   "order": 10218,
   "verified": false
+ },
+ {
+  "id": "daily-2026-08-09",
+  "title": "2026年8月北京宠物友好周末出行指南",
+  "summary": "本月北京宠物友好打卡地新风向！我们为您精选了6个近30天内小红书和各大平台热门的地点，从提供依云矿泉水的奢华宠物民宿，到可以尽情撒欢的官方认证宠物公园，再到京郊新开的花园咖啡馆，让您和爱宠的每个周末都充满新鲜感。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "夏",
+   "秋"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "门头沟区",
+   "延庆区",
+   "昌平区",
+   "大兴区",
+   "朝阳区"
+  ],
+  "tags": [
+   "郊野撒欢",
+   "2026年08月",
+   "宠物民宿",
+   "宠物友好咖啡",
+   "每日发现",
+   "近期新开",
+   "宠物公园",
+   "新店打卡"
+  ],
+  "category": "season",
+  "dim": "daily-6",
+  "poi_ids": [
+   "p_83f89df5a6",
+   "p_122e7fba6d",
+   "p_716a2afb34",
+   "p_0341ead3fe",
+   "p_6b3ff04dfb"
+  ],
+  "poi_count": 5,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水和便携水碗",
+   "宠物零食",
+   "宠物湿巾或毛巾",
+   "疫苗本复印件（部分场所可能需要）"
+  ],
+  "warnings": [
+   "进入餐厅或商场等室内空间前，请务必与店家再次确认最新的宠物政策。",
+   "夏季天气炎热，请注意地面温度，避免烫伤宠物脚垫，并做好防暑降温措施。",
+   "在公共场合，请务必使用牵引绳，并及时清理宠物粪便，做文明的铲屎官。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10219,
+  "verified": true
  }
 ]
