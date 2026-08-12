@@ -1706,10 +1706,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_82821d21b3",
    "p_c35c192d82"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳和胸背带",
    "充足的饮用水和便携水碗",
@@ -2030,10 +2029,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_82821d21b3",
    "p_513aaaacb0"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "办理并携带《养犬登记证》",
    "1.5米内的牵引绳和胸背带",
@@ -2526,10 +2524,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_82821d21b3",
    "p_ba4a3004a1"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "多条备用牵引绳（长度1.5米以内）",
    "足量饮水和多个便携水碗",
@@ -2847,10 +2844,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_4af78236be",
-   "p_82821d21b3"
+   "p_4af78236be"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "1.5米内牵引绳和胸背带",
    "充足的饮用水和便携水碗",
@@ -2954,11 +2950,10 @@
   "city_name": "北京",
   "poi_ids": [
    "p_283c236d1c",
-   "p_82821d21b3",
    "p_c439934b24",
    "p_ba4a3004a1"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "足够长的牵引绳（1.5米内为佳）",
    "充足的饮用水和便携水碗",
@@ -3713,10 +3708,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_82821d21b3",
    "p_513aaaacb0"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "足量饮用水和便携水碗",
@@ -3773,13 +3767,12 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_82821d21b3",
    "p_2ee1affc76",
    "p_dd9cdc169e",
    "p_513aaaacb0",
    "p_f1b1205dc8"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [
    "足量饮用水和便携水碗",
    "牵引绳（1.5米以内）及胸背带",
@@ -7953,5 +7946,59 @@
   "city_name": "北京",
   "order": 10221,
   "verified": true
+ },
+ {
+  "id": "daily-2026-08-12",
+  "title": "2026年8月北京宠物友好餐厅及周末去处新观察",
+  "summary": "近期北京宠物友好餐饮环境趋于谨慎，新店分享减少。本指南在有限信息中，为您筛选出依然对宠物开放的咖啡馆、集合店与度假酒店。建议出行前务必与商家电话确认最新政策，确保您和爱宠的周末愉快。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "夏",
+   "秋"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium"
+  ],
+  "districts": [
+   "朝阳区",
+   "通州区",
+   "东城区",
+   "昌平区"
+  ],
+  "tags": [
+   "近期新开",
+   "每日发现",
+   "咖啡馆",
+   "四合院",
+   "宠物友好",
+   "露台",
+   "周末度假",
+   "2026年08月"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [
+   "p_c29cf4a09a",
+   "p_c9aeb66649"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "出门前为狗狗佩戴好牵引绳",
+   "携带拾便袋，随时清理宠物粪便",
+   "为狗狗准备充足的饮用水和便携水碗",
+   "建议携带宠物推车或航空箱，以备不时之需",
+   "出发前务必电话与商家确认最新的宠物友好政策"
+  ],
+  "warnings": [
+   "近期公众对餐厅卫生安全关注度高，请务必约束好宠物行为，避免宠物上桌或使用公共餐具。",
+   "夏季天气炎热，注意地面温度，防止烫伤狗狗脚垫。",
+   "部分餐厅可能只开放户外区域对宠物友好，请提前确认。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10222,
+  "verified": false
  }
 ]
