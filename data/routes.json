@@ -7517,11 +7517,10 @@
   "category": "season",
   "dim": "daily-0",
   "poi_ids": [
-   "p_3885cc1d74",
    "p_80a7b552bf",
    "p_bd5a6a548d"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "充足饮用水和便携水碗",
@@ -7538,7 +7537,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10213,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-08-04",
@@ -8235,6 +8234,62 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10226,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-08-17",
+  "title": "北京宠物友好新去处（2026年8月版）",
+  "summary": "本期为您精选了近14天在小红书等社交平台热议的6个北京宠物友好新地点。从改造自高速路的空中公园，到提供全套宠物备品的星级酒店，再到拥有千平独立宠物乐园的露营地，这些新选择将为您和爱宠的周末出行提供全新灵感。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "通州区",
+   "顺义区"
+  ],
+  "tags": [
+   "露营地",
+   "大草坪",
+   "近期新开",
+   "新开",
+   "2026年08月",
+   "咖啡馆",
+   "酒店",
+   "每日发现",
+   "公园"
+  ],
+  "category": "season",
+  "dim": "daily-0",
+  "poi_ids": [
+   "p_c29cf4a09a",
+   "p_c7fa7aad91"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水",
+   "小零食",
+   "宠物湿巾"
+  ],
+  "warnings": [
+   "出行前建议再次电话确认各场所最新的宠物政策，以免临时变更。",
+   "即使在宠物友好场所，也请务必使用牵引绳，并及时清理宠物排泄物，文明养宠。",
+   "夏季高温，注意地面温度，避免烫伤宠物脚掌，并随时关注宠物的饮水和防暑情况。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10227,
   "verified": false
  }
 ]
