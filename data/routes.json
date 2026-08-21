@@ -1135,10 +1135,8 @@
   "dim": "water",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_737aa4c78d"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋（必备）",
@@ -2410,10 +2408,9 @@
   "city_name": "北京",
   "poi_ids": [
    "p_3331dbc5db",
-   "p_66712aadf3",
    "p_513aaaacb0"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水和便携水碗",
@@ -2429,7 +2426,7 @@
    "注意观察宠物情绪，在拥挤环境中避免宠物应激或与其他动物冲突。"
   ],
   "order": 46,
-  "verified": true
+  "verified": false
  },
  {
   "id": "market-fixed",
@@ -3995,10 +3992,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_513aaaacb0",
-   "p_66712aadf3"
+   "p_513aaaacb0"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "1.5米内牵引绳",
    "充足饮水和便携水碗",
@@ -7684,11 +7680,10 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_7542fc82a6",
    "p_5b5322169f",
    "p_6b3ff04dfb"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（1.5米以内）",
    "充足饮用水和便携水碗",
@@ -7705,7 +7700,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10217,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-08-08",
