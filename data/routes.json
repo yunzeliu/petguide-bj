@@ -7797,11 +7797,10 @@
   "poi_ids": [
    "p_83f89df5a6",
    "p_122e7fba6d",
-   "p_716a2afb34",
    "p_0341ead3fe",
    "p_6b3ff04dfb"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -7914,11 +7913,10 @@
   "category": "season",
   "dim": "daily-1",
   "poi_ids": [
-   "p_716a2afb34",
    "p_de11a17212",
    "p_865abbf502"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -7934,7 +7932,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10221,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-08-12",
@@ -8417,10 +8415,9 @@
   "poi_ids": [
    "p_c29cf4a09a",
    "p_9933c8957e",
-   "p_716a2afb34",
    "p_f7e08cdae3"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -8494,5 +8491,66 @@
   "city_name": "北京",
   "order": 10232,
   "verified": false
+ },
+ {
+  "id": "daily-2026-08-23",
+  "title": "2026年8月北京宠物友好周末出行指南",
+  "summary": "本月北京宠物友好圈热门打卡地盘点！我们为你筛选了7个近30天内被网友和媒体真实提及的好去处，从可以撒欢的郊野民宿到细节满分的星级酒店，再到新开放的城市公园，让你的周末遛狗计划不再单调。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "Spring",
+   "Summer",
+   "Autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "延庆区",
+   "门头沟区",
+   "朝阳区",
+   "海淀区",
+   "通州区"
+  ],
+  "tags": [
+   "每日发现",
+   "近期新开",
+   "新晋网红",
+   "宠物友好酒店",
+   "宠物民宿",
+   "周末遛狗",
+   "2026年08月",
+   "宠物公园"
+  ],
+  "category": "season",
+  "dim": "daily-6",
+  "poi_ids": [
+   "p_846af1bcb2",
+   "p_c29cf4a09a",
+   "p_283c236d1c",
+   "p_0401e23ae3",
+   "p_d70f93d882"
+  ],
+  "poi_count": 5,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水",
+   "狗狗零食",
+   "宠物湿巾",
+   "狗证及疫苗本复印件"
+  ],
+  "warnings": [
+   "进入商场或餐厅室内前，请务必与店家确认最新的宠物政策。",
+   "夏季午后地面温度高，注意保护狗狗脚垫，避免烫伤。",
+   "请勿让宠物追逐、惊吓其他游客，尤其是老人和儿童。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10233,
+  "verified": true
  }
 ]
