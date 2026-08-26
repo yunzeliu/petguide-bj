@@ -583,10 +583,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_8bf254f544",
-   "p_f7e08cdae3"
+   "p_8bf254f544"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳、胸背带",
    "充足的饮用水和便携水碗",
@@ -1598,10 +1597,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_f7e08cdae3",
    "p_2b0eace99e"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "长度合适的牵引绳及胸背带",
    "充足的饮用水和便携水碗",
@@ -3935,10 +3933,9 @@
   "poi_ids": [
    "p_2ee1affc76",
    "p_4689b0db62",
-   "p_f7e08cdae3",
    "p_23d050f97f"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "足够长的牵引绳和舒适的胸背带",
    "充足的饮用水和便携水碗",
@@ -6569,10 +6566,8 @@
   ],
   "category": "season",
   "dim": "daily-3",
-  "poi_ids": [
-   "p_f7e08cdae3"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "饮水碗和足够的水",
@@ -8411,10 +8406,9 @@
   "dim": "daily-3",
   "poi_ids": [
    "p_c29cf4a09a",
-   "p_9933c8957e",
-   "p_f7e08cdae3"
+   "p_9933c8957e"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -8431,7 +8425,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10230,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-08-22",
@@ -8603,6 +8597,58 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10235,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-08-26",
+  "title": "京城遛狗新风向：2026年8月宠物友好餐厅与酒馆新探",
+  "summary": "本月北京宠物友好出行呈现“品质升级”趋势。高端酒店以全套宠物用品和专属菜单吸引眼球，而新涌现的独立小馆则凭借人情味和精致的宠物专属服务（如狗狗啤酒、宠物冰淇淋）在小红书上走红。户外及庭院空间仍是主流选择，建议提前预定。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium"
+  ],
+  "districts": [
+   "石景山区",
+   "朝阳区",
+   "东城区",
+   "通州区"
+  ],
+  "tags": [
+   "2026年08月",
+   "宠物友好酒店",
+   "近期新开",
+   "宠物友好餐厅",
+   "小酒馆",
+   "每日发现",
+   "周末去哪儿",
+   "新店打卡"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳（必备）",
+   "便携水碗和饮用水",
+   "拾便袋",
+   "少量爱犬零食",
+   "根据餐厅规定可能需要的嘴套或宠物推车"
+  ],
+  "warnings": [
+   "政策提醒：北京近期有收紧犬类进入餐厅的趋势，多数友好餐厅仅限室外区域，出行前务必电话与商家二次确认。",
+   "特别注意：海底捞已于近期全面停止宠物友好门店试点，请勿跑空。",
+   "文明养宠：请全程使用牵引绳，及时清理宠物排泄物，避免宠物吠叫影响其他客人。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10236,
   "verified": false
  }
 ]
