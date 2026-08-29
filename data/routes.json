@@ -6033,10 +6033,8 @@
   ],
   "category": "season",
   "dim": "daily-5",
-  "poi_ids": [
-   "p_5c83e2189f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -6951,10 +6949,8 @@
   ],
   "category": "season",
   "dim": "daily-3",
-  "poi_ids": [
-   "p_5c83e2189f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（必备）",
    "足量饮用水和便携水碗",
@@ -7333,10 +7329,9 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_283c236d1c",
-   "p_b11040c599"
+   "p_283c236d1c"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -8070,10 +8065,9 @@
   "dim": "daily-4",
   "poi_ids": [
    "p_c199d5a80e",
-   "p_cf1767d477",
-   "p_b11040c599"
+   "p_cf1767d477"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "饮水碗和足够的水",
@@ -8091,7 +8085,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10224,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-08-15",
@@ -8130,10 +8124,9 @@
   "category": "season",
   "dim": "daily-5",
   "poi_ids": [
-   "p_ca0027eaeb",
-   "p_2fc4e12f40"
+   "p_ca0027eaeb"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（小于1.5米）",
    "充足饮用水和便携水碗",
@@ -8646,6 +8639,66 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10236,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-08-29",
+  "title": "北京周末带狗出游指南（2026年8月版）",
+  "summary": "告别政策摇摆的市区小店，拥抱广阔自由的京郊天地！本指南精选6个近期备受小红书博主和官方推荐的宠物友好目的地，涵盖网红村咖、官方认证露营地和五星级宠物友好酒店，让您和爱犬的周末充满阳光与欢乐。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "summer",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "顺义区",
+   "密云区",
+   "朝阳区",
+   "石景山区"
+  ],
+  "tags": [
+   "公园",
+   "宠物友好",
+   "露营",
+   "户外",
+   "近期新开",
+   "酒店",
+   "每日发现",
+   "2026年08月",
+   "京郊",
+   "咖啡馆"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_47e9e11e88",
+   "p_983212affc"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "牵引绳（1.5米以内）",
+   "充足饮用水和便携水碗",
+   "拾便袋",
+   "宠物用防晒或降温用品（夏季）",
+   "狗狗的身份证明/疫苗本复印件",
+   "应急药品和零食"
+  ],
+  "warnings": [
+   "京郊地区蚊虫较多，请为宠物和自己做好防蚊虫准备。",
+   "即使在宠物友好场所，也请务必使用牵引绳，及时清理宠物粪便，避免打扰其他游客。",
+   "出发前最好再次电话联系商家，确认最新的宠物政策，避免临时变动。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10239,
   "verified": false
  }
 ]
