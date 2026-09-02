@@ -4770,10 +4770,9 @@
    "p_5926e0b3a3",
    "p_70eabb767a",
    "p_5ac052280f",
-   "p_bc27e76eda",
-   "p_b3abe66dbf"
+   "p_bc27e76eda"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [
    "牵引绳（小于1.5米）",
    "充足饮用水和便携水碗",
@@ -7436,10 +7435,8 @@
   ],
   "category": "season",
   "dim": "daily-6",
-  "poi_ids": [
-   "p_865abbf502"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（即使在友好区外也要全程佩戴）",
    "充足的饮用水和便携水碗",
@@ -7891,10 +7888,8 @@
   ],
   "category": "season",
   "dim": "daily-1",
-  "poi_ids": [
-   "p_865abbf502"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -8877,6 +8872,65 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10242,
+  "verified": true
+ },
+ {
+  "id": "daily-2026-09-02",
+  "title": "京城探新：2026年9月宠物友好餐厅与小酒馆精选",
+  "summary": "告别旧网红店！2026年9月，北京官方发布首张“京郊宠物友好地图”，本指南精选了其中及近期媒体新推荐的6家餐厅与咖啡馆。从怀柔的山间瀑布咖啡，到门头沟的柴窑披萨，再到海淀带独立小院的疗愈空间，带你和爱宠探索京城内外最新、最值得去的宠物友好据点。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "Autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "门头沟区",
+   "昌平区",
+   "顺义区",
+   "海淀区"
+  ],
+  "tags": [
+   "宠物友好",
+   "近期新开",
+   "每日发现",
+   "咖啡馆",
+   "官方推荐",
+   "周末去哪儿",
+   "京郊",
+   "2026年09月",
+   "新店"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [
+   "p_68696bed90",
+   "p_5a64d44188",
+   "p_ef36f2e870",
+   "p_a3912cd51a",
+   "p_8443e475cf",
+   "p_15336d6efb"
+  ],
+  "poi_count": 6,
+  "checklist": [
+   "提前电话与商家确认宠物政策细节",
+   "携带牵引绳和拾便袋",
+   "为宠物准备充足饮水和少量零食",
+   "检查宠物疫苗是否齐全有效"
+  ],
+  "warnings": [
+   "郊区蚊虫可能较多，做好宠物防虫措施。",
+   "节假日期间热门地点可能需要提前预定。",
+   "请严格遵守各场所的管理规定，文明养宠。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10243,
   "verified": true
  }
 ]
