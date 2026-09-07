@@ -4248,10 +4248,9 @@
   "dim": "daily-4",
   "poi_ids": [
    "p_9ad89e1f31",
-   "p_cc10bd2def",
-   "p_c433a16304"
+   "p_cc10bd2def"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（硬性要求）",
    "拾便袋",
@@ -4267,7 +4266,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10147,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-05-30",
@@ -4636,12 +4635,11 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_c433a16304",
    "p_f5f70fdece",
    "p_283c236d1c",
    "p_b02651b95e"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳（小于1.5米）",
    "充足饮用水和便携水碗",
@@ -9099,6 +9097,66 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10246,
+  "verified": true
+ },
+ {
+  "id": "daily-2026-09-07",
+  "title": "北京宠物友好新去处：2026秋季周末遛狗地图",
+  "summary": "告别老地方！本指南为你精选了近30天内小红书博主和媒体热议的6个北京宠物友好新地点。从可以搭帐篷的温榆河公园，到提供宠物专用厕所的商场，再到京郊新开的乡野部落和可携宠入住的星级酒店，满足你和爱犬多样化的周末出行需求。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "顺义区",
+   "门头沟区",
+   "大兴区"
+  ],
+  "tags": [
+   "每日发现",
+   "周末去哪儿",
+   "宠物友好",
+   "京郊游",
+   "新店",
+   "露营",
+   "2026年09月",
+   "近期新开"
+  ],
+  "category": "season",
+  "dim": "daily-0",
+  "poi_ids": [
+   "p_8443e475cf",
+   "p_5a64d44188",
+   "p_47e9e11e88",
+   "p_513aaaacb0",
+   "p_0397c04828",
+   "p_ca0027eaeb"
+  ],
+  "poi_count": 6,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水",
+   "狗狗零食",
+   "宠物湿巾",
+   "疫苗本照片（备用）"
+  ],
+  "warnings": [
+   "出行前务必电话与目的地确认最新的宠物政策，以免变更。",
+   "进入室内公共场所请遵守规定，必要时使用宠物推车或宠物包。",
+   "看管好自己的爱犬，避免与其他宠物或游客发生冲突。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10248,
   "verified": true
  }
 ]
