@@ -7639,10 +7639,9 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_5b5322169f",
-   "p_6b3ff04dfb"
+   "p_5b5322169f"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（1.5米以内）",
    "充足饮用水和便携水碗",
@@ -7758,10 +7757,9 @@
   "poi_ids": [
    "p_83f89df5a6",
    "p_122e7fba6d",
-   "p_0341ead3fe",
-   "p_6b3ff04dfb"
+   "p_0341ead3fe"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -8422,10 +8420,9 @@
   "category": "season",
   "dim": "daily-5",
   "poi_ids": [
-   "p_6b3ff04dfb",
    "p_2ee1affc76"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "拾便袋（必备）",
@@ -8538,10 +8535,8 @@
   ],
   "category": "season",
   "dim": "daily-1",
-  "poi_ids": [
-   "p_15336d6efb"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -8896,10 +8891,9 @@
    "p_5a64d44188",
    "p_ef36f2e870",
    "p_a3912cd51a",
-   "p_8443e475cf",
-   "p_15336d6efb"
+   "p_8443e475cf"
   ],
-  "poi_count": 6,
+  "poi_count": 5,
   "checklist": [
    "提前电话与商家确认宠物政策细节",
    "携带牵引绳和拾便袋",
@@ -9157,6 +9151,57 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10248,
+  "verified": true
+ },
+ {
+  "id": "daily-2026-09-08",
+  "title": "2026年9月北京新晋宠物友好咖啡馆（小红书热门）",
+  "summary": "为你精选6家2026年8月至9月被小红书及各大媒体多人推荐的北京新开或新晋热门宠物友好咖啡馆。这些地方不仅对狗狗友好，更有湖畔草坪、山谷瀑布等独特景致，是周末带宠出行的完美选择。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "Autumn",
+   "Spring"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "石景山区",
+   "怀柔区",
+   "门头沟区",
+   "房山区",
+   "昌平区",
+   "延庆区"
+  ],
+  "tags": [
+   "每日发现",
+   "新开店铺",
+   "咖啡馆",
+   "宠物友好",
+   "2026年09月",
+   "近期新开",
+   "京郊",
+   "自然风光",
+   "户外空间"
+  ],
+  "category": "season",
+  "dim": "daily-1",
+  "poi_ids": [
+   "p_12305a5293",
+   "p_c7d4524ff5",
+   "p_5a64d44188",
+   "p_0c1aefc46f",
+   "p_ef36f2e870"
+  ],
+  "poi_count": 5,
+  "checklist": [],
+  "warnings": [],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10249,
   "verified": true
  }
 ]
