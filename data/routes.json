@@ -5962,10 +5962,9 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_8eed9404e1",
    "p_283c236d1c"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "充足饮水和便携水碗",
@@ -8645,12 +8644,10 @@
   "dim": "daily-5",
   "poi_ids": [
    "p_c7d4524ff5",
-   "p_8443e475cf",
    "p_47e9e11e88",
-   "p_983212affc",
-   "p_d014052364"
+   "p_983212affc"
   ],
-  "poi_count": 5,
+  "poi_count": 3,
   "checklist": [
    "牵引绳（1.5米以内）",
    "充足饮用水和便携水碗",
@@ -8705,14 +8702,12 @@
   "category": "season",
   "dim": "daily-6",
   "poi_ids": [
-   "p_8443e475cf",
    "p_68696bed90",
    "p_b361cc3a54",
    "p_ef36f2e870",
-   "p_5a64d44188",
-   "p_d014052364"
+   "p_5a64d44188"
   ],
-  "poi_count": 6,
+  "poi_count": 4,
   "checklist": [
    "牵引绳",
    "饮水碗和足够的水",
@@ -8827,13 +8822,12 @@
   "dim": "daily-1",
   "poi_ids": [
    "p_68696bed90",
-   "p_d014052364",
    "p_5a64d44188",
    "p_e145edccfd",
    "p_ef36f2e870",
    "p_d706efcf7c"
   ],
-  "poi_count": 6,
+  "poi_count": 5,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -8890,10 +8884,9 @@
    "p_68696bed90",
    "p_5a64d44188",
    "p_ef36f2e870",
-   "p_a3912cd51a",
-   "p_8443e475cf"
+   "p_a3912cd51a"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [
    "提前电话与商家确认宠物政策细节",
    "携带牵引绳和拾便袋",
@@ -9006,12 +8999,11 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_8443e475cf",
    "p_0dca8ab7b4",
    "p_0397c04828",
    "p_5a64d44188"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "足量饮用水和水碗",
@@ -9069,12 +9061,10 @@
   "dim": "daily-5",
   "poi_ids": [
    "p_68696bed90",
-   "p_d014052364",
-   "p_8443e475cf",
    "p_5a64d44188",
    "p_6f552cc8ae"
   ],
-  "poi_count": 5,
+  "poi_count": 3,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水及水碗",
@@ -9127,14 +9117,13 @@
   "category": "season",
   "dim": "daily-0",
   "poi_ids": [
-   "p_8443e475cf",
    "p_5a64d44188",
    "p_47e9e11e88",
    "p_513aaaacb0",
    "p_0397c04828",
    "p_ca0027eaeb"
   ],
-  "poi_count": 6,
+  "poi_count": 5,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9356,19 +9345,76 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_8443e475cf",
    "p_0d0853a54f",
    "p_89b1f2612f",
    "p_9abbc6bd0b",
    "p_a8a87ba9f8",
    "p_7711fdc4c0"
   ],
-  "poi_count": 6,
+  "poi_count": 5,
   "checklist": [],
   "warnings": [],
   "city": "beijing",
   "city_name": "北京",
   "order": 10252,
   "verified": true
+ },
+ {
+  "id": "daily-2026-09-12",
+  "title": "北京带狗周末好去处（2026年9月版）",
+  "summary": "本指南为您精选了7个近30天内由小红书博主和主流媒体推荐的北京宠物友好地点。内容涵盖京郊的山谷咖啡馆、度假营地、专业宠物乐园，以及市区的特色咖啡馆和大型公园，并复述了博主们提到的具体宠物友好细节，如是否提供宠物零食、有无专属活动区等。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "怀柔区",
+   "门头沟区",
+   "密云区",
+   "朝阳区",
+   "东城区"
+  ],
+  "tags": [
+   "近期新开",
+   "餐厅",
+   "宠物乐园",
+   "公园",
+   "咖啡馆",
+   "京郊",
+   "每日发现",
+   "2026年09月",
+   "露营"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_68696bed90",
+   "p_47e9e11e88"
+  ],
+  "poi_count": 2,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水和便携水碗",
+   "宠物零食",
+   "湿纸巾或毛巾",
+   "根据天气准备防晒或保暖用品"
+  ],
+  "warnings": [
+   "出行前务必致电商家，再次确认最新的宠物友好政策，避免变更。",
+   "请务必文明养宠，全程牵绳，及时清理宠物排泄物，共同维护宠物友好环境。",
+   "节假日期间热门地点人流量和犬流量较大，请注意宠物应激反应。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10253,
+  "verified": false
  }
 ]
