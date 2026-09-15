@@ -8813,11 +8813,8 @@
   ],
   "category": "season",
   "dim": "daily-1",
-  "poi_ids": [
-   "p_e145edccfd",
-   "p_d706efcf7c"
-  ],
-  "poi_count": 2,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -9511,5 +9508,60 @@
   "city_name": "北京",
   "order": 10255,
   "verified": false
+ },
+ {
+  "id": "daily-2026-09-15",
+  "title": "2026北京新晋宠物友好咖啡馆（9月版）",
+  "summary": "本指南为您精选了2026年9月小红书及各大平台新推荐的6家北京宠物友好咖啡馆。所有地点均在近30天内被真实推荐，我们关注提供宠物零食、拥有独立庭院或草坪等具体友好细节，为您和爱犬的周末出行提供最新、最实用的参考。",
+  "duration_hours": 3,
+  "best_seasons": [
+   "spring",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "通州区"
+  ],
+  "tags": [
+   "宠物友好",
+   "小红书推荐",
+   "每日发现",
+   "近期新开",
+   "2026年09月",
+   "周末好去处",
+   "新店",
+   "咖啡馆"
+  ],
+  "category": "season",
+  "dim": "daily-1",
+  "poi_ids": [
+   "p_87cd443c64",
+   "p_3321f768f1",
+   "p_bbb8ec76e0",
+   "p_97a74a6fa9"
+  ],
+  "poi_count": 4,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "宠物水壶",
+   "少量爱犬零食",
+   "宠物湿巾"
+  ],
+  "warnings": [
+   "出行前建议再次电话与店家确认最新的宠物政策。",
+   "请务必做到文明养宠，及时清理宠物粪便，全程使用牵引绳。",
+   "注意观察自家宠物在陌生环境和面对其他宠物时的情绪，避免冲突。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10256,
+  "verified": true
  }
 ]
