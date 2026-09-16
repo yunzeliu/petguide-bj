@@ -8867,10 +8867,8 @@
   ],
   "category": "season",
   "dim": "daily-2",
-  "poi_ids": [
-   "p_a3912cd51a"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "提前电话与商家确认宠物政策细节",
    "携带牵引绳和拾便袋",
@@ -9205,10 +9203,8 @@
   ],
   "category": "season",
   "dim": "daily-2",
-  "poi_ids": [
-   "p_a3912cd51a"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9563,5 +9559,48 @@
   "city_name": "北京",
   "order": 10256,
   "verified": true
+ },
+ {
+  "id": "daily-2026-09-16",
+  "title": "2026年9月北京宠物友好新餐厅/小酒馆推荐",
+  "summary": "本期为您精选6家近期在小红书等平台备受好评的北京宠物友好餐厅与小酒馆。覆盖从郊野山林到城市CBD核心，无论您想带狗狗体验自然风光还是享受都市夜景，都能找到理想去处。这些地点不仅对宠物开放，更提供水碗、零食等贴心服务。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "Autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "大兴区",
+   "怀柔区",
+   "昌平区",
+   "朝阳区"
+  ],
+  "tags": [
+   "近期新开",
+   "宠物友好",
+   "2026年09月",
+   "周末出行",
+   "京郊",
+   "每日发现",
+   "新店",
+   "户外露台"
+  ],
+  "category": "season",
+  "dim": "daily-2",
+  "poi_ids": [
+   "p_0874e20e9c"
+  ],
+  "poi_count": 1,
+  "checklist": [],
+  "warnings": [],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10257,
+  "verified": false
  }
 ]
