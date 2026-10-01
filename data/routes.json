@@ -265,10 +265,8 @@
   "dim": "cafe-chaoyang",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_7441df856f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳、胸背带",
    "充足饮用水和便携水碗",
@@ -748,10 +746,9 @@
   "city": "beijing",
   "city_name": "北京",
   "poi_ids": [
-   "p_3faa554492",
-   "p_8ce6638029"
+   "p_3faa554492"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "携带有效的宠物疫苗接种证明。",
    "提前电话或线上预约服务时间。",
@@ -1387,10 +1384,8 @@
   "dim": "fangshan",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_6c714b37d8"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "充足的饮用水和便携水碗",
    "牵引绳和拾便袋",
@@ -4632,10 +4627,9 @@
   "dim": "daily-4",
   "poi_ids": [
    "p_f5f70fdece",
-   "p_283c236d1c",
-   "p_b02651b95e"
+   "p_283c236d1c"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（小于1.5米）",
    "充足饮用水和便携水碗",
@@ -4652,7 +4646,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10154,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-06",
@@ -4748,10 +4742,9 @@
   "dim": "daily-6",
   "poi_ids": [
    "p_70eabb767a",
-   "p_5ac052280f",
    "p_bc27e76eda"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳（小于1.5米）",
    "充足饮用水和便携水碗",
@@ -4768,7 +4761,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10156,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-06-08",
@@ -5240,10 +5233,9 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_bbdc9772bc",
    "p_7b44fdcfe2"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5566,10 +5558,8 @@
   ],
   "category": "season",
   "dim": "daily-3",
-  "poi_ids": [
-   "p_5ac052280f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（小于1.5米）",
    "足量饮用水和便携水碗",
@@ -5624,10 +5614,8 @@
   ],
   "category": "season",
   "dim": "daily-4",
-  "poi_ids": [
-   "p_7337dcf4ed"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -5900,10 +5888,8 @@
   ],
   "category": "season",
   "dim": "daily-3",
-  "poi_ids": [
-   "p_5ac052280f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9769,6 +9755,63 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10261,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-10-01",
+  "title": "2026年10月北京宠物友好新风向指南",
+  "summary": "金秋十月，本指南为您精选了7处近期在小红书等社交平台备受好评的北京宠物友好新去处。从密云的野奢营地到前门胡同的新开咖啡馆，我们关注那些提供真实便利（如独立院落、宠物专属备品）的地点，确保您和爱宠能共享一个完美的秋日周末。",
+  "duration_hours": 8,
+  "best_seasons": [
+   "秋",
+   "春"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "密云区",
+   "延庆区",
+   "大兴区",
+   "东城区",
+   "石景山区",
+   "顺义区"
+  ],
+  "tags": [
+   "2026年10月",
+   "宠物友好咖啡",
+   "宠物民宿",
+   "每日发现",
+   "新开张",
+   "近期新开",
+   "宠物营地",
+   "京郊游"
+  ],
+  "category": "season",
+  "dim": "daily-3",
+  "poi_ids": [
+   "p_0397c04828"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水和便携水碗",
+   "狗狗的身份牌/疫苗本照片",
+   "常用的玩具或毯子以增加安全感",
+   "应急药品"
+  ],
+  "warnings": [
+   "秋季早晚温差大，请为爱宠适当增减衣物。",
+   "郊区草木多，出行前建议做好体外驱虫。",
+   "所有酒店、民宿的宠物政策可能随时变动，出行前务必电话二次确认。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10272,
   "verified": false
  }
 ]
