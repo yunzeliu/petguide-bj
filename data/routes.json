@@ -1589,10 +1589,8 @@
   "dim": "miyun",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_2b0eace99e"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "长度合适的牵引绳及胸背带",
    "充足的饮用水和便携水碗",
@@ -5232,10 +5230,8 @@
   ],
   "category": "season",
   "dim": "daily-4",
-  "poi_ids": [
-   "p_7b44fdcfe2"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9812,6 +9808,58 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10272,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-10-02",
+  "title": "北京宠物友好周末指南：2026年9-10月新晋市集与嘉年华",
+  "summary": "整理了近30天北京最热门的6个宠物友好活动地点，从朝阳区的森系嘉年华到友谊商店的公益领养日，再到设施齐全的宠物友好商场。本指南包含具体地址、博主推荐细节和来源，助你和爱宠轻松规划完美周末。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "Autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳",
+   "西城",
+   "顺义"
+  ],
+  "tags": [
+   "宠物嘉年华",
+   "2026年10月",
+   "宠物市集",
+   "宠物友好商场",
+   "领养日",
+   "周末去哪儿",
+   "近期新开",
+   "每日发现"
+  ],
+  "category": "season",
+  "dim": "daily-4",
+  "poi_ids": [
+   "p_89b1f2612f"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳",
+   "充足饮水和便携水碗",
+   "拾便袋",
+   "少量零食用于安抚和奖励",
+   "狗狗的身份牌（以防万一）"
+  ],
+  "warnings": [
+   "市集和嘉年华通常人多狗多，请确保您的爱犬性格适合此类社交场合，避免应激反应。",
+   "进入任何室内场所前，请再次确认该场所的宠物友好政策。",
+   "时刻看管好自己的宠物，做到文明养犬，及时清理粪便。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10273,
   "verified": false
  }
 ]
