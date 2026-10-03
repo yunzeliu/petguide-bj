@@ -4181,10 +4181,9 @@
   "dim": "daily-3",
   "poi_ids": [
    "p_ced9a8079c",
-   "p_c2d2e4c65b",
    "p_c7a5b4bb9f"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -4200,7 +4199,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10146,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-05-29",
@@ -9133,17 +9132,16 @@
   "category": "season",
   "dim": "daily-1",
   "poi_ids": [
-   "p_12305a5293",
    "p_c7d4524ff5",
    "p_0c1aefc46f"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [],
   "warnings": [],
   "city": "beijing",
   "city_name": "北京",
   "order": 10249,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-09-09",
@@ -9296,10 +9294,9 @@
    "p_0d0853a54f",
    "p_89b1f2612f",
    "p_9abbc6bd0b",
-   "p_a8a87ba9f8",
-   "p_7711fdc4c0"
+   "p_a8a87ba9f8"
   ],
-  "poi_count": 5,
+  "poi_count": 4,
   "checklist": [],
   "warnings": [],
   "city": "beijing",
@@ -9459,10 +9456,9 @@
   "category": "season",
   "dim": "daily-0",
   "poi_ids": [
-   "p_f7e08cdae3",
-   "p_126c3e988c"
+   "p_f7e08cdae3"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "充足饮水",
@@ -9514,10 +9510,9 @@
   "dim": "daily-1",
   "poi_ids": [
    "p_3321f768f1",
-   "p_bbb8ec76e0",
    "p_97a74a6fa9"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9533,7 +9528,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10256,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-09-16",
@@ -9860,6 +9855,64 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10273,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-10-03",
+  "title": "近期北京带狗周末好去处（小红书博主推荐版）",
+  "summary": "为你精选近30天内由小红书博主和官方媒体推荐的7个北京周末遛狗好去处。内容涵盖免费公园、新潮咖啡馆、户外生活节和高端宠物友好酒店，并复述了博主推荐的具体细节，如“提供专属宠物零食”或“拥有大型封闭草坪”。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "spring",
+   "autumn"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "丰台区",
+   "东城区",
+   "石景山区",
+   "近郊"
+  ],
+  "tags": [
+   "户外露营",
+   "城市漫游",
+   "官方推荐",
+   "每日发现",
+   "2026年10月",
+   "近期新开",
+   "宠物咖啡",
+   "网红打卡",
+   "公园草坪"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [
+   "p_6f552cc8ae"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳（小于1.5米）",
+   "充足饮用水和便携水碗",
+   "拾便袋",
+   "宠物身份证明（犬证/疫苗本，按需）",
+   "少量零食用于安抚或奖励",
+   "宠物推车或背包（适用于商场或小型犬）"
+  ],
+  "warnings": [
+   "出行前务必致电商家二次确认宠物政策，避免跑空。",
+   "请严格遵守各场所的宠物规定，如部分区域需使用宠物推车或背包。",
+   "务必及时清理宠物粪便，共同维护环境。",
+   "注意观察爱宠状态，避免在陌生环境或犬只密集区发生应激反应。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10274,
   "verified": false
  }
 ]
