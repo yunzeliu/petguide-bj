@@ -8730,10 +8730,8 @@
   ],
   "category": "season",
   "dim": "daily-0",
-  "poi_ids": [
-   "p_6ec9cb014f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -8896,10 +8894,9 @@
   "poi_ids": [
    "p_3e09e8357f",
    "p_846af1bcb2",
-   "p_c802fac5d1",
-   "p_6ec9cb014f"
+   "p_c802fac5d1"
   ],
-  "poi_count": 4,
+  "poi_count": 3,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9397,10 +9394,8 @@
   ],
   "category": "season",
   "dim": "daily-6",
-  "poi_ids": [
-   "p_185841fa5e"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（必备）",
    "足量饮用水和便携水碗",
@@ -9509,10 +9504,9 @@
   "category": "season",
   "dim": "daily-1",
   "poi_ids": [
-   "p_3321f768f1",
    "p_97a74a6fa9"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "拾便袋",
@@ -9913,6 +9907,63 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10274,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-10-04",
+  "title": "2026年10月北京宠物友好新店指南",
+  "summary": "本月北京宠物友好出行呈现两大亮点：新开的“前门·长巷里”胡同街区成为市中心时髦遛狗地；同时，官方发布覆盖京郊十区的宠物友好地图，为周末远郊游提供了丰富且可靠的选择。本指南精选了6个近期热门地点，涵盖从胡同咖啡到山野餐厅，再到服务设施完善的度假酒店。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "Autumn",
+   "Spring"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "东城",
+   "石景山",
+   "怀柔",
+   "延庆",
+   "门头沟",
+   "密云"
+  ],
+  "tags": [
+   "京郊游",
+   "新店开业",
+   "酒店度假",
+   "每日发现",
+   "2026年10月",
+   "官方推荐",
+   "自然风光",
+   "近期新开",
+   "胡同漫步"
+  ],
+  "category": "season",
+  "dim": "daily-6",
+  "poi_ids": [
+   "p_3d1306825f"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳",
+   "宠物拾便袋",
+   "充足饮用水和便携水碗",
+   "少量爱犬喜欢的零食",
+   "如需过夜，请携带宠物习惯的睡垫或玩具"
+  ],
+  "warnings": [
+   "京郊游玩蚊虫较多，请提前为爱犬做好体外驱虫。",
+   "进入任何店铺前，建议再次与店家确认宠物友好政策细节，如是否需要宠物推车或仅限户外区域。",
+   "请务必文明养宠，及时清理宠物粪便，避免打扰其他顾客。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10275,
   "verified": false
  }
 ]
