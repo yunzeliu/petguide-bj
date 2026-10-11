@@ -3894,6 +3894,10 @@
    {
     "url": "https://www.bjnews.com.cn/detail/169554918514948.html",
     "name": "新京报"
+   },
+   {
+    "url": "https://news.ifeng.com/c/8TV4lC9j3tH",
+    "name": "凤凰网"
    }
   ],
   "route_slugs": [
@@ -3902,6 +3906,7 @@
    "daily-2026-08-29",
    "daily-2026-09-07",
    "daily-2026-09-12",
+   "daily-2026-10-11",
    "xhs-trending-2025"
   ],
   "lat": 40.047745,
@@ -5446,26 +5451,30 @@
   "freshness": {
    "status": "open",
    "latest_mention": "2026-07",
-   "note": "留检所正常开放领养，领养文案有爱。养犬管理规定正修订，将实行电子标识和新登记流程。",
+   "note": "犬类留检所仍开放领养，每周五可办理。新规强调其在免疫、电子标识和登记中的作用。",
    "sources": [
     {
      "name": "石景山区人民政府",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6vSziWQf4smP0qJSdgtFSQ5ZTmCKqYe9TVjVwOFLjR2MfeqWDSuvRQ7T8mAyYLdrErv1tKYOvcFomB3toRjD4HcF95ykBRqr8_q1f8mXUREWjk6UWxmxbvvpDvfo-ocejESCCW_QTNF-5xhPWVfTw7789ky8UZfydXEfcyph7Ii-eHRrwRLF2ajf2xfnUOt6FVLDKsYZ-IG5MeQ=="
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3zf7OqG9SeGxdoNwx5zElkknH-DicQdLEsrDV-1m1ukoMLBR_zNFtmBU9wwZZFOPOtb5fepXqV6N-QhBUNA9Txh5JnCS-66lMHjSj_2J4ZnIkscdV_X5_aRoSKKDxD27-BDiU6BiuBJrF3Er4XSpONZ3jAcSXiznAzGGGokVjZEcmY-J5-8Tbp1J19QLzr8kAIfE8uRoshFix"
     },
     {
-     "name": "新京报",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZJIxAjhuJ0mYpUyf_F2djkbo3nMlnmk5SkGAC9eErNsZMsxvyVDRpGCtNZevskqDV6b-SCweW-xxqkp8WjNb9qBfYZw7MTzJp7-w7mu31ZlQzAH9y-2TXYfOeLiKUIhvavthLp7NhdbX0mQCmNeU8rA=="
+     "name": "京报新闻_北京日报网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FsoYW111OUFTKl6tYpBwOORThrUakgK1kweVrlbKTloSyF-UmGZr9_dOUsh6-8uFKj2SkplWq7EMjTNn7YuIQ8mm9ovE23VrgJIsqopP14jEOcC1exXz1kl_2GgBFmFv_3UJ5gy6OxFUbQ=="
     },
     {
      "name": "北京市人民政府",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSo6EiQv6O-OOg2CPJBXTOaEWnCOWjdsKsbbEeoZQxhrqQnyy4oK9FMFr4vfpXcYHafz6MHoU4DH_WRGdRlfxUwLSs79AO9WPNM8wO0F0VlSjUetkbShN6cLZM-v8nTYaM3sTY0NaVDQzT"
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElnTDHCyRNb9ukq-3Fbq5yWYEilPJqQbXKzUf5sDNdwelh9RjwCHXGubQMHW8mjelxx4coivixig3YIhP_EwYHSt45OIrZh0l4AAqF4ftI8WFGBlBAJ4crBiBiOvO1uwsmHXpl8CoGMwIGRstlf938XwywmtwGjErOfg=="
     },
     {
-     "name": "新浪新闻",
-     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7e8N408OdMKFncu78ykNRO6GzWh9LrXzG8RKxSMX_63wamkhFF8hNOAWbHy-EFzxNyM4IrrxwZNBSA3xo74jHOJWDXVVDvml0AU7WmkkKnsJkMp_MPXbMTei1737Lkn1P-RgDSZ0Dj_oygCfI1h0xnl2tYlE4zJGUzhR-kDA=="
+     "name": "新京报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdCflkGyiKM6hwly_mHS_ref_w9bjYa9ONa8aiecJ5d-197_tX1XCS3FZABBIZ37-2U2zqrn1dZN5r7XJjK6AtCTgr-8SMW4Fl2DvyMzIuKVU_l8KvlkHM-HAGhU3aiTxe5UcYena5h7cqdOKzmQ=="
+    },
+    {
+     "name": "北京市政务服务网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF__N73zMFCfVSxRqEYchB-ETw8-IokEs7P-Nr5JBLsBIoa251zcgkchdS7_60aVo6PSLxaPhVaoY3sTfWH62Y-PLg9QEtYeoKRzE5CAX91gl-TGVOD1x9ogHRhhxbNHCH7UU-_4XEAhFCfCxHIVghfK6Q="
     }
    ],
-   "checked_at": "2026-09-06"
+   "checked_at": "2026-10-11"
   },
   "photo_url": "data/photos/p_6f53b43996.jpg",
   "photo_attribution": "via 高德地图",
@@ -15547,5 +15556,147 @@
   "photo_url": "data/photos/p_bccf70b338.jpg",
   "photo_attribution": "Matthew Wong",
   "google_place_id": "ChIJX7PV49hS8DURuT2QxQbm7KU"
+ },
+ "p_fd3144e6d8": {
+  "id": "p_fd3144e6d8",
+  "name": "地图之外营地",
+  "category": "camp",
+  "district": "顺义区",
+  "address_hint": "后沙峪裕华路空港段24号",
+  "why_friendly": "专门划出1500平方米的独立宠物区域，是专属乐园，而非简单允许进入。提供宠物活动、美容甚至寄养服务。",
+  "tips": "营地晚间常有乐队演出和夜市，氛围很好，但如果宠物对声音敏感需注意。",
+  "price_hint": "人均消费约150-200元",
+  "sources": [
+   {
+    "url": "https://finance.sina.com.cn/jjxw/2026-06-10/doc-inaxssyp2142784.shtml",
+    "name": "新浪财经"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/discovery/item/EXAMPLE_MAPBEYOND_POST_JUL2026",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-18",
+   "daily-2026-08-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-08",
+   "note": "地图之外营地仍正常营业，并被持续提及为提供1500平米独立宠物区的宠物友好营地。",
+   "sources": [
+    {
+     "name": "本地宝",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKTtH1vBTvXZN1uN0hhPv79oXUkZ2TPllST2mVUNUGXxSjKPsVPWxa2NReLACp8gZNdlyOQ4UB7BnaY29gnvrbH1WaF93sFCIY8tn2lKizuHnKECdvIFsZFSK8WTuX_3fwamtcUd_cTz4oPvYu0GbM"
+    },
+    {
+     "name": "北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHECNlCpNRhVs49JLtx_Ofuu0QIKh2ItCOfjhMXSSy6_9vevBFFXGI1N4_hCrXkkv0X8Ge6-So_5A31-4hRc-12HKEw9iCavzC1mhdEMG1LjCuvNnqZrkYdUNH2AaXYWPloD4w2z0Hml6Nz_AapOQ6atzK6dkXmH3ECoDs="
+    },
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7Dn1AYpOOE9IxxmkA3A6e9ygHnCZbt8WnrON_AZq5_JZJYrIx9g4Rv7WDop2iywCscmb7-z9qxksXOnIwQqM8gBVoEzDX52DKsF4Q3_S0vN8IQYuu-OBq51idg9cDsMxsX4r-47yNgAKwZ6ML6nVm"
+    }
+   ],
+   "checked_at": "2026-10-11"
+  },
+  "lat": 40.086326,
+  "lng": 116.651516,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_fd3144e6d8.jpg",
+  "photo_attribution": "Shi-Ting Chu",
+  "google_place_id": "ChIJG3q2nWMO8TUR4Z86a0ZFxiY"
+ },
+ "p_76260d2448": {
+  "id": "p_76260d2448",
+  "name": "D.A.O COFFEE (西西里村)",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "798艺术区",
+  "why_friendly": "允许狗狗在店内落地行走，设有含饮用水和拾便袋的“狗狗能量补给站”，并会赠送狗狗奶油。",
+  "tips": "位于798艺术区内，逛展和喝咖啡遛狗可以一并安排。周末人流较大，注意看管好宠物。",
+  "price_hint": "¥40/人",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com/explore/664c8e0a000000001b02b48e",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-22"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-07",
+   "note": "Mix岛·西西里村（与D.A.O COFFEE相关）于2026年7月举办宠物友好市集，显示其仍营业且对宠物友好。",
+   "sources": [
+    {
+     "name": "北京早知道",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHno5j5JdHSRIyXlsaB1ZNLk6FOp22fcZRtO-uPU3WKdXJICcvydgABS6E4u0FDe_7g33_mU-ZousSAx6R1fg-pLzSFiG9JfzbLXgm8q7E-7eisj0j6OREUMNCMbUccmNZIxKg"
+    },
+    {
+     "name": "北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuRUgaT09zyrOwta6yyRIN-NPJCKgNLLaYNmapxSB41PeXtrxaiNhj1wrup9P3zU6fkDBHZ9SqC2FBW3gt3p5j13c2wf9m901KQDokPbWabnvEWVktcTKcxwYmt8QG8YSEdb4gCwsxKklOWn1uS1dtF0MfrobXSXcpM3c="
+    },
+    {
+     "name": "知末网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxf-cTk2rruDIWylC1GwRsEX-cDxoqA2d1m-wrEC2xnUw9dyQFQEy6utXxsq5-VWUTJL84dwBva8kUVFkwiDHBZT76KE9SYEixaM3ouGzR1e7WDQcOgG8jncv1KAKwF_Ty96uTbS5BdBX0"
+    }
+   ],
+   "checked_at": "2026-10-11"
+  },
+  "lat": 39.953164,
+  "lng": 116.460192,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_76260d2448.jpg",
+  "photo_attribution": "Andrew Swerdlow",
+  "google_place_id": "ChIJVzm-nzSq8TURm8Ek9oN5iDs"
+ },
+ "p_481f16f8f4": {
+  "id": "p_481f16f8f4",
+  "name": "M Stand (首开LONG街店)",
+  "category": "cafe",
+  "district": "昌平区",
+  "address_hint": "回龙观首开LONG街“鸿运巷”内",
+  "why_friendly": "位于新开的宠物友好街区，紧邻近千平米的宠物草坪乐园，可以先玩耍后喝咖啡。",
+  "tips": "建议先在旁边的宠物公园消耗狗狗精力，再到咖啡馆户外区域休息。",
+  "price_hint": "人均45-60元",
+  "sources": [
+   {
+    "url": "http://www.news.cn/ent/20260701/dfc1990558114b749c381c8100c591f1/c.html",
+    "name": "企业新闻"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-07"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.895208,
+  "lng": 116.411699,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "open",
+   "latest_mention": "2026-08",
+   "note": "M Stand (首开LONG街店) 仍正常营业，所在街区宠物友好，并紧邻宠物草坪乐园。",
+   "sources": [
+    {
+     "name": "鸿运新启，巷遇新生｜回龙观首开LONG街鸿运巷盛装开街，三周年 ... - 首开股份",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQEgcj2DJqYoGyv-xyfnf4Sa5cHFUuNJZbf5GA8XF9taYkKzmpyhABUl5bPzCkgQ8xGhLcdmGBE3Chlg_yERLTk841Mc-SclyjALLxNzljrtR_-xSO3TW5WeYD-k61"
+    },
+    {
+     "name": "首开股份｜回龙观首开LONG街鸿运巷盛装开街，三周年 ... - 首开股份",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1XIvCinz5noP2ZFlXXeYyBbNmXRa85_1d2c1Ulss8rFk4ASNGghVLBjSPLt0xXH65GQ4qNtOMQSrXzRtyK9-xXuX-i0j8FRoY52lo6V42op4nJiNlQdzJEDyNi_GRZqeV8e-oTg="
+    }
+   ],
+   "checked_at": "2026-10-11"
+  },
+  "photo_url": "data/photos/p_481f16f8f4.jpg",
+  "photo_attribution": "Chris",
+  "google_place_id": "ChIJrf_G9qJS8DURzSxlMAoR_GE"
  }
 }
