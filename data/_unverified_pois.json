@@ -1,4 +1,406 @@
 {
+ "p_513aaaacb0": {
+  "id": "p_513aaaacb0",
+  "name": "东坝万达广场",
+  "category": "mall",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "朝阳",
+  "address_hint": "东坝中街",
+  "why_friendly": "设有宠物电梯、饮水站、泊狗位和宠物厕所等齐全的宠物友好设施。",
+  "tips": "政策趋严，建议遵循“宠物不落地”原则。有体型限制（身高<45cm，体重<20kg）。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://xinwen.bjd.com.cn/content/s6549a0cce4b0a9019c762cc1.html",
+    "name": "北京日报"
+   },
+   {
+    "url": "https://bj.bjd.com.cn/5b165687a010550e5ddc0e6a/contentShare/5b165727a010550e5ddc11c0/AP6549818fe4b0a25c637a3424.html",
+    "name": "北京日报"
+   },
+   {
+    "url": "https://www.google.com/search?q=%E4%B8%9C%E5%9D%9D%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA%20%E5%AE%A0%E7%89%A9%E5%8F%8B%E5%A5%BD",
+    "name": "北京旅游网"
+   },
+   {
+    "url": "https://baijiahao.baidu.com/s?id=1781938971201584224",
+    "name": "北京日报"
+   },
+   {
+    "url": "https://new.qq.com/rain/a/20231107A038F100",
+    "name": "腾讯新闻"
+   },
+   {
+    "url": "https://www.bjd.com.cn/a/202311/07/AP6549881de4b0350f682739de.html",
+    "name": "北京日报"
+   },
+   {
+    "url": "https://baijiahao.baidu.com/s?id=1787445749363066332",
+    "name": "小红书 / 北京日报"
+   }
+  ],
+  "route_slugs": [
+   "cat-mall",
+   "daily-2026-08-08",
+   "daily-2026-09-07",
+   "holiday-may1",
+   "market-events",
+   "market-fixed",
+   "new-chaoyang-spots",
+   "rainy-day",
+   "spring-flower",
+   "summer-2025-new",
+   "winter-indoor"
+  ],
+  "lat": 39.961069,
+  "lng": 116.542766,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "policy_changed",
+   "latest_mention": "2026-01",
+   "note": "仍对宠物友好，但政策收紧：要求宠物不落地，建议戴嘴套。",
+   "sources": [
+    {
+     "name": "允许顾客携宠进入商场引争议记者探访 - 中国新闻网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxVDSfHo75H3aUvI0z21OxHywRZ0_9u5yzTh0rgBQaZDffD1DXjLPW3SksG0lDYqbeiednRrMJyy7Rnh21qYTRt7_wyagJAlOWDV-v2fq-uNLSvgFOxgG_luoWbUQo6Le0XrejwVzGsTwWg6F7_a6kbZpWFg=="
+    },
+    {
+     "name": "深度｜当“毛孩子”能逛商场，哪些该放开",
+     "url": "https://vertexaisearch.google.com/grounding/url?url=https://www.sohu.com/a/750388301_121124376"
+    }
+   ],
+   "checked_at": "2026-10-20"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": true,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 45,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "indoor_pet_zone",
+    "pet_bathroom",
+    "large_open_space",
+    "outdoor_seating"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "高能量犬"
+   ],
+   "pet_hook": "设有宠物电梯、饮水站、泊狗位和宠物厕所，部分店铺提供宠物寄存和宠物摄影服务，但需遵守“宠物不落地”原则。"
+  },
+  "photo_url": "data/photos/p_513aaaacb0.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0FFK8S8BC",
+  "_drop_reason": "policy_changed"
+ },
+ "p_32d2fc2e1d": {
+  "id": "p_32d2fc2e1d",
+  "name": "北京青龙湖公园",
+  "category": "park",
+  "district": "丰台区",
+  "address_hint": "王佐镇青龙湖",
+  "why_friendly": "公园内明确设有“萌宠乐园区”，为宠物提供了官方指定的活动空间，拥有广阔的草坪和自然环境。",
+  "tips": "公园面积较大，建议规划好游玩路线。进入萌宠乐园区外其他区域时，请遵守公园的具体规定。",
+  "price_hint": "门票30元",
+  "sources": [
+   {
+    "url": "https://www.qinglonghupark.com/",
+    "name": "公园官网"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-31"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 39.890051,
+  "lng": 116.236559,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "公园于2026年1月4日起闭园升级改造，近6个月内无明确开放或宠物政策更新信息。",
+   "sources": [
+    {
+     "name": "游园活动 - 北京青龙湖公园",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqGGuOQdDZt6euwvzxzBOD-Tk-dSRjXDisJVdRWMRyhswoGJsB74IW2DCWcsJ1TKIzN6lGKRHCR9T5Ag_8jvr-QXyqj6UK8S3nftQZ_t7Lyn-z0ftsf-fdikjkOA=="
+    },
+    {
+     "name": "别跑空！1月4日起，青龙湖公园暂停对外开放",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6WumwwKlPf4Kbjrn1lwIbs1R-DM7J9ed-HjCnDdjMHXF9hnPxz7B5i2Bx2derpyJWaVYzG65MpolO1S8Gdy9L-yDqhcuCPmD1n3Ue9dOf_T1wb3aEmlyyhiVACk_s03LBIMcgMB6GXTB90-YJ9TwvwZwnWZfVvW4Lbqg=="
+    }
+   ],
+   "checked_at": "2026-10-20"
+  },
+  "photo_url": "data/photos/p_32d2fc2e1d.jpg",
+  "photo_attribution": "Mårten Boström",
+  "google_place_id": "ChIJ8QFFwnU_8DURj7IL4lOOEls",
+  "_drop_reason": "unclear"
+ },
+ "p_ade43d7428": {
+  "id": "p_ade43d7428",
+  "name": "VOYAGE COFFEE (三里河公园店)",
+  "category": "cafe",
+  "district": "东城区",
+  "address_hint": "三里河公园旁，长巷五条19号",
+  "why_friendly": "拥有舒适的户外露天座位区，紧邻公园小溪，环境安静，适合带领安静的狗狗一同享受下午时光。",
+  "tips": "位于胡同内，环境清幽，是体验慢生活的好去处。建议在天气好的时候前往，享受户外座位。",
+  "price_hint": "人均 ¥45",
+  "sources": [
+   {
+    "url": "https://hk.trip.com/moments/detail/beijing-1-120780287/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-06-02"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-09",
+   "note": "咖啡馆仍正常营业，但近6个月内未找到明确的宠物友好政策更新信息。",
+   "sources": [
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY-_4qcKBePzP0LmnKZdipbbyxsbMhPcKSdmZLNA8v_bPk7vcNivAItJzkMYLCu06GtMu-Y0wGADzejANeF36d9bwLccjV-hifgQQi3HMW37LhtlOLHMMixeXVNnxQJyOJJuPP6Er9ZfJHI2WAUcR_PhMxpYFyCLR_7Q-9xQv-z3ejhg=="
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoXGey_vBHIiYUDePPnmo4taggKorVslVHPSI8ag0WiSvcIwB2pRNYDZaR759d00xBQn1Ku0eTbDma0K3bOxGZXyDygAvfPQErr01_5TZ7-umGfZgWsivdiqbEZjcDz0PwqxvL9T4HFW4XiUA_hAqgs0hGvbMgBEu6DCkSQBm-CNhgkA=="
+    },
+    {
+     "name": "Trip.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHourTJhW0PP2Gd2A_ROB3g7dDDGPlruFg9DkbVtyUR-4eUQwcgc9fulWnHinMXfsNV8yxuqKRDUfO72fjQ-I75pg83Q10auFDHZC9D0gewzNrzqm4gMRQKEQiKblTsOo-yMN5oA=="
+    },
+    {
+     "name": "Lost Plate Food Tours",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj1QyAFskNSmcnHsg6fShFv2JO0AdE6s7H6ka4vt3YY93uFUhkpFezTEN5VAfqAYvZ03iClZgsVqJ2gE3kHUqiIoF2vSy6TZ4ljq5M856av6wHAgIElQW5v5cU4kX1S7FKJggh"
+    }
+   ],
+   "checked_at": "2026-10-20"
+  },
+  "lat": 39.940205,
+  "lng": 116.396857,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_ade43d7428.jpg",
+  "photo_attribution": "Horace Leung",
+  "google_place_id": "ChIJGVSp4DtT8DUR8tTd8FHdCiU",
+  "_drop_reason": "unclear"
+ },
+ "p_7315b8f5bc": {
+  "id": "p_7315b8f5bc",
+  "name": "森林王国Migoo宠物专属营地",
+  "category": "camp",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "怀柔",
+  "address_hint": "杨宋镇",
+  "why_friendly": "专为宠物设计，有大小犬分区和独立泳池，是狗狗的专属社交乐园。",
+  "tips": "建议提前预定，并确保宠物疫苗驱虫齐全。",
+  "price_hint": "价格待核实",
+  "sources": [
+   {
+    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202406/t20240621_3720972.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "http://www.bjhr.gov.cn/zwgk/wz/ystz/202406/t20240621_3728643.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202406/t20240621_3720743.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "http://www.bjhr.gov.cn/bjhr/ydly/202406/3283236.shtml",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/66751a00000000000b02f1c8",
+    "name": "小红书"
+   },
+   {
+    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202406/t20240621_3720993.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/note/xxxxxxxxxxxx0625",
+    "name": "小红书"
+   },
+   {
+    "url": "https://www.beijing.gov.cn/ywdt/gqrd/202406/t20240621_3720768.html",
+    "name": "北京市怀柔区人民政府官网"
+   },
+   {
+    "url": "https://www.beijing.gov.cn/renwen/sy/ly/jd/202406/t20240621_3721389.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "http://www.bjhr.gov.cn/hysy/xzdt/202406/t20240621_3722238.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "http://www.bjhr.gov.cn/hrggfw/hydt/hryq/ztdh/zgyzdfwzq/ydly/202406/t20240621_3722303.html",
+    "name": "怀柔区人民政府"
+   },
+   {
+    "url": "https://www.xiaohongshu.com/explore/64885a870000000013033870",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "camping",
+   "daily-2026-06-22",
+   "daily-2026-06-27",
+   "daily-2026-06-29",
+   "daily-2026-07-04",
+   "daily-2026-07-12",
+   "daily-2026-07-16",
+   "daily-2026-07-27",
+   "daily-2026-08-08",
+   "daily-2026-10-08",
+   "district-huairou",
+   "hotel-great-wall",
+   "multi-dog",
+   "new-huairou-stay",
+   "new-pet-park-2025",
+   "summer-2025-new"
+  ],
+  "lat": 40.315481,
+  "lng": 116.626028,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月无明确更新信息，上次提及在2024年6月。",
+   "sources": [
+    {
+     "name": "森林王国Migoo宠物专属营地 - 北京市怀柔区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4mxU9u-t_3PgGE2ZJTscjkWCUuWV5PlJr9GO3njvCIncd3cIEX8XSYQUA_46Ie3BAKuGfDbtdk3BMz_Vj-MJFrL_LzN1nZJhk77w62EFZOenpc7BKj7dkp0nuXCHcKX1Zi3Ir2L16_qrz3PG7RmHcoKFHeMx8Fnt57jFWxZhueQ8h0atP4ws6"
+    },
+    {
+     "name": "宠物专属营地_光影筑梦狂欢之旅 - 怀柔区人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0kfFra_U6cJIUvY7pGLOE4y8JqqoNatL3iEyydCkUHwjOuSgO7_JSTv7N1kJachkpWf63K3UOSV2ZIGEFbuol4gxq2kyCEsUKASkQVBHMTEBv5uKUOwbEcmGBNrCUIwFxD7CLCxKjGzq18ltx38dLOEhyY84yxuP56vLVHQDqgQ=="
+    },
+    {
+     "name": "在怀柔花海里看电影！今年北影节电影嘉年华来了 - 新京报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYJ2PosakT7uH8wkzHEKz4GpYcqftBTlALJUD4-ka05taFaduK8Y7sVx3vPxLmXVVbFnzxVv37wF7Ine-ZuSFkr0nXImiRwc9T7G-6Dbz7Bn-22ziepCf9B6fczhG1uLLI2OXntapubV4HrjhBsQ=="
+    }
+   ],
+   "checked_at": "2026-10-20"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": true,
+    "outdoor_only": false,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": true
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "比特斗牛梗犬",
+     "阿根廷杜高犬",
+     "巴西菲勒犬",
+     "土佐犬",
+     "中亚牧羊犬",
+     "川东犬",
+     "苏俄牧羊犬",
+     "牛头梗犬",
+     "马士提夫犬",
+     "卡斯罗犬",
+     "大丹犬",
+     "高加索犬",
+     "纽波利顿犬",
+     "斯塔福梗犬",
+     "阿富汗猎犬",
+     "波音达犬",
+     "威玛猎犬",
+     "雪达犬",
+     "寻血猎犬",
+     "巴仙吉犬",
+     "秋田犬",
+     "纽芬兰犬",
+     "凯丽蓝梗犬",
+     "牛头獒犬",
+     "法国波尔多獒犬",
+     "美国斗牛犬",
+     "罗威纳犬",
+     "荷兰牧羊犬",
+     "比利时牧羊犬",
+     "安纳托利亚牧羊犬",
+     "捷克狼犬",
+     "昆明犬",
+     "法国狼犬",
+     "爱尔兰猎狼犬",
+     "圣伯纳犬",
+     "拳师犬",
+     "韩国杜莎犬",
+     "西藏獒犬"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "indoor_pet_zone",
+    "outdoor_seating",
+    "pet_bathroom",
+    "shower",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "water_bowl",
+    "pet_photo"
+   ],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "大型犬",
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "拥有大小狗分区和独立泳池，提供自助洗护区，定期举办宠物社交活动。"
+  },
+  "photo_url": "data/photos/p_7315b8f5bc.jpg",
+  "photo_attribution": "LB0 Liu",
+  "google_place_id": "ChIJZWFl0Agw8TUR_RHO9VFhlYg",
+  "amap_id": "B0FFFZBJOS",
+  "_drop_reason": "unclear"
+ },
  "p_80a7b552bf": {
   "id": "p_80a7b552bf",
   "name": "牛奶湖露营地",
@@ -4640,12 +5042,17 @@
    {
     "url": "https://www.xiaohongshu.com/explore/note/10260929e00000000103a9f1",
     "name": "小红书"
+   },
+   {
+    "url": "https://news.bjd.com.cn/2026/08/29/10145897.shtml",
+    "name": "北京日报"
    }
   ],
   "route_slugs": [
    "daily-2026-09-01",
    "daily-2026-09-20",
-   "daily-2026-10-13"
+   "daily-2026-10-13",
+   "daily-2026-10-20"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -4841,6 +5248,10 @@
    {
     "url": "https://www.xiaohongshu.com/explore/note/10260915b00000000102a3b8",
     "name": "小红书"
+   },
+   {
+    "url": "https://news.bjd.com.cn/2026/08/29/10145897.shtml",
+    "name": "北京日报"
    }
   ],
   "route_slugs": [
@@ -4855,7 +5266,8 @@
    "daily-2026-09-20",
    "daily-2026-10-04",
    "daily-2026-10-07",
-   "daily-2026-10-13"
+   "daily-2026-10-13",
+   "daily-2026-10-20"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -20196,12 +20608,17 @@
    {
     "url": "https://new.qq.com/rain/a/20260927A03PSL00",
     "name": "腾讯新闻"
+   },
+   {
+    "url": "https://new.qq.com/rain/a/20260927A03E6E00",
+    "name": "腾讯新闻"
    }
   ],
   "route_slugs": [
    "daily-2026-10-05",
    "daily-2026-10-06",
-   "daily-2026-10-10"
+   "daily-2026-10-10",
+   "daily-2026-10-20"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -20339,11 +20756,16 @@
    {
     "url": "https://www.toutiao.com/article/7552259423120032294/",
     "name": "今日头条"
+   },
+   {
+    "url": "https://www.toutiao.com/article/7551399238923026959/",
+    "name": "今日头条"
    }
   ],
   "route_slugs": [
    "daily-2026-10-07",
-   "daily-2026-10-13"
+   "daily-2026-10-13",
+   "daily-2026-10-20"
   ],
   "city": "beijing",
   "city_name": "北京",
