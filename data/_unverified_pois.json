@@ -1,4 +1,169 @@
 {
+ "p_e1424ec86e": {
+  "id": "p_e1424ec86e",
+  "name": "CKC国际宠物公园",
+  "category": "petpark",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "通州",
+  "address_hint": "宋庄镇，大运河畔",
+  "why_friendly": "专为宠物设计，集训练、美容、寄养、泳池于一体的综合性宠物主题公园。",
+  "tips": "专业宠物乐园，请注意狗狗之间的社交，避免冲突。",
+  "price_hint": "票价待核实",
+  "sources": [
+   {
+    "url": "https://www.visitbeijing.com.cn/article/47J2sXvB5fN",
+    "name": "北京旅游网"
+   },
+   {
+    "url": "https://www.visitbeijing.com.cn/article/47J2sY2M1gL",
+    "name": "北京旅游网"
+   }
+  ],
+  "route_slugs": [
+   "district-tongzhou",
+   "large-dog",
+   "market-events"
+  ],
+  "lat": 39.906918,
+  "lng": 116.651692,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "近6个月内未找到CKC国际宠物公园明确的最新营业状态或政策变更信息。",
+   "sources": [
+    {
+     "name": "北京旅游网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFThx-BPrhkt1jZwLTGKeTViIsN6IhVEMqGFfCcZBXmagtFQsXUVzLd9Kjiy5oaJ0ISnwW65QXMN3iR6wqu6xTj7XuA6bKg7At2Y68W1vG7rmdjsqAsy8yVIT7fg0DgqmiWyOCpSK6eWcSSGBeIKbzE7bAYfg=="
+    },
+    {
+     "name": "携程攻略",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvL35kf1zlR-TLNT-91A15lwxTVZX0VrZ9FxhLBl2zUhMCadYC4X36xELoT-bdrcZ7rdXH7iLFhk10RYhzMeSsFyPoWbqDWyAcShvx6i3Yn7cOKqgwN_dXpIAWQu4HqKtb8h8B3WK6M0M01SLZ94CKQIfAJWY="
+    },
+    {
+     "name": "大众点评",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIhlmEDBYSkS-I-_3LrK3Zf9u4jA-cEwhnPcrkfQaa9QcyDCYZXvhW_x68phXHSAONopIvf03OpJYANxGoEOfIIe0CqFV8g6RACKcKwDm8T6lLlROrxCrwFWPY_JiCxzWIrzRCL5Xg_7yx6ZwIJ3Ge4g=="
+    }
+   ],
+   "checked_at": "2026-11-03"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": null,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": null,
+    "large_dog_allowed": true,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "fenced_area",
+    "swimming_pool",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [
+    "grooming_onsite",
+    "pet_sitter",
+    "water_bowl"
+   ],
+   "fees": {
+    "pet_extra_fee": "宠物游泳池单次收费50元/只，犬只入园10元/犬，游人免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "高能量犬",
+    "多狗家庭"
+   ],
+   "not_for": [],
+   "pet_hook": "超十万平米的纯种犬主题乐园，集训练、美容、寄养、泳池于一体，狗狗可尽情奔跑玩耍。"
+  },
+  "photo_url": "data/photos/p_e1424ec86e.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B000A849EB",
+  "_drop_reason": "unclear"
+ },
+ "p_02fb63e90a": {
+  "id": "p_02fb63e90a",
+  "name": "渔阳·宠趣里宠物滑雪主题乐园",
+  "category": "petpark",
+  "district": "平谷区",
+  "address_hint": "东高村镇大旺务村688号渔阳国际滑雪场内",
+  "why_friendly": "国内少有的宠物冰雪乐园，可以带狗一起坐雪圈、玩雪地保龄球、挑战障碍赛道。",
+  "tips": "季节性开放（冬季），建议关注“渔阳滑雪场”官方公众号获取当年最新开放时间和票价信息。",
+  "price_hint": "冬季套票约 150-200 元",
+  "sources": [
+   {
+    "url": "https://app.xinhuanet.com/news/article/2026-02/11/c_1133036665.html",
+    "name": "新华网"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-16"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "closed",
+   "latest_mention": "",
+   "note": "宠物滑雪主题乐园运营至2026年2月，近6个月无新开放信息。",
+   "sources": [
+    {
+     "name": "北京平谷举办宠物博览会众多萌宠大比拼|北京市|名犬|宠物博览会 ...",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8ybHzUSWEV1TqkQT4ix830qaw2rdJnLOo90oC6ny1r4q_05ayM9UEa_52s_ka1KSMQ_WGrc57eGQ83v1y-OgidgoRphTP1Ypt7U_1vWbjNX9Vg53_wydcEn3oDietVfZfGXruWyRXarkwnV9_NGk"
+    }
+   ],
+   "checked_at": "2026-11-03"
+  },
+  "photo_url": "data/photos/p_02fb63e90a.jpg",
+  "photo_attribution": "sung hwan Kim",
+  "google_place_id": "ChIJq6qqaj1i8TURecLSwd37H4c",
+  "_drop_reason": "closed"
+ },
+ "p_8a304e410d": {
+  "id": "p_8a304e410d",
+  "name": "TwoPuppies 两只小狗日咖夜酒",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "工体北路4号院22号楼北侧（机电院内）",
+  "why_friendly": "店内有常驻店犬，欢迎宠物社交，会主动提供宠物水碗、零食，并有专属宠物菜单（如鸡肉饼）。",
+  "tips": "社交属性强，适合喜欢热闹的狗狗。周末人多建议提前预定。",
+  "price_hint": "人均 120-180元",
+  "sources": [
+   {
+    "url": "https://www.hk01.com/%E5%A4%A7%E5%9C%8B%E5%B0%8F%E4%BA%8B/1039822/%E5%85%A7%E5%9C%B0%E5%B9%B4%E8%BC%95%E4%BA%BA%E8%88%88%E8%B5%B7-%E5%85%B1%E4%BA%AB%E5%B0%8F%E7%8B%97-%E9%A2%A8%E6%BD%AE-%E4%B8%80%E5%B0%8F%E6%99%82%E6%94%B6%E8%B2%BB-%E5%AF%B5%E7%89%A9%E5%AE%89%E5%85%A8%E8%AA%B0%E6%8A%8A%E9%97%9C",
+    "name": "香港01"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-07-22"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "",
+   "note": "大众点评显示“休息中”，曾为宠物友好，有宠物菜单，近6月无明确营业信息。",
+   "sources": [
+    {
+     "name": "大众点评",
+     "url": "https://www.dianping.com/shop/H14238549"
+    }
+   ],
+   "checked_at": "2026-11-03"
+  },
+  "photo_url": "data/photos/p_8a304e410d.jpg",
+  "photo_attribution": "via 高德地图",
+  "amap_id": "B0LUK7RBH3",
+  "_drop_reason": "unclear"
+ },
  "p_513aaaacb0": {
   "id": "p_513aaaacb0",
   "name": "东坝万达广场",
@@ -2403,10 +2568,15 @@
    {
     "url": "https://post.smzdm.com/p/a9d07g0p/",
     "name": "什么值得买"
+   },
+   {
+    "url": "https://post.smzdm.com/p/a2d6n7k9/",
+    "name": "什么值得买 / 小红书"
    }
   ],
   "route_slugs": [
-   "daily-2026-06-10"
+   "daily-2026-06-10",
+   "daily-2026-11-03"
   ],
   "city": "beijing",
   "city_name": "北京",
@@ -10632,6 +10802,7 @@
   ],
   "route_slugs": [
    "daily-2026-06-19",
+   "daily-2026-11-03",
    "district-chaoyang"
   ],
   "lat": 39.92045,
@@ -21047,6 +21218,72 @@
   "lat": 39.934024,
   "lng": 116.195017,
   "geo_source": "nominatim",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_4a82c1811d": {
+  "id": "p_4a82c1811d",
+  "name": "Dog First",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "高碑店附近",
+  "why_friendly": "拥有可供狗狗自由奔跑的大草坪和芦苇荡背景，门口有宠物专属拍照长椅，店员对宠物非常热情。",
+  "tips": "秋季芦苇荡是拍照亮点，建议选择天气好的下午前往。",
+  "price_hint": "人均 ¥68",
+  "sources": [
+   {
+    "url": "https://www.toutiao.com/article/7303358797330137654/",
+    "name": "今日头条 / 小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_2de9b12020": {
+  "id": "p_2de9b12020",
+  "name": "ONSITEEE·cafe",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "星火西路南十里居十六号院内",
+  "why_friendly": "后院打造了“宠物专属小济州岛”主题花园，提供宠物饮水，并设有多个适合人宠合影的打卡点。",
+  "tips": "后院是核心特色，适合喜欢拍照的宠物主人。",
+  "price_hint": "人均 ¥66",
+  "sources": [
+   {
+    "url": "https://www.dianping.com/shop/l6gYg2gY3fCFpL1U/review/539305459",
+    "name": "大众点评 / 小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_5129680c0d": {
+  "id": "p_5129680c0d",
+  "name": "PETATA (通州湾里店)",
+  "category": "cafe",
+  "district": "通州区",
+  "address_hint": "北京城市副中心文化旅游区湾里",
+  "why_friendly": "作为环球度假区旁重点招商的全新品牌，明确以满足宠物寄养等新兴消费需求为特色。",
+  "tips": "未来可期的新地点，适合去环球度假区游玩时顺便探访。",
+  "price_hint": "待定",
+  "sources": [
+   {
+    "url": "https://www.163.com/dy/article/JH2EBO4A05199O52.html",
+    "name": "网易新闻 / 小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-03"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
   "_drop_reason": "no_freshness_check"
  }
 }

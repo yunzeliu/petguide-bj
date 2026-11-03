@@ -6822,10 +6822,9 @@
   "category": "season",
   "dim": "daily-2",
   "poi_ids": [
-   "p_8a304e410d",
    "p_66680f79e9"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳",
    "宠物水壶",
@@ -10511,6 +10510,59 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10291,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-11-03",
+  "title": "2026北京初冬新晋宠物友好咖啡馆探店指南",
+  "summary": "为你精选6家2026年10月至11月在小红书等社交平台备受推荐的北京新开或新晋宠物友好咖啡馆。从拥有大草坪的京郊庭院到市中心的便捷之选，带上你的毛孩子，享受初冬最后的温暖阳光。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "autumn",
+   "spring"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "朝阳区",
+   "石景山区",
+   "通州区"
+  ],
+  "tags": [
+   "咖啡馆",
+   "宠物友好",
+   "2026年11月",
+   "每日发现",
+   "新店",
+   "周末好去处",
+   "大草坪",
+   "近期新开"
+  ],
+  "category": "season",
+  "dim": "daily-1",
+  "poi_ids": [
+   "p_1747822478"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "宠物水壶",
+   "少量爱犬零食",
+   "宠物湿巾"
+  ],
+  "warnings": [
+   "出行前务必致电商家确认最新的宠物友好政策。",
+   "请文明养宠，及时清理宠物排泄物，避免打扰其他顾客。",
+   "部分咖啡馆室内区域可能对宠物有体型或行为要求，请遵守店家规定。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10305,
   "verified": false
  }
 ]
