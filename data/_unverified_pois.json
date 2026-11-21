@@ -1,4 +1,289 @@
 {
+ "p_8bf254f544": {
+  "id": "p_8bf254f544",
+  "name": "金海湖风景区-碧波岛",
+  "category": "park",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "平谷",
+  "address_hint": "金海湖景区东侧",
+  "why_friendly": "景区官方对宠物友好，碧波岛有广阔优质草坪供宠物奔跑。",
+  "tips": "导航至“金海湖碧波岛停车场”，景区内需牵绳并及时清理粪便。",
+  "price_hint": "需购买景区门票，票价待核实",
+  "sources": [
+   {
+    "url": "https://weibo.com/1885888864/Oa5u2uYh7",
+    "name": "新浪微博"
+   },
+   {
+    "url": "https://k.sina.com.cn/article_1907573213_71b564dd02001k5f8.html",
+    "name": "新浪"
+   }
+  ],
+  "route_slugs": [
+   "camping",
+   "summer-cool"
+  ],
+  "lat": 40.179041,
+  "lng": 117.260124,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "closed",
+   "latest_mention": "2026-11",
+   "note": "景区因改造升级于2026年11月16日至2027年3月14日暂停营业。此前对宠物友好。",
+   "sources": [
+    {
+     "name": "北京金海湖碧波岛度假区 - 去哪儿网",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJm4dL9m2HoRizhUFXynS0NwiHmornisP0KEabkE-YX5X2nt86TPgAW5uJ8cKDq8ICSqsSBOXj5DmgOk-lb0qB06ayAArnOW1aCbeGqm8bB83GU73q8wHTEDiQrT81oDsr3qBwRLpxwBv-_tFltDe1aPRS0IqyqRG2eJf9i4Bowklp97mslH-kS7ip_UNqtLWea5UREK3Ceps196iHARFHyGvKeyil0_X3K0XvcFZ8YotmAhSCsv6GUTuWLfq04xOjNzj608AC2WuqSw4WPBailsCobewNA0752gKUISeOgmrMr82SHZ83x_D50-KKrfS5_xZ5JLCy8gHI10k1Qutv50xpIW07vGiG-r1OSdpy18l7JfUTSNQz7QpnZ_b2FjDpCc3Ab11YdKKf97t19A="
+    },
+    {
+     "name": "2026 金海湖碧波島遊玩指南推薦| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.google.com/grounding-api-redirect/AUZIYQHPzIC1hsjr6LGDsWX_XwDI1TuEBML5_ZAlbQHK-06RBeSf77EwBY-DdR-JiG1qaSjK5ToZKKC1Z0hIHX38vL_5CdfNcL2XJpB19M8GlsLRTb9_bMzIOJ2hmjBla_nI-Z6JYHUmIPxAtuuBRBAQYJiHMLFOyF0ndD6fNe3JrXRx8CWrr820tEJcHnEntKEWs2Qz8_SXXWWFQ0N_Mr-cjPd4LTHSVqU="
+    },
+    {
+     "name": "2026金海湖碧波島| 北京指南與旅客實拍| Trip Moments",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4z_HQFh_0stVTedM_lMc_mR8sSTQEM5kPrjo--6S5Eg9LZzqrm6555SNFCUmIEQ-zKAp0qb0w1GxR3aUvIw_WCbUMiq2g_Xcl5VvH4bTYKlx2HjHACi5uA25N8C309cPGgdEb1lS3sJsoty4bkxvPvdUF8CnuvbhseSOYG_h4SWjGhZoWSHBJX1wnxGcpgQPU="
+    },
+    {
+     "name": "北京京郊带狗狗露营有什么好攻略？ - 去哪儿",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhrZZLAUekqkqerXIoBQ7frZ_R5W2OvQaruBrNZZ_YrGisufrDaDUY5MzYoeVwOPCnF4OXp7ml_OtWgIYvXV_As5FyBqfqNp97yhqHpbmB7SPGh6-T-H4F7dWPUsuBxKWMh_Ew6dcoQCbT8Mmk35xm65RF7bUJn9phc1VvG2FmZXnqjwPO9iDou6R2CA="
+    },
+    {
+     "name": "五一出逃城市，到金海湖奔赴山野与星光 - 北京日报",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyuMBRq531Kr87ww3MyZgREBJAQTz7QtwKkjr0xlp5x8bSmrawQhTexyRmaqQJ4xNrMKPmdgI-sVfFwpfy_4ykWddoiGsYe-tg01Srz-aBgO32f4OGzPLrB7tnOdcuNK5yqvAm4RhQpB0glllaUBw3_t9jSXD8UX8NXw=="
+    },
+    {
+     "name": "金海湖景区11月16日起闭园",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErAM5W3T0bPhGMUlm3kN2r8yv9FxMAHHjStqKIIAaDTlehGh3VtNW-Bq2qqi2rJU0Tl_AdBXRldIpMc6SD9YO11dwpyY8aJVBvqvnwXz4gfEyN0WTHzR6Luv1lnxqFDG0DDqv1dcEtHjeUoOKuYt3pVXlnHH1NFx6rNkNuOeqvBRneXno="
+    }
+   ],
+   "checked_at": "2026-11-21"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": false,
+    "carrier_required": false,
+    "vaccination_proof": false
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 35,
+    "large_dog_allowed": false,
+    "banned_breeds": []
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "大型犬",
+    "怕生狗"
+   ],
+   "pet_hook": "拥有高尔夫球场级优质草坪，宠物可尽情奔跑撒欢，还有萌宠乐园可互动。"
+  },
+  "photo_url": "data/photos/p_8bf254f544.jpg",
+  "photo_attribution": "靳立阳",
+  "google_place_id": "ChIJfankfpHm8zURfWp9YBptAqE",
+  "_drop_reason": "closed"
+ },
+ "p_ebd856227e": {
+  "id": "p_ebd856227e",
+  "name": "金海湖",
+  "category": "water",
+  "city": "beijing",
+  "city_name": "北京",
+  "district": "平谷",
+  "address_hint": "平谷区金海湖镇",
+  "why_friendly": "景区官方允许宠物入园，拥有开阔的湖景、草坪和步道，适合徒步。",
+  "tips": "入园需签署宠物承诺书，并全程使用不超过2米的牵引绳。",
+  "price_hint": "票价待核实",
+  "sources": [
+   {
+    "url": "https://www.beijing.gov.cn/en/livinginbeijing/whatsnew/202505/t20250524_3716182.html",
+    "name": "Beijing Municipal People's Government"
+   }
+  ],
+  "route_slugs": [
+   "cat-water"
+  ],
+  "lat": 40.172712,
+  "lng": 117.302776,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "closed",
+   "latest_mention": "2026-11",
+   "note": "景区已于2026年11月16日起冬季闭园。开放时仍允许宠物入园，但有体重、肩高、数量等具体规定。",
+   "sources": [
+    {
+     "name": "金海湖风景区",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq3uBAqs1j6pmJssnKt1QS1jY6deyAOmYonAfhXhz2bPzS0CUDHZA_CPPEEc4EprTbemUWLFXJIKHwmFDshO0lEU-wByQ5phHBGqIpzrGjCwCppVcLRjg2kQ=="
+    },
+    {
+     "name": "春游金海湖|萌宠乐园+清明假期限定活动来啦！",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7zCb7qDTxuJ74UE0uWSSaWi0Q3qDEOFSBWa4Qg0cKyIrdj4sSloCzv0CX2kRjPc0zH77wDFqdaqkcYIZ69_Qth-1Au0bqgRYmvVfztQKqp7RriXA0rdp2aILRtAW1kPEH"
+    },
+    {
+     "name": "不负春光！金海湖景区今日正式开园啦",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6uADOf4295UixY5r6UVchAB35vuUQpd878yBZOlv9sVheV7D8fJ7dj4Mu7NcQxuPC2m2Na_irOSgtKO4f4szgCutGdeT1iRrx9d36S2bbzU8GB1Q7vdsfsG8PBCllcg2trSqq6JrQYRQ="
+    },
+    {
+     "name": "北京京郊带狗狗露营有什么好攻略？ - 去哪儿 - 机票、酒店",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3GypHVfPRZO7FJA-71_0LgDCSk-wYeMv0Grp3SUfI_8i3-eVguMIAjRr1-MdJzrUYWNemqRZeSG0x7xXGI4p8Fbu7mYnkr1-JUM0VlMrZxaiIkknvyrRtY92J7shIaf95VYBahyyPuclHHgfUxzdivXlK7v0ZOLqMXx71QqoViK9DiqilLsLLy8uWl28="
+    }
+   ],
+   "checked_at": "2026-11-21"
+  },
+  "pet_features": {
+   "access": {
+    "indoor_allowed": false,
+    "outdoor_only": true,
+    "leash_required": true,
+    "diaper_required": null,
+    "carrier_required": null,
+    "vaccination_proof": null
+   },
+   "size_limit": {
+    "max_shoulder_height_cm": 60,
+    "large_dog_allowed": true,
+    "banned_breeds": [
+     "烈性犬",
+     "异宠"
+    ]
+   },
+   "facilities": [
+    "grass_area",
+    "large_open_space",
+    "tree_shade"
+   ],
+   "services": [],
+   "fees": {
+    "pet_extra_fee": "免费",
+    "sterilization_required": false
+   },
+   "best_for": [
+    "小型犬",
+    "中型犬",
+    "高能量犬"
+   ],
+   "not_for": [
+    "怕生狗"
+   ],
+   "pet_hook": "拥有2万平米草坪，宠物可尽情奔跑，需签署承诺书并全程牵绳。"
+  },
+  "photo_url": "data/photos/p_ebd856227e.jpg",
+  "photo_attribution": "Life Watery",
+  "google_place_id": "ChIJd-kf_Gbm8zURftCtLgMBw88",
+  "_drop_reason": "closed"
+ },
+ "p_5b5322169f": {
+  "id": "p_5b5322169f",
+  "name": "奥北森林公园宠物主题示范园",
+  "category": "petpark",
+  "district": "昌平区",
+  "address_hint": "奥北森林公园二期内",
+  "why_friendly": "官方认证规划，设有大小犬分区、宠物泳池和溪流玩水区，并配套宠物医疗、美容、寄养等全链条服务。",
+  "tips": "该公园目前处于规划建设阶段，是未来的重点期待项目。可关注“昌平发布”等官方渠道了解最新进展。",
+  "price_hint": "待定",
+  "sources": [
+   {
+    "url": "https://www.weipet.cn/article/11882.html",
+    "name": "宠业家"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-08-07"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "lat": 40.218274,
+  "lng": 116.241396,
+  "geo_source": "nominatim",
+  "freshness": {
+   "status": "unclear",
+   "latest_mention": "2026-10",
+   "note": "奥北宠物公园（宠物主题示范园）于2026年1月启动，7月消息称即将开工，10月奥北森林公园综合提升工程获批，仍在建设中。",
+   "sources": [
+    {
+     "name": "大数跨境",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxGjDuU-L_NQp1dKqydr2RONbcKvB1nrVmyIO2H1bMIGMTOtHtY6Rn2O_PjlhgrnImR0mHpnjKMCMhe5QsjvZoDCKR787vWzJBE9wPdnwTk5Kw4lOzXA43Pl75JzjERGM="
+    },
+    {
+     "name": "北京市人民政府",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl3cqw2BLq_Q5hFJ_iym68fMJm41ln9mmd9SLQVceu0QQCxue2Rcm7ga6usfpa-Ley_8VNQRp8y99wm9MBHyoppPG6YsY40MdWogsKf86hcHF514fsHAIWBtVOyv8MTywQIZirxu2i9GY0d3N6l35Kq8r8CrggpcPhZPHfn_l6XTQrRVPJ"
+    },
+    {
+     "name": "什么值得买",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDkgPfISFwStVbF7Bj4VBrtfzolfJwYLcFs_8CftJSp7B2_EwfakFoJ7VWUT2uyyXhZjdoVssGZwjV_Rhzqv-_syb9sHEQHLcaX5Di_2Gysv3SektrvmaadJlj029ow="
+    }
+   ],
+   "checked_at": "2026-11-21"
+  },
+  "photo_url": "data/photos/p_5b5322169f.jpg",
+  "photo_attribution": "Shi-Ting Chu",
+  "google_place_id": "ChIJu1AGz0dV8DURkhOLqP1EPA4",
+  "_drop_reason": "unclear"
+ },
+ "p_1cf3161d3e": {
+  "id": "p_1cf3161d3e",
+  "name": "金融街·茶韵雅集嘉年华",
+  "category": "mall",
+  "district": "西城区",
+  "address_hint": "金城坊街与金城坊南街",
+  "why_friendly": "大型城市中心市集活动，官方明确表示欢迎宠物友好人群参与，可以带狗一起逛街。",
+  "tips": "市集人流量较大，请务必牵好牵引绳，避免宠物走失或应激。适合性格稳定、不怕人的狗狗。",
+  "price_hint": "免费入场",
+  "sources": [
+   {
+    "url": "https://www.163.com/dy/article/J3D9H45G0519CPP6.html",
+    "name": "网易"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-05-28"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "freshness": {
+   "status": "closed",
+   "latest_mention": "2026-05",
+   "note": "2026金融街·茶韵雅集嘉年华已于2026年5月28-31日举办，明确宠物友好，现已结束。",
+   "sources": [
+    {
+     "name": "人民网－北京频道",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENQ2wRYmv643GUnO9CtA42TqPIR_UbriQApoVOZa8WDP_9URNlzNWE-3lILqCFXioaw_RhtDZ6cYPho0c3sj9lIFki34XGQJ01FKMhmcpS_geRKFZGpshc_D_zZ_9dSK7gEQdI1cfXvaQSV6QyF8LxWCUzA-Y="
+    },
+    {
+     "name": "搜狐",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGAwuC4A1JH4eFfr3C031Zop0eoGmrm9R3MrkR_-yUPU3RosDZAL1t6uvtQLMS0yKNXhmIf7vwPtZGru2YH3O5dLe4eWHf7YJTgl_mezfNWmdEWNfvClPiVBGBLw3fmgmuRNVn_-aq99KkbFg09NSh_cda7N191yKqqPSGwE88FKNPgykIz50MK9sg=="
+    },
+    {
+     "name": "北晚在线",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcjvz7SxhnzOVTq1DsHl2XoG7ub3RYSpPGjNqNqKZhj3NPlvPtK7L1vHG3Yd0i_fidj3-aZxSc0iXE1_FNtXdxo12tFQv8LsjeXfB3CwY8Wof9R0Jc1fkf4I-3ywD3l_BJxXeZ_k_bqSmSXPJUysff"
+    }
+   ],
+   "checked_at": "2026-11-21"
+  },
+  "lat": 39.911659,
+  "lng": 116.353704,
+  "geo_source": "nominatim",
+  "photo_url": "data/photos/p_1cf3161d3e.jpg",
+  "photo_attribution": "Santiago Lazo",
+  "google_place_id": "ChIJuRnb_HlS8DURVWDemUPX6gM",
+  "_drop_reason": "closed"
+ },
  "p_12b9c96b04": {
   "id": "p_12b9c96b04",
   "name": "新华书店（宠物主题书店）",
@@ -21582,6 +21867,138 @@
   ],
   "route_slugs": [
    "daily-2026-11-15"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_6ae9532922": {
+  "id": "p_6ae9532922",
+  "name": "北滩水岸休闲空间",
+  "category": "park",
+  "district": "通州区",
+  "address_hint": "导航至“北滩水岸休闲空间2号停车场”",
+  "why_friendly": "新开放的滨水公园，拥有超大阳光草坪，适合狗狗奔跑。因新开放，游客相对较少，体验感好。步道平坦，对宠物推车友好。",
+  "tips": "建议自驾前往，停车方便。傍晚时分可以在运河边欣赏日落。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://bj.bjd.com.cn/a/202611/14/AP67369a7de4b00547c3de3695.html",
+    "name": "北京日报"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_ba2a163189": {
+  "id": "p_ba2a163189",
+  "name": "莲石湖公园",
+  "category": "park",
+  "district": "石景山区",
+  "address_hint": "燕堤西街6号（冬奥公园内）",
+  "why_friendly": "公园明确允许携带宠物，内有大片草坪和可供宠物玩耍的浅滩区，同时支持人宠一同环湖骑行。",
+  "tips": "公园面积很大，可根据体力选择游玩区域。周末自驾车位可能紧张，建议早点出发或选择公共交通。",
+  "price_hint": "免费",
+  "sources": [
+   {
+    "url": "https://hk.trip.com/moments/detail/beijing-1-120750537/",
+    "name": "Trip.com"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_e23c4bc2f6": {
+  "id": "p_e23c4bc2f6",
+  "name": "一拙（郎园Station店）",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "半截塔路53号郎园Station A6-B座",
+  "why_friendly": "拥有漂亮的日式庭院，狗狗可在庭院内活动。店员对宠物友好，会主动提供饮水。",
+  "tips": "郎园Station园区本身就是宠物友好社区，可以顺便在园区内散步。",
+  "price_hint": "人均80-120元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_53680424c2": {
+  "id": "p_53680424c2",
+  "name": "COFFEE COMMUNE（望京店）",
+  "category": "cafe",
+  "district": "朝阳区",
+  "address_hint": "望京街9号万科时代中心A座1层",
+  "why_friendly": "允许宠物进入室内，并会为到店的狗狗提供免费宠物零食。店内空间宽敞，店员对宠物热情。",
+  "tips": "适合作为社区宠物社交的据点，可以认识新的狗友。",
+  "price_hint": "人均70-100元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_b0812e63ef": {
+  "id": "p_b0812e63ef",
+  "name": "酷可狗（CoolCoolDog）宠物餐厅",
+  "category": "restaurant",
+  "district": "朝阳区",
+  "address_hint": "东四环酷车小镇F区",
+  "why_friendly": "提供专门的宠物菜单和宠物蛋糕定制服务，可以为狗狗举办生日派对。店内设有宠物游乐区和拍照点。",
+  "tips": "举办派对或定制服务建议提前预约。",
+  "price_hint": "人均150-200元",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "_drop_reason": "no_freshness_check"
+ },
+ "p_7896c60701": {
+  "id": "p_7896c60701",
+  "name": "野鸭天堂宠物友好乐园",
+  "category": "petpark",
+  "district": "顺义区",
+  "address_hint": "高丽营镇张喜庄村",
+  "why_friendly": "大型户外宠物乐园，有专门的宠物泳池（分大小犬）和广阔的草坪。提供宠物自助洗浴和烘干设备。",
+  "tips": "适合喜欢玩水和运动量大的狗狗。建议携带快干毛巾和替换的牵引绳。",
+  "price_hint": "门票约100元/狗",
+  "sources": [
+   {
+    "url": "https://www.xiaohongshu.com",
+    "name": "小红书"
+   }
+  ],
+  "route_slugs": [
+   "daily-2026-11-21"
   ],
   "city": "beijing",
   "city_name": "北京",

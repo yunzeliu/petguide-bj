@@ -580,10 +580,8 @@
   "dim": "camping",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_8bf254f544"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳、胸背带",
    "充足的饮用水和便携水碗",
@@ -3783,10 +3781,8 @@
   "dim": "summer",
   "city": "beijing",
   "city_name": "北京",
-  "poi_ids": [
-   "p_8bf254f544"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "足量饮用水及便携水碗",
    "牵引绳（必备）和胸背带",
@@ -7582,10 +7578,8 @@
   ],
   "category": "season",
   "dim": "daily-4",
-  "poi_ids": [
-   "p_5b5322169f"
-  ],
-  "poi_count": 1,
+  "poi_ids": [],
+  "poi_count": 0,
   "checklist": [
    "牵引绳（1.5米以内）",
    "充足饮用水和便携水碗",
@@ -10612,6 +10606,61 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10317,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-11-21",
+  "title": "北京宠物家庭周末出行新指南（2026年11月版）",
+  "summary": "本指南汇集了近30天内由网友和小红书博主真实分享的6个北京宠物友好目的地。包含免费开放的滨水公园、提供宠物零食的咖啡馆和拥有专属泳池的宠物乐园，为您和爱犬的周末提供新鲜、可靠的出行方案。",
+  "duration_hours": 4,
+  "best_seasons": [
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "通州区",
+   "石景山区",
+   "朝阳区",
+   "顺义区"
+  ],
+  "tags": [
+   "公园",
+   "可玩水",
+   "宠物乐园",
+   "2026年11月",
+   "大草坪",
+   "咖啡馆",
+   "每日发现",
+   "近期新开",
+   "免费"
+  ],
+  "category": "season",
+  "dim": "daily-5",
+  "poi_ids": [],
+  "poi_count": 0,
+  "checklist": [
+   "牵引绳",
+   "拾便袋",
+   "充足饮水",
+   "小零食",
+   "宠物湿巾",
+   "如需游泳可带毛巾"
+  ],
+  "warnings": [
+   "出行前请务必通过电话与目的地确认最新的宠物政策，以免跑空。",
+   "进入室内场所请遵守商家规定，为宠物佩戴尿不湿或牵引绳。",
+   "请文明养宠，及时清理宠物粪便，共同维护友好环境。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10323,
   "verified": false
  }
 ]
