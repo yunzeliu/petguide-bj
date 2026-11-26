@@ -9184,11 +9184,10 @@
   "category": "season",
   "dim": "daily-3",
   "poi_ids": [
-   "p_0c74ffec3b",
    "p_f7e08cdae3",
    "p_ec7c4e4843"
   ],
-  "poi_count": 3,
+  "poi_count": 2,
   "checklist": [
    "备足饮用水和便携水碗",
    "带好牵引绳和嘴套（备用）",
@@ -9206,7 +9205,7 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10251,
-  "verified": true
+  "verified": false
  },
  {
   "id": "daily-2026-09-11",
@@ -10145,10 +10144,9 @@
   "category": "season",
   "dim": "daily-4",
   "poi_ids": [
-   "p_89b1f2612f",
-   "p_d55d4390a8"
+   "p_89b1f2612f"
   ],
-  "poi_count": 2,
+  "poi_count": 1,
   "checklist": [
    "牵引绳（必备）",
    "充足饮用水和便携水碗",
@@ -10713,6 +10711,61 @@
   "city": "beijing",
   "city_name": "北京",
   "order": 10324,
+  "verified": false
+ },
+ {
+  "id": "daily-2026-11-26",
+  "title": "2026北京宠物友好新去处 (11月版)",
+  "summary": "本月我们为北京的养狗人整理了7个近期在小红书和各大媒体上备受好评的宠物友好新去处。涵盖拥有专属乐园的酒店、可享私家小院的民宿，以及山谷里的咖啡馆，助您和爱犬度过一个完美的秋日周末。",
+  "duration_hours": 6,
+  "best_seasons": [
+   "秋季",
+   "春季"
+  ],
+  "transport": "自驾 / 携宠网约车",
+  "fit_dog_size": [
+   "small",
+   "medium",
+   "large"
+  ],
+  "districts": [
+   "延庆区",
+   "怀柔区",
+   "朝阳区",
+   "密云区",
+   "平谷区"
+  ],
+  "tags": [
+   "宠物乐园",
+   "宠物营地",
+   "宠物民宿",
+   "近期新开",
+   "宠物友好餐厅",
+   "每日发现",
+   "2026年11月"
+  ],
+  "category": "season",
+  "dim": "daily-3",
+  "poi_ids": [
+   "p_f7e08cdae3"
+  ],
+  "poi_count": 1,
+  "checklist": [
+   "牵引绳（即使在允许摘下的地方也要备用）",
+   "足量饮用水和便携水碗",
+   "拾便袋",
+   "宠物疫苗本（部分酒店可能需要查验）",
+   "宠物习惯的零食或玩具",
+   "车载宠物安全座椅或航空箱"
+  ],
+  "warnings": [
+   "出行前务必通过电话与目的地商家二次确认宠物政策。",
+   "进入室内公共区域或人多时，请务必为宠物系好牵引绳。",
+   "请及时清理宠物粪便，共同维护环境卫生。"
+  ],
+  "city": "beijing",
+  "city_name": "北京",
+  "order": 10328,
   "verified": false
  }
 ]
